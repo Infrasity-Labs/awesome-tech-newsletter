@@ -1,5 +1,18 @@
-# Awesome Developer Newsletters [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
+  <h1>Tech Newsletters Directory</h1>
+
+  [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+  [![Maintained by Infrasity](https://img.shields.io/badge/maintained%20by-Infrasity-7B6BFF)](https://www.infrasity.com/)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/Infrasity-Labs/awersome-developer-conferences/blob/master/CONTRIBUTING.md)
+
+
+  <img src="assets/image.png" width="1000" alt="Awesome Tech Newsletters Banner" />
+
+</div>
+
+## What You'll Find Here
 A curated list of awesome developer newsletters to help you stay up-to-date with the latest news, tools, and best practices in software engineering.
 
 ## Contents
@@ -17,7 +30,7 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
 | **TLDR** | [tldr.tech](https://tldr.tech/) | Bite-sized news for busy techies covering software engineering, tech, and science. | Daily |
-| **Pointer** | [pointer.io](http://www.pointer.io/) | A reading club for software developers focusing on engineering leadership and best practices. | Bi-weekly |
+| **Pointer** | [pointer.io](https://www.pointer.io/) | A reading club for software developers focusing on engineering leadership and best practices. | Bi-weekly |
 
 ## Backend Development
 
@@ -31,7 +44,7 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
 | **ByteByteGo** | [blog.bytebytego.com](https://blog.bytebytego.com/) | Complex systems explained in simple terms, covering system design, architecture, and interviews. | Weekly |
-| **High Scalability** | [highscalability.com](http://highscalability.com/) | A newsletter focusing on the architectures of successful, highly scalable websites. | Weekly |
+| **High Scalability** | [highscalability.com](https://highscalability.com/) | A newsletter focusing on the architectures of successful, highly scalable websites. | Weekly |
 
 ## Language Specific
 
