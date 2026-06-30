@@ -69,11 +69,10 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 Maintained by **[Infrasity](https://infrasity.com)**<br>A developer marketing agency helping DevTool startups and B2B SaaS companies with technical content, DevRel strategy, and GTM.
 
-We maintain this list because we research these events for our clients. If you're a DevRel or developer marketing team looking for conference strategy, [let's talk](https://infrasity.com).
+We curated this list as part of our ongoing research into the best developer channels. If your DevRel or developer marketing team needs help crafting a high-impact newsletter strategy, [let's talk](https://infrasity.com).
 
 [infrasity.com](https://infrasity.com) · [LinkedIn](https://linkedin.com/company/infrasity) 
 
 ---
 
-Missing an event? [Open a PR](CONTRIBUTING.md) or [file an issue](https://github.com/Infrasity-Labs/awersome-developer-conferences/issues/new).
-
+Missing a newsletter? [Open a PR](CONTRIBUTING.md) or [file an issue](https://github.com/Infrasity-Labs/awesome-developer-newsletter/issues/new).
