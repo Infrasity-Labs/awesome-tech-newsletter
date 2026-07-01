@@ -1,4 +1,4 @@
-name: Daily Newsletter Updater
+name: Daily Newsletter Auto-Discovery
 
 on:
   schedule:
@@ -10,8 +10,9 @@ permissions:
   contents: write # Needed to push changes back to the repo
 
 jobs:
-  update-newsletters:
+  discover-and-update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout Repository
@@ -27,8 +28,25 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Update README with New Newsletters
-        run: python update_readme.py
+          
+      - name: Run all auto-discovery crawlers
+        continue-on-error: true
+        run: |
+          echo "Starting auto-discovery pipeline..."
+          for fetcher in fetchers/*.py; do
+            if [ -f "$fetcher" ] && [ "$(basename "$fetcher")" != "__init__.py" ]; then
+              echo "----------------------------------------"
+              echo "Running $fetcher..."
+              python "$fetcher" || echo "Warning: $fetcher encountered an error, continuing..."
+            fi
+          done
+          
+      - name: Aggregate and Categorize Newsletters
+        run: |
+          echo "----------------------------------------"
+          echo "Running aggregate.py..."
+          python aggregate.py
+          
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -37,11 +55,10 @@ jobs:
           # Add the modified files
           git add README.md
           
-          
           # Only commit and push if there are changes
           if git diff --staged --quiet; then
-            echo "No new newsletters were added. Skipping commit."
+            echo "No new newsletters were added today. Skipping commit."
           else
-            git commit -m "docs: auto-update newsletters in README"
+            git commit -m "docs: auto-discover and aggregate new tech newsletters"
             git push
           fi
