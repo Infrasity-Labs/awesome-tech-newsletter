@@ -49,8 +49,11 @@ def check_url(item):
     try:
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
         # Use HEAD first for speed, fallback to GET if forbidden or method not allowed
-        r = requests.head(url, headers=headers, timeout=10, allow_redirects=True)
-        if r.status_code >= 400:
+        try:
+            r = requests.head(url, headers=headers, timeout=10, allow_redirects=True)
+            if r.status_code >= 400:
+                r = requests.get(url, headers=headers, timeout=10)
+        except requests.RequestException:
             r = requests.get(url, headers=headers, timeout=10)
         
         # 403 Forbidden is often returned by anti-bot firewalls, so we allow it to pass lint

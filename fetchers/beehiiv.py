@@ -58,9 +58,13 @@ def discover_beehiiv():
     discovered = []
     
     for query, category in queries:
-        url = f"https://hn.algolia.com/api/v1/search?query=beehiiv.com+{query}&hitsPerPage=10"
+        url = "https://hn.algolia.com/api/v1/search"
+        params = {
+            "query": f"beehiiv.com {query}",
+            "hitsPerPage": 10
+        }
         try:
-            r = requests.get(url, timeout=10)
+            r = requests.get(url, params=params, timeout=10)
             if r.status_code == 200:
                 hits = r.json().get("hits", [])
                 for hit in hits:
