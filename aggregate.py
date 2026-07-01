@@ -27,6 +27,8 @@ def classify_newsletter(title, description, default_category):
     
     # Keyword map to categories
     categories = {
+        "Data Science & AI": ["ai", "machine learning", "data science", "llm", "neural network", "deep learning", "artificial intelligence", "data engineer"],
+        "Frontend Development": ["frontend", "react", "vue", "angular", "css", "html", "web dev", "web development"],
         "Backend Development": ["backend", "api", "database", "sql", "nosql", "node.js", "django", "spring boot", "ruby on rails", "graphql"],
         "System Design & Architecture": ["system design", "architecture", "scalability", "distributed systems", "microservices", "high scalability"],
         "DevOps & Cloud": ["devops", "cloud", "aws", "azure", "gcp", "kubernetes", "docker", "ci/cd", "infrastructure", "sre", "site reliability"],
@@ -64,7 +66,11 @@ def aggregate():
     existing_urls = get_existing_urls(lines)
     changes_made = 0
 
+    if not isinstance(newsletters, list):
+        print(f"Error: {JSON_PATH} must contain a list of newsletters.")
+        return
     for nl in newsletters:
+
         raw_url = nl.get("url") or ""
         url = raw_url.rstrip('/').lower()
         
@@ -75,6 +81,9 @@ def aggregate():
             
         # 2. Blacklist Check
         domain = urlparse(raw_url).netloc.lower()
+        if not domain:
+            print(f"Skipping {raw_url}: Invalid URL or missing domain.")
+            continue
         if any(domain == b or domain.endswith('.' + b) for b in RESTRICTED_DOMAINS):
             print(f"Skipping {url}: Domain is restricted.")
             continue
@@ -85,8 +94,8 @@ def aggregate():
         description = nl.get("description") or "No description available."
         
         # Sanitize newlines and extra spaces to prevent breaking Markdown tables
-        clean_title = re.sub(r'\s+', ' ', title).strip()
-        clean_desc = re.sub(r'\s+', ' ', description).strip()
+        clean_title = re.sub(r'\s+', ' ', title).strip().replace('|', '\\|')
+        clean_desc = re.sub(r'\s+', ' ', description).strip().replace('|', '\\|')
         
         category = classify_newsletter(clean_title, clean_desc, raw_category)
         
