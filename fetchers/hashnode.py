@@ -1,22 +1,19 @@
 #!/usr/bin/env python3
 import json
 import os
-import sys
 import requests
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 
 JSON_PATH = "newsletters.json"
 
-def fetch_substack_data(url):
+def fetch_hashnode_data(url):
     try:
         parsed_url = urlparse(url)
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
-        feed_url = f"{base_url}/feed"
+        feed_url = f"{base_url}/rss.xml"
         
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
-        }
+        headers = {'User-Agent': 'Mozilla/5.0'}
         response = requests.get(feed_url, headers=headers, timeout=10)
         response.raise_for_status()
         
@@ -46,8 +43,8 @@ def fetch_substack_data(url):
     except Exception as e:
         return None
 
-def discover_substack():
-    print("Starting Substack discovery via HackerNews Algolia...")
+def discover_hashnode():
+    print("Starting Hashnode discovery via HackerNews Algolia...")
     queries = [
         ("software engineering", "General Software Engineering"),
         ("backend developer", "Backend Development"),
@@ -58,20 +55,20 @@ def discover_substack():
     discovered = []
     
     for query, category in queries:
-        url = f"https://hn.algolia.com/api/v1/search?query=substack.com+{query}&hitsPerPage=10"
+        url = f"https://hn.algolia.com/api/v1/search?query=hashnode.dev+{query}&hitsPerPage=10"
         try:
             r = requests.get(url, timeout=10)
             if r.status_code == 200:
                 hits = r.json().get("hits", [])
                 for hit in hits:
                     article_url = hit.get("url")
-                    if article_url and "substack.com" in article_url:
+                    if article_url and "hashnode.dev" in article_url:
                         parsed = urlparse(article_url)
                         base_url = f"{parsed.scheme}://{parsed.netloc}"
                         
                         if not any(d['url'] == base_url for d in discovered):
-                            print(f"Discovered Substack: {base_url}")
-                            data = fetch_substack_data(base_url)
+                            print(f"Discovered Hashnode: {base_url}")
+                            data = fetch_hashnode_data(base_url)
                             if data:
                                 data['category'] = category
                                 discovered.append(data)
@@ -91,9 +88,9 @@ def discover_substack():
         with open(JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(existing, f, indent=2)
             
-        print(f"Successfully dumped {len(discovered)} Substack newsletters to {JSON_PATH}")
+        print(f"Successfully dumped {len(discovered)} Hashnode newsletters to {JSON_PATH}")
     else:
-        print("No new Substack newsletters discovered.")
+        print("No new Hashnode newsletters discovered.")
 
 if __name__ == "__main__":
-    discover_substack()
+    discover_hashnode()
