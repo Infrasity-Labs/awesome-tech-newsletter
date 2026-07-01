@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+import argparse
+import re
+import sys
+import os
+from substack import fetch_substack_data
+from inboxreads import fetch_inboxreads_data
+
+README_PATH = 'README.md'
+
+def get_existing_entries(readme_content):
+    entries = set()
+    row_pattern = re.compile(r'\|\s*\*\*([^*]+)\*\*\s*\|\s*\[[^\]]+\]\(([^)]+)\)')
+    for match in row_pattern.finditer(readme_content):
+        title = match.group(1).strip().lower()
+        url = match.group(2).strip().lower()
+        entries.add(title)
+        entries.add(url)
+    return entries
+
+def update_readme(urls, category):
+    if not os.path.exists(README_PATH):
+        print(f"Error: {README_PATH} not found.")
+        return
+
+    with open(README_PATH, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+
+    content = "".join(lines)
+    existing_entries = get_existing_entries(content)
+    
+    new_rows = []
+    for url in urls:
+        if url.lower() in existing_entries:
+            print(f"Skipping {url}: URL already in README.")
+            continue
+            
+        print(f"Fetching data for {url}...")
+        if 'substack.com' in url:
+            data = fetch_substack_data(url)
+        elif 'inboxreads.co' in url:
+            data = fetch_inboxreads_data(url)
+        else:
+            print(f"Unsupported URL domain for {url}. Assuming it's a general link.")
+            data = {
+                'title': 'Unknown Title',
+                'url': url,
+                'display_link': f"{url.split('//')[-1].split('/')[0]} [↗]",
+                'description': 'No description available.',
+                'frequency': 'Varies'
+            }
+            
+        if not data:
+            print(f"Failed to fetch data for {url}")
+            continue
+            
+        if data['title'].lower() in existing_entries:
+            print(f"Skipping {url}: Title '{data['title']}' already in README.")
+            continue
+            
+        row = f"| **{data['title']}** | [{data['display_link']}]({data['url']}) | {data['description']} | {data['frequency']} |"
+        new_rows.append(row)
+        existing_entries.add(url.lower())
+        existing_entries.add(data['title'].lower())
+    
+    if not new_rows:
+        print("No new entries to add.")
+        return
+
+    cat_header = f"## {category}"
+    cat_idx = -1
+    for i, line in enumerate(lines):
+        if line.strip().lower() == cat_header.lower():
+            cat_idx = i
+            break
+            
+    if cat_idx == -1:
+        print(f"Error: Category '{category}' not found.")
+        return
+        
+    table_header_idx = -1
+    for i in range(cat_idx, len(lines)):
+        if '|------|' in lines[i].replace(' ', ''):
+            table_header_idx = i
+            break
+            
+    if table_header_idx == -1:
+        print(f"Error: Table not found under category '{category}'.")
+        return
+        
+    insert_idx = table_header_idx + 1
+    for i in range(table_header_idx + 1, len(lines)):
+        if lines[i].strip() == '' or lines[i].startswith('##') or lines[i].startswith('---'):
+            insert_idx = i
+            break
+        insert_idx = i + 1
+            
+    for row in reversed(new_rows):
+        lines.insert(insert_idx, row + '\n')
+        
+    with open(README_PATH, 'w', encoding='utf-8') as f:
+        f.writelines(lines)
+        
+    print(f"Successfully added {len(new_rows)} entries to '{category}' category.")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Fetch and deduplicate newsletters, then add to README.")
+    parser.add_argument("--category", required=True, help="Category name exactly as it appears in the README (e.g., 'GTM', 'DevOps & Cloud')")
+    parser.add_argument("urls", nargs='+', help="One or more newsletter URLs to fetch and add")
+    
+    args = parser.parse_args()
+    update_readme(args.urls, args.category)
