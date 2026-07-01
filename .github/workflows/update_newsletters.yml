@@ -28,9 +28,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install requests codespell
           
       - name: Run all auto-discovery crawlers
         continue-on-error: true
+        env:
+          PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
         run: |
           echo "Starting auto-discovery pipeline..."
           for fetcher in fetchers/*.py; do
@@ -47,6 +50,15 @@ jobs:
           echo "Running aggregate.py..."
           python aggregate.py
           
+      - name: Auto-Fix Typos (Codespell)
+        continue-on-error: true
+        run: |
+          echo "Running codespell on README.md..."
+          codespell README.md --write-changes
+
+      - name: Validate New URLs and Auto-Remove Dead Links
+        run: python checks/url_check.py
+          
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -57,8 +69,8 @@ jobs:
           
           # Only commit and push if there are changes
           if git diff --staged --quiet; then
-            echo "No new newsletters were added today. Skipping commit."
+            echo "No changes found. Skipping commit."
           else
-            git commit -m "docs: auto-discover and aggregate new tech newsletters"
+            git commit -m "docs: auto-discover newsletters, remove dead links, and fix typos"
             git push
           fi

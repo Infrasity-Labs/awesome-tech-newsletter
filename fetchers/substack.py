@@ -65,7 +65,17 @@ def discover_substack():
         ("software engineering", "General Software Engineering"),
         ("backend developer", "Backend Development"),
         ("devops", "DevOps & Cloud"),
-        ("system design", "System Design & Architecture")
+        ("system design", "System Design & Architecture"),
+        ("frontend", "Frontend Development"),
+        ("react", "Frontend Development"),
+        ("machine learning", "Data Science & AI"),
+        ("data science", "Data Science & AI"),
+        ("kubernetes", "DevOps & Cloud"),
+        ("python", "Language Specific"),
+        ("golang", "Language Specific"),
+        ("rust", "Language Specific"),
+        ("coding", "General Software Engineering"),
+        ("architecture", "System Design & Architecture")
     ]
     
     discovered = []
