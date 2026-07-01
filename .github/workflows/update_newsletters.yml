@@ -34,17 +34,7 @@ jobs:
         run: python fetchers/inboxreads.py
         continue-on-error: true
       - name: Update README with New Newsletters
-        continue-on-error: true
-        run: |
-          # Add the appropriate URLs for each category you want to update
-          python update_readme.py --category "General Software Engineering" "https://example1.substack.com" || true
-          python update_readme.py --category "Backend Development" "https://example2.substack.com" || true
-          python update_readme.py --category "System Design & Architecture" "https://example3.substack.com" || true
-          python update_readme.py --category "Language Specific" "https://example4.substack.com" || true
-          python update_readme.py --category "DevOps & Cloud" "https://example5.substack.com" || true
-          python update_readme.py --category "GTM" "https://example6.substack.com" || true
-          python update_readme.py --category "Developer Marketing" "https://example7.substack.com" || true
-          python update_readme.py --category "Technical Content Marketing" "https://example8.substack.com" || true
+        run: python update_readme.py
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

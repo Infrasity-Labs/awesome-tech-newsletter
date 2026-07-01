@@ -23,7 +23,9 @@ def fetch_inboxreads_data(url):
             
         title = title.replace(' - InboxReads', '').strip()
 
-        desc_meta = soup.find('meta', property='og:description') or soup.find('meta', name='description')
+        desc_meta = soup.find('meta', attrs={'property': 'og:description'})
+        if not desc_meta:
+            desc_meta = soup.find('meta', attrs={'name': 'description'})
         description = desc_meta.get('content', 'No description available.') if desc_meta else 'No description available.'
         
         parsed_url = urlparse(url)
@@ -48,12 +50,11 @@ def fetch_inboxreads_data(url):
         return None
 
 if __name__ == "__main__":
-    # URLs are now hardcoded directly in the script instead of being passed via CLI
-    HARDCODED_URLS = [
-        "https://inboxreads.co/newsletter/example"
-    ]
+    import argparse
+    parser = argparse.ArgumentParser(description="Fetch InboxReads newsletter details.")
+    parser.add_argument("url", help="URL of the InboxReads newsletter")
+    args = parser.parse_args()
     
-    for url in HARDCODED_URLS:
-        data = fetch_inboxreads_data(url)
-        if data:
-            print(f"| **{data['title']}** | [{data['display_link']}]({data['url']}) | {data['description']} | {data['frequency']} |")
+    data = fetch_inboxreads_data(args.url)
+    if data:
+        print(f"| **{data['title']}** | [{data['display_link']}]({data['url']}) | {data['description']} | {data['frequency']} |")

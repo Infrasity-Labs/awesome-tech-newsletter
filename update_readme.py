@@ -8,6 +8,13 @@ from fetchers.inboxreads import fetch_inboxreads_data
 
 README_PATH = 'README.md'
 
+RESTRICTED_DOMAINS = [
+    "draft.dev", "hackmamba.io", "catchyagency.com", "tripledart.com",
+    "reo.dev", "growthx.ai", "peppercontent.io", "poweredbysearch.com",
+    "nogood.io", "everydeveloper.com", "kalungi.com", "growthspreeofficial.com",
+    "hoopy.io", "graphite.io"
+]
+
 def get_existing_entries(readme_content):
     entries = set()
     row_pattern = re.compile(r'\\|\\s*\\*\\*([^*]+)\\*\\*\\s*\\|\\s*\\[[^\\]]+\\]\\(([^)]+)\\)')
@@ -33,6 +40,13 @@ def update_readme(urls, category):
     for url in urls:
         if not url.startswith(('http://', 'https://')):
             url = 'https://' + url
+            
+        from urllib.parse import urlparse
+        domain = urlparse(url).netloc.lower()
+        if any(domain == b or domain.endswith('.' + b) for b in RESTRICTED_DOMAINS):
+            print(f"Skipping {url}: Domain is restricted.")
+            continue
+            
         normalized_url = url.lower().rstrip('/')
         if normalized_url in existing_entries:
             print(f"Skipping {url}: URL already in README.")
@@ -109,10 +123,26 @@ def update_readme(urls, category):
         
     print(f"Successfully added {len(new_rows)} entries to '{category}' category.")
 
+CATEGORIZED_URLS = {
+    "General Software Engineering": [],
+    "Backend Development": [],
+    "System Design & Architecture": [],
+    "Language Specific": [],
+    "DevOps & Cloud": [],
+    "GTM": [],
+    "Developer Marketing": [],
+    "Technical Content Marketing": []
+}
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Fetch and deduplicate newsletters, then add to README.")
-    parser.add_argument("--category", required=True, help="Category name exactly as it appears in the README (e.g., 'GTM', 'DevOps & Cloud')")
-    parser.add_argument("urls", nargs='+', help="One or more newsletter URLs to fetch and add")
-    
+    parser.add_argument("--category", help="Category name exactly as it appears in the README")
+    parser.add_argument("urls", nargs='*', help="One or more newsletter URLs to fetch and add")
     args = parser.parse_args()
-    update_readme(args.urls, args.category)
+    if args.category and args.urls:
+        update_readme(args.urls, args.category)
+    else:
+        for category, urls in CATEGORIZED_URLS.items():
+            if urls:
+                print(f"Processing {len(urls)} URLs for category '{category}'")
+                update_readme(urls, category)
