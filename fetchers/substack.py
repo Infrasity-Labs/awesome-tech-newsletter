@@ -43,7 +43,20 @@ def fetch_substack_data(url):
             'description': description,
             'frequency': 'Varies'
         }
-    except Exception as e:
+    except requests.exceptions.RequestException as e:
+        if e.response is not None and e.response.status_code == 403:
+            print(f"Substack/Cloudflare blocked access to {url} (403 Forbidden). Falling back to basic data.", file=sys.stderr)
+            domain = parsed_url.netloc
+            title = domain.split('.')[0].replace('-', ' ').title()
+            return {
+                'title': title,
+                'url': base_url,
+                'display_link': f"{domain} [↗]",
+                'description': 'Description unavailable (Blocked by Cloudflare).',
+                'frequency': 'Varies'
+            }
+        return None
+    except Exception:
         return None
 
 def discover_substack():
@@ -83,8 +96,10 @@ def discover_substack():
         if os.path.exists(JSON_PATH):
             try:
                 with open(JSON_PATH, "r", encoding="utf-8") as f:
-                    existing = json.load(f)
-            except:
+                    data = json.load(f)
+                    if isinstance(data, list):
+                        existing = data
+            except Exception:
                 pass
         
         existing.extend(discovered)

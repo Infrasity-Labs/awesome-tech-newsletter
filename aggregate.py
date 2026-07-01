@@ -1,6 +1,7 @@
 import json
 import os
 import re
+from urllib.parse import urlparse
 
 README_PATH = "README.md"
 JSON_PATH = "newsletters.json"
@@ -64,7 +65,8 @@ def aggregate():
     changes_made = 0
 
     for nl in newsletters:
-        url = nl.get("url", "").rstrip('/').lower()
+        raw_url = nl.get("url") or ""
+        url = raw_url.rstrip('/').lower()
         
         # 1. Deduplication Check
         if not url or url in existing_urls:
@@ -72,17 +74,25 @@ def aggregate():
             continue
             
         # 2. Blacklist Check
-        from urllib.parse import urlparse
-        domain = urlparse(nl.get("url", "")).netloc.lower()
+        domain = urlparse(raw_url).netloc.lower()
         if any(domain == b or domain.endswith('.' + b) for b in RESTRICTED_DOMAINS):
             print(f"Skipping {url}: Domain is restricted.")
             continue
         
         # 3. Format and Inject
-        raw_category = nl.get("category", "General Software Engineering")
-        category = classify_newsletter(nl.get('title', ''), nl.get('description', ''), raw_category)
+        raw_category = nl.get("category") or "General Software Engineering"
+        title = nl.get("title") or "Unknown Title"
+        description = nl.get("description") or "No description available."
         
-        row = f"| **{nl['title']}** | [{nl['display_link']}]({nl['url']}) | {nl['description']} | {nl['frequency']} |"
+        # Sanitize newlines and extra spaces to prevent breaking Markdown tables
+        clean_title = re.sub(r'\s+', ' ', title).strip()
+        clean_desc = re.sub(r'\s+', ' ', description).strip()
+        
+        category = classify_newsletter(clean_title, clean_desc, raw_category)
+        
+        display_link = nl.get("display_link") or f"{domain} [↗]"
+        frequency = nl.get("frequency") or "Varies"
+        row = f"| **{clean_title}** | [{display_link}]({raw_url}) | {clean_desc} | {frequency} |"
         
         cat_header = f"## {category}"
         cat_idx = -1

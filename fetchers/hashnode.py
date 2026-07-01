@@ -80,8 +80,10 @@ def discover_hashnode():
         if os.path.exists(JSON_PATH):
             try:
                 with open(JSON_PATH, "r", encoding="utf-8") as f:
-                    existing = json.load(f)
-            except:
+                    data = json.load(f)
+                    if isinstance(data, list):
+                        existing = data
+            except Exception:
                 pass
         
         existing.extend(discovered)
