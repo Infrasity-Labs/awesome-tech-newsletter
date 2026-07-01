@@ -16,17 +16,15 @@ def fetch_inboxreads_data(url):
         soup = BeautifulSoup(response.text, 'html.parser')
         
         title_meta = soup.find('meta', property='og:title')
-        title = title_meta['content'] if title_meta else ''
+        title = title_meta.get('content', '') if title_meta else ''
         if not title:
             title_tag = soup.find('title')
             title = title_tag.text if title_tag else 'Unknown Title'
             
         title = title.replace(' - InboxReads', '').strip()
 
-        desc_meta = soup.find('meta', property='og:description')
-        if not desc_meta:
-            desc_meta = soup.find('meta', name='description')
-        description = desc_meta['content'] if desc_meta else 'No description available.'
+        desc_meta = soup.find('meta', property='og:description') or soup.find('meta', name='description')
+        description = desc_meta.get('content', 'No description available.') if desc_meta else 'No description available.'
         
         parsed_url = urlparse(url)
         domain = parsed_url.netloc
@@ -50,10 +48,12 @@ def fetch_inboxreads_data(url):
         return None
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Fetch InboxReads newsletter details.")
-    parser.add_argument("url", help="URL of the InboxReads newsletter")
-    args = parser.parse_args()
+    # URLs are now hardcoded directly in the script instead of being passed via CLI
+    HARDCODED_URLS = [
+        "https://inboxreads.co/newsletter/example"
+    ]
     
-    data = fetch_inboxreads_data(args.url)
-    if data:
-        print(f"| **{data['title']}** | [{data['display_link']}]({data['url']}) | {data['description']} | {data['frequency']} |")
+    for url in HARDCODED_URLS:
+        data = fetch_inboxreads_data(url)
+        if data:
+            print(f"| **{data['title']}** | [{data['display_link']}]({data['url']}) | {data['description']} | {data['frequency']} |")

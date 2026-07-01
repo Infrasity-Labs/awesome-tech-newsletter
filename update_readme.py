@@ -3,17 +3,17 @@ import argparse
 import re
 import sys
 import os
-from substack import fetch_substack_data
-from inboxreads import fetch_inboxreads_data
+from fetchers.substack import fetch_substack_data
+from fetchers.inboxreads import fetch_inboxreads_data
 
 README_PATH = 'README.md'
 
 def get_existing_entries(readme_content):
     entries = set()
-    row_pattern = re.compile(r'\|\s*\*\*([^*]+)\*\*\s*\|\s*\[[^\]]+\]\(([^)]+)\)')
+    row_pattern = re.compile(r'\\|\\s*\\*\\*([^*]+)\\*\\*\\s*\\|\\s*\\[[^\\]]+\\]\\(([^)]+)\\)')
     for match in row_pattern.finditer(readme_content):
         title = match.group(1).strip().lower()
-        url = match.group(2).strip().lower()
+        url = match.group(2).strip().lower().rstrip('/')
         entries.add(title)
         entries.add(url)
     return entries
@@ -31,7 +31,10 @@ def update_readme(urls, category):
     
     new_rows = []
     for url in urls:
-        if url.lower() in existing_entries:
+        if not url.startswith(('http://', 'https://')):
+            url = 'https://' + url
+        normalized_url = url.lower().rstrip('/')
+        if normalized_url in existing_entries:
             print(f"Skipping {url}: URL already in README.")
             continue
             
@@ -79,7 +82,9 @@ def update_readme(urls, category):
         return
         
     table_header_idx = -1
-    for i in range(cat_idx, len(lines)):
+    for i in range(cat_idx + 1, len(lines)):
+        if lines[i].strip().startswith('##'):
+            break
         if '|------|' in lines[i].replace(' ', ''):
             table_header_idx = i
             break
@@ -90,7 +95,8 @@ def update_readme(urls, category):
         
     insert_idx = table_header_idx + 1
     for i in range(table_header_idx + 1, len(lines)):
-        if lines[i].strip() == '' or lines[i].startswith('##') or lines[i].startswith('---'):
+        stripped = lines[i].strip()
+        if stripped == '' or stripped.startswith('##') or stripped.startswith('---'):
             insert_idx = i
             break
         insert_idx = i + 1

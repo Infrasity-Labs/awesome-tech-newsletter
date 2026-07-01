@@ -1,0 +1,63 @@
+name: Daily Newsletter Updater
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual triggering from the GitHub UI
+
+permissions:
+  contents: write # Needed to push changes back to the repo
+
+jobs:
+  update-newsletters:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Fetch from Substack
+        run: python fetchers/substack.py
+        continue-on-error: true
+      - name: Fetch from inboxreads
+        run: python fetchers/inboxreads.py
+        continue-on-error: true
+      - name: Update README with New Newsletters
+        continue-on-error: true
+        run: |
+          # Add the appropriate URLs for each category you want to update
+          python update_readme.py --category "General Software Engineering" "https://example1.substack.com" || true
+          python update_readme.py --category "Backend Development" "https://example2.substack.com" || true
+          python update_readme.py --category "System Design & Architecture" "https://example3.substack.com" || true
+          python update_readme.py --category "Language Specific" "https://example4.substack.com" || true
+          python update_readme.py --category "DevOps & Cloud" "https://example5.substack.com" || true
+          python update_readme.py --category "GTM" "https://example6.substack.com" || true
+          python update_readme.py --category "Developer Marketing" "https://example7.substack.com" || true
+          python update_readme.py --category "Technical Content Marketing" "https://example8.substack.com" || true
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Add the modified files
+          git add README.md
+          
+          
+          # Only commit and push if there are changes
+          if git diff --staged --quiet; then
+            echo "No new newsletters were added. Skipping commit."
+          else
+            git commit -m "docs: auto-update newsletters in README"
+            git push
+          fi
