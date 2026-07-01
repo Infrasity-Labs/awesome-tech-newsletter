@@ -45,6 +45,17 @@ def fetch_substack_data(url):
         }
 
     except requests.exceptions.RequestException as e:
+        if e.response is not None and e.response.status_code == 403:
+            print(f"Substack/Cloudflare blocked access to {url} (403 Forbidden). Falling back to basic data.", file=sys.stderr)
+            domain = parsed_url.netloc
+            title = domain.split('.')[0].replace('-', ' ').title()
+            return {
+                'title': title,
+                'url': base_url,
+                'display_link': f"{domain} [↗]",
+                'description': 'Description unavailable (Blocked by Cloudflare).',
+                'frequency': 'Varies'
+            }
         print(f"Network error fetching data from {url}: {e}", file=sys.stderr)
         return None
     except ET.ParseError as e:
@@ -55,12 +66,10 @@ def fetch_substack_data(url):
         return None
 
 if __name__ == "__main__":
-    # URLs are now hardcoded directly in the script instead of being passed via CLI
-    HARDCODED_URLS = [
-        "https://example.substack.com"
-    ]
+    parser = argparse.ArgumentParser(description="Fetch Substack newsletter details using XML feeds.")
+    parser.add_argument("url", help="URL of the Substack newsletter")
+    args = parser.parse_args()
     
-    for url in HARDCODED_URLS:
-        data = fetch_substack_data(url)
-        if data:
-            print(f"| **{data['title']}** | [{data['display_link']}]({data['url']}) | {data['description']} | {data['frequency']} |")
+    data = fetch_substack_data(args.url)
+    if data:
+        print(f"| **{data['title']}** | [{data['display_link']}]({data['url']}) | {data['description']} | {data['frequency']} |")
