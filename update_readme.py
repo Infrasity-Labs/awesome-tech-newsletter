@@ -41,7 +41,9 @@ def update_readme(urls, category):
         if not url.startswith(('http://', 'https://')):
             url = 'https://' + url
             
-        if any(b in url.lower() for b in RESTRICTED_DOMAINS):
+        from urllib.parse import urlparse
+        domain = urlparse(url).netloc.lower()
+        if any(domain == b or domain.endswith('.' + b) for b in RESTRICTED_DOMAINS):
             print(f"Skipping {url}: Domain is restricted.")
             continue
             
@@ -133,7 +135,14 @@ CATEGORIZED_URLS = {
 }
 
 if __name__ == "__main__":
-    for category, urls in CATEGORIZED_URLS.items():
-        if urls:
-            print(f"Processing {len(urls)} URLs for category '{category}'")
-            update_readme(urls, category)
+    parser = argparse.ArgumentParser(description="Fetch and deduplicate newsletters, then add to README.")
+    parser.add_argument("--category", help="Category name exactly as it appears in the README")
+    parser.add_argument("urls", nargs='*', help="One or more newsletter URLs to fetch and add")
+    args = parser.parse_args()
+    if args.category and args.urls:
+        update_readme(args.urls, args.category)
+    else:
+        for category, urls in CATEGORIZED_URLS.items():
+            if urls:
+                print(f"Processing {len(urls)} URLs for category '{category}'")
+                update_readme(urls, category)
