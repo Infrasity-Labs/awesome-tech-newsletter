@@ -22,6 +22,9 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 - [System Design & Architecture](#system-design--architecture)
 - [Language Specific](#language-specific)
 - [DevOps & Cloud](#devops--cloud)
+- [GTM](#gtm)
+- [Developer Marketing](#developer-marketing)
+- [Technical Content Marketing](#technical-content-marketing)
 
 ---
 
@@ -61,6 +64,26 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 | **DevOpsish** | [devopsish.com [↗]](https://devopsish.com/) | A weekly newsletter covering cloud native, DevOps, and open source news. | Weekly |
 | **KubeWeekly** | [cncf.io/kubeweekly [↗]](https://www.cncf.io/kubeweekly/) | A weekly newsletter of all things Kubernetes, from the CNCF. | Weekly |
 | **SRE Weekly** | [sreweekly.com [↗]](https://sreweekly.com/) | A newsletter devoted to everything related to keeping a site or service available and fast. | Weekly |
+
+## GTM
+
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
+| **Kyle Poyar’s Growth Unhinged** | [kylepoyar.substack.com [↗]](https://kylepoyar.substack.com) | Revealing the playbooks and hidden tactics behind today's best startups. Join 80,000+ weekly readers for real-life growth advice, playbooks and case studies. Click to read Kyle Poyar’s Growth Unhinged, a Substack publication with tens of thousands of subscribers. | Varies |
+| **GTMnow** | [gtmnow.substack.com [↗]](https://gtmnow.substack.com) | The media brand of VC firm, GTMfund. Build, scale and invest with the best minds in tech.  | Varies |
+| **MKT1 Newsletter with Emily Kramer** | [mkt1.substack.com [↗]](https://mkt1.substack.com) | How to build AI-native B2B startup marketing functions. Deeply-researched long-form content, in-depth guides, actionable frameworks, and even an MCP Server. By Emily Kramer, an ex-marketing exec and current advisor. Click to read MKT1 Newsletter with Emily Kramer, a Substack publication with tens of thousands of subscribers. | Varies |
+
+## Developer Marketing
+
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
+| **The Lifelong Learner** | [avthar.substack.com [↗]](https://avthar.substack.com) | Documenting my journey of lifelong learning. Practical wisdom about self-mastery, entrepreneurship, health and happiness. By South African entrepreneur and technologist Avthar Sewrathan. Click to read The Lifelong Learner, by Avthar Sewrathan, a Substack publication with hundreds of subscribers. | Varies |
+
+## Technical Content Marketing
+
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
+| **contentfolks** | [contentfolks.substack.com [↗]](https://contentfolks.substack.com) | Short lessons, practical examples, and colourful post-its about content marketing. Straight to your inbox, every month(ish). Click to read contentfolks, by fio, a Substack publication with thousands of subscribers. | Varies |
 
 ---
 
