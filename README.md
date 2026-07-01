@@ -57,10 +57,7 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 | **Nobuteru’s Substack** | [nobuteru.substack.com [↗]](https://nobuteru.substack.com) | My personal Substack | Varies |
 | **Vasu’s Newsletter** | [vasupasupuleti.substack.com [↗]](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
 | **Engineering At Scale** | [engineeringatscale.substack.com [↗]](https://engineeringatscale.substack.com) | Weekly column simplifying databases, system design, architecture, and engineering careers with easy explanations, valuable insights, and expert advice. | Varies |
-| **Better Engineers** | [betterengineers.substack.com [↗]](https://betterengineers.substack.com) | A Programmer's Journey of Perfections 
-Follow 
-LinkedIn:  https://www.linkedin.com/in/devd04/
-X : https://x.com/BetterEngineer1 | Varies |
+| **Better Engineers** | [betterengineers.substack.com [↗]](https://betterengineers.substack.com) | A Programmer's Journey of Perfections <br>Follow <br>LinkedIn:  https://www.linkedin.com/in/devd04/<br>X : https://x.com/BetterEngineer1 | Varies |
 | **Javarevisited Newsletter** | [javarevisited.substack.com [↗]](https://javarevisited.substack.com) | Master Java and System Design Interviews. Level up your Software Engineering career. Subscribe and get free copy of my book Grokking the Spring Boot Interview in your inbox | Varies |
 | **ByteByteGo** | [blog.bytebytego.com [↗]](https://blog.bytebytego.com/) | Complex systems explained in simple terms, covering system design, architecture, and interviews. | Weekly |
 | **High Scalability** | [highscalability.com [↗]](https://highscalability.com/) | A newsletter focusing on the architectures of successful, highly scalable websites. | Weekly |
@@ -79,9 +76,7 @@ X : https://x.com/BetterEngineer1 | Varies |
 |------|------|-------------|-----------|
 | **Sheep Code** | [sheepcode.substack.com [↗]](https://sheepcode.substack.com) | Hear our insights on software engineering, cloud, and tech. | Varies |
 | **tech job drop 🌎 🚀** | [farath.substack.com [↗]](https://farath.substack.com) | Discover fresh, cool tech jobs 🦄 | Varies |
-| **Jacob’s Tech Tavern** | [jacobbartlett.substack.com [↗]](https://jacobbartlett.substack.com) | Learn advanced concurrency, agentic iOS engineering, and Swift performance for 10 minutes a week.
-
-New subscribers get a free eBook: The Complete Swift Concurrency Toolkit. | Varies |
+| **Jacob’s Tech Tavern** | [jacobbartlett.substack.com [↗]](https://jacobbartlett.substack.com) | Learn advanced concurrency, agentic iOS engineering, and Swift performance for 10 minutes a week. <br><br>New subscribers get a free eBook: The Complete Swift Concurrency Toolkit. | Varies |
 | **The Personable Engineer** | [fernandovillalba.substack.com [↗]](https://fernandovillalba.substack.com) | This publication deals with all things that help developers and engineers to do a better job by designing systems, processes, culture and tools that are human friendly and increase flow state. | Varies |
 | **DevOpsish** | [devopsish.com [↗]](https://devopsish.com/) | A weekly newsletter covering cloud native, DevOps, and open source news. | Weekly |
 | **KubeWeekly** | [cncf.io/kubeweekly [↗]](https://www.cncf.io/kubeweekly/) | A weekly newsletter of all things Kubernetes, from the CNCF. | Weekly |
