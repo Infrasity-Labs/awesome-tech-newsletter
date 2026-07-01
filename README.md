@@ -182,7 +182,7 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 | **When should software engineers start retraining for other jobs?** | [ealpha.substack.com [↗](https://ealpha.substack.com) | How I apply professional engineering methodologies to trading and investing. | Varies |
 | **Software Book Publishers Remain a Bit Terrible** | [mertz.substack.com [↗](https://mertz.substack.com) | Random musings of a recovering philosopher | Varies |
 | **Software 3.0: When Software becomes AI** | [divgarg.substack.com [↗](https://divgarg.substack.com) | Div's random musings | Varies |
-| **Software Developement and Fear in the Age of AI** | [zakariayousfi.substack.com [↗](https://zakariayousfi.substack.com) | A tech newsletter focused on software and software engineering. | Varies |
+| **Software Development and Fear in the Age of AI** | [zakariayousfi.substack.com [↗](https://zakariayousfi.substack.com) | A tech newsletter focused on software and software engineering. | Varies |
 ## About
 
 Maintained by **[Infrasity](https://infrasity.com)**<br>A developer marketing agency helping DevTool startups and B2B SaaS companies with technical content, DevRel strategy, and GTM.
