@@ -32,109 +32,125 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **The Lifelong Learner** | [avthar.substack.com [↗]](https://avthar.substack.com) | Documenting my journey of lifelong learning. Practical wisdom about self-mastery, entrepreneurship, health and happiness. By South African entrepreneur and technologist Avthar Sewrathan. Click to read The Lifelong Learner, by Avthar Sewrathan, a Substack publication with hundreds of subscribers. | Varies |
-| **Kyle Poyar’s Growth Unhinged** | [kylepoyar.substack.com [↗]](https://kylepoyar.substack.com) | Revealing the playbooks and hidden tactics behind today's best startups. Join 80,000+ weekly readers for real-life growth advice, playbooks and case studies. Click to read Kyle Poyar’s Growth Unhinged, a Substack publication with tens of thousands of subscribers. | Varies |
-| **The Personable Engineer** | [fernandovillalba.substack.com [↗]](https://fernandovillalba.substack.com) | This publication deals with all things that help developers and engineers to do a better job by designing systems, processes, culture and tools that are human friendly and increase flow state. | Varies |
-| **tech job drop 🌎 🚀** | [farath.substack.com [↗]](https://farath.substack.com) | Discover fresh, cool tech jobs 🦄 | Varies |
-| **Open Source Watch** | [opensourcewatch.beehiiv.com [↗]](https://opensourcewatch.beehiiv.com) | What's what with open-source news. | Varies |
-| **Better Engineers** | [betterengineers.substack.com [↗]](https://betterengineers.substack.com) | A Programmer's Journey of Perfections <br>Follow <br>LinkedIn: https://www.linkedin.com/in/devd04/<br>X : https://x.com/BetterEngineer1 | Varies |
-| **Vasu’s Newsletter** | [vasupasupuleti.substack.com [↗]](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
-| **Nobuteru’s Substack** | [nobuteru.substack.com [↗]](https://nobuteru.substack.com) | My personal Substack | Varies |
-| **Pointer** | [pointer.io [↗]](https://www.pointer.io/) | A reading club for software developers focusing on engineering leadership and best practices. | Bi-weekly |
-| **TLDR** | [tldr.tech [↗]](https://tldr.tech/) | Bite-sized news for busy techies covering software engineering, tech, and science. | Daily |
-| **The Technically Challenged Newsletter** | [technicallychallenged.substack.com [↗]](https://technicallychallenged.substack.com) | "Tech made easy", exploring topics around technology in general, programming, learning to code, career growth, learning new technologies, tips and tricks, personal growth | Varies |
-| **Caleb's Commentary** | [calebfenton.substack.com [↗]](https://calebfenton.substack.com) | Bitcoin, economics, freedom, self-improvement | Varies |
-| **The Schematic** | [ryanspears.substack.com [↗]](https://ryanspears.substack.com) | All things engineering, software, science, and business. | Varies |
-| **The Tech Enabler** | [thetechenabler.substack.com [↗]](https://thetechenabler.substack.com) | My personal Substack for my role as a tech enabler inside a large media company. I write about work, culture, and programming in general. My current series is all about tech trends and what I think teams should adopt or drop. | Varies |
-| **Agentic Coding with Discipline and Skill** | [agenticcoding.substack.com [↗]](https://agenticcoding.substack.com) | Bring the practice of agentic coding to the next level so it's production-ready. | Varies |
-| **Software will eat software in a remote-first world** | [themargins.substack.com [↗]](https://themargins.substack.com) | The technology of business and the business of technology, by Ranjan Roy and Can Duruk. | Varies |
-| **Software development in the time of strange new angels** | [davegriffith.substack.com [↗]](https://davegriffith.substack.com) | A newsletter about software architecture, agentic coding, and lessons learned in thirty-five years of professional software development | Varies |
-| **Magma: An open source implementation of a mobile core network** | [systemsapproach.substack.com [↗]](https://systemsapproach.substack.com) | Larry Peterson and Bruce Davie, authors of "Computer Networks: A Systems Approach" explain the Internet – its technology, architecture, and evolution | Varies |
-| **Software Job Application Strategy Guide** | [paretomoment.substack.com [↗]](https://paretomoment.substack.com) | The Pareto Moment | Varies |
-| **Software 3.0 Is the Era of Architects: Building in the Era of Orchestration** | [opuslabs.substack.com [↗]](https://opuslabs.substack.com) | Read writing from OpusLABS. Designer, Researcher, Technologist, World Citizen | Varies |
-| **Software Is Fine** | [shomik.substack.com [↗]](https://shomik.substack.com) | Podcast & Posts on founders, investors, and products operating On The Frontier of innovation | Varies |
-| **Software=Magic for Most People, and We Often Forget That** | [zerotousers.substack.com [↗]](https://zerotousers.substack.com) | Each week, I talk about acquisition channels that work & are likely to work in the future. | Varies |
-| **Software Isn't Dying. The Sprint Is** | [yani3380.substack.com [↗]](https://yani3380.substack.com) | A tech newsletter focused on software and software engineering. | Varies |
-| **Software as a Theater** | [aimode.substack.com [↗]](https://aimode.substack.com) | Founding Mode is a newsletter for founders building serious and bold startups. This is a free flow of practical as well as theoretical ideas around company building, AI and future of money and commerce. | Varies |
-| **The Future of Software Depends on Synthetic Mathematics** | [prapara.substack.com [↗]](https://prapara.substack.com) | Practical Paracosms takes the reader on adventures in intuition through the unconventional in abstract mathematics and more, with practical advice for software and technology leaders | Varies |
-| **Software Engineer's Simple Sabotage Field Manual** | [solaire.substack.com [↗]](https://solaire.substack.com) | A collection of self-regarding projections and ill-conceived notions | Varies |
-| **Software at Scale 003 – Bharat Mediratta: Ex-CTO, Dropbox** | [reliability.substack.com [↗]](https://reliability.substack.com) | Discussions on running software systems, teams, and products. | Varies |
-| **Software Engineers Don't Talk Anymore** | [petercoy.substack.com [↗]](https://petercoy.substack.com) | We think together about how economic principles can shed light on and help solve the biggest problems of the day. | Varies |
-| **Software Has Its Lean Manufacturing Moment** | [mediansofproduction.substack.com [↗]](https://mediansofproduction.substack.com) | Thoughts on how we make and distribute things. | Varies |
-| **Software Needs an Expiry Date** | [thinkingthrough.substack.com [↗]](https://thinkingthrough.substack.com) | Sharing the time-tested, industry-vetted tips & tricks for software engineers and engineering managers who looking for growth in the Tech Industry. | Varies |
-| **Software is now eating itself** | [devpg.substack.com [↗]](https://devpg.substack.com) | Tailwind Leader & Seasoned CTO \| Tech' Enthusiast, Strategist and Opponent of standstill \| Writing about my experience → »The Tech Advisor« | Varies |
-| **Software Craft as Plumbing and Art** | [emptyingmyhead.substack.com [↗]](https://emptyingmyhead.substack.com) | Writing about conversations I wish were more common. Startup founder, former AI researcher, bipolar, queer. | Varies |
-| **Software code reviews, and other empty rituals that waste time** | [respectfulleadership.substack.com [↗]](https://respectfulleadership.substack.com) | True stories about tech startups. Announcements of in-person Events. | Varies |
-| **Software Development in the Old Days: Try Being Agile on an IBM 370** | [arnoldkling.substack.com [↗]](https://arnoldkling.substack.com) | improving social epistemology, rewarding reasoned discourse | Varies |
-| **Software Scarcity** | [subconscious.substack.com [↗]](https://subconscious.substack.com) | Learning to build living software | Varies |
-| **Software 2.0 - Lessons learned building ML products** | [karimfanous.substack.com [↗]](https://karimfanous.substack.com) | A newsletter for heads of engineering at startups. I cover the joys and challenges of running software engineering organizations at fast-paced startups. | Varies |
-| **Software as Electricity** | [saturnino.substack.com [↗]](https://saturnino.substack.com) | My vision about the now and future | Varies |
-| **A Case for Monolith** | [charlesfonseca.substack.com [↗]](https://charlesfonseca.substack.com) | I write because I can't stop. Systems, Programming, Database, Cloud. | Varies |
-| **Software Is Like Prose** | [adamgeorgiou.substack.com [↗]](https://adamgeorgiou.substack.com) | Everything I've written publicly. A lot of immature nonsense. Some of it newly so. | Varies |
-| **Software That Builds Itself** | [jdsemrau.substack.com [↗]](https://jdsemrau.substack.com) | Trusted by readers at Nasdaq, Nvidia, and Stanford, Encyclopedia Autonomica is the go-to guide for anyone building or deploying autonomous agents. We cover what matters: how real-life AI agents reason, plan, remember, and act. | Varies |
+| **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+"CB+Insights"+newsletter) | The easy way to stay ahead of all things tech | Varies |
+| **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+"Creative+Mornings"+newsletter) | Get inspired, no matter where you are. | Varies |
+| **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Android+Authority+Weekly"+newsletter) | Android news, reviews, articles, and more! | Varies |
+| **TheFutureParty** | [↗](https://duckduckgo.com/?q=!ducky+"TheFutureParty"+newsletter) | Modern take on business, culture, tech & more | Varies |
+| **Recomendo** | [↗](https://duckduckgo.com/?q=!ducky+"Recomendo"+newsletter) | 6 brief recommendations of cool stuff | Varies |
+| **TLDR** | [↗](https://duckduckgo.com/?q=!ducky+"TLDR"+newsletter) | Byte sized news for techie folks | Varies |
+| **The Hustle** | [↗](https://duckduckgo.com/?q=!ducky+"The+Hustle"+newsletter) | Fresh tech and business news | Varies |
+| **The Lifelong Learner** | [↗](https://avthar.substack.com) | Documenting my journey of lifelong learning. Practical wisdom about self-mastery, entrepreneurship, health and happiness. By South African entrepreneur and technologist Avthar Sewrathan. Click to read The Lifelong Learner, by Avthar Sewrathan, a Substack publication with hundreds of subscribers. | Varies |
+| **Kyle Poyar’s Growth Unhinged** | [↗](https://kylepoyar.substack.com) | Revealing the playbooks and hidden tactics behind today's best startups. Join 80,000+ weekly readers for real-life growth advice, playbooks and case studies. Click to read Kyle Poyar’s Growth Unhinged, a Substack publication with tens of thousands of subscribers. | Varies |
+| **The Personable Engineer** | [↗](https://fernandovillalba.substack.com) | This publication deals with all things that help developers and engineers to do a better job by designing systems, processes, culture and tools that are human friendly and increase flow state. | Varies |
+| **tech job drop 🌎 🚀** | [↗](https://farath.substack.com) | Discover fresh, cool tech jobs 🦄 | Varies |
+| **Open Source Watch** | [↗](https://opensourcewatch.beehiiv.com) | What's what with open-source news. | Varies |
+| **Better Engineers** | [↗](https://betterengineers.substack.com) | A Programmer's Journey of Perfections <br>Follow <br>LinkedIn: https://www.linkedin.com/in/devd04/<br>X : https://x.com/BetterEngineer1 | Varies |
+| **Vasu’s Newsletter** | [↗](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
+| **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
+| **Pointer** | [↗](https://www.pointer.io/) | A reading club for software developers focusing on engineering leadership and best practices. | Bi-weekly |
+| **TLDR** | [↗](https://tldr.tech/) | Bite-sized news for busy techies covering software engineering, tech, and science. | Daily |
+| **The Technically Challenged Newsletter** | [↗](https://technicallychallenged.substack.com) | "Tech made easy", exploring topics around technology in general, programming, learning to code, career growth, learning new technologies, tips and tricks, personal growth | Varies |
+| **Caleb's Commentary** | [↗](https://calebfenton.substack.com) | Bitcoin, economics, freedom, self-improvement | Varies |
+| **The Schematic** | [↗](https://ryanspears.substack.com) | All things engineering, software, science, and business. | Varies |
+| **The Tech Enabler** | [↗](https://thetechenabler.substack.com) | My personal Substack for my role as a tech enabler inside a large media company. I write about work, culture, and programming in general. My current series is all about tech trends and what I think teams should adopt or drop. | Varies |
+| **Agentic Coding with Discipline and Skill** | [↗](https://agenticcoding.substack.com) | Bring the practice of agentic coding to the next level so it's production-ready. | Varies |
+| **Software will eat software in a remote-first world** | [↗](https://themargins.substack.com) | The technology of business and the business of technology, by Ranjan Roy and Can Duruk. | Varies |
+| **Software development in the time of strange new angels** | [↗](https://davegriffith.substack.com) | A newsletter about software architecture, agentic coding, and lessons learned in thirty-five years of professional software development | Varies |
+| **Magma: An open source implementation of a mobile core network** | [↗](https://systemsapproach.substack.com) | Larry Peterson and Bruce Davie, authors of "Computer Networks: A Systems Approach" explain the Internet – its technology, architecture, and evolution | Varies |
+| **Software Job Application Strategy Guide** | [↗](https://paretomoment.substack.com) | The Pareto Moment | Varies |
+| **Software 3.0 Is the Era of Architects: Building in the Era of Orchestration** | [↗](https://opuslabs.substack.com) | Read writing from OpusLABS. Designer, Researcher, Technologist, World Citizen | Varies |
+| **Software Is Fine** | [↗](https://shomik.substack.com) | Podcast & Posts on founders, investors, and products operating On The Frontier of innovation | Varies |
+| **Software=Magic for Most People, and We Often Forget That** | [↗](https://zerotousers.substack.com) | Each week, I talk about acquisition channels that work & are likely to work in the future. | Varies |
+| **Software Isn't Dying. The Sprint Is** | [↗](https://yani3380.substack.com) | A tech newsletter focused on software and software engineering. | Varies |
+| **Software as a Theater** | [↗](https://aimode.substack.com) | Founding Mode is a newsletter for founders building serious and bold startups. This is a free flow of practical as well as theoretical ideas around company building, AI and future of money and commerce. | Varies |
+| **The Future of Software Depends on Synthetic Mathematics** | [↗](https://prapara.substack.com) | Practical Paracosms takes the reader on adventures in intuition through the unconventional in abstract mathematics and more, with practical advice for software and technology leaders | Varies |
+| **Software Engineer's Simple Sabotage Field Manual** | [↗](https://solaire.substack.com) | A collection of self-regarding projections and ill-conceived notions | Varies |
+| **Software at Scale 003 – Bharat Mediratta: Ex-CTO, Dropbox** | [↗](https://reliability.substack.com) | Discussions on running software systems, teams, and products. | Varies |
+| **Software Engineers Don't Talk Anymore** | [↗](https://petercoy.substack.com) | We think together about how economic principles can shed light on and help solve the biggest problems of the day. | Varies |
+| **Software Has Its Lean Manufacturing Moment** | [↗](https://mediansofproduction.substack.com) | Thoughts on how we make and distribute things. | Varies |
+| **Software Needs an Expiry Date** | [↗](https://thinkingthrough.substack.com) | Sharing the time-tested, industry-vetted tips & tricks for software engineers and engineering managers who looking for growth in the Tech Industry. | Varies |
+| **Software is now eating itself** | [↗](https://devpg.substack.com) | Tailwind Leader & Seasoned CTO \| Tech' Enthusiast, Strategist and Opponent of standstill \| Writing about my experience → »The Tech Advisor« | Varies |
+| **Software Craft as Plumbing and Art** | [↗](https://emptyingmyhead.substack.com) | Writing about conversations I wish were more common. Startup founder, former AI researcher, bipolar, queer. | Varies |
+| **Software code reviews, and other empty rituals that waste time** | [↗](https://respectfulleadership.substack.com) | True stories about tech startups. Announcements of in-person Events. | Varies |
+| **Software Development in the Old Days: Try Being Agile on an IBM 370** | [↗](https://arnoldkling.substack.com) | improving social epistemology, rewarding reasoned discourse | Varies |
+| **Software Scarcity** | [↗](https://subconscious.substack.com) | Learning to build living software | Varies |
+| **Software 2.0 - Lessons learned building ML products** | [↗](https://karimfanous.substack.com) | A newsletter for heads of engineering at startups. I cover the joys and challenges of running software engineering organizations at fast-paced startups. | Varies |
+| **Software as Electricity** | [↗](https://saturnino.substack.com) | My vision about the now and future | Varies |
+| **A Case for Monolith** | [↗](https://charlesfonseca.substack.com) | I write because I can't stop. Systems, Programming, Database, Cloud. | Varies |
+| **Software Is Like Prose** | [↗](https://adamgeorgiou.substack.com) | Everything I've written publicly. A lot of immature nonsense. Some of it newly so. | Varies |
+| **Software That Builds Itself** | [↗](https://jdsemrau.substack.com) | Trusted by readers at Nasdaq, Nvidia, and Stanford, Encyclopedia Autonomica is the go-to guide for anyone building or deploying autonomous agents. We cover what matters: how real-life AI agents reason, plan, remember, and act. | Varies |
 
 ## Backend Development
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **Javarevisited Newsletter** | [javarevisited.substack.com [↗]](https://javarevisited.substack.com) | Master Java and System Design Interviews. Level up your Software Engineering career. Subscribe and get free copy of my book Grokking the Spring Boot Interview in your inbox | Varies |
-| **Engineering At Scale** | [engineeringatscale.substack.com [↗]](https://engineeringatscale.substack.com) | Weekly column simplifying databases, system design, architecture, and engineering careers with easy explanations, valuable insights, and expert advice. | Varies |
-| **API Developer Weekly** | [apideveloperweekly.com [↗]](https://apideveloperweekly.com/) | A newsletter dedicated to the business, design, development, and deployment of APIs. | Weekly |
-| **DB Weekly** | [dbweekly.com [↗]](https://dbweekly.com/) | A weekly round-up of database technology news and articles covering new developments. | Weekly |
-| **The complete roadmap for back end engineering** | [levelupsoftwareengineering.substack.com [↗]](https://levelupsoftwareengineering.substack.com) | Join 30,000+ engineers learning how to level up in their career. Everything you need to grow to senior engineer, tech lead and beyond in tech skills, communication, and leadership. | Varies |
-| **Make Your Back End Layer as Thin as Possible** | [kartick.substack.com [↗]](https://kartick.substack.com) | https://kartick.consulting | Varies |
-| **Front-End versus Back-End** | [tidyfirst.substack.com [↗]](https://tidyfirst.substack.com) | Software design is an exercise in human relationships. So are all the other techniques we use to develop software. How can we geeks get better at technique as one way of getting better at relationships? | Varies |
-| **Front end and back end are optimizing for different things** | [derrickburns720047.substack.com [↗]](https://derrickburns720047.substack.com) | Writer, Father, Husband, Technologist, Detroiter, Adoptee, Cancer survivor, Black, Jewish, American, Curious | Varies |
-| **Levels.fyi used Google Sheets for their back end** | [bytesizeddesign.substack.com [↗]](https://bytesizeddesign.substack.com) | Master system design concepts, engineering fundamentals, and interview basics. Weekly summaries, post-mortems, and advice for 42,000+ engineers. | Varies |
-| **Data warehouse is the new back end** | [pchase.substack.com [↗]](https://pchase.substack.com) | Infrastructure and surfing | Varies |
-| **How to build prototypes as a back-end engineer** | [buildtechcareer.substack.com [↗]](https://buildtechcareer.substack.com) | Build Tech Career is for experienced software engineers who want to move closer to real AI/ML systems work. | Varies |
-| **What Is and How to Develop a (HTTP)Controller on Back-End Applications** | [petran.substack.com [↗]](https://petran.substack.com) | A newsletter about advance topics on Software Design, Development and Architecture | Varies |
-| **A Recipe for Auth Cookies in the Decoupled Front End and Back End Architecture** | [nowaycodes.substack.com [↗]](https://nowaycodes.substack.com) | Code and life musings | Varies |
-| **Show HN: Continuing the work on the ADHD personal assistant – Part 4** | [mkbsp.substack.com [↗]](https://mkbsp.substack.com) | The Product Vikings Blog and Build in Public Honesty about Startups, Tech, Fundraising, living with ADHD, and more. | Varies |
-| **List of API Testing Tools** | [devops.substack.com [↗]](https://devops.substack.com) | Everything you need to know about DevOps | Varies |
-| **APIs All the Way Down** | [notboring.substack.com [↗]](https://notboring.substack.com) | Tech strategy, analysis, and philosophy, but not boring. | Varies |
-| **API Complexity Is a Lie** | [apichangelog.substack.com [↗]](https://apichangelog.substack.com) | Curated API moves. Unfiltered expert takes. | Varies |
-| **Release and sell your code without managing a website, servers, users, payments** | [codarium.substack.com [↗]](https://codarium.substack.com) | How to build products with code. Python, AWS, Elasticsearch | Varies |
-| **'How to do great work' by Paul Graham mapped out** | [substack.com [↗]](https://substack.com) | A tech newsletter focused on api and software engineering. | Varies |
+| **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+"iOS+Dev+Tools"+newsletter) | The best tools for iOS developers | Varies |
+| **Programming Digest** | [↗](https://duckduckgo.com/?q=!ducky+"Programming+Digest"+newsletter) | Keeps up to date with the programming world. | Varies |
+| **GraphQL Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"GraphQL+Weekly"+newsletter) | The best content from the GraphQL community | Varies |
+| **Hacker Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+"Hacker+Newsletter"+newsletter) | The best articles on startups, technology, programming, and more. | Varies |
+| **Javarevisited Newsletter** | [↗](https://javarevisited.substack.com) | Master Java and System Design Interviews. Level up your Software Engineering career. Subscribe and get free copy of my book Grokking the Spring Boot Interview in your inbox | Varies |
+| **Engineering At Scale** | [↗](https://engineeringatscale.substack.com) | Weekly column simplifying databases, system design, architecture, and engineering careers with easy explanations, valuable insights, and expert advice. | Varies |
+| **API Developer Weekly** | [↗](https://apideveloperweekly.com/) | A newsletter dedicated to the business, design, development, and deployment of APIs. | Weekly |
+| **DB Weekly** | [↗](https://dbweekly.com/) | A weekly round-up of database technology news and articles covering new developments. | Weekly |
+| **The complete roadmap for back end engineering** | [↗](https://levelupsoftwareengineering.substack.com) | Join 30,000+ engineers learning how to level up in their career. Everything you need to grow to senior engineer, tech lead and beyond in tech skills, communication, and leadership. | Varies |
+| **Make Your Back End Layer as Thin as Possible** | [↗](https://kartick.substack.com) | https://kartick.consulting | Varies |
+| **Front-End versus Back-End** | [↗](https://tidyfirst.substack.com) | Software design is an exercise in human relationships. So are all the other techniques we use to develop software. How can we geeks get better at technique as one way of getting better at relationships? | Varies |
+| **Front end and back end are optimizing for different things** | [↗](https://derrickburns720047.substack.com) | Writer, Father, Husband, Technologist, Detroiter, Adoptee, Cancer survivor, Black, Jewish, American, Curious | Varies |
+| **Levels.fyi used Google Sheets for their back end** | [↗](https://bytesizeddesign.substack.com) | Master system design concepts, engineering fundamentals, and interview basics. Weekly summaries, post-mortems, and advice for 42,000+ engineers. | Varies |
+| **Data warehouse is the new back end** | [↗](https://pchase.substack.com) | Infrastructure and surfing | Varies |
+| **How to build prototypes as a back-end engineer** | [↗](https://buildtechcareer.substack.com) | Build Tech Career is for experienced software engineers who want to move closer to real AI/ML systems work. | Varies |
+| **What Is and How to Develop a (HTTP)Controller on Back-End Applications** | [↗](https://petran.substack.com) | A newsletter about advance topics on Software Design, Development and Architecture | Varies |
+| **A Recipe for Auth Cookies in the Decoupled Front End and Back End Architecture** | [↗](https://nowaycodes.substack.com) | Code and life musings | Varies |
+| **Show HN: Continuing the work on the ADHD personal assistant – Part 4** | [↗](https://mkbsp.substack.com) | The Product Vikings Blog and Build in Public Honesty about Startups, Tech, Fundraising, living with ADHD, and more. | Varies |
+| **List of API Testing Tools** | [↗](https://devops.substack.com) | Everything you need to know about DevOps | Varies |
+| **APIs All the Way Down** | [↗](https://notboring.substack.com) | Tech strategy, analysis, and philosophy, but not boring. | Varies |
+| **API Complexity Is a Lie** | [↗](https://apichangelog.substack.com) | Curated API moves. Unfiltered expert takes. | Varies |
+| **Release and sell your code without managing a website, servers, users, payments** | [↗](https://codarium.substack.com) | How to build products with code. Python, AWS, Elasticsearch | Varies |
+| **'How to do great work' by Paul Graham mapped out** | [↗](https://substack.com) | A tech newsletter focused on api and software engineering. | Varies |
 
 ## System Design & Architecture
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **High Scalability** | [highscalability.com [↗]](https://highscalability.com/) | A newsletter focusing on the architectures of successful, highly scalable websites. | Weekly |
-| **Software Architecture Is About Things Hard to Change** | [tomasjurasek.substack.com [↗]](https://tomasjurasek.substack.com) | Software Design Notes is a practical publication about modern software architecture and system design. It focuses on mental models, architecture primitives, and real-world trade-offs learned from modernizing large, distributed systems. | Varies |
-| **Software Architecture and Philosophical Anthropology** | [michaelmangialardi.substack.com [↗]](https://michaelmangialardi.substack.com) | On Humans and Agents | Varies |
+| **Tech Architect Insights** | [↗](https://duckduckgo.com/?q=!ducky+"Tech+Architect+Insights"+newsletter) | From developer to architect, practical system design. | Varies |
+| **High Scalability** | [↗](https://highscalability.com/) | A newsletter focusing on the architectures of successful, highly scalable websites. | Weekly |
+| **Software Architecture Is About Things Hard to Change** | [↗](https://tomasjurasek.substack.com) | Software Design Notes is a practical publication about modern software architecture and system design. It focuses on mental models, architecture primitives, and real-world trade-offs learned from modernizing large, distributed systems. | Varies |
+| **Software Architecture and Philosophical Anthropology** | [↗](https://michaelmangialardi.substack.com) | On Humans and Agents | Varies |
 
 ## Language Specific
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **Jacob’s Tech Tavern** | [jacobbartlett.substack.com [↗]](https://jacobbartlett.substack.com) | Learn advanced concurrency, agentic iOS engineering, and Swift performance for 10 minutes a week. <br><br>New subscribers get a free eBook: The Complete Swift Concurrency Toolkit. | Varies |
-| **Rust Trends** | [rusttrends.com [↗]](https://rusttrends.com/) | A weekly newsletter covering the Rust programming language ecosystem and community. | Weekly |
-| **Golang Weekly** | [golangweekly.com [↗]](https://golangweekly.com/) | A weekly newsletter about the Go programming language. | Weekly |
-| **Python Weekly** | [pythonweekly.com [↗]](https://pythonweekly.com/) | A free, weekly newsletter featuring the best hand-curated news, articles, and new releases. | Weekly |
+| **Awesome Python** | [↗](https://duckduckgo.com/?q=!ducky+"Awesome+Python"+newsletter) | The most popular Python news, articles and packages | Varies |
+| **Golang Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Golang+Weekly"+newsletter) | Go lang news | Varies |
+| **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+"Bytes"+newsletter) | The funniest JavaScript newsletter on the web | Varies |
+| **The Real Python Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+"The+Real+Python+Newsletter"+newsletter) | Weekly Programming and Career Tips for Python Devs | Varies |
+| **Jacob’s Tech Tavern** | [↗](https://jacobbartlett.substack.com) | Learn advanced concurrency, agentic iOS engineering, and Swift performance for 10 minutes a week. <br><br>New subscribers get a free eBook: The Complete Swift Concurrency Toolkit. | Varies |
+| **Rust Trends** | [↗](https://rusttrends.com/) | A weekly newsletter covering the Rust programming language ecosystem and community. | Weekly |
+| **Golang Weekly** | [↗](https://golangweekly.com/) | A weekly newsletter about the Go programming language. | Weekly |
+| **Python Weekly** | [↗](https://pythonweekly.com/) | A free, weekly newsletter featuring the best hand-curated news, articles, and new releases. | Weekly |
 
 ## DevOps & Cloud
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **KubeWeekly** | [cncf.io/kubeweekly [↗]](https://www.cncf.io/kubeweekly/) | A weekly newsletter of all things Kubernetes, from the CNCF. | Weekly |
-| **DevOpsish** | [devopsish.com [↗]](https://devopsish.com/) | A weekly newsletter covering cloud native, DevOps, and open source news. | Weekly |
-| **Sheep Code** | [sheepcode.substack.com [↗]](https://sheepcode.substack.com) | Hear our insights on software engineering, cloud, and tech. | Varies |
-| **Abid Moon** | [abidmoon.hashnode.dev [↗]](https://abidmoon.hashnode.dev) | I’m a DevOps Engineer & digital marketer who grows brands and website traffic using content, search and social media marketing. 👍 | Varies |
-| **In retrospect, DevOps was a bad idea** | [rethinkingsoftware.substack.com [↗]](https://rethinkingsoftware.substack.com) | Calling it a "Best Practice" does not make it so. | Varies |
-| **MLOps vs. DevOps** | [laszlo.substack.com [↗]](https://laszlo.substack.com) | Deliberate Machine Learning: Machine Learning Product Management & How to write better code as a DS? | Varies |
-| **Using Declarative Interfaces to Empower Devs to Do Ops** | [galenmarchetti.substack.com [↗]](https://galenmarchetti.substack.com) | synthesized braindumps | Varies |
-| **An Alternate History of “DevOps”** | [michaeldehaan.substack.com [↗]](https://michaeldehaan.substack.com) | Michael Dehaan | Varies |
-| **Developer-Led Landscape: 2021 Trends Foretell New Approaches to DevOps** | [tylerjewell.substack.com [↗]](https://tylerjewell.substack.com) | Developer Software, Piloting, and Options Trading I am an enterprise technology investor and executive with an appreciation for companies building disruptive middleware, platforms, and infrastructure. I am also a private pilot, instrument-rated, ASEL. | Varies |
-| **America Loses the Next War (Won't Be a Cyber War, It Will Be a DevOps War)** | [ryanmcbeth.substack.com [↗]](https://ryanmcbeth.substack.com) | Intelligence Analysis and Author Updates | Varies |
-| **How to not get triggered by DevOps and other buzzwords** | [five9s.substack.com [↗]](https://five9s.substack.com) | Practical advice for designing your SRE team and functions | Varies |
+| **KubeWeekly** | [↗](https://www.cncf.io/kubeweekly/) | A weekly newsletter of all things Kubernetes, from the CNCF. | Weekly |
+| **DevOpsish** | [↗](https://devopsish.com/) | A weekly newsletter covering cloud native, DevOps, and open source news. | Weekly |
+| **Sheep Code** | [↗](https://sheepcode.substack.com) | Hear our insights on software engineering, cloud, and tech. | Varies |
+| **Abid Moon** | [↗](https://abidmoon.hashnode.dev) | I’m a DevOps Engineer & digital marketer who grows brands and website traffic using content, search and social media marketing. 👍 | Varies |
+| **In retrospect, DevOps was a bad idea** | [↗](https://rethinkingsoftware.substack.com) | Calling it a "Best Practice" does not make it so. | Varies |
+| **MLOps vs. DevOps** | [↗](https://laszlo.substack.com) | Deliberate Machine Learning: Machine Learning Product Management & How to write better code as a DS? | Varies |
+| **Using Declarative Interfaces to Empower Devs to Do Ops** | [↗](https://galenmarchetti.substack.com) | synthesized braindumps | Varies |
+| **An Alternate History of “DevOps”** | [↗](https://michaeldehaan.substack.com) | Michael Dehaan | Varies |
+| **Developer-Led Landscape: 2021 Trends Foretell New Approaches to DevOps** | [↗](https://tylerjewell.substack.com) | Developer Software, Piloting, and Options Trading I am an enterprise technology investor and executive with an appreciation for companies building disruptive middleware, platforms, and infrastructure. I am also a private pilot, instrument-rated, ASEL. | Varies |
+| **America Loses the Next War (Won't Be a Cyber War, It Will Be a DevOps War)** | [↗](https://ryanmcbeth.substack.com) | Intelligence Analysis and Author Updates | Varies |
+| **How to not get triggered by DevOps and other buzzwords** | [↗](https://five9s.substack.com) | Practical advice for designing your SRE team and functions | Varies |
 
 ## GTM
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **GTMnow** | [gtmnow.substack.com [↗]](https://gtmnow.substack.com) | The media brand of VC firm, GTMfund. Build, scale and invest with the best minds in tech. | Varies |
+| **GTMnow** | [↗](https://gtmnow.substack.com) | The media brand of VC firm, GTMfund. Build, scale and invest with the best minds in tech. | Varies |
 
 ## Developer Marketing
 
@@ -154,93 +170,97 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **Hibiki HTML – The front-end framework for back-end engineers (Console interview)** | [console.substack.com [↗]](https://console.substack.com) | Join thousands of engineers, VCs, and early stage CTOs in subscribing to a weekly roundup of the latest in open-source software, curated by the CodeSee.io team. | Varies |
-| **200% go: Vugu framework for go is 100% go on backend, 100% go on frontend** | [andrewarrow.substack.com [↗]](https://andrewarrow.substack.com) | computer science major pitt.edu 1996 | Varies |
+| **Hibiki HTML – The front-end framework for back-end engineers (Console interview)** | [↗](https://console.substack.com) | Join thousands of engineers, VCs, and early stage CTOs in subscribing to a weekly roundup of the latest in open-source software, curated by the CodeSee.io team. | Varies |
+| **200% go: Vugu framework for go is 100% go on backend, 100% go on frontend** | [↗](https://andrewarrow.substack.com) | computer science major pitt.edu 1996 | Varies |
 
 ## Data Science & AI
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **Sotonye** | [sotonye.substack.com [↗]](https://sotonye.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Theagentstack** | [theagentstack.substack.com [↗]](https://theagentstack.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Suggger** | [suggger.substack.com [↗]](https://suggger.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Artificiallyintelligentspace** | [artificiallyintelligentspace.substack.com [↗]](https://artificiallyintelligentspace.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Adamtornhill** | [adamtornhill.substack.com [↗]](https://adamtornhill.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Braddelong** | [braddelong.substack.com [↗]](https://braddelong.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Theahura** | [theahura.substack.com [↗]](https://theahura.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Addyo** | [addyo.substack.com [↗]](https://addyo.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Grbsh** | [grbsh.substack.com [↗]](https://grbsh.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Intrepidai** | [intrepidai.substack.com [↗]](https://intrepidai.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Shrimalmadhur** | [shrimalmadhur.substack.com [↗]](https://shrimalmadhur.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Shepherdjerred** | [shepherdjerred.substack.com [↗]](https://shepherdjerred.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Weeklyrust** | [weeklyrust.substack.com [↗]](https://weeklyrust.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Dataengineeringcentral** | [dataengineeringcentral.substack.com [↗]](https://dataengineeringcentral.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Buildwithgo** | [buildwithgo.substack.com [↗]](https://buildwithgo.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Ukandu** | [ukandu.substack.com [↗]](https://ukandu.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Golang1** | [golang1.substack.com [↗]](https://golang1.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Bruceeckel** | [bruceeckel.substack.com [↗]](https://bruceeckel.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Gazj** | [gazj.substack.com [↗]](https://gazj.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Erikexplores** | [erikexplores.substack.com [↗]](https://erikexplores.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Latitudedata** | [latitudedata.substack.com [↗]](https://latitudedata.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Bitecode** | [bitecode.substack.com [↗]](https://bitecode.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Thepythoncodingstack** | [thepythoncodingstack.substack.com [↗]](https://thepythoncodingstack.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Vicki** | [vicki.substack.com [↗]](https://vicki.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Ramansharma** | [ramansharma.substack.com [↗]](https://ramansharma.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Techtalksweekly** | [techtalksweekly.substack.com [↗]](https://techtalksweekly.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Mldoom** | [mldoom.substack.com [↗]](https://mldoom.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Neurometric** | [neurometric.substack.com [↗]](https://neurometric.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Craigbox** | [craigbox.substack.com [↗]](https://craigbox.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Zyngaengineering** | [zyngaengineering.substack.com [↗]](https://zyngaengineering.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Ezebunandu** | [ezebunandu.substack.com [↗]](https://ezebunandu.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Technically** | [technically.substack.com [↗]](https://technically.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Vibhavstechdiary** | [vibhavstechdiary.substack.com [↗]](https://vibhavstechdiary.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Katenai** | [katenai.substack.com [↗]](https://katenai.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Datascienceweekly** | [datascienceweekly.substack.com [↗]](https://datascienceweekly.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Remiounadjela** | [remiounadjela.substack.com [↗]](https://remiounadjela.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Nulldata** | [nulldata.substack.com [↗]](https://nulldata.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Counting** | [counting.substack.com [↗]](https://counting.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Julsimon** | [julsimon.substack.com [↗]](https://julsimon.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Unwindai** | [unwindai.substack.com [↗]](https://unwindai.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Thegradientpub** | [thegradientpub.substack.com [↗]](https://thegradientpub.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Hardresetmedia** | [hardresetmedia.substack.com [↗]](https://hardresetmedia.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Decodingbiology** | [decodingbiology.substack.com [↗]](https://decodingbiology.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Marksaroufim** | [marksaroufim.substack.com [↗]](https://marksaroufim.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Justjake** | [justjake.substack.com [↗]](https://justjake.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Jeremysik** | [jeremysik.substack.com [↗]](https://jeremysik.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Hasen** | [hasen.substack.com [↗]](https://hasen.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Bessstillman** | [bessstillman.substack.com [↗]](https://bessstillman.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Thezvi** | [thezvi.substack.com [↗]](https://thezvi.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Leerob** | [leerob.substack.com [↗]](https://leerob.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Kittenbeloved** | [kittenbeloved.substack.com [↗]](https://kittenbeloved.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Sharno** | [sharno.substack.com [↗]](https://sharno.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Reactdevelopment** | [reactdevelopment.substack.com [↗]](https://reactdevelopment.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Jsdevspace** | [jsdevspace.substack.com [↗]](https://jsdevspace.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Jasebroderick** | [jasebroderick.substack.com [↗]](https://jasebroderick.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Frontendengineering** | [frontendengineering.substack.com [↗]](https://frontendengineering.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Sergical** | [sergical.substack.com [↗]](https://sergical.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Amanjain** | [amanjain.substack.com [↗]](https://amanjain.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **contentfolks** | [contentfolks.substack.com [↗]](https://contentfolks.substack.com) | Short lessons, practical examples, and colourful post-its about content marketing. Straight to your inbox, every month(ish). Click to read contentfolks, by fio, a Substack publication with thousands of subscribers. | Varies |
-| **MKT1 Newsletter with Emily Kramer** | [mkt1.substack.com [↗]](https://mkt1.substack.com) | How to build AI-native B2B startup marketing functions. Deeply-researched long-form content, in-depth guides, actionable frameworks, and even an MCP Server. By Emily Kramer, an ex-marketing exec and current advisor. Click to read MKT1 Newsletter with Emily Kramer, a Substack publication with tens of thousands of subscribers. | Varies |
-| **Www** | [www.lennysnewsletter.com [↗]](https://www.lennysnewsletter.com) | No description available. | Varies |
-| **SRE Weekly** | [sreweekly.com [↗]](https://sreweekly.com/) | A newsletter devoted to everything related to keeping a site or service available and fast. | Weekly |
-| **How to explain DevOps to non-tech people** | [ashpatel.substack.com [↗]](https://ashpatel.substack.com) | Practical advice for designing your SRE team and functions | Varies |
-| **Show HN: A daily cybersecurity newsletter that's fun to read** | [threatroad.substack.com [↗]](https://threatroad.substack.com) | Build real security skills, one lab at a time. Plus the week’s critical intel, curated by a human. | Varies |
-| **ByteByteGo** | [blog.bytebytego.com [↗]](https://blog.bytebytego.com/) | Complex systems explained in simple terms, covering system design, architecture, and interviews. | Weekly |
-| **Building Kenya's Money Rail with .NET SQL Server and SMS in 2005** | [jkitsao.substack.com [↗]](https://jkitsao.substack.com) | Compiled from prod. Served from Nairobi. | Varies |
-| **How to build a generative AI service's back end** | [followfoxai.substack.com [↗]](https://followfoxai.substack.com) | Followfox.ai is an AI venture studio focused on small AI models running locally or on the edge. We are fully open-source, and in this blog, we share about our exploratory journey, providing useful and helpful details on our progress. | Varies |
-| **Show HN: Building ClueDay, a daily clue-based word-game** | [tanyagupta10.substack.com [↗]](https://tanyagupta10.substack.com) | My personal ramblings on everyday happenings. Manager of some products, and writer of some poetry. | Varies |
-| **APIs with bounded contexts – design better APIs with domain-driven design** | [microapis.substack.com [↗]](https://microapis.substack.com) | An occasional newsletter with information, discussions, recommendations, and tips about writing software and building microservices, APIs, and distributed systems. | Varies |
-| **Measuring OpenAI embedding API latency (and why you should always cache it)** | [nixiesearch.substack.com [↗]](https://nixiesearch.substack.com) | A tech newsletter focused on api and software engineering. | Varies |
-| **API platform Violet.io got traction by focusing on user pain** | [traction.substack.com [↗]](https://traction.substack.com) | Founders reveal secrets to their early traction | Varies |
-| **Newsletter** | [newsletter.pragmaticengineer.com [↗]](https://newsletter.pragmaticengineer.com) | No description available. | Varies |
-| **Revealera’s Substack** | [revealera.substack.com [↗]](https://revealera.substack.com) | Revealera - Hiring Trends, Trends & Opportunities in the age of AI Disruption and what products are growing | Varies |
-| **Dead Neurons** | [deadneurons.substack.com [↗]](https://deadneurons.substack.com) | Quick reads on Tech, Econ & AI. | Varies |
-| **Software 3.0 vs. AI Agentic Mesh: Why McKinsey Got It Wrong** | [natesnewsletter.substack.com [↗]](https://natesnewsletter.substack.com) | Daily newsletters on AI strategy, news, and implementation for practitioners and leaders who are past the hype and ready to build. | Varies |
-| **Software ate the world, now AI is eating the software** | [mertol.substack.com [↗]](https://mertol.substack.com) | We all code, but what for? | Varies |
-| **When should software engineers start retraining for other jobs?** | [ealpha.substack.com [↗]](https://ealpha.substack.com) | How I apply professional engineering methodologies to trading and investing. | Varies |
-| **Software Book Publishers Remain a Bit Terrible** | [mertz.substack.com [↗]](https://mertz.substack.com) | Random musings of a recovering philosopher | Varies |
-| **Software 3.0: When Software becomes AI** | [divgarg.substack.com [↗]](https://divgarg.substack.com) | Div's random musings | Varies |
-| **Software Development and Fear in the Age of AI** | [zakariayousfi.substack.com [↗]](https://zakariayousfi.substack.com) | A tech newsletter focused on software and software engineering. | Varies |
+| **VSCode.​Email** | [↗](https://duckduckgo.com/?q=!ducky+"VSCode.​Email"+newsletter) | A weekly newsletter for VS Code users | Varies |
+| **The Daily DONUT** | [↗](https://duckduckgo.com/?q=!ducky+"The+Daily+DONUT"+newsletter) | News that doesn’t suck. 🙃 | Varies |
+| **The Daily Navigator** | [↗](https://duckduckgo.com/?q=!ducky+"The+Daily+Navigator"+newsletter) | A five-minute trip through the news. | Varies |
+| **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+"Product+Hunt+Daily"+newsletter) | The best of Product Hunt, created by your friends. | Varies |
+| **Sotonye** | [↗](https://sotonye.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Theagentstack** | [↗](https://theagentstack.substack.com) | The Agent Stack is a technical deep dive into how modern AI agents actually work under the hood, from control loops and memory systems to orchestration, evaluation, and production deployment. | Varies |
+| **Suggger** | [↗](https://suggger.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Artificiallyintelligentspace** | [↗](https://artificiallyintelligentspace.substack.com) | all things ai | Varies |
+| **Adamtornhill** | [↗](https://adamtornhill.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Braddelong** | [↗](https://braddelong.substack.com) | Working, making, apportioning, talking, taking, & more. What I know and can learn about it & related things. | Varies |
+| **Theahura** | [↗](https://theahura.substack.com) | I'm increasingly certain no one knows anything about anything. Current founder @ noriagentic.com. Previous founder  @ soot.com. Before that was googling.  Writes about programming, AI, startups, video games, and misc other things. | Varies |
+| **Addyo** | [↗](https://addyo.substack.com) | Addy Osmani's newsletter on elevating your effectiveness. Join his community of 600,000 readers across social media. | Varies |
+| **Grbsh** | [↗](https://grbsh.substack.com) | Speculation on LLMs, software engineering, the future | Varies |
+| **Intrepidai** | [↗](https://intrepidai.substack.com) | Fueling robotics ambitions. Stories from intrepid developers. | Varies |
+| **Shrimalmadhur** | [↗](https://shrimalmadhur.substack.com) | Explore future tech, innovations, and philosophy | Varies |
+| **Shepherdjerred** | [↗](https://shepherdjerred.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Weeklyrust** | [↗](https://weeklyrust.substack.com) | Bi-Weekly Digest for Rustaceans 📨 | Varies |
+| **Dataengineeringcentral** | [↗](https://dataengineeringcentral.substack.com) | Long Live the Data Engineer. No holds barred. | Varies |
+| **Buildwithgo** | [↗](https://buildwithgo.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Ukandu** | [↗](https://ukandu.substack.com) | All my coding activities in words. | Varies |
+| **Golang1** | [↗](https://golang1.substack.com) | Golang Libraries, Apps and Tutorials | Varies |
+| **Bruceeckel** | [↗](https://bruceeckel.substack.com) | Essays in search of a book. | Varies |
+| **Gazj** | [↗](https://gazj.substack.com) | Just a bloke, father of two. A bit tired | Varies |
+| **Erikexplores** | [↗](https://erikexplores.substack.com) | Software development, space exploration, green energy and microprocessors | Varies |
+| **Latitudedata** | [↗](https://latitudedata.substack.com) | Latitude is an open-source embedded analytics framework designed with developers in mind.  In this Substack, we'll share everything we learn in this journey. | Varies |
+| **Bitecode** | [↗](https://bitecode.substack.com) | Nobody has time for Python | Varies |
+| **Thepythoncodingstack** | [↗](https://thepythoncodingstack.substack.com) | I write the articles I wish I had when I was learning Python programming  I learn through narratives, stories. And I communicate in the same way, with a friendly and relaxed tone, clear and accessible | Varies |
+| **Vicki** | [↗](https://vicki.substack.com) | A newsletter about making tech less sexy, more boring, and anything adjacent to tech that the mainstream media isn't covering. | Varies |
+| **Ramansharma** | [↗](https://ramansharma.substack.com) | Technology for the sake of technology | Varies |
+| **Techtalksweekly** | [↗](https://techtalksweekly.substack.com) | Join 9,600+ Software Engineers & Engineering Leaders who receive a free weekly email with all the recently published podcasts and conference talks. Stop scrolling through messy YouTube subscriptions. Stop FOMO. Easy to unsubscribe. No spam, ever. | Varies |
+| **Mldoom** | [↗](https://mldoom.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Neurometric** | [↗](https://neurometric.substack.com) | A substack for Neurometric - AI system orchestration and workflow SLMs | Varies |
+| **Craigbox** | [↗](https://craigbox.substack.com) | Nothing but the most important goings-on in the Kubernetes community. | Varies |
+| **Zyngaengineering** | [↗](https://zyngaengineering.substack.com) | Zynga is a leading developer of the world's most popular social games that are played by millions of people around the world each day. | Varies |
+| **Ezebunandu** | [↗](https://ezebunandu.substack.com) | Exploring technology through beginner's eyes. | Varies |
+| **Technically** | [↗](https://technically.substack.com) | Making practical sense of software and AI. | Varies |
+| **Vibhavstechdiary** | [↗](https://vibhavstechdiary.substack.com) | Documenting my explorations in tech. Hacks, explainers, rants and more. | Varies |
+| **Katenai** | [↗](https://katenai.substack.com) | Price, performance, and capacity optimization per workload across all clouds  - centralized or decentralized | Varies |
+| **Datascienceweekly** | [↗](https://datascienceweekly.substack.com) | In-depth look at the Data Science / Machine Learning / AI / Data Engineering world. | Varies |
+| **Remiounadjela** | [↗](https://remiounadjela.substack.com) | Field notes on AI strategy, adoption, and accountability: from inside AI-first organizations. | Varies |
+| **Nulldata** | [↗](https://nulldata.substack.com) | Thought Pieces, Updates, Links about Data Science, Machine Learning, | Varies |
+| **Counting** | [↗](https://counting.substack.com) | The less sexy (but very important!) side of the data sciences, every Tuesday morning. | Varies |
+| **Julsimon** | [↗](https://julsimon.substack.com) | Practical AI for builders, operators, and investors. | Varies |
+| **Unwindai** | [↗](https://unwindai.substack.com) | Latest AI developments and AI tools, delivered to your inbox. | Varies |
+| **Thegradientpub** | [↗](https://thegradientpub.substack.com) | Articles, interviews, and news coverage about AI brought to you by a team of AI researchers and builders. | Varies |
+| **Hardresetmedia** | [↗](https://hardresetmedia.substack.com) | A publication about tech, labor, and power by Ariella Steinhorn, JJ Lansing, and Alex Shultz, featuring exclusive reporting, interviews, and insights about holding corporate power accountable. | Varies |
+| **Decodingbiology** | [↗](https://decodingbiology.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Marksaroufim** | [↗](https://marksaroufim.substack.com) | Build cool stuff again | Varies |
+| **Justjake** | [↗](https://justjake.substack.com) | Random musings | Varies |
+| **Jeremysik** | [↗](https://jeremysik.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Hasen** | [↗](https://hasen.substack.com) | Computer and Web Programming | Varies |
+| **Bessstillman** | [↗](https://bessstillman.substack.com) | I'm Bess Stillman: ER doctor, writer, recent widow to Jake Seliger, who died of SCC of the tongue, and soon-to-be Mom to Athena. I write about the challenges of being corporeal. Here you'll find essays on life, death, cancer, love, health & healthcare. | Varies |
+| **Thezvi** | [↗](https://thezvi.substack.com) | A world made of gears. Doing both speed premium short term updates and long term world model building. Currently focused on weekly AI updates. Explorations include AI, policy, rationality, medicine and fertility, education and games. | Varies |
+| **Leerob** | [↗](https://leerob.substack.com) | I write about things in tech and web development that make me optimistic for the future. | Varies |
+| **Kittenbeloved** | [↗](https://kittenbeloved.substack.com) | Serious ideas, playfully considered. | Varies |
+| **Sharno** | [↗](https://sharno.substack.com) | Writing about daily life and what I learn along the way | Varies |
+| **Reactdevelopment** | [↗](https://reactdevelopment.substack.com) | Advanced React, TypeScript patterns, scalable UI architecture, performance deep dives, and real-world engineering insights — without fluff. | Varies |
+| **Jsdevspace** | [↗](https://jsdevspace.substack.com) | JavaScript Development Substack is your go-to resource for in-depth articles, tutorials, and insights on JavaScript programming. Whether you're a beginner or an experienced developer, this newsletter covers essential topics in JavaScript. | Varies |
+| **Jasebroderick** | [↗](https://jasebroderick.substack.com) | Working on my art | Varies |
+| **Frontendengineering** | [↗](https://frontendengineering.substack.com) | Bringing Order To The Chaotic World Of Frontend Development | Varies |
+| **Sergical** | [↗](https://sergical.substack.com) | My personal Substack | Varies |
+| **Amanjain** | [↗](https://amanjain.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **contentfolks** | [↗](https://contentfolks.substack.com) | Short lessons, practical examples, and colourful post-its about content marketing. Straight to your inbox, every month(ish). Click to read contentfolks, by fio, a Substack publication with thousands of subscribers. | Varies |
+| **MKT1 Newsletter with Emily Kramer** | [↗](https://mkt1.substack.com) | How to build AI-native B2B startup marketing functions. Deeply-researched long-form content, in-depth guides, actionable frameworks, and even an MCP Server. By Emily Kramer, an ex-marketing exec and current advisor. Click to read MKT1 Newsletter with Emily Kramer, a Substack publication with tens of thousands of subscribers. | Varies |
+| **Www** | [↗](https://www.lennysnewsletter.com) | No description available. | Varies |
+| **SRE Weekly** | [↗](https://sreweekly.com/) | A newsletter devoted to everything related to keeping a site or service available and fast. | Weekly |
+| **How to explain DevOps to non-tech people** | [↗](https://ashpatel.substack.com) | Practical advice for designing your SRE team and functions | Varies |
+| **Show HN: A daily cybersecurity newsletter that's fun to read** | [↗](https://threatroad.substack.com) | Build real security skills, one lab at a time. Plus the week’s critical intel, curated by a human. | Varies |
+| **ByteByteGo** | [↗](https://blog.bytebytego.com/) | Complex systems explained in simple terms, covering system design, architecture, and interviews. | Weekly |
+| **Building Kenya's Money Rail with .NET SQL Server and SMS in 2005** | [↗](https://jkitsao.substack.com) | Compiled from prod. Served from Nairobi. | Varies |
+| **How to build a generative AI service's back end** | [↗](https://followfoxai.substack.com) | Followfox.ai is an AI venture studio focused on small AI models running locally or on the edge. We are fully open-source, and in this blog, we share about our exploratory journey, providing useful and helpful details on our progress. | Varies |
+| **Show HN: Building ClueDay, a daily clue-based word-game** | [↗](https://tanyagupta10.substack.com) | My personal ramblings on everyday happenings. Manager of some products, and writer of some poetry. | Varies |
+| **APIs with bounded contexts – design better APIs with domain-driven design** | [↗](https://microapis.substack.com) | An occasional newsletter with information, discussions, recommendations, and tips about writing software and building microservices, APIs, and distributed systems. | Varies |
+| **Measuring OpenAI embedding API latency (and why you should always cache it)** | [↗](https://nixiesearch.substack.com) | A tech newsletter focused on api and software engineering. | Varies |
+| **API platform Violet.io got traction by focusing on user pain** | [↗](https://traction.substack.com) | Founders reveal secrets to their early traction | Varies |
+| **Newsletter** | [↗](https://newsletter.pragmaticengineer.com) | No description available. | Varies |
+| **Revealera’s Substack** | [↗](https://revealera.substack.com) | Revealera - Hiring Trends, Trends & Opportunities in the age of AI Disruption and what products are growing | Varies |
+| **Dead Neurons** | [↗](https://deadneurons.substack.com) | Quick reads on Tech, Econ & AI. | Varies |
+| **Software 3.0 vs. AI Agentic Mesh: Why McKinsey Got It Wrong** | [↗](https://natesnewsletter.substack.com) | Daily newsletters on AI strategy, news, and implementation for practitioners and leaders who are past the hype and ready to build. | Varies |
+| **Software ate the world, now AI is eating the software** | [↗](https://mertol.substack.com) | We all code, but what for? | Varies |
+| **When should software engineers start retraining for other jobs?** | [↗](https://ealpha.substack.com) | How I apply professional engineering methodologies to trading and investing. | Varies |
+| **Software Book Publishers Remain a Bit Terrible** | [↗](https://mertz.substack.com) | Random musings of a recovering philosopher | Varies |
+| **Software 3.0: When Software becomes AI** | [↗](https://divgarg.substack.com) | Div's random musings | Varies |
+| **Software Development and Fear in the Age of AI** | [↗](https://zakariayousfi.substack.com) | A tech newsletter focused on software and software engineering. | Varies |
 ## About
 
 Maintained by **[Infrasity](https://infrasity.com)**<br>A developer marketing agency helping DevTool startups and B2B SaaS companies with technical content, DevRel strategy, and GTM.
