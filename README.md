@@ -23,15 +23,25 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 - [Language Specific](#language-specific)
 - [DevOps & Cloud](#devops--cloud)
 - [GTM](#gtm)
+- [Frontend Development](#frontend-development)
+- [Data Science & AI](#data-science--ai)
 - [Developer Marketing](#developer-marketing)
 - [Technical Content Marketing](#technical-content-marketing)
-
 ---
 
 ## General Software Engineering
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22CB+Insights%22+newsletter) | The easy way to stay ahead of all things tech | Varies |
+| **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+%22Creative+Mornings%22+newsletter) | Get inspired, no matter where you are. | Varies |
+| **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Android+Authority+Weekly%22+newsletter) | Android news, reviews, articles, and more! | Varies |
+| **TheFutureParty** | [↗](https://duckduckgo.com/?q=!ducky+%22TheFutureParty%22+newsletter) | Modern take on business, culture, tech & more | Varies |
+| **Recomendo** | [↗](https://duckduckgo.com/?q=!ducky+%22Recomendo%22+newsletter) | 6 brief recommendations of cool stuff | Varies |
+| **TLDR** | [↗](https://duckduckgo.com/?q=!ducky+%22TLDR%22+newsletter) | Byte sized news for techie folks | Varies |
+| **The Hustle** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Hustle%22+newsletter) | Fresh tech and business news | Varies |
+| **Agents, harnessed** | [↗](https://codagent.beehiiv.com) | Newsletter about coding agent harnesses and harness engineering. | Varies |
+| **Filip K: Freedom Newsletter** | [↗](https://filipk.beehiiv.com) | Merging technology, economics and self-improvement in the pursuit of freedom | Varies |
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+"CB+Insights"+newsletter) | The easy way to stay ahead of all things tech | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+"Creative+Mornings"+newsletter) | Get inspired, no matter where you are. | Varies |
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Android+Authority+Weekly"+newsletter) | Android news, reviews, articles, and more! | Varies |
@@ -84,6 +94,10 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+%22iOS+Dev+Tools%22+newsletter) | The best tools for iOS developers | Varies |
+| **Programming Digest** | [↗](https://duckduckgo.com/?q=!ducky+%22Programming+Digest%22+newsletter) | Keeps up to date with the programming world. | Varies |
+| **GraphQL Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22GraphQL+Weekly%22+newsletter) | The best content from the GraphQL community | Varies |
+| **Hacker Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+%22Hacker+Newsletter%22+newsletter) | The best articles on startups, technology, programming, and more. | Varies |
 | **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+"iOS+Dev+Tools"+newsletter) | The best tools for iOS developers | Varies |
 | **Programming Digest** | [↗](https://duckduckgo.com/?q=!ducky+"Programming+Digest"+newsletter) | Keeps up to date with the programming world. | Varies |
 | **GraphQL Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"GraphQL+Weekly"+newsletter) | The best content from the GraphQL community | Varies |
@@ -112,6 +126,7 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Tech Architect Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22Tech+Architect+Insights%22+newsletter) | From developer to architect, practical system design. | Varies |
 | **Tech Architect Insights** | [↗](https://duckduckgo.com/?q=!ducky+"Tech+Architect+Insights"+newsletter) | From developer to architect, practical system design. | Varies |
 | **High Scalability** | [↗](https://highscalability.com/) | A newsletter focusing on the architectures of successful, highly scalable websites. | Weekly |
 | **Software Architecture Is About Things Hard to Change** | [↗](https://tomasjurasek.substack.com) | Software Design Notes is a practical publication about modern software architecture and system design. It focuses on mental models, architecture primitives, and real-world trade-offs learned from modernizing large, distributed systems. | Varies |
@@ -121,6 +136,13 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Awesome Python** | [↗](https://duckduckgo.com/?q=!ducky+%22Awesome+Python%22+newsletter) | The most popular Python news, articles and packages | Varies |
+| **Golang Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Golang+Weekly%22+newsletter) | Go lang news | Varies |
+| **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+%22Bytes%22+newsletter) | The funniest JavaScript newsletter on the web | Varies |
+| **The Real Python Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Real+Python+Newsletter%22+newsletter) | Weekly Programming and Career Tips for Python Devs | Varies |
+| **Trusted Value** | [↗](https://helitharupasinghe.hashnode.dev) | Always open to learning and working with any web technology. 🔥 | Varies |
+| **FOSS Weekly** | [↗](https://fossweekly.beehiiv.com) | The easiest way to keep up with FOSS! I track hundreds of projects, ecosystems, and developers and post a review every Sunday. | Varies |
+| **404trends** | [↗](https://404trends.beehiiv.com) | Weekly dose of the hottest trends backed by data and actionable insights. Join the 404trends community of impatient entrepreneurs, game changers, indie hackers and everyone who thinks of "Page Not Found" as a challenge | Varies |
 | **Awesome Python** | [↗](https://duckduckgo.com/?q=!ducky+"Awesome+Python"+newsletter) | The most popular Python news, articles and packages | Varies |
 | **Golang Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Golang+Weekly"+newsletter) | Go lang news | Varies |
 | **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+"Bytes"+newsletter) | The funniest JavaScript newsletter on the web | Varies |
@@ -134,6 +156,7 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **IaC Insights** | [↗](https://masterpoint.beehiiv.com) | IaC Insights is a newsletter by Matt Gowie and the Masterpoint team focused on delivering actionable advice and best practices in the Infrastructure as Code ecosystem. | Varies |
 | **KubeWeekly** | [↗](https://www.cncf.io/kubeweekly/) | A weekly newsletter of all things Kubernetes, from the CNCF. | Weekly |
 | **DevOpsish** | [↗](https://devopsish.com/) | A weekly newsletter covering cloud native, DevOps, and open source news. | Weekly |
 | **Sheep Code** | [↗](https://sheepcode.substack.com) | Hear our insights on software engineering, cloud, and tech. | Varies |
@@ -150,19 +173,40 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **The Top Line** | [↗](https://meghangill.substack.com) | All about go-to-market | Varies |
+| **Developer Led** | [↗](https://developerled.substack.com) | All things developer marketing, communities, devrel and GTM | Varies |
+| **Growth Curated** | [↗](https://foundcy.beehiiv.com) | Hand-picked posts on Go-to-Market Strategy, Product-Market Fit, Metrics, Pricing, and Product-Led Growth | Varies |
 | **GTMnow** | [↗](https://gtmnow.substack.com) | The media brand of VC firm, GTMfund. Build, scale and invest with the best minds in tech. | Varies |
+
+---
 
 ## Developer Marketing
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Just Ship It** | [↗](https://marclou.beehiiv.com) | Your Saturday issue to find startup ideas, launch fast, and get profitable. Join 42,851 entrepreneurs. | Varies |
+| **The Quiet Part Out Loud** | [↗](https://amychanta.beehiiv.com) | Reflections and musings from 17+ years in the tech start-up space | Varies |
+| **Permit.io’s Substack** | [↗](https://permit.substack.com) | Stay up to date with the latest blogs, tutorials, and articles about the world of Authorization, Access Control, and IAM | Varies |
+| **I Show Developers How To Do Marketing** | [↗](https://devscandomarketing.substack.com) | I show developers how to get better at marketing so they can be more successful and hit their goals. Practical insights & actionable advice. Zero fluff. | Varies |
+| **Developer Relations - The Book** | [↗](https://devrelbook.substack.com) | Book Development Diary & DevRel Musings | Varies |
+| **Etel’s Substack** | [↗](https://etels.substack.com) | My personal Substack | Varies |
+| **Mr. Bud** | [↗](https://mr-bud.hashnode.dev) | A mad game designer who loves to make mad games. | Varies |
+| **Jonah Lawrence** | [↗](https://jonahlawrence.hashnode.dev) | Jonah Lawrence | Varies |
+| **nomadiq** | [↗](https://nomadiq.hashnode.dev) | nomadiq | Varies |
+| **Dan Dan Da Developer Man** | [↗](https://danfitdegree.hashnode.dev) | Dan Dan Da Developer Man | Varies |
+| **Marketing Secrets** | [↗](https://duckduckgo.com/?q=!ducky+%22Marketing+Secrets%22+newsletter) | Transform Your Business Just 2 Minutes a Day | Varies |
+| **Psych** | [↗](https://duckduckgo.com/?q=!ducky+%22Psych%22+newsletter) | Psychology to Improve Your Personal & Professional Life | Varies |
+| **Refind** | [↗](https://duckduckgo.com/?q=!ducky+%22Refind%22+newsletter) | Get smarter every day | Varies |
+| **Marketing Dive** | [↗](https://duckduckgo.com/?q=!ducky+%22Marketing+Dive%22+newsletter) | 60 seconds of marketing content | Varies |
+| **OKDork** | [↗](https://duckduckgo.com/?q=!ducky+%22OKDork%22+newsletter) | Noah Kagan's hottest business hacks | Varies |
+| **Big Podcast Insider** | [↗](https://duckduckgo.com/?q=!ducky+%22Big+Podcast+Insider%22+newsletter) | The Newsletter for Podcasters | Varies |
+| **Community Inc.** | [↗](https://duckduckgo.com/?q=!ducky+%22Community+Inc.%22+newsletter) | Demystifying Community-Led Growth | Varies |
 
 ## Technical Content Marketing
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-
----
+| **Abraham Dahunsi Blog** | [↗](https://abrahamd.hashnode.dev) | I enjoy solving problems by writing code and breakdown technical contents by writing. | Varies |
 
 <!-- FOOTER -->
 
@@ -170,6 +214,8 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **The Metagame** | [↗](https://themetagame.beehiiv.com) | An engineer's thoughts on human behavior, game theory, technology, productivity, and ways to live a successful and meaningful life. | Varies |
+| **UpWeb** | [↗](https://webdeveloper.beehiiv.com) | Stay ahead in web development: Get the latest insights every Wednesday. | Varies |
 | **Hibiki HTML – The front-end framework for back-end engineers (Console interview)** | [↗](https://console.substack.com) | Join thousands of engineers, VCs, and early stage CTOs in subscribing to a weekly roundup of the latest in open-source software, curated by the CodeSee.io team. | Varies |
 | **200% go: Vugu framework for go is 100% go on backend, 100% go on frontend** | [↗](https://andrewarrow.substack.com) | computer science major pitt.edu 1996 | Varies |
 
@@ -177,6 +223,24 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Life Designed** | [↗](https://duckduckgo.com/?q=!ducky+%22Life+Designed%22+newsletter) | Resources and notes on lifestyle design, future of work, and creative fulfillment. | Varies |
+| **Really Good Emails** | [↗](https://duckduckgo.com/?q=!ducky+%22Really+Good+Emails%22+newsletter) | Create better emails. | Varies |
+| **VSCode.​Email** | [↗](https://duckduckgo.com/?q=!ducky+%22VSCode.%E2%80%8BEmail%22+newsletter) | A weekly newsletter for VS Code users | Varies |
+| **The Daily DONUT** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Daily+DONUT%22+newsletter) | News that doesn’t suck. 🙃 | Varies |
+| **The Daily Navigator** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Daily+Navigator%22+newsletter) | A five-minute trip through the news. | Varies |
+| **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+%22Product+Hunt+Daily%22+newsletter) | The best of Product Hunt, created by your friends. | Varies |
+| **JJ's blog** | [↗](https://jj.hashnode.dev) | Software development, clean code, good practices, data structures, algorithms, math, AI, ML, optimization, research, computer science, probabilities, statistics | Varies |
+| **AI & Marketing with Annika Helendi** | [↗](https://annikahelendi.substack.com) | Rooting for the underdog. I want small teams to do big things and win. Join me in replacing AI overwhelm with AI advantage - https://www.aimarketingmasters.com/ | Varies |
+| **Developer GTM – by Calyx Consulting** | [↗](https://calyx.substack.com) | Insights & guidance from the best developer-first operators. A biweekly newsletter by Ceci Stallsmith and Paige Paquette ✨ | Varies |
+| **The AI Revolution** | [↗](https://theairevolution.beehiiv.com) | Discover the cutting-edge advancements in AI before anyone else. Join 1,000+ avid readers from Apple, OpenAI, DeepMind, IBM, and more. | Varies |
+| **The Lindy Newsletter** | [↗](https://lindynewsletter.beehiiv.com) | No description available. | Varies |
+| **RoboRuby** | [↗](https://rubyai.beehiiv.com) | Ruby AI News | Varies |
+| **Geoffrey Angus** | [↗](https://geoffreyangus.beehiiv.com) | A blog about AI infrastructure, most likely. | Varies |
+| **treebeardtech** | [↗](https://treebeardtech.beehiiv.com) | No description available. | Varies |
+| **LeanerCloud News** | [↗](https://leanercloud.beehiiv.com) | No description available. | Varies |
+| **Data Science Digest** | [↗](https://data-science-digest.beehiiv.com) | The best way to keep up with the world of Data Science- daily news, tutorials, releases, courses, jobs and more. | Varies |
+| **HN AI Newsletter** | [↗](https://hn-ai-newsletter.beehiiv.com) | Stay informed with a weekly AI-curated digest of the most popular AI related stories from Hacker News | Varies |
+| **Plenty of Room** | [↗](https://plentyofroom.beehiiv.com) | Stay ahead in AI protein design, DNA nanotech & synthetic biology. Under 10 minutes a week. Read by 577 people shaping biotech! | Varies |
 | **VSCode.​Email** | [↗](https://duckduckgo.com/?q=!ducky+"VSCode.​Email"+newsletter) | A weekly newsletter for VS Code users | Varies |
 | **The Daily DONUT** | [↗](https://duckduckgo.com/?q=!ducky+"The+Daily+DONUT"+newsletter) | News that doesn’t suck. 🙃 | Varies |
 | **The Daily Navigator** | [↗](https://duckduckgo.com/?q=!ducky+"The+Daily+Navigator"+newsletter) | A five-minute trip through the news. | Varies |

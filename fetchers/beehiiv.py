@@ -62,7 +62,10 @@ def discover_beehiiv():
         ("golang", "Language Specific"),
         ("rust", "Language Specific"),
         ("coding", "General Software Engineering"),
-        ("architecture", "System Design & Architecture")
+        ("architecture", "System Design & Architecture"),
+        ("developer marketing", "Developer Marketing"),
+        ("devrel", "Developer Marketing"),
+        ("technical content marketing", "Technical Content Marketing")
     ]
     
     discovered = []

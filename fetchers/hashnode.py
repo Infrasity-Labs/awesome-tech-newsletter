@@ -49,7 +49,10 @@ def discover_hashnode():
         ("software engineering", "General Software Engineering"),
         ("backend developer", "Backend Development"),
         ("devops", "DevOps & Cloud"),
-        ("system design", "System Design & Architecture")
+        ("system design", "System Design & Architecture"),
+        ("developer marketing", "Developer Marketing"),
+        ("devrel", "Developer Marketing"),
+        ("technical content marketing", "Technical Content Marketing")
     ]
     
     discovered = []
