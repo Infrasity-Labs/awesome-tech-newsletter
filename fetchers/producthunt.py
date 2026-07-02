@@ -66,7 +66,7 @@ def discover_producthunt():
                     'developer', 'software', 'api', 'tech', 'programming', 'code', 
                     'devops', 'backend', 'frontend', 'ai', 'machine learning', 
                     'data science', 'cloud', 'security', 'web3', 'crypto', 'saas', 
-                    'open source', 'engineering'
+                    'open source', 'engineering', 'marketing', 'devrel', 'content marketing'
                 ])
                 
                 target_url = website if website else ph_url

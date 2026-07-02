@@ -15,7 +15,10 @@ def discover_inboxreads():
         ("programming", "Backend Development"),
         ("software-engineering", "System Design & Architecture"),
         ("web-development", "Frontend Development"),
-        ("data-science", "Data Science & AI")
+        ("data-science", "Data Science & AI"),
+        ("marketing", "Developer Marketing"),
+        ("devrel", "Developer Marketing"),
+        ("content-marketing", "Technical Content Marketing")
     ]
     
     discovered = []

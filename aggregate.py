@@ -128,8 +128,31 @@ def aggregate():
             else:
                 print(f"Error: Table not found for category {category}")
         else:
-            print(f"Error: Category {category} not found in README")
-
+            # Category not found! Let's dynamically create it right above the footer
+            footer_idx = -1
+            for i, l in enumerate(lines):
+                if '<!-- FOOTER -->' in l:
+                    footer_idx = i
+                    break
+            
+            if footer_idx != -1:
+                # Insert the new section
+                new_lines = [
+                    f"\n",
+                    f"## {category}\n",
+                    f"\n",
+                    f"| Name | Link | Description | Frequency |\n",
+                    f"|------|------|-------------|-----------|\n",
+                    f"{row}\n",
+                    f"\n"
+                ]
+                for offset, new_line in enumerate(new_lines):
+                    lines.insert(footer_idx - 1 + offset, new_line)
+                existing_urls.add(url)
+                changes_made += 1
+                print(f"Aggregated (New Category Created): {nl['title']} -> {category}")
+            else:
+                print(f"Error: Category {category} not found and no <!-- FOOTER --> tag found in README to append to.")
     if changes_made > 0:
         with open(README_PATH, "w", encoding="utf-8") as f:
             f.writelines(lines)
