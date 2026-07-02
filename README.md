@@ -229,7 +229,7 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 | **The Daily DONUT** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Daily+DONUT%22+newsletter) | News that doesn’t suck. 🙃 | Varies |
 | **The Daily Navigator** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Daily+Navigator%22+newsletter) | A five-minute trip through the news. | Varies |
 | **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+%22Product+Hunt+Daily%22+newsletter) | The best of Product Hunt, created by your friends. | Varies |
-| **JJ's blog** | [↗](https://jj.hashnode.dev) | Sofware development, clean code, good practices, data structures, algorithms, math, AI, ML, optimization, research, computer science, probabilities, statistics | Varies |
+| **JJ's blog** | [↗](https://jj.hashnode.dev) | Software development, clean code, good practices, data structures, algorithms, math, AI, ML, optimization, research, computer science, probabilities, statistics | Varies |
 | **AI & Marketing with Annika Helendi** | [↗](https://annikahelendi.substack.com) | Rooting for the underdog. I want small teams to do big things and win. Join me in replacing AI overwhelm with AI advantage - https://www.aimarketingmasters.com/ | Varies |
 | **Developer GTM – by Calyx Consulting** | [↗](https://calyx.substack.com) | Insights & guidance from the best developer-first operators. A biweekly newsletter by Ceci Stallsmith and Paige Paquette ✨ | Varies |
 | **The AI Revolution** | [↗](https://theairevolution.beehiiv.com) | Discover the cutting-edge advancements in AI before anyone else. Join 1,000+ avid readers from Apple, OpenAI, DeepMind, IBM, and more. | Varies |
