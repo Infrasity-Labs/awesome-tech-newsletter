@@ -33,7 +33,12 @@ def fetch_buttondown_data(url):
         desc_meta = soup.find('meta', attrs={'property': 'og:description'})
         if not desc_meta:
             desc_meta = soup.find('meta', attrs={'name': 'description'})
-        description = desc_meta.get('content', 'No description available.') if desc_meta else 'No description available.'
+        
+        description = 'No description available.'
+        if desc_meta:
+            content = desc_meta.get('content')
+            if content:
+                description = content.strip()
         
         domain = parsed_url.netloc
         display_link = f"{domain} [↗]"

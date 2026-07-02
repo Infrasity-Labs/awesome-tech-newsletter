@@ -41,6 +41,8 @@ def discover_devto():
                     else:
                         # Fetch the full article to run regex against body_markdown
                         try:
+                            import time
+                            time.sleep(0.5)
                             detail_r = requests.get(f"https://dev.to/api/articles/{article_id}", headers=headers, timeout=10)
                             if detail_r.status_code == 200:
                                 body = detail_r.json().get('body_markdown', '')
@@ -52,19 +54,43 @@ def discover_devto():
                     
                     if target_url:
                         parsed = urlparse(target_url)
-                        base_url = f"{parsed.scheme}://{parsed.netloc}"
-                        domain = parsed.netloc
+                        netloc = parsed.netloc.lower()
                         
-                        if not any(d['url'] == base_url for d in discovered):
-                            print(f"Discovered via Dev.to (Tag: {tag}): {base_url}")
-                            discovered.append({
-                                'title': article.get('title', 'Unknown Title'),
-                                'url': base_url,
-                                'display_link': f"{domain} [↗]",
-                                'description': article.get('description', 'No description'),
-                                'frequency': 'Varies',
-                                'category': 'General Software Engineering' # Aggregate.py handles category mapping automatically
-                            })
+                        # Validate that it's a valid newsletter URL and not a platform page
+                        is_valid = True
+                        reserved_subdomains = {"support", "docs", "api", "admin", "status", "blog", "www"}
+                        reserved_paths = {
+                            "/pricing", "/login", "/register", "/legal", "/privacy", "/terms",
+                            "/features", "/about", "/contact", "/docs", "/api", "/blog",
+                            "/archive", "/support", "/admin", "/emails", "/design", "/p", "/share"
+                        }
+                        
+                        if netloc == "buttondown.email":
+                            path_parts = [p for p in parsed.path.split('/') if p]
+                            if not path_parts or f"/{path_parts[0]}" in reserved_paths:
+                                is_valid = False
+                            else:
+                                base_url = f"{parsed.scheme}://{parsed.netloc}/{path_parts[0]}"
+                        elif netloc in {"substack.com", "beehiiv.com", "hashnode.dev"}:
+                            is_valid = False
+                        else:
+                            subdomain = netloc.split('.')[0]
+                            if subdomain in reserved_subdomains:
+                                is_valid = False
+                            base_url = f"{parsed.scheme}://{parsed.netloc}"
+                        
+                        if is_valid:
+                            domain = parsed.netloc
+                            if not any(d['url'] == base_url for d in discovered):
+                                print(f"Discovered via Dev.to (Tag: {tag}): {base_url}")
+                                discovered.append({
+                                    'title': article.get('title', 'Unknown Title'),
+                                    'url': base_url,
+                                    'display_link': f"{domain} [↗]",
+                                    'description': article.get('description', 'No description'),
+                                    'frequency': 'Varies',
+                                    'category': 'General Software Engineering'
+                                })
             else:
                 print(f"Dev.to API Error for tag {tag}: HTTP {r.status_code}")
         except Exception as e:
