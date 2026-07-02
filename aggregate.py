@@ -1,7 +1,7 @@
 import json
 import os
 import re
-from urllib.parse import urlparse
+from urllib.parse import urlparse, unquote_plus
 
 README_PATH = "README.md"
 JSON_PATH = "newsletters.json"
@@ -19,7 +19,7 @@ def get_existing_urls(lines):
         if line.strip().startswith('|'):
             matches = re.findall(r'\]\((https?://[^)]+)\)', line)
             for m in matches:
-                existing_urls.add(m.rstrip('/').lower())
+                existing_urls.add(unquote_plus(m.rstrip('/').lower()))
     return existing_urls
 
 def classify_newsletter(title, description, default_category):
@@ -72,7 +72,7 @@ def aggregate():
     for nl in newsletters:
 
         raw_url = nl.get("url") or ""
-        url = raw_url.rstrip('/').lower()
+        url = unquote_plus(raw_url.rstrip('/').lower())
         
         # 1. Deduplication Check
         if not url or url in existing_urls:
@@ -147,7 +147,7 @@ def aggregate():
                     f"\n"
                 ]
                 for offset, new_line in enumerate(new_lines):
-                    lines.insert(footer_idx - 1 + offset, new_line)
+                    lines.insert(footer_idx + offset, new_line)
                 existing_urls.add(url)
                 changes_made += 1
                 print(f"Aggregated (New Category Created): {nl['title']} -> {category}")

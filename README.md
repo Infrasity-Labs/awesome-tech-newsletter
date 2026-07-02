@@ -25,7 +25,8 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 - [GTM](#gtm)
 - [Frontend Development](#frontend-development)
 - [Data Science & AI](#data-science--ai)
-
+- [Developer Marketing](#developer-marketing)
+- [Technical Content Marketing](#technical-content-marketing)
 ---
 
 ## General Software Engineering
