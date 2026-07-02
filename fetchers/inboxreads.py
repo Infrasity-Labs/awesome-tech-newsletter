@@ -40,7 +40,8 @@ def discover_inboxreads():
                     
                     # InboxReads paywalled/removed their individual newsletter pages, so we use a DuckDuckGo redirect 
                     # to automatically send the user to the newsletter's actual official website!
-                    query = f"\"{title}\" newsletter".replace(" ", "+")
+                    from urllib.parse import quote_plus
+                    query = quote_plus(f'"{title}" newsletter')
                     article_url = f"https://duckduckgo.com/?q=!ducky+{query}"
                     
                     if not any(d['url'] == article_url for d in discovered):
