@@ -161,6 +161,64 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Sotonye** | [sotonye.substack.com [↗]](https://sotonye.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Theagentstack** | [theagentstack.substack.com [↗]](https://theagentstack.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Suggger** | [suggger.substack.com [↗]](https://suggger.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Artificiallyintelligentspace** | [artificiallyintelligentspace.substack.com [↗]](https://artificiallyintelligentspace.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Adamtornhill** | [adamtornhill.substack.com [↗]](https://adamtornhill.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Braddelong** | [braddelong.substack.com [↗]](https://braddelong.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Theahura** | [theahura.substack.com [↗]](https://theahura.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Addyo** | [addyo.substack.com [↗]](https://addyo.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Grbsh** | [grbsh.substack.com [↗]](https://grbsh.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Intrepidai** | [intrepidai.substack.com [↗]](https://intrepidai.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Shrimalmadhur** | [shrimalmadhur.substack.com [↗]](https://shrimalmadhur.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Shepherdjerred** | [shepherdjerred.substack.com [↗]](https://shepherdjerred.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Weeklyrust** | [weeklyrust.substack.com [↗]](https://weeklyrust.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Dataengineeringcentral** | [dataengineeringcentral.substack.com [↗]](https://dataengineeringcentral.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Buildwithgo** | [buildwithgo.substack.com [↗]](https://buildwithgo.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Ukandu** | [ukandu.substack.com [↗]](https://ukandu.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Golang1** | [golang1.substack.com [↗]](https://golang1.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Bruceeckel** | [bruceeckel.substack.com [↗]](https://bruceeckel.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Gazj** | [gazj.substack.com [↗]](https://gazj.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Erikexplores** | [erikexplores.substack.com [↗]](https://erikexplores.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Latitudedata** | [latitudedata.substack.com [↗]](https://latitudedata.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Bitecode** | [bitecode.substack.com [↗]](https://bitecode.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Thepythoncodingstack** | [thepythoncodingstack.substack.com [↗]](https://thepythoncodingstack.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Vicki** | [vicki.substack.com [↗]](https://vicki.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Ramansharma** | [ramansharma.substack.com [↗]](https://ramansharma.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Techtalksweekly** | [techtalksweekly.substack.com [↗]](https://techtalksweekly.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Mldoom** | [mldoom.substack.com [↗]](https://mldoom.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Neurometric** | [neurometric.substack.com [↗]](https://neurometric.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Craigbox** | [craigbox.substack.com [↗]](https://craigbox.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Zyngaengineering** | [zyngaengineering.substack.com [↗]](https://zyngaengineering.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Ezebunandu** | [ezebunandu.substack.com [↗]](https://ezebunandu.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Technically** | [technically.substack.com [↗]](https://technically.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Vibhavstechdiary** | [vibhavstechdiary.substack.com [↗]](https://vibhavstechdiary.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Katenai** | [katenai.substack.com [↗]](https://katenai.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Datascienceweekly** | [datascienceweekly.substack.com [↗]](https://datascienceweekly.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Remiounadjela** | [remiounadjela.substack.com [↗]](https://remiounadjela.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Nulldata** | [nulldata.substack.com [↗]](https://nulldata.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Counting** | [counting.substack.com [↗]](https://counting.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Julsimon** | [julsimon.substack.com [↗]](https://julsimon.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Unwindai** | [unwindai.substack.com [↗]](https://unwindai.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Thegradientpub** | [thegradientpub.substack.com [↗]](https://thegradientpub.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Hardresetmedia** | [hardresetmedia.substack.com [↗]](https://hardresetmedia.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Decodingbiology** | [decodingbiology.substack.com [↗]](https://decodingbiology.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Marksaroufim** | [marksaroufim.substack.com [↗]](https://marksaroufim.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Justjake** | [justjake.substack.com [↗]](https://justjake.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Jeremysik** | [jeremysik.substack.com [↗]](https://jeremysik.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Hasen** | [hasen.substack.com [↗]](https://hasen.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Bessstillman** | [bessstillman.substack.com [↗]](https://bessstillman.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Thezvi** | [thezvi.substack.com [↗]](https://thezvi.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Leerob** | [leerob.substack.com [↗]](https://leerob.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Kittenbeloved** | [kittenbeloved.substack.com [↗]](https://kittenbeloved.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Sharno** | [sharno.substack.com [↗]](https://sharno.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Reactdevelopment** | [reactdevelopment.substack.com [↗]](https://reactdevelopment.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Jsdevspace** | [jsdevspace.substack.com [↗]](https://jsdevspace.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Jasebroderick** | [jasebroderick.substack.com [↗]](https://jasebroderick.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Frontendengineering** | [frontendengineering.substack.com [↗]](https://frontendengineering.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Sergical** | [sergical.substack.com [↗]](https://sergical.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **Amanjain** | [amanjain.substack.com [↗]](https://amanjain.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **contentfolks** | [contentfolks.substack.com [↗]](https://contentfolks.substack.com) | Short lessons, practical examples, and colourful post-its about content marketing. Straight to your inbox, every month(ish). Click to read contentfolks, by fio, a Substack publication with thousands of subscribers. | Varies |
 | **MKT1 Newsletter with Emily Kramer** | [mkt1.substack.com [↗]](https://mkt1.substack.com) | How to build AI-native B2B startup marketing functions. Deeply-researched long-form content, in-depth guides, actionable frameworks, and even an MCP Server. By Emily Kramer, an ex-marketing exec and current advisor. Click to read MKT1 Newsletter with Emily Kramer, a Substack publication with tens of thousands of subscribers. | Varies |
 | **Www** | [www.lennysnewsletter.com [↗]](https://www.lennysnewsletter.com) | No description available. | Varies |
