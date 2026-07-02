@@ -213,7 +213,6 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **Arek Nawo's Blog** | [↗](https://areknawo.hashnode.dev) | Hobbyist. Web Developer. 👨‍💻 Freelancer. Blogger. Making awesome websites. 😍 Creator of [CodeWrite](https://codewrite.io) | Varies |
 | **The Metagame** | [↗](https://themetagame.beehiiv.com) | An engineer's thoughts on human behavior, game theory, technology, productivity, and ways to live a successful and meaningful life. | Varies |
 | **UpWeb** | [↗](https://webdeveloper.beehiiv.com) | Stay ahead in web development: Get the latest insights every Wednesday. | Varies |
 | **Hibiki HTML – The front-end framework for back-end engineers (Console interview)** | [↗](https://console.substack.com) | Join thousands of engineers, VCs, and early stage CTOs in subscribing to a weekly roundup of the latest in open-source software, curated by the CodeSee.io team. | Varies |
