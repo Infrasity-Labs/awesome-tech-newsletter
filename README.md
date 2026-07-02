@@ -40,7 +40,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Reverse Engineering Netflix: What Actually Happens When We Click Play?** | [↗](https://sravanyadev.hashnode.dev) | Why I Started This A few days ago, while watching Netflix, I caught myself wondering about... | Varies |
 | **Telegram is becoming my control plane for vibe coding** | [↗](https://shreyshahh.substack.com) | The IDE is where code changes. Telegram is where the loops run. Telegram is becoming the control... | Varies |
 | **5 Essential Substack Newsletters for Every Developer to Subscribe To 💌** | [↗](https://careercutler.substack.com) | I love reading newsletters. But let's be honest, many are just a waste of time. If you want to... | Varies |
-| **Your November Newsletter for All Things BitPay and Crypto** | [↗](https://storage.ghost.io) | Your November Newsletter for All Things BitPay and Crypto ![crypto news cover](https://storage.ghost.io/c/2d/62/2d62bf5f-ef70-493e-b89a-71c0863b31dd/co... | Varies |
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22CB+Insights%22+newsletter) | The easy way to stay ahead of all things tech | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+%22Creative+Mornings%22+newsletter) | Get inspired, no matter where you are. | Varies |
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Android+Authority+Weekly%22+newsletter) | Android news, reviews, articles, and more! | Varies |
