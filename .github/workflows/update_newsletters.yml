@@ -30,7 +30,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install requests codespell
           
-      - name: Run all auto-discovery crawlers
+      - name: Run Fetchers
         continue-on-error: true
         env:
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
