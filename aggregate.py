@@ -99,7 +99,7 @@ def aggregate():
         
         category = classify_newsletter(clean_title, clean_desc, raw_category)
         
-        display_link = nl.get("display_link") or f"{domain} [↗]"
+        display_link = "↗"
         frequency = nl.get("frequency") or "Varies"
         row = f"| **{clean_title}** | [{display_link}]({raw_url}) | {clean_desc} | {frequency} |"
         

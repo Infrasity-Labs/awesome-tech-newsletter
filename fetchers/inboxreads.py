@@ -1,75 +1,65 @@
 #!/usr/bin/env python3
 import json
 import os
-import sys
 import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse
 
 JSON_PATH = "newsletters.json"
 
-def fetch_inboxreads_data(url):
-    try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
-        }
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        title_meta = soup.find('meta', property='og:title')
-        title = title_meta.get('content', '') if title_meta else ''
-        if not title:
-            title_tag = soup.find('title')
-            title = title_tag.text if title_tag else 'Unknown Title'
-            
-        title = title.replace(' - InboxReads', '').strip()
-
-        desc_meta = soup.find('meta', attrs={'property': 'og:description'})
-        if not desc_meta:
-            desc_meta = soup.find('meta', attrs={'name': 'description'})
-        description = desc_meta.get('content', 'No description available.') if desc_meta else 'No description available.'
-        
-        domain = urlparse(url).netloc
-        display_link = f"{domain} [↗]"
-        
-        return {
-            'title': title,
-            'url': url,
-            'display_link': display_link,
-            'description': description,
-            'frequency': 'Varies'
-        }
-    except Exception as e:
-        return None
-
 def discover_inboxreads():
-    print("Starting InboxReads discovery via HackerNews Algolia...")
+    print("Starting InboxReads discovery via internal API...")
+    
+    # We query InboxReads API directly instead of relying on HackerNews (since nobody posts directory links on HN).
+    # These are valid slugs in the InboxReads database.
     queries = [
-        ("software", "General Software Engineering"),
-        ("developer", "Backend Development")
+        ("tech", "General Software Engineering"),
+        ("programming", "Backend Development"),
+        ("software-engineering", "System Design & Architecture"),
+        ("web-development", "Frontend Development"),
+        ("data-science", "Data Science & AI")
     ]
     
     discovered = []
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
     
-    for query, category in queries:
-        url = f"https://hn.algolia.com/api/v1/search?query=inboxreads.co/newsletter+{query}&hitsPerPage=10"
+    for slug, category in queries:
+        url = f"https://api.inboxreads.co/topics/{slug}"
         try:
-            r = requests.get(url, timeout=10)
+            r = requests.get(url, headers=headers, timeout=15)
             if r.status_code == 200:
-                hits = r.json().get("hits", [])
-                for hit in hits:
-                    article_url = hit.get("url")
-                    if article_url and "inboxreads.co/newsletter/" in article_url:
-                        if not any(d['url'] == article_url for d in discovered):
-                            print(f"Discovered InboxReads: {article_url}")
-                            data = fetch_inboxreads_data(article_url)
-                            if data:
-                                data['category'] = category
-                                discovered.append(data)
+                data = r.json()
+                newsletters = data.get("newsletters", [])
+                
+                # InboxReads returns a large array of newsletters for the topic
+                for nl in newsletters:
+                    url_name = nl.get("url_name")
+                    if not url_name:
+                        continue
+                        
+                    title = nl.get("name", "Unknown Title")
+                    description = nl.get("tagline", "No description available.")
+                    
+                    # InboxReads paywalled/removed their individual newsletter pages, so we use a DuckDuckGo redirect 
+                    # to automatically send the user to the newsletter's actual official website!
+                    from urllib.parse import quote_plus
+                    query = quote_plus(f'"{title}" newsletter')
+                    article_url = f"https://duckduckgo.com/?q=!ducky+{query}"
+                    
+                    if not any(d['url'] == article_url for d in discovered):
+                        print(f"Discovered InboxReads: {title}")
+                        discovered.append({
+                            'title': title,
+                            'url': article_url,
+                            'display_link': "Website [↗]",
+                            'description': description,
+                            'frequency': 'Varies',
+                            'category': category
+                        })
+                        
+                        # Just grab a few per category to simulate discovery rate limit and prevent flooding
+                        if len([d for d in discovered if d['category'] == category]) >= 10:
+                            break
         except Exception as e:
-            print(f"Error querying HN for {query}: {e}")
+            print(f"Error querying InboxReads API for {slug}: {e}")
 
     if discovered:
         existing = []

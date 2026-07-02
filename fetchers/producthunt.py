@@ -24,7 +24,7 @@ def discover_producthunt():
     # Query for recent posts, retrieving their topics to filter for newsletters
     query = """
     query {
-      posts(first: 30, order: RANKING) {
+      posts(first: 100, topic: "newsletters") {
         edges {
           node {
             name
@@ -62,13 +62,16 @@ def discover_producthunt():
                 
                 text_corpus = f"{name} {desc} {' '.join(topics)}".lower()
                 
-                # Verify it is both a newsletter and related to software engineering
-                is_newsletter = 'newsletter' in text_corpus
-                is_tech = any(keyword in text_corpus for keyword in ['developer', 'software', 'api', 'tech', 'programming', 'code', 'devops', 'backend'])
+                is_tech = any(keyword in text_corpus for keyword in [
+                    'developer', 'software', 'api', 'tech', 'programming', 'code', 
+                    'devops', 'backend', 'frontend', 'ai', 'machine learning', 
+                    'data science', 'cloud', 'security', 'web3', 'crypto', 'saas', 
+                    'open source', 'engineering'
+                ])
                 
                 target_url = website if website else ph_url
                 
-                if is_newsletter and is_tech and target_url:
+                if is_tech and target_url:
                     domain = urlparse(target_url).netloc
                     
                     if not any(d['url'] == target_url for d in discovered):
