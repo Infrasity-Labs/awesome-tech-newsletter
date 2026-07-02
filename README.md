@@ -13,7 +13,7 @@
 </div>
 
 ## What You'll Find Here
-A curated list of awesome developer newsletters to help you stay up-to-date with the latest news, tools, and best practices in software engineering.
+This is a community-curated directory of some of the best newsletters by and for software engineers, developer advocates, and technology founders. From building out enterprise architecture to working with the newest frameworks and even the tried-and-tested B2B SaaS and developer marketing strategies, everything is covered here.
 
 ## Contents
 
@@ -33,6 +33,14 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Rasul's Newsletter** | [↗](https://buttondown.email/rasulkireev) | I'll do my best to provide valuable content, including weekly updates on new posts, notes, and projects, as well as interesting links and discoveries. | Varies |
+| **Computer Things** | [↗](https://buttondown.email/hillelwayne) | Hi, I'm Hillel. This is the newsletter version of my website. I post all website updates here. I also post weekly content just for the newsletter, on topics like Formal MethodsSoftware History and CultureFringetech and exotic toolingThe philosophy and theory of software engineering You can see the archive of all public essays here. | Varies |
+| **The Documentation System Every Startup Should Have** | [↗](https://virginiamwegahashnodedev.hashnode.dev) | Key Takeaways Most documentation advice is written by people whose job is only documentation. This... | Varies |
+| **Why HTTP/1.1 Eventually Became a Bottleneck** | [↗](https://aniksikder.hashnode.dev) | To understand HTTP/2 and HTTP/3, we first need to understand the problem they were designed to... | Varies |
+| **Reverse Engineering Netflix: What Actually Happens When We Click Play?** | [↗](https://sravanyadev.hashnode.dev) | Why I Started This A few days ago, while watching Netflix, I caught myself wondering about... | Varies |
+| **Telegram is becoming my control plane for vibe coding** | [↗](https://shreyshahh.substack.com) | The IDE is where code changes. Telegram is where the loops run. Telegram is becoming the control... | Varies |
+| **5 Essential Substack Newsletters for Every Developer to Subscribe To 💌** | [↗](https://careercutler.substack.com) | I love reading newsletters. But let's be honest, many are just a waste of time. If you want to... | Varies |
+| **Your November Newsletter for All Things BitPay and Crypto** | [↗](https://storage.ghost.io) | Your November Newsletter for All Things BitPay and Crypto ![crypto news cover](https://storage.ghost.io/c/2d/62/2d62bf5f-ef70-493e-b89a-71c0863b31dd/co... | Varies |
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22CB+Insights%22+newsletter) | The easy way to stay ahead of all things tech | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+%22Creative+Mornings%22+newsletter) | Get inspired, no matter where you are. | Varies |
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Android+Authority+Weekly%22+newsletter) | Android news, reviews, articles, and more! | Varies |
@@ -126,6 +134,7 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Musings on computer systems** | [↗](https://buttondown.email/nelhage) | This is my occasional newsletter, for my thoughts and explanations on assorted topics in software engineering and computer systems. It also receives notifications about new blog posts from my blog. Content clusters around my areas of expertise and interest in computer systems engineering, including testing, performance, and engineering system architecture and organization design, but I also wander further afield from time to time. In addition to my blog, I aspire to use this newsletter as a place to work through thoughts in a rougher form, and flesh out work-in-progress ideas; in practice, much of the time it just gets the blog posts links. | Varies |
 | **Tech Architect Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22Tech+Architect+Insights%22+newsletter) | From developer to architect, practical system design. | Varies |
 | **Tech Architect Insights** | [↗](https://duckduckgo.com/?q=!ducky+"Tech+Architect+Insights"+newsletter) | From developer to architect, practical system design. | Varies |
 | **High Scalability** | [↗](https://highscalability.com/) | A newsletter focusing on the architectures of successful, highly scalable websites. | Weekly |
@@ -184,6 +193,8 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Illuminated Security News** | [↗](https://buttondown.email/illuminatedsecurity) | A low-volume newsletter covering application security, applied cryptography, and identity & access management (IAM) topics. Every newsletter covers one topic in depth with links to interesting articles and podcasts from the wider community. | Varies |
+| **Buttondown Blog** | [↗](https://buttondown.email/blog) | Buttondown's engineers, writers, and biggest fans write about the whole thing: engineering challenges, useful tips and tricks, new features, and more. | Varies |
 | **Just Ship It** | [↗](https://marclou.beehiiv.com) | Your Saturday issue to find startup ideas, launch fast, and get profitable. Join 42,851 entrepreneurs. | Varies |
 | **The Quiet Part Out Loud** | [↗](https://amychanta.beehiiv.com) | Reflections and musings from 17+ years in the tech start-up space | Varies |
 | **Permit.io’s Substack** | [↗](https://permit.substack.com) | Stay up to date with the latest blogs, tutorials, and articles about the world of Authorization, Access Control, and IAM | Varies |
@@ -214,6 +225,7 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Front End Web Development Feeds and Newsletters** | [↗](https://leftalign.substack.com) | The world of Web Development is exciting and moves fast - particularly front end development in the... | Varies |
 | **The Metagame** | [↗](https://themetagame.beehiiv.com) | An engineer's thoughts on human behavior, game theory, technology, productivity, and ways to live a successful and meaningful life. | Varies |
 | **UpWeb** | [↗](https://webdeveloper.beehiiv.com) | Stay ahead in web development: Get the latest insights every Wednesday. | Varies |
 | **Hibiki HTML – The front-end framework for back-end engineers (Console interview)** | [↗](https://console.substack.com) | Join thousands of engineers, VCs, and early stage CTOs in subscribing to a weekly roundup of the latest in open-source software, curated by the CodeSee.io team. | Varies |
@@ -223,6 +235,10 @@ A curated list of awesome developer newsletters to help you stay up-to-date with
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **tZero19e's Logs** | [↗](https://buttondown.email/tZero19e) | What I am thinking about — which I may also tweet — almost in real-time. Email is more permanent (literally permanent private archiving), and — like HTML — is contiguous and has decent indexing, unlike Twitter. Recommended Texts. | Varies |
+| **Whatever, Jamie** | [↗](https://buttondown.email/whatever_jamie) | Pulling himself away from opensource to do something creative for once, this is the newsletter in which Jamie talks about Whatever. From news, to ideas, to hopes, to memories, anything goes. He said he'll try to be entertaining, and if nothing else, every issue comes with a cartoon, so you can't lose. | Varies |
+| **Buttondown — Newsletter software for people like you** | [↗](https://buttondown.email) | Buttondown is the last email platform you'll migrate to. We're focused on your success, not on bleeding you dry. | Varies |
+| **How I recovered my newsletter subscriptions** | [↗](https://support.substack.com) | How many Substack accounts do you have? Or rather, how many email addresses do you have? This is... | Varies |
 | **Life Designed** | [↗](https://duckduckgo.com/?q=!ducky+%22Life+Designed%22+newsletter) | Resources and notes on lifestyle design, future of work, and creative fulfillment. | Varies |
 | **Really Good Emails** | [↗](https://duckduckgo.com/?q=!ducky+%22Really+Good+Emails%22+newsletter) | Create better emails. | Varies |
 | **VSCode.​Email** | [↗](https://duckduckgo.com/?q=!ducky+%22VSCode.%E2%80%8BEmail%22+newsletter) | A weekly newsletter for VS Code users | Varies |
