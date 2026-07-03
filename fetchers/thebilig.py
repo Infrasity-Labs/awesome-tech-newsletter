@@ -55,22 +55,23 @@ def discover_thebilig():
                         visit_link = detail_soup.find('a', string=lambda s: s and 'Visit official site' in s)
                         if visit_link:
                             external_url = visit_link.get('href')
-                            
-                            parsed = urlparse(external_url)
-                            base_url = f"{parsed.scheme}://{parsed.netloc}"
-                            domain = parsed.netloc
-                            
-                            # Only add if we haven't discovered it in this session
-                            if not any(d['url'] == base_url for d in discovered):
-                                print(f"Discovered via TheBilig: {base_url}")
-                                discovered.append({
-                                    'title': title,
-                                    'url': base_url,
-                                    'display_link': f"{domain} [↗]",
-                                    'description': description,
-                                    'frequency': frequency,
-                                    'category': 'General Software Engineering' # Aggregate.py handles category mapping automatically
-                                })
+                            if external_url:
+                                parsed = urlparse(external_url)
+                                if parsed.scheme and parsed.netloc:
+                                    base_url = f"{parsed.scheme}://{parsed.netloc}"
+                                    domain = parsed.netloc
+                                    
+                                    # Only add if we haven't discovered it in this session
+                                    if not any(d['url'] == base_url for d in discovered):
+                                        print(f"Discovered via TheBilig: {base_url}")
+                                        discovered.append({
+                                            'title': title,
+                                            'url': base_url,
+                                            'display_link': f"{domain} [↗]",
+                                            'description': description,
+                                            'frequency': frequency,
+                                            'category': 'General Software Engineering' # Aggregate.py handles category mapping automatically
+                                        })
                 except Exception as e:
                     print(f"Error fetching details for {title}: {e}")
                     
@@ -84,8 +85,10 @@ def discover_thebilig():
         if os.path.exists(JSON_PATH):
             try:
                 with open(JSON_PATH, "r", encoding="utf-8") as f:
-                    existing = json.load(f)
-            except:
+                    data = json.load(f)
+                    if isinstance(data, list):
+                        existing = data
+            except Exception:
                 pass
         
         existing.extend(discovered)
