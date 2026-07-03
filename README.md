@@ -33,6 +33,7 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **You're Writing Paper Commands Wrong** | [↗](https://eande171.hashnode.dev) | You've probably written a CommandExecutor before. Everyone who's touched Bukkit has. Declare the... | Varies |
 | **Rasul's Newsletter** | [↗](https://buttondown.email/rasulkireev) | I'll do my best to provide valuable content, including weekly updates on new posts, notes, and projects, as well as interesting links and discoveries. | Varies |
 | **Computer Things** | [↗](https://buttondown.email/hillelwayne) | Hi, I'm Hillel. This is the newsletter version of my website. I post all website updates here. I also post weekly content just for the newsletter, on topics like Formal MethodsSoftware History and CultureFringetech and exotic toolingThe philosophy and theory of software engineering You can see the archive of all public essays here. | Varies |
 | **The Documentation System Every Startup Should Have** | [↗](https://virginiamwegahashnodedev.hashnode.dev) | Key Takeaways Most documentation advice is written by people whose job is only documentation. This... | Varies |
@@ -234,6 +235,7 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Weavr** | [↗](https://weavr.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **tZero19e's Logs** | [↗](https://buttondown.email/tZero19e) | What I am thinking about — which I may also tweet — almost in real-time. Email is more permanent (literally permanent private archiving), and — like HTML — is contiguous and has decent indexing, unlike Twitter. Recommended Texts. | Varies |
 | **Whatever, Jamie** | [↗](https://buttondown.email/whatever_jamie) | Pulling himself away from opensource to do something creative for once, this is the newsletter in which Jamie talks about Whatever. From news, to ideas, to hopes, to memories, anything goes. He said he'll try to be entertaining, and if nothing else, every issue comes with a cartoon, so you can't lose. | Varies |
 | **Buttondown — Newsletter software for people like you** | [↗](https://buttondown.email) | Buttondown is the last email platform you'll migrate to. We're focused on your success, not on bleeding you dry. | Varies |
