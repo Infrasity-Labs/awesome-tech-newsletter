@@ -12,7 +12,7 @@ permissions:
 jobs:
   discover-and-update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    
 
     steps:
       - name: Checkout Repository
