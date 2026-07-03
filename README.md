@@ -102,6 +102,8 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Chamath Palihapitiya Newsletter** | [↗](https://chamath.substack.com) | Chamath Palihapitiya Newsletter is a tech newsletter from Chamath Palihapitiya covering tech trends, investing, policy, news for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Ad-hoc |
+
 | **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+%22iOS+Dev+Tools%22+newsletter) | The best tools for iOS developers | Varies |
 | **Programming Digest** | [↗](https://duckduckgo.com/?q=!ducky+%22Programming+Digest%22+newsletter) | Keeps up to date with the programming world. | Varies |
 | **GraphQL Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22GraphQL+Weekly%22+newsletter) | The best content from the GraphQL community | Varies |
@@ -182,6 +184,8 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Digital Native** | [↗](https://www.digitalnative.tech) | Digital Native is a tech newsletter from Rex Woodbury covering tech trends, culture, policy, news for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Weekly |
+| **Hacker Newsletter** | [↗](https://hackernewsletter.com) | Hacker Newsletter is a tech newsletter from Kale Davis covering tech news, startups, books, news for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Weekly |
 | **The Top Line** | [↗](https://meghangill.substack.com) | All about go-to-market | Varies |
 | **Developer Led** | [↗](https://developerled.substack.com) | All things developer marketing, communities, devrel and GTM | Varies |
 | **Growth Curated** | [↗](https://foundcy.beehiiv.com) | Hand-picked posts on Go-to-Market Strategy, Product-Market Fit, Metrics, Pricing, and Product-Led Growth | Varies |
@@ -235,6 +239,11 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Guide to AI** | [↗](https://nathanbenaich.substack.com) | Guide to AI is a tech newsletter from Nathan Benaich covering artificial intelligence, AI, startups, politics for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Monthly |
+| **How to AI** | [↗](https://ruben.substack.com) | How to AI is a tech newsletter from Ruben Hassid covering artificial intelligence, AI, product strategy, policy for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Ad-hoc |
+| **The Tech Blog** | [↗](https://www.diamandis.com) | The Tech Blog by Peter H. Diamandis covers exponential technologies, entrepreneurship, AI, longevity, robotics, abundance, and long-range technology trends shaping business and society. | Weekly |
+| **Tech Decoded** | [↗](https://www.bbc.com) | Tech Decoded is a tech newsletter from BBC covering tech news, AI, health, parenting for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Twice a week |
+| **User Friendly** | [↗](https://www.vox.com) | User Friendly is a weekly dispatch meant to make tech work for you, instead of letting it overwhelm you. Adam Clark Estes takes questions and issues readers often face in their digital lives, from privacy to productivity, device annoyance to how-to tips, and turns them into clear, actionable explainers. Every edition tries to answer "how can this tech serve me" rather than "what is this tech." | Weekly |
 | **Weavr** | [↗](https://weavr.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **tZero19e's Logs** | [↗](https://buttondown.email/tZero19e) | What I am thinking about — which I may also tweet — almost in real-time. Email is more permanent (literally permanent private archiving), and — like HTML — is contiguous and has decent indexing, unlike Twitter. Recommended Texts. | Varies |
 | **Whatever, Jamie** | [↗](https://buttondown.email/whatever_jamie) | Pulling himself away from opensource to do something creative for once, this is the newsletter in which Jamie talks about Whatever. From news, to ideas, to hopes, to memories, anything goes. He said he'll try to be entertaining, and if nothing else, every issue comes with a cartoon, so you can't lose. | Varies |
