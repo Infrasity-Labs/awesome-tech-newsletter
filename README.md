@@ -33,6 +33,8 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Figma-to-code: the real shift happening** | [↗](https://christinevallaure.substack.com) | If you're shipping static sites, or building on a standard design system, the Figma MCP server is... | Varies |
+| **Adding Homemade TLS to a Homemade Web Server** | [↗](https://open.substack.com) | Original series: Building Your Own Web Server + Rebuilding TLS from Scratch This article connects... | Varies |
 | **You're Writing Paper Commands Wrong** | [↗](https://eande171.hashnode.dev) | You've probably written a CommandExecutor before. Everyone who's touched Bukkit has. Declare the... | Varies |
 | **Rasul's Newsletter** | [↗](https://buttondown.email/rasulkireev) | I'll do my best to provide valuable content, including weekly updates on new posts, notes, and projects, as well as interesting links and discoveries. | Varies |
 | **Computer Things** | [↗](https://buttondown.email/hillelwayne) | Hi, I'm Hillel. This is the newsletter version of my website. I post all website updates here. I also post weekly content just for the newsletter, on topics like Formal MethodsSoftware History and CultureFringetech and exotic toolingThe philosophy and theory of software engineering You can see the archive of all public essays here. | Varies |
@@ -102,6 +104,7 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Programmer Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Programmer+Weekly%22+newsletter) | A free weekly newsletter featuring the best hand curated links for programmers | Varies |
 | **Chamath Palihapitiya Newsletter** | [↗](https://chamath.substack.com) | Chamath Palihapitiya Newsletter is a tech newsletter from Chamath Palihapitiya covering tech trends, investing, policy, news for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Ad-hoc |
 
 | **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+%22iOS+Dev+Tools%22+newsletter) | The best tools for iOS developers | Varies |
@@ -229,6 +232,7 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Hiding the Button Isn't Authorization: Why You Must Gate the Request** | [↗](https://emeka-nwosa.hashnode.dev) | The most common frontend authorization mistake isn't showing a button to the wrong user. It's... | Varies |
 | **Front End Web Development Feeds and Newsletters** | [↗](https://leftalign.substack.com) | The world of Web Development is exciting and moves fast - particularly front end development in the... | Varies |
 | **The Metagame** | [↗](https://themetagame.beehiiv.com) | An engineer's thoughts on human behavior, game theory, technology, productivity, and ways to live a successful and meaningful life. | Varies |
 | **UpWeb** | [↗](https://webdeveloper.beehiiv.com) | Stay ahead in web development: Get the latest insights every Wednesday. | Varies |
