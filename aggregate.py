@@ -154,8 +154,22 @@ def aggregate():
             else:
                 print(f"Error: Category {category} not found and no <!-- FOOTER --> tag found in README to append to.")
     if changes_made > 0:
+        cleaned_lines = []
+        for i in range(len(lines)):
+            if lines[i].strip() == '':
+                prev_is_table = (len(cleaned_lines) > 0 and cleaned_lines[-1].strip().startswith('|'))
+                next_is_table = False
+                for j in range(i+1, len(lines)):
+                    if lines[j].strip() != '':
+                        if lines[j].strip().startswith('|'):
+                            next_is_table = True
+                        break
+                if prev_is_table and next_is_table:
+                    continue
+            cleaned_lines.append(lines[i])
+
         with open(README_PATH, "w", encoding="utf-8") as f:
-            f.writelines(lines)
+            f.writelines(cleaned_lines)
         print(f"\nSuccessfully aggregated {changes_made} new newsletters into README.")
     else:
         print("\nNo new newsletters were aggregated.")
