@@ -104,6 +104,7 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Serving Real-Time Forex Rates Without Hammering Your API: A FastAPI + MongoDB Caching Strategy** | [↗](https://float-forex.hashnode.dev) | Any app that serves live data — currency rates, crypto prices, stock tickers, weather — eventually... | Varies |
 | **Programmer Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Programmer+Weekly%22+newsletter) | A free weekly newsletter featuring the best hand curated links for programmers | Varies |
 | **Chamath Palihapitiya Newsletter** | [↗](https://chamath.substack.com) | Chamath Palihapitiya Newsletter is a tech newsletter from Chamath Palihapitiya covering tech trends, investing, policy, news for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Ad-hoc |
 
@@ -243,6 +244,8 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **We shipped faster. The debt did too.** | [↗](https://jeelvankhede.hashnode.dev) | AI sped up how fast I ship code. It never sped up how fast I understand it. Six months in, the debt caught up. | Varies |
+| **We let AI write the code. We just don't let it check its own work.** | [↗](https://lingchong.substack.com) | prompt → context → harness — the word keeps changing, the bar never moved. The actual rules four of us use to ship AI-written code we can stand behind. | Varies |
 | **Guide to AI** | [↗](https://nathanbenaich.substack.com) | Guide to AI is a tech newsletter from Nathan Benaich covering artificial intelligence, AI, startups, politics for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Monthly |
 | **How to AI** | [↗](https://ruben.substack.com) | How to AI is a tech newsletter from Ruben Hassid covering artificial intelligence, AI, product strategy, policy for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Ad-hoc |
 | **The Tech Blog** | [↗](https://www.diamandis.com) | The Tech Blog by Peter H. Diamandis covers exponential technologies, entrepreneurship, AI, longevity, robotics, abundance, and long-range technology trends shaping business and society. | Weekly |
