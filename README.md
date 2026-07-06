@@ -107,7 +107,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Serving Real-Time Forex Rates Without Hammering Your API: A FastAPI + MongoDB Caching Strategy** | [↗](https://float-forex.hashnode.dev) | Any app that serves live data — currency rates, crypto prices, stock tickers, weather — eventually... | Varies |
 | **Programmer Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Programmer+Weekly%22+newsletter) | A free weekly newsletter featuring the best hand curated links for programmers | Varies |
 | **Chamath Palihapitiya Newsletter** | [↗](https://chamath.substack.com) | Chamath Palihapitiya Newsletter is a tech newsletter from Chamath Palihapitiya covering tech trends, investing, policy, news for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Ad-hoc |
-
 | **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+%22iOS+Dev+Tools%22+newsletter) | The best tools for iOS developers | Varies |
 | **Programming Digest** | [↗](https://duckduckgo.com/?q=!ducky+%22Programming+Digest%22+newsletter) | Keeps up to date with the programming world. | Varies |
 | **GraphQL Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22GraphQL+Weekly%22+newsletter) | The best content from the GraphQL community | Varies |
@@ -349,7 +348,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **APIs with bounded contexts – design better APIs with domain-driven design** | [↗](https://microapis.substack.com) | An occasional newsletter with information, discussions, recommendations, and tips about writing software and building microservices, APIs, and distributed systems. | Varies |
 | **Measuring OpenAI embedding API latency (and why you should always cache it)** | [↗](https://nixiesearch.substack.com) | A tech newsletter focused on api and software engineering. | Varies |
 | **API platform Violet.io got traction by focusing on user pain** | [↗](https://traction.substack.com) | Founders reveal secrets to their early traction | Varies |
-| **Newsletter** | [↗](https://newsletter.pragmaticengineer.com) | No description available. | Varies |
+| **The Pragmatic Engineer** | [↗](https://newsletter.pragmaticengineer.com) | Big Tech and startups, from the inside. Highly relevant for software engineers, AI engineers and engineering leaders, useful for those working in tech. | Varies |
 | **Revealera’s Substack** | [↗](https://revealera.substack.com) | Revealera - Hiring Trends, Trends & Opportunities in the age of AI Disruption and what products are growing | Varies |
 | **Dead Neurons** | [↗](https://deadneurons.substack.com) | Quick reads on Tech, Econ & AI. | Varies |
 | **Software 3.0 vs. AI Agentic Mesh: Why McKinsey Got It Wrong** | [↗](https://natesnewsletter.substack.com) | Daily newsletters on AI strategy, news, and implementation for practitioners and leaders who are past the hype and ready to build. | Varies |
