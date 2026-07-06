@@ -157,7 +157,7 @@ def aggregate():
         cleaned_lines = []
         for i in range(len(lines)):
             if lines[i].strip() == '':
-                prev_is_table = (i > 0 and lines[i-1].strip().startswith('|'))
+                prev_is_table = (len(cleaned_lines) > 0 and cleaned_lines[-1].strip().startswith('|'))
                 next_is_table = False
                 for j in range(i+1, len(lines)):
                     if lines[j].strip() != '':
