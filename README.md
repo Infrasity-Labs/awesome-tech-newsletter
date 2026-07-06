@@ -271,6 +271,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Geoffrey Angus** | [↗](https://geoffreyangus.beehiiv.com) | A blog about AI infrastructure, most likely. | Varies |
 | **treebeardtech** | [↗](https://treebeardtech.beehiiv.com) | No description available. | Varies |
 | **LeanerCloud News** | [↗](https://leanercloud.beehiiv.com) | No description available. | Varies |
+| **iamin.digital** | [?](https://iamin.digital/) | French weekly AI newsletter for SMB leaders: glossary, n8n workflows, field notes without hype. | Weekly |
 | **Data Science Digest** | [↗](https://data-science-digest.beehiiv.com) | The best way to keep up with the world of Data Science- daily news, tutorials, releases, courses, jobs and more. | Varies |
 | **HN AI Newsletter** | [↗](https://hn-ai-newsletter.beehiiv.com) | Stay informed with a weekly AI-curated digest of the most popular AI related stories from Hacker News | Varies |
 | **Plenty of Room** | [↗](https://plentyofroom.beehiiv.com) | Stay ahead in AI protein design, DNA nanotech & synthetic biology. Under 10 minutes a week. Read by 577 people shaping biotech! | Varies |
