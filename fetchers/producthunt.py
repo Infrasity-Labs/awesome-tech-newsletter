@@ -4,7 +4,7 @@ import os
 import requests
 from urllib.parse import urlparse
 
-JSON_PATH = "newsletters.json"
+JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def discover_producthunt():
     token = os.environ.get('PRODUCTHUNT_TOKEN')

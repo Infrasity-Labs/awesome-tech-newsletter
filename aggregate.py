@@ -1,10 +1,10 @@
 import json
 import os
 import re
+import glob
 from urllib.parse import urlparse, unquote_plus
 
 README_PATH = "README.md"
-JSON_PATH = "newsletters.json"
 
 RESTRICTED_DOMAINS = [
     "draft.dev", "hackmamba.io", "catchyagency.com", "tripledart.com",
@@ -24,8 +24,8 @@ def get_existing_urls(lines):
 
 def classify_newsletter(title, description, default_category):
     text = f"{title} {description}".lower()
+    title_lower = title.lower()
     
-    # Keyword map to categories
     categories = {
         "Data Science & AI": ["ai", "machine learning", "data science", "llm", "neural network", "deep learning", "artificial intelligence", "data engineer"],
         "Frontend Development": ["frontend", "react", "vue", "angular", "css", "html", "web dev", "web development"],
@@ -33,31 +33,50 @@ def classify_newsletter(title, description, default_category):
         "System Design & Architecture": ["system design", "architecture", "scalability", "distributed systems", "microservices", "high scalability"],
         "DevOps & Cloud": ["devops", "cloud", "aws", "azure", "gcp", "kubernetes", "docker", "ci/cd", "infrastructure", "sre", "site reliability"],
         "Language Specific": ["python", "golang", "rust", "javascript", "typescript", "java", "c++", "ruby", "php", "swift", "kotlin", "ios engineering"],
-        "GTM": ["gtm", "go-to-market", "startup growth", "founder", "vc", "venture capital"],
+        "GTM": ["gtm", "go-to-market", "startup growth", "founder", "vc", "venture capital", "marketing", "mql", "sql getting"],
         "Developer Marketing": ["developer marketing", "devrel", "developer relations", "developer advocacy", "dev marketing"],
         "Technical Content Marketing": ["technical content", "content marketing", "technical writing"]
     }
     
+    best_score = 0
+    best_category = default_category
+    
     for category, keywords in categories.items():
-        if any(keyword in text for keyword in keywords):
-            return category
+        score = 0
+        for kw in keywords:
+            # Word boundaries prevent partial matches (e.g., 'api' matching 'capital')
+            pattern = r'(?<!\w)' + re.escape(kw) + r'(?!\w)'
+            if re.search(pattern, title_lower):
+                score += 3  # Higher weight for title matches
+            elif re.search(pattern, text):
+                score += 1
+                
+        if score > best_score:
+            best_score = score
+            best_category = category
             
-    return default_category
+    return best_category
 
 def aggregate():
-    if not os.path.exists(JSON_PATH):
-        print(f"No {JSON_PATH} found. Nothing to aggregate.")
+    json_files = glob.glob("newsletters*.json")
+    if not json_files:
+        print("No newsletters*.json found. Nothing to aggregate.")
         return
 
-    with open(JSON_PATH, "r", encoding="utf-8") as f:
+    newsletters = []
+    successfully_parsed_files = []
+    for jpath in json_files:
         try:
-            newsletters = json.load(f)
-        except json.JSONDecodeError:
-            print(f"Error parsing {JSON_PATH}.")
-            return
+            with open(jpath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    newsletters.extend(data)
+            successfully_parsed_files.append(jpath)
+        except Exception as e:
+            print(f"Error parsing {jpath}: {e}")
 
     if not newsletters:
-        print("No newsletters in JSON queue.")
+        print("No newsletters in JSON queues.")
         return
 
     with open(README_PATH, "r", encoding="utf-8") as f:
@@ -66,9 +85,7 @@ def aggregate():
     existing_urls = get_existing_urls(lines)
     changes_made = 0
 
-    if not isinstance(newsletters, list):
-        print(f"Error: {JSON_PATH} must contain a list of newsletters.")
-        return
+
     for nl in newsletters:
 
         raw_url = nl.get("url") or ""
@@ -168,15 +185,46 @@ def aggregate():
                     continue
             cleaned_lines.append(lines[i])
 
+        # Alphabetize tables
+        final_lines = []
+        in_table = False
+        table_rows = []
+        header_rows = []
+        
+        for line in cleaned_lines:
+            if line.strip().startswith('|'):
+                if not in_table:
+                    in_table = True
+                    table_rows = []
+                    header_rows = [line]
+                elif len(header_rows) < 2:
+                    header_rows.append(line)
+                else:
+                    table_rows.append(line)
+            else:
+                if in_table:
+                    # Sort and flush table
+                    # Sort by the first column (Name), case-insensitive, stripping bold markdown
+                    table_rows.sort(key=lambda x: re.sub(r'[*_]', '', re.split(r'(?<!\\)\|', x)[1]).strip().lower() if len(re.split(r'(?<!\\)\|', x)) > 1 else '')
+                    final_lines.extend(table_rows)
+                    in_table = False
+                final_lines.append(line)
+                
+        if in_table:
+            table_rows.sort(key=lambda x: re.sub(r'[*_]', '', re.split(r'(?<!\\)\|', x)[1]).strip().lower() if len(re.split(r'(?<!\\)\|', x)) > 1 else '')
+            final_lines.extend(header_rows)
+            final_lines.extend(table_rows)
+
         with open(README_PATH, "w", encoding="utf-8") as f:
-            f.writelines(cleaned_lines)
+            f.writelines(final_lines)
         print(f"\nSuccessfully aggregated {changes_made} new newsletters into README.")
     else:
         print("\nNo new newsletters were aggregated.")
         
-    # Always clear the queue after running so we don't process them again
-    with open(JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump([], f)
+    # Only clear the queues that were successfully parsed to prevent data loss on corrupted files
+    for jpath in successfully_parsed_files:
+        if os.path.exists(jpath):
+            os.remove(jpath)
 
 if __name__ == "__main__":
     aggregate()

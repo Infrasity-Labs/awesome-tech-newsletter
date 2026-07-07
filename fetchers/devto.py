@@ -5,7 +5,7 @@ import re
 import requests
 from urllib.parse import urlparse
 
-JSON_PATH = "newsletters.json"
+JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def discover_devto():
     print("Starting Dev.to discovery via public API...")
