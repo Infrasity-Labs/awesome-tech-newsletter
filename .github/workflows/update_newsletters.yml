@@ -10,10 +10,27 @@ permissions:
   contents: write # Needed to push changes back to the repo
 
 jobs:
-  discover-and-update:
+  setup-matrix:
     runs-on: ubuntu-latest
-    
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Set matrix for fetchers
+        id: set-matrix
+        run: |
+          FETCHERS=$(ls fetchers/*.py | jq -R -s -c 'split("\n")[:-1]')
+          echo "matrix=$FETCHERS" >> $GITHUB_OUTPUT
 
+  fetch:
+    needs: setup-matrix
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        fetcher: ${{ fromJson(needs.setup-matrix.outputs.matrix) }}
+    
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -29,21 +46,48 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           pip install requests codespell
-          
-      - name: Run Fetchers
-        continue-on-error: true
+
+      - name: Run Fetcher (${{ matrix.fetcher }})
         env:
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
         run: |
-          echo "Starting auto-discovery pipeline..."
-          for fetcher in fetchers/*.py; do
-            if [ -f "$fetcher" ] && [ "$(basename "$fetcher")" != "__init__.py" ]; then
-              echo "----------------------------------------"
-              echo "Running $fetcher..."
-              python "$fetcher" || echo "Warning: $fetcher encountered an error, continuing..."
-            fi
-          done
-          
+          echo "Running ${{ matrix.fetcher }}..."
+          python ${{ matrix.fetcher }}
+
+      - name: Upload Newsletter Queue Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: queue-${{ strategy.job-index }}
+          path: newsletters_*.json
+          if-no-files-found: ignore
+
+  aggregate-and-commit:
+    needs: fetch
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install requests codespell
+
+      - name: Download all Queue Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: .
+          pattern: queue-*
+          merge-multiple: true
+
       - name: Aggregate and Categorize Newsletters
         run: |
           echo "----------------------------------------"

@@ -6,7 +6,8 @@ import requests
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 
-JSON_PATH = "newsletters.json"
+import os
+JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def fetch_substack_data(url):
     try:

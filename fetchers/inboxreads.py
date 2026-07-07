@@ -3,7 +3,8 @@ import json
 import os
 import requests
 
-JSON_PATH = "newsletters.json"
+import os
+JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def discover_inboxreads():
     print("Starting InboxReads discovery via internal API...")

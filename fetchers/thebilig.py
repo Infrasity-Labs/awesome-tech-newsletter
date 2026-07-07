@@ -5,7 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
-JSON_PATH = "newsletters.json"
+import os
+JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def discover_thebilig():
     print("Starting TheBilig discovery...")
