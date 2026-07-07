@@ -5,7 +5,6 @@ import re
 import requests
 from urllib.parse import urlparse
 
-import os
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def discover_devto():

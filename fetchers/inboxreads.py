@@ -3,7 +3,6 @@ import json
 import os
 import requests
 
-import os
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def discover_inboxreads():

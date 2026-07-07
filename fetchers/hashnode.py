@@ -5,7 +5,6 @@ import requests
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 
-import os
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def fetch_hashnode_data(url):

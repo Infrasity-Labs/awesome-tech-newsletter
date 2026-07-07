@@ -45,7 +45,7 @@ def classify_newsletter(title, description, default_category):
         score = 0
         for kw in keywords:
             # Word boundaries prevent partial matches (e.g., 'api' matching 'capital')
-            pattern = r'\b' + re.escape(kw) + r'\b'
+            pattern = r'(?<!\w)' + re.escape(kw) + r'(?!\w)'
             if re.search(pattern, title_lower):
                 score += 3  # Higher weight for title matches
             elif re.search(pattern, text):
@@ -64,12 +64,14 @@ def aggregate():
         return
 
     newsletters = []
+    successfully_parsed_files = []
     for jpath in json_files:
         try:
             with open(jpath, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 if isinstance(data, list):
                     newsletters.extend(data)
+            successfully_parsed_files.append(jpath)
         except Exception as e:
             print(f"Error parsing {jpath}: {e}")
 
@@ -203,14 +205,13 @@ def aggregate():
                 if in_table:
                     # Sort and flush table
                     # Sort by the first column (Name), case-insensitive, stripping bold markdown
-                    table_rows.sort(key=lambda x: re.sub(r'[*_]', '', x.split('|')[1]).strip().lower() if len(x.split('|')) > 1 else '')
-                    final_lines.extend(header_rows)
+                    table_rows.sort(key=lambda x: re.sub(r'[*_]', '', re.split(r'(?<!\\)\|', x)[1]).strip().lower() if len(re.split(r'(?<!\\)\|', x)) > 1 else '')
                     final_lines.extend(table_rows)
                     in_table = False
                 final_lines.append(line)
                 
         if in_table:
-            table_rows.sort(key=lambda x: re.sub(r'[*_]', '', x.split('|')[1]).strip().lower() if len(x.split('|')) > 1 else '')
+            table_rows.sort(key=lambda x: re.sub(r'[*_]', '', re.split(r'(?<!\\)\|', x)[1]).strip().lower() if len(re.split(r'(?<!\\)\|', x)) > 1 else '')
             final_lines.extend(header_rows)
             final_lines.extend(table_rows)
 
@@ -220,8 +221,8 @@ def aggregate():
     else:
         print("\nNo new newsletters were aggregated.")
         
-    # Always clear the queue after running so we don't process them again
-    for jpath in json_files:
+    # Only clear the queues that were successfully parsed to prevent data loss on corrupted files
+    for jpath in successfully_parsed_files:
         if os.path.exists(jpath):
             os.remove(jpath)
 
