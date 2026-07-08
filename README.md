@@ -31,8 +31,6 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## General Software Engineering
 
-| Name | Link | Description | Frequency |
-|------|------|-------------|-----------|
 | **5 Essential Substack Newsletters for Every Developer to Subscribe To 💌** | [↗](https://careercutler.substack.com) | I love reading newsletters. But let's be honest, many are just a waste of time. If you want to... | Varies |
 | **A Case for Monolith** | [↗](https://charlesfonseca.substack.com) | I write because I can't stop. Systems, Programming, Database, Cloud. | Varies |
 | **Adding Homemade TLS to a Homemade Web Server** | [↗](https://open.substack.com) | Original series: Building Your Own Web Server + Rebuilding TLS from Scratch This article connects... | Varies |
@@ -49,6 +47,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+"Creative+Mornings"+newsletter) | Get inspired, no matter where you are. | Varies |
 | **Figma-to-code: the real shift happening** | [↗](https://christinevallaure.substack.com) | If you're shipping static sites, or building on a standard design system, the Figma MCP server is... | Varies |
 | **Filip K: Freedom Newsletter** | [↗](https://filipk.beehiiv.com) | Merging technology, economics and self-improvement in the pursuit of freedom | Varies |
+| **In multi-agent systems, the skill is the abstraction level — not the agent count** | [↗](https://hariph.hashnode.dev) | Everyone building multi-agent systems knows the starting pattern by now: a router reads the request,... | Varies |
 | **Kyle Poyar’s Growth Unhinged** | [↗](https://kylepoyar.substack.com) | Revealing the playbooks and hidden tactics behind today's best startups. Join 80,000+ weekly readers for real-life growth advice, playbooks and case studies. Click to read Kyle Poyar’s Growth Unhinged, a Substack publication with tens of thousands of subscribers. | Varies |
 | **Magma: An open source implementation of a mobile core network** | [↗](https://systemsapproach.substack.com) | Larry Peterson and Bruce Davie, authors of "Computer Networks: A Systems Approach" explain the Internet – its technology, architecture, and evolution | Varies |
 | **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
@@ -87,6 +86,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The Hustle** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Hustle%22+newsletter) | Fresh tech and business news | Varies |
 | **The Hustle** | [↗](https://duckduckgo.com/?q=!ducky+"The+Hustle"+newsletter) | Fresh tech and business news | Varies |
 | **The Lifelong Learner** | [↗](https://avthar.substack.com) | Documenting my journey of lifelong learning. Practical wisdom about self-mastery, entrepreneurship, health and happiness. By South African entrepreneur and technologist Avthar Sewrathan. Click to read The Lifelong Learner, by Avthar Sewrathan, a Substack publication with hundreds of subscribers. | Varies |
+| **The Lindy Newsletter** | [↗](https://lindynewsletter.beehiiv.com) | No description available. | Varies |
 | **The Personable Engineer** | [↗](https://fernandovillalba.substack.com) | This publication deals with all things that help developers and engineers to do a better job by designing systems, processes, culture and tools that are human friendly and increase flow state. | Varies |
 | **The Schematic** | [↗](https://ryanspears.substack.com) | All things engineering, software, science, and business. | Varies |
 | **The Tech Enabler** | [↗](https://thetechenabler.substack.com) | My personal Substack for my role as a tech enabler inside a large media company. I write about work, culture, and programming in general. My current series is all about tech trends and what I think teams should adopt or drop. | Varies |
@@ -102,8 +102,6 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## Backend Development
 
-| Name | Link | Description | Frequency |
-|------|------|-------------|-----------|
 | **'How to do great work' by Paul Graham mapped out** | [↗](https://substack.com) | A tech newsletter focused on api and software engineering. | Varies |
 | **A Recipe for Auth Cookies in the Decoupled Front End and Back End Architecture** | [↗](https://nowaycodes.substack.com) | Code and life musings | Varies |
 | **API Complexity Is a Lie** | [↗](https://apichangelog.substack.com) | Curated API moves. Unfiltered expert takes. | Varies |
@@ -137,8 +135,6 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## System Design & Architecture
 
-| Name | Link | Description | Frequency |
-|------|------|-------------|-----------|
 | **High Scalability** | [↗](https://highscalability.com/) | A newsletter focusing on the architectures of successful, highly scalable websites. | Weekly |
 | **Musings on computer systems** | [↗](https://buttondown.email/nelhage) | This is my occasional newsletter, for my thoughts and explanations on assorted topics in software engineering and computer systems. It also receives notifications about new blog posts from my blog. Content clusters around my areas of expertise and interest in computer systems engineering, including testing, performance, and engineering system architecture and organization design, but I also wander further afield from time to time. In addition to my blog, I aspire to use this newsletter as a place to work through thoughts in a rougher form, and flesh out work-in-progress ideas; in practice, much of the time it just gets the blog posts links. | Varies |
 | **Software Architecture and Philosophical Anthropology** | [↗](https://michaelmangialardi.substack.com) | On Humans and Agents | Varies |
@@ -148,8 +144,7 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## Language Specific
 
-| Name | Link | Description | Frequency |
-|------|------|-------------|-----------|
+| **404trends** | [↗](https://404trends.beehiiv.com) | Weekly dose of the hottest trends backed by data and actionable insights. Join the 404trends community of impatient entrepreneurs, game changers, indie hackers and everyone who thinks of "Page Not Found" as a challenge | Varies |
 | **Awesome Python** | [↗](https://duckduckgo.com/?q=!ducky+%22Awesome+Python%22+newsletter) | The most popular Python news, articles and packages | Varies |
 | **Awesome Python** | [↗](https://duckduckgo.com/?q=!ducky+"Awesome+Python"+newsletter) | The most popular Python news, articles and packages | Varies |
 | **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+%22Bytes%22+newsletter) | The funniest JavaScript newsletter on the web | Varies |
@@ -167,26 +162,26 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## DevOps & Cloud
 
-| Name | Link | Description | Frequency |
-|------|------|-------------|-----------|
 | **Abid Moon** | [↗](https://abidmoon.hashnode.dev) | I’m a DevOps Engineer & digital marketer who grows brands and website traffic using content, search and social media marketing. 👍 | Varies |
 | **America Loses the Next War (Won't Be a Cyber War, It Will Be a DevOps War)** | [↗](https://ryanmcbeth.substack.com) | Intelligence Analysis and Author Updates | Varies |
 | **An Alternate History of “DevOps”** | [↗](https://michaeldehaan.substack.com) | Michael Dehaan | Varies |
 | **Developer-Led Landscape: 2021 Trends Foretell New Approaches to DevOps** | [↗](https://tylerjewell.substack.com) | Developer Software, Piloting, and Options Trading I am an enterprise technology investor and executive with an appreciation for companies building disruptive middleware, platforms, and infrastructure. I am also a private pilot, instrument-rated, ASEL. | Varies |
 | **DevOpsish** | [↗](https://devopsish.com/) | A weekly newsletter covering cloud native, DevOps, and open source news. | Weekly |
 | **How to not get triggered by DevOps and other buzzwords** | [↗](https://five9s.substack.com) | Practical advice for designing your SRE team and functions | Varies |
+| **IaC Insights** | [↗](https://masterpoint.beehiiv.com) | IaC Insights is a newsletter by Matt Gowie and the Masterpoint team focused on delivering actionable advice and best practices in the Infrastructure as Code ecosystem. | Varies |
 | **In retrospect, DevOps was a bad idea** | [↗](https://rethinkingsoftware.substack.com) | Calling it a "Best Practice" does not make it so. | Varies |
 | **KubeWeekly** | [↗](https://www.cncf.io/kubeweekly/) | A weekly newsletter of all things Kubernetes, from the CNCF. | Weekly |
+| **LeanerCloud News** | [↗](https://leanercloud.beehiiv.com) | No description available. | Varies |
 | **MLOps vs. DevOps** | [↗](https://laszlo.substack.com) | Deliberate Machine Learning: Machine Learning Product Management & How to write better code as a DS? | Varies |
 | **Sheep Code** | [↗](https://sheepcode.substack.com) | Hear our insights on software engineering, cloud, and tech. | Varies |
+| **treebeardtech** | [↗](https://treebeardtech.beehiiv.com) | No description available. | Varies |
 | **Using Declarative Interfaces to Empower Devs to Do Ops** | [↗](https://galenmarchetti.substack.com) | synthesized braindumps | Varies |
 
 ## GTM
 
-| Name | Link | Description | Frequency |
-|------|------|-------------|-----------|
 | **Developer Led** | [↗](https://developerled.substack.com) | All things developer marketing, communities, devrel and GTM | Varies |
 | **Digital Native** | [↗](https://www.digitalnative.tech) | Digital Native is a tech newsletter from Rex Woodbury covering tech trends, culture, policy, news for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Weekly |
+| **Growth Curated** | [↗](https://foundcy.beehiiv.com) | Hand-picked posts on Go-to-Market Strategy, Product-Market Fit, Metrics, Pricing, and Product-Led Growth | Varies |
 | **GTMnow** | [↗](https://gtmnow.substack.com) | The media brand of VC firm, GTMfund. Build, scale and invest with the best minds in tech. | Varies |
 | **Hacker Newsletter** | [↗](https://hackernewsletter.com) | Hacker Newsletter is a tech newsletter from Kale Davis covering tech news, startups, books, news for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Weekly |
 | **The Top Line** | [↗](https://meghangill.substack.com) | All about go-to-market | Varies |
@@ -195,8 +190,6 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## Developer Marketing
 
-| Name | Link | Description | Frequency |
-|------|------|-------------|-----------|
 | **Big Podcast Insider** | [↗](https://duckduckgo.com/?q=!ducky+%22Big+Podcast+Insider%22+newsletter) | The Newsletter for Podcasters | Varies |
 | **Buttondown Blog** | [↗](https://buttondown.email/blog) | Buttondown's engineers, writers, and biggest fans write about the whole thing: engineering challenges, useful tips and tricks, new features, and more. | Varies |
 | **Community Inc.** | [↗](https://duckduckgo.com/?q=!ducky+%22Community+Inc.%22+newsletter) | Demystifying Community-Led Growth | Varies |
@@ -206,6 +199,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **I Show Developers How To Do Marketing** | [↗](https://devscandomarketing.substack.com) | I show developers how to get better at marketing so they can be more successful and hit their goals. Practical insights & actionable advice. Zero fluff. | Varies |
 | **Illuminated Security News** | [↗](https://buttondown.email/illuminatedsecurity) | A low-volume newsletter covering application security, applied cryptography, and identity & access management (IAM) topics. Every newsletter covers one topic in depth with links to interesting articles and podcasts from the wider community. | Varies |
 | **Jonah Lawrence** | [↗](https://jonahlawrence.hashnode.dev) | Jonah Lawrence | Varies |
+| **Just Ship It** | [↗](https://marclou.beehiiv.com) | Your Saturday issue to find startup ideas, launch fast, and get profitable. Join 42,851 entrepreneurs. | Varies |
 | **Marketing Dive** | [↗](https://duckduckgo.com/?q=!ducky+%22Marketing+Dive%22+newsletter) | 60 seconds of marketing content | Varies |
 | **Marketing Secrets** | [↗](https://duckduckgo.com/?q=!ducky+%22Marketing+Secrets%22+newsletter) | Transform Your Business Just 2 Minutes a Day | Varies |
 | **Mr. Bud** | [↗](https://mr-bud.hashnode.dev) | A mad game designer who loves to make mad games. | Varies |
@@ -214,28 +208,25 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Permit.io’s Substack** | [↗](https://permit.substack.com) | Stay up to date with the latest blogs, tutorials, and articles about the world of Authorization, Access Control, and IAM | Varies |
 | **Psych** | [↗](https://duckduckgo.com/?q=!ducky+%22Psych%22+newsletter) | Psychology to Improve Your Personal & Professional Life | Varies |
 | **Refind** | [↗](https://duckduckgo.com/?q=!ducky+%22Refind%22+newsletter) | Get smarter every day | Varies |
+| **The Quiet Part Out Loud** | [↗](https://amychanta.beehiiv.com) | Reflections and musings from 17+ years in the tech start-up space | Varies |
 
 ## Technical Content Marketing
 
-| Name | Link | Description | Frequency |
-|------|------|-------------|-----------|
 | **Abraham Dahunsi Blog** | [↗](https://abrahamd.hashnode.dev) | I enjoy solving problems by writing code and breakdown technical contents by writing. | Varies |
 
 <!-- FOOTER -->
 
 ## Frontend Development
 
-| Name | Link | Description | Frequency |
-|------|------|-------------|-----------|
 | **200% go: Vugu framework for go is 100% go on backend, 100% go on frontend** | [↗](https://andrewarrow.substack.com) | computer science major pitt.edu 1996 | Varies |
 | **Front End Web Development Feeds and Newsletters** | [↗](https://leftalign.substack.com) | The world of Web Development is exciting and moves fast - particularly front end development in the... | Varies |
 | **Hibiki HTML – The front-end framework for back-end engineers (Console interview)** | [↗](https://console.substack.com) | Join thousands of engineers, VCs, and early stage CTOs in subscribing to a weekly roundup of the latest in open-source software, curated by the CodeSee.io team. | Varies |
 | **Hiding the Button Isn't Authorization: Why You Must Gate the Request** | [↗](https://emeka-nwosa.hashnode.dev) | The most common frontend authorization mistake isn't showing a button to the wrong user. It's... | Varies |
+| **The Metagame** | [↗](https://themetagame.beehiiv.com) | An engineer's thoughts on human behavior, game theory, technology, productivity, and ways to live a successful and meaningful life. | Varies |
+| **UpWeb** | [↗](https://webdeveloper.beehiiv.com) | Stay ahead in web development: Get the latest insights every Wednesday. | Varies |
 
 ## Data Science & AI
 
-| Name | Link | Description | Frequency |
-|------|------|-------------|-----------|
 | **Adamtornhill** | [↗](https://adamtornhill.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Addyo** | [↗](https://addyo.substack.com) | Addy Osmani's newsletter on elevating your effectiveness. Join his community of 600,000 readers across social media. | Varies |
 | **AI & Marketing with Annika Helendi** | [↗](https://annikahelendi.substack.com) | Rooting for the underdog. I want small teams to do big things and win. Join me in replacing AI overwhelm with AI advantage - https://www.aimarketingmasters.com/ | Varies |
@@ -254,6 +245,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **contentfolks** | [↗](https://contentfolks.substack.com) | Short lessons, practical examples, and colourful post-its about content marketing. Straight to your inbox, every month(ish). Click to read contentfolks, by fio, a Substack publication with thousands of subscribers. | Varies |
 | **Counting** | [↗](https://counting.substack.com) | The less sexy (but very important!) side of the data sciences, every Tuesday morning. | Varies |
 | **Craigbox** | [↗](https://craigbox.substack.com) | Nothing but the most important goings-on in the Kubernetes community. | Varies |
+| **Data Science Digest** | [↗](https://data-science-digest.beehiiv.com) | The best way to keep up with the world of Data Science- daily news, tutorials, releases, courses, jobs and more. | Varies |
 | **Dataengineeringcentral** | [↗](https://dataengineeringcentral.substack.com) | Long Live the Data Engineer. No holds barred. | Varies |
 | **Datascienceweekly** | [↗](https://datascienceweekly.substack.com) | In-depth look at the Data Science / Machine Learning / AI / Data Engineering world. | Varies |
 | **Dead Neurons** | [↗](https://deadneurons.substack.com) | Quick reads on Tech, Econ & AI. | Varies |
@@ -263,15 +255,18 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Ezebunandu** | [↗](https://ezebunandu.substack.com) | Exploring technology through beginner's eyes. | Varies |
 | **Frontendengineering** | [↗](https://frontendengineering.substack.com) | Bringing Order To The Chaotic World Of Frontend Development | Varies |
 | **Gazj** | [↗](https://gazj.substack.com) | Just a bloke, father of two. A bit tired | Varies |
+| **Geoffrey Angus** | [↗](https://geoffreyangus.beehiiv.com) | A blog about AI infrastructure, most likely. | Varies |
 | **Golang1** | [↗](https://golang1.substack.com) | Golang Libraries, Apps and Tutorials | Varies |
 | **Grbsh** | [↗](https://grbsh.substack.com) | Speculation on LLMs, software engineering, the future | Varies |
 | **Guide to AI** | [↗](https://nathanbenaich.substack.com) | Guide to AI is a tech newsletter from Nathan Benaich covering artificial intelligence, AI, startups, politics for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Monthly |
 | **Hardresetmedia** | [↗](https://hardresetmedia.substack.com) | A publication about tech, labor, and power by Ariella Steinhorn, JJ Lansing, and Alex Shultz, featuring exclusive reporting, interviews, and insights about holding corporate power accountable. | Varies |
 | **Hasen** | [↗](https://hasen.substack.com) | Computer and Web Programming | Varies |
+| **HN AI Newsletter** | [↗](https://hn-ai-newsletter.beehiiv.com) | Stay informed with a weekly AI-curated digest of the most popular AI related stories from Hacker News | Varies |
 | **How I recovered my newsletter subscriptions** | [↗](https://support.substack.com) | How many Substack accounts do you have? Or rather, how many email addresses do you have? This is... | Varies |
 | **How to AI** | [↗](https://ruben.substack.com) | How to AI is a tech newsletter from Ruben Hassid covering artificial intelligence, AI, product strategy, policy for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Ad-hoc |
 | **How to build a generative AI service's back end** | [↗](https://followfoxai.substack.com) | Followfox.ai is an AI venture studio focused on small AI models running locally or on the edge. We are fully open-source, and in this blog, we share about our exploratory journey, providing useful and helpful details on our progress. | Varies |
 | **How to explain DevOps to non-tech people** | [↗](https://ashpatel.substack.com) | Practical advice for designing your SRE team and functions | Varies |
+| **I built an eval harness for my own AI, and it caught my digital twin lying** | [↗](https://akashpersetti.hashnode.dev) | I run a digital twin on my personal site. It answers questions about me as if it were me: my... | Varies |
 | **Intrepidai** | [↗](https://intrepidai.substack.com) | Fueling robotics ambitions. Stories from intrepid developers. | Varies |
 | **Jasebroderick** | [↗](https://jasebroderick.substack.com) | Working on my art | Varies |
 | **Jeremysik** | [↗](https://jeremysik.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
@@ -290,6 +285,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Mldoom** | [↗](https://mldoom.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Neurometric** | [↗](https://neurometric.substack.com) | A substack for Neurometric - AI system orchestration and workflow SLMs | Varies |
 | **Nulldata** | [↗](https://nulldata.substack.com) | Thought Pieces, Updates, Links about Data Science, Machine Learning, | Varies |
+| **Plenty of Room** | [↗](https://plentyofroom.beehiiv.com) | Stay ahead in AI protein design, DNA nanotech & synthetic biology. Under 10 minutes a week. Read by 577 people shaping biotech! | Varies |
 | **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+%22Product+Hunt+Daily%22+newsletter) | The best of Product Hunt, created by your friends. | Varies |
 | **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+"Product+Hunt+Daily"+newsletter) | The best of Product Hunt, created by your friends. | Varies |
 | **Ramansharma** | [↗](https://ramansharma.substack.com) | Technology for the sake of technology | Varies |
@@ -297,6 +293,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Really Good Emails** | [↗](https://duckduckgo.com/?q=!ducky+%22Really+Good+Emails%22+newsletter) | Create better emails. | Varies |
 | **Remiounadjela** | [↗](https://remiounadjela.substack.com) | Field notes on AI strategy, adoption, and accountability: from inside AI-first organizations. | Varies |
 | **Revealera’s Substack** | [↗](https://revealera.substack.com) | Revealera - Hiring Trends, Trends & Opportunities in the age of AI Disruption and what products are growing | Varies |
+| **RoboRuby** | [↗](https://rubyai.beehiiv.com) | Ruby AI News | Varies |
 | **Sergical** | [↗](https://sergical.substack.com) | My personal Substack | Varies |
 | **Sharno** | [↗](https://sharno.substack.com) | Writing about daily life and what I learn along the way | Varies |
 | **Shepherdjerred** | [↗](https://shepherdjerred.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
@@ -314,6 +311,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Tech Decoded** | [↗](https://www.bbc.com) | Tech Decoded is a tech newsletter from BBC covering tech news, AI, health, parenting for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Twice a week |
 | **Technically** | [↗](https://technically.substack.com) | Making practical sense of software and AI. | Varies |
 | **Techtalksweekly** | [↗](https://techtalksweekly.substack.com) | Join 9,600+ Software Engineers & Engineering Leaders who receive a free weekly email with all the recently published podcasts and conference talks. Stop scrolling through messy YouTube subscriptions. Stop FOMO. Easy to unsubscribe. No spam, ever. | Varies |
+| **The AI Revolution** | [↗](https://theairevolution.beehiiv.com) | Discover the cutting-edge advancements in AI before anyone else. Join 1,000+ avid readers from Apple, OpenAI, DeepMind, IBM, and more. | Varies |
 | **The Daily DONUT** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Daily+DONUT%22+newsletter) | News that doesn’t suck. 🙃 | Varies |
 | **The Daily DONUT** | [↗](https://duckduckgo.com/?q=!ducky+"The+Daily+DONUT"+newsletter) | News that doesn’t suck. 🙃 | Varies |
 | **The Daily Navigator** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Daily+Navigator%22+newsletter) | A five-minute trip through the news. | Varies |
