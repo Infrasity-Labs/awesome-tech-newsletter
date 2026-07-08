@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
-JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
+JSON_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f"newsletters_{os.path.basename(__file__)}.json")
 
 def fetch_ghost_data(url):
     try:
@@ -85,7 +85,7 @@ def discover_ghost():
                     article_url = hit.get("url")
                     if article_url and "ghost.io" in article_url:
                         parsed = urlparse(article_url)
-                        base_url = f"{parsed.scheme}://{parsed.netloc}"
+                        base_url = f"https://{parsed.netloc}"
                         
                         if not any(d['url'] == base_url for d in discovered):
                             print(f"Discovered Ghost: {base_url}")

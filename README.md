@@ -52,7 +52,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **In multi-agent systems, the skill is the abstraction level — not the agent count** | [↗](https://hariph.hashnode.dev) | Everyone building multi-agent systems knows the starting pattern by now: a router reads the request,... | Varies |
 | **Kyle Poyar’s Growth Unhinged** | [↗](https://kylepoyar.substack.com) | Revealing the playbooks and hidden tactics behind today's best startups. Join 80,000+ weekly readers for real-life growth advice, playbooks and case studies. Click to read Kyle Poyar’s Growth Unhinged, a Substack publication with tens of thousands of subscribers. | Varies |
 | **Magma: An open source implementation of a mobile core network** | [↗](https://systemsapproach.substack.com) | Larry Peterson and Bruce Davie, authors of "Computer Networks: A Systems Approach" explain the Internet – its technology, architecture, and evolution | Varies |
-| **No Kill Switch** | [↗](http://no-kill-switch.ghost.io) | There's no kill switch on awesome. The personal blog of Sebastian Gebski. | Varies |
 | **No Kill Switch** | [↗](https://no-kill-switch.ghost.io) | There's no kill switch on awesome. The personal blog of Sebastian Gebski. | Varies |
 | **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
 | **Open Source Watch** | [↗](https://opensourcewatch.beehiiv.com) | What's what with open-source news. | Varies |

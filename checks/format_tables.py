@@ -1,6 +1,8 @@
+import os
 import re
 
-README_PATH = "README.md"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+README_PATH = os.path.join(SCRIPT_DIR, "..", "README.md")
 
 def format_readme():
     with open(README_PATH, "r", encoding="utf-8") as f:
@@ -21,11 +23,16 @@ def format_readme():
                 in_category = False
         new_lines.append(line)
         
-    # 2. Sort tables
+        # 2. Sort tables
     final_lines = []
     in_table = False
     table_rows = []
     header_rows = []
+    
+    def flush_table():
+        table_rows.sort(key=lambda x: re.sub(r'[*_]', '', re.split(r'(?<!\\)\|', x)[1]).strip().lower() if len(re.split(r'(?<!\\)\|', x)) > 1 else '')
+        final_lines.extend(header_rows)
+        final_lines.extend(table_rows)
     
     for line in new_lines:
         if line.strip().startswith('|'):
@@ -39,17 +46,12 @@ def format_readme():
                 table_rows.append(line)
         else:
             if in_table:
-                # Sort and flush table
-                table_rows.sort(key=lambda x: re.sub(r'[*_]', '', re.split(r'(?<!\\)\|', x)[1]).strip().lower() if len(re.split(r'(?<!\\)\|', x)) > 1 else '')
-                final_lines.extend(header_rows)
-                final_lines.extend(table_rows)
+                flush_table()
                 in_table = False
             final_lines.append(line)
             
     if in_table:
-        table_rows.sort(key=lambda x: re.sub(r'[*_]', '', re.split(r'(?<!\\)\|', x)[1]).strip().lower() if len(re.split(r'(?<!\\)\|', x)) > 1 else '')
-        final_lines.extend(header_rows)
-        final_lines.extend(table_rows)
+        flush_table()
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.writelines(final_lines)
