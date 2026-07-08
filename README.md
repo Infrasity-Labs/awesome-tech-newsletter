@@ -197,7 +197,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **ChillFish8's Blog** | [↗](https://chillfish8.ghost.io) | 🦀 Building and designing some cool stuff in Rust. | Varies |
 | **CodeX** | [↗](https://medium.com/codex) | Everything connected with Tech & Code. Follow to join our 1M+ monthly readers | Varies |
 | **Colors of Code** | [↗](https://colorsofcode.ghost.io) | My name is Léo Germond, about every month I write a new post about libraries, news, and coding techniques in Python | Varies |
-| **Deepak Gupta** | [↗](https://medium.com/@ideepak.jsd) | Read writing from Deepak Gupta on Medium. COO @Steer Protocol\| Write about Blockchain & Javascript \| Take it easy | Varies |
+| **Deepak Gupta** | [↗](https://medium.com/@ideepak.jsd) | Read writing from Deepak Gupta on Medium. COUP @Steer Protocol\| Write about Blockchain & Javascript \| Take it easy | Varies |
 | **doc docs** | [↗](https://mojosd.medium.com) | Read writing from doc docs on Medium. “If it’s not written down, it doesn’t exist.” — Philippe Krutchen | Varies |
 | **Elton Minetto** | [↗](https://medium.com/@eminetto) | Read writing from Elton Minetto on Medium. Teacher, speaker, Principal Software Engineer @ PicPay. https://eltonminetto.dev. Google Developer Expert in Go | Varies |
 | **Erik van de Ven** | [↗](https://erikvandeven.medium.com) | Read writing from Erik van de Ven on Medium. Erik is a Senior SE with 15+ years of experience in programming and 8+ years in Python. He ranked the top 9% on Stack Overflow and is a Kaggle Expert. | Varies |
