@@ -5,6 +5,14 @@ import glob
 from urllib.parse import urlparse, unquote_plus
 
 README_PATH = "README.md"
+CONFIG_PATH = "config.json"
+
+try:
+    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+        CATEGORIES = json.load(f)
+except Exception as e:
+    print(f"Warning: Could not load {CONFIG_PATH}, using empty categories. Error: {e}")
+    CATEGORIES = {}
 
 RESTRICTED_DOMAINS = [
     "draft.dev", "hackmamba.io", "catchyagency.com", "tripledart.com",
@@ -26,22 +34,10 @@ def classify_newsletter(title, description, default_category):
     text = f"{title} {description}".lower()
     title_lower = title.lower()
     
-    categories = {
-        "Data Science & AI": ["ai", "machine learning", "data science", "llm", "neural network", "deep learning", "artificial intelligence", "data engineer"],
-        "Frontend Development": ["frontend", "react", "vue", "angular", "css", "html", "web dev", "web development"],
-        "Backend Development": ["backend", "api", "database", "sql", "nosql", "node.js", "django", "spring boot", "ruby on rails", "graphql"],
-        "System Design & Architecture": ["system design", "architecture", "scalability", "distributed systems", "microservices", "high scalability"],
-        "DevOps & Cloud": ["devops", "cloud", "aws", "azure", "gcp", "kubernetes", "docker", "ci/cd", "infrastructure", "sre", "site reliability"],
-        "Language Specific": ["python", "golang", "rust", "javascript", "typescript", "java", "c++", "ruby", "php", "swift", "kotlin", "ios engineering"],
-        "GTM": ["gtm", "go-to-market", "startup growth", "founder", "vc", "venture capital", "marketing", "mql", "sql getting"],
-        "Developer Marketing": ["developer marketing", "devrel", "developer relations", "developer advocacy", "dev marketing"],
-        "Technical Content Marketing": ["technical content", "content marketing", "technical writing"]
-    }
-    
     best_score = 0
     best_category = default_category
     
-    for category, keywords in categories.items():
+    for category, keywords in CATEGORIES.items():
         score = 0
         for kw in keywords:
             # Word boundaries prevent partial matches (e.g., 'api' matching 'capital')
