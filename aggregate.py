@@ -206,6 +206,7 @@ def aggregate():
                     # Sort and flush table
                     # Sort by the first column (Name), case-insensitive, stripping bold markdown
                     table_rows.sort(key=lambda x: re.sub(r'[*_]', '', re.split(r'(?<!\\)\|', x)[1]).strip().lower() if len(re.split(r'(?<!\\)\|', x)) > 1 else '')
+                    final_lines.extend(header_rows)
                     final_lines.extend(table_rows)
                     in_table = False
                 final_lines.append(line)
