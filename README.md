@@ -159,7 +159,6 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **Animesh Gaitonde** | [↗](https://animeshgaitonde.medium.com) | Read writing from Animesh Gaitonde on Medium. SDE-3/Tech Lead @ Amazon\| ex-Airbnb \| ex-Microsoft. Writes about Distributed Systems, Programming Languages & Tech Interviews | Varies |
 | **Animesh Gaitonde** | [↗](https://medium.com/@animeshgaitonde) | Read writing from Animesh Gaitonde on Medium. SDE-3/Tech Lead @ Amazon\| ex-Airbnb \| ex-Microsoft. Writes about Distributed Systems, Programming Languages & Tech Interviews | Varies |
 | **ByteByteGo System Design Alliance** | [↗](https://medium.com/bytebytego-system-design-alliance) | Explain complex systems with simple term. | Varies |
 | **Design Systems Collective** | [↗](https://medium.com/design-systems-collective) | A welcoming community for designers and developers passionate about scalable, consistent design. Explore articles, insights, and resources to build and refine your design systems. Join us to connect, learn, and shape the future of systematic design together. | Varies |

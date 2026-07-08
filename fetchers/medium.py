@@ -82,7 +82,27 @@ def discover_medium():
         ("technical content marketing", "Technical Content Marketing")
     ]
     
-    discovered = []
+    
+    discovered = []    
+    existing_urls = set()    
+    if os.path.exists(JSON_PATH):        
+        try:           
+            with open(JSON_PATH, "r", encoding="utf-8") as f:                
+                for item in json.load(f):                    
+                 if "url" in item:                       
+                  existing_urls.add(item["url"].rstrip("/").lower())     
+        except Exception:            
+            pass   
+        if os.path.exists("README.md"):      
+         try:          
+            import re            
+            with open("README.md", "r", encoding="utf-8") as f:              
+             for line in f:                   
+                 matches = re.findall(r"\]\((https?://[^)]+)\)", line)                   
+                 for m in matches:                       
+                    existing_urls.add(m.rstrip("/").lower())        
+         except Exception:            
+          pass
     
     for query, category in queries:
         url = "https://hn.algolia.com/api/v1/search"
@@ -101,18 +121,20 @@ def discover_medium():
                         netloc = parsed.netloc
                         path_parts = [p for p in parsed.path.split('/') if p]
                         
-                        base_url = ""
-                        if netloc == "medium.com" and path_parts and path_parts[0].startswith('@'):
-                            base_url = f"{parsed.scheme}://{netloc}/{path_parts[0]}"
-                        elif netloc.endswith(".medium.com"):
-                            base_url = f"{parsed.scheme}://{netloc}"
-                        else:
-                            if netloc == "medium.com" and path_parts:
-                                base_url = f"{parsed.scheme}://{netloc}/{path_parts[0]}"
-                            else:
-                                base_url = f"{parsed.scheme}://{netloc}"
+                        reserved_paths = {"p", "tag", "m", "search", "about", "policy", "membership", "plans", "creators", "topic", "topics", "jobs", "press"}
                         
-                        if not any(d['url'] == base_url for d in discovered):
+                        if netloc.endswith(".medium.com"):
+                            username = netloc.replace(".medium.com", "")
+                            base_url = f"https://medium.com/@{username}"
+                        elif netloc == "medium.com" and path_parts:
+                            first_part = path_parts[0]
+                            if first_part in reserved_paths:
+                                continue
+                            base_url = f"https://medium.com/{first_part}"
+                        else:
+                            continue
+                        
+                        if base_url.rstrip("/").lower() not in existing_urls and not any(d['url'] == base_url for d in discovered):
                             print(f"Discovered Medium: {base_url}")
                             data = fetch_medium_data(base_url)
                             if data:
@@ -129,7 +151,7 @@ def discover_medium():
             try:
                 with open(JSON_PATH, "r", encoding="utf-8") as f:
                     existing = json.load(f)
-            except:
+            except (json.JSONDecodeError, OSError):
                 pass
         
         existing.extend(discovered)
