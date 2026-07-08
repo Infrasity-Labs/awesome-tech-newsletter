@@ -31,6 +31,8 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## General Software Engineering
 
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
 | **5 Essential Substack Newsletters for Every Developer to Subscribe To 💌** | [↗](https://careercutler.substack.com) | I love reading newsletters. But let's be honest, many are just a waste of time. If you want to... | Varies |
 | **A Case for Monolith** | [↗](https://charlesfonseca.substack.com) | I write because I can't stop. Systems, Programming, Database, Cloud. | Varies |
 | **Adding Homemade TLS to a Homemade Web Server** | [↗](https://open.substack.com) | Original series: Building Your Own Web Server + Rebuilding TLS from Scratch This article connects... | Varies |
@@ -50,6 +52,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **In multi-agent systems, the skill is the abstraction level — not the agent count** | [↗](https://hariph.hashnode.dev) | Everyone building multi-agent systems knows the starting pattern by now: a router reads the request,... | Varies |
 | **Kyle Poyar’s Growth Unhinged** | [↗](https://kylepoyar.substack.com) | Revealing the playbooks and hidden tactics behind today's best startups. Join 80,000+ weekly readers for real-life growth advice, playbooks and case studies. Click to read Kyle Poyar’s Growth Unhinged, a Substack publication with tens of thousands of subscribers. | Varies |
 | **Magma: An open source implementation of a mobile core network** | [↗](https://systemsapproach.substack.com) | Larry Peterson and Bruce Davie, authors of "Computer Networks: A Systems Approach" explain the Internet – its technology, architecture, and evolution | Varies |
+| **No Kill Switch** | [↗](https://no-kill-switch.ghost.io) | There's no kill switch on awesome. The personal blog of Sebastian Gebski. | Varies |
 | **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
 | **Open Source Watch** | [↗](https://opensourcewatch.beehiiv.com) | What's what with open-source news. | Varies |
 | **Pointer** | [↗](https://www.pointer.io/) | A reading club for software developers focusing on engineering leadership and best practices. | Bi-weekly |
@@ -87,6 +90,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The Hustle** | [↗](https://duckduckgo.com/?q=!ducky+"The+Hustle"+newsletter) | Fresh tech and business news | Varies |
 | **The Lifelong Learner** | [↗](https://avthar.substack.com) | Documenting my journey of lifelong learning. Practical wisdom about self-mastery, entrepreneurship, health and happiness. By South African entrepreneur and technologist Avthar Sewrathan. Click to read The Lifelong Learner, by Avthar Sewrathan, a Substack publication with hundreds of subscribers. | Varies |
 | **The Lindy Newsletter** | [↗](https://lindynewsletter.beehiiv.com) | No description available. | Varies |
+| **The Nerve Blog** | [↗](https://the-nerve-blog.ghost.io) | This is Nerve's Official Blog | Varies |
 | **The Personable Engineer** | [↗](https://fernandovillalba.substack.com) | This publication deals with all things that help developers and engineers to do a better job by designing systems, processes, culture and tools that are human friendly and increase flow state. | Varies |
 | **The Schematic** | [↗](https://ryanspears.substack.com) | All things engineering, software, science, and business. | Varies |
 | **The Tech Enabler** | [↗](https://thetechenabler.substack.com) | My personal Substack for my role as a tech enabler inside a large media company. I write about work, culture, and programming in general. My current series is all about tech trends and what I think teams should adopt or drop. | Varies |
@@ -96,12 +100,15 @@ This is a community-curated directory of some of the best newsletters by and for
 | **TLDR** | [↗](https://duckduckgo.com/?q=!ducky+%22TLDR%22+newsletter) | Byte sized news for techie folks | Varies |
 | **TLDR** | [↗](https://duckduckgo.com/?q=!ducky+"TLDR"+newsletter) | Byte sized news for techie folks | Varies |
 | **TLDR** | [↗](https://tldr.tech/) | Bite-sized news for busy techies covering software engineering, tech, and science. | Daily |
+| **Transfer Orbit Newsletter** | [↗](https://transfer-orbit.ghost.io) | A newsletter about science fiction, books, and the future | Varies |
 | **Vasu’s Newsletter** | [↗](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
 | **Why HTTP/1.1 Eventually Became a Bottleneck** | [↗](https://aniksikder.hashnode.dev) | To understand HTTP/2 and HTTP/3, we first need to understand the problem they were designed to... | Varies |
 | **You're Writing Paper Commands Wrong** | [↗](https://eande171.hashnode.dev) | You've probably written a CommandExecutor before. Everyone who's touched Bukkit has. Declare the... | Varies |
 
 ## Backend Development
 
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
 | **'How to do great work' by Paul Graham mapped out** | [↗](https://substack.com) | A tech newsletter focused on api and software engineering. | Varies |
 | **A Recipe for Auth Cookies in the Decoupled Front End and Back End Architecture** | [↗](https://nowaycodes.substack.com) | Code and life musings | Varies |
 | **API Complexity Is a Lie** | [↗](https://apichangelog.substack.com) | Curated API moves. Unfiltered expert takes. | Varies |
@@ -118,6 +125,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Hacker Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+%22Hacker+Newsletter%22+newsletter) | The best articles on startups, technology, programming, and more. | Varies |
 | **Hacker Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+"Hacker+Newsletter"+newsletter) | The best articles on startups, technology, programming, and more. | Varies |
 | **How to build prototypes as a back-end engineer** | [↗](https://buildtechcareer.substack.com) | Build Tech Career is for experienced software engineers who want to move closer to real AI/ML systems work. | Varies |
+| **Inside Skylight** | [↗](https://skylight.ghost.io) | Development of the smart profiler for Ruby on Rails. | Varies |
 | **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+%22iOS+Dev+Tools%22+newsletter) | The best tools for iOS developers | Varies |
 | **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+"iOS+Dev+Tools"+newsletter) | The best tools for iOS developers | Varies |
 | **Javarevisited Newsletter** | [↗](https://javarevisited.substack.com) | Master Java and System Design Interviews. Level up your Software Engineering career. Subscribe and get free copy of my book Grokking the Spring Boot Interview in your inbox | Varies |
@@ -135,6 +143,8 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## System Design & Architecture
 
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
 | **High Scalability** | [↗](https://highscalability.com/) | A newsletter focusing on the architectures of successful, highly scalable websites. | Weekly |
 | **Musings on computer systems** | [↗](https://buttondown.email/nelhage) | This is my occasional newsletter, for my thoughts and explanations on assorted topics in software engineering and computer systems. It also receives notifications about new blog posts from my blog. Content clusters around my areas of expertise and interest in computer systems engineering, including testing, performance, and engineering system architecture and organization design, but I also wander further afield from time to time. In addition to my blog, I aspire to use this newsletter as a place to work through thoughts in a rougher form, and flesh out work-in-progress ideas; in practice, much of the time it just gets the blog posts links. | Varies |
 | **Software Architecture and Philosophical Anthropology** | [↗](https://michaelmangialardi.substack.com) | On Humans and Agents | Varies |
@@ -144,11 +154,15 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## Language Specific
 
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
 | **404trends** | [↗](https://404trends.beehiiv.com) | Weekly dose of the hottest trends backed by data and actionable insights. Join the 404trends community of impatient entrepreneurs, game changers, indie hackers and everyone who thinks of "Page Not Found" as a challenge | Varies |
 | **Awesome Python** | [↗](https://duckduckgo.com/?q=!ducky+%22Awesome+Python%22+newsletter) | The most popular Python news, articles and packages | Varies |
 | **Awesome Python** | [↗](https://duckduckgo.com/?q=!ducky+"Awesome+Python"+newsletter) | The most popular Python news, articles and packages | Varies |
 | **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+%22Bytes%22+newsletter) | The funniest JavaScript newsletter on the web | Varies |
 | **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+"Bytes"+newsletter) | The funniest JavaScript newsletter on the web | Varies |
+| **ChillFish8's Blog** | [↗](https://chillfish8.ghost.io) | 🦀 Building and designing some cool stuff in Rust. | Varies |
+| **Colors of Code** | [↗](https://colorsofcode.ghost.io) | My name is Léo Germond, about every month I write a new post about libraries, news, and coding techniques in Python | Varies |
 | **FOSS Weekly** | [↗](https://fossweekly.beehiiv.com) | The easiest way to keep up with FOSS! I track hundreds of projects, ecosystems, and developers and post a review every Sunday. | Varies |
 | **Golang Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Golang+Weekly%22+newsletter) | Go lang news | Varies |
 | **Golang Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Golang+Weekly"+newsletter) | Go lang news | Varies |
@@ -156,12 +170,16 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Jacob’s Tech Tavern** | [↗](https://jacobbartlett.substack.com) | Learn advanced concurrency, agentic iOS engineering, and Swift performance for 10 minutes a week. <br><br>New subscribers get a free eBook: The Complete Swift Concurrency Toolkit. | Varies |
 | **Python Weekly** | [↗](https://pythonweekly.com/) | A free, weekly newsletter featuring the best hand-curated news, articles, and new releases. | Weekly |
 | **Rust Trends** | [↗](https://rusttrends.com/) | A weekly newsletter covering the Rust programming language ecosystem and community. | Weekly |
+| **Stratum Security Blog** | [↗](http://stratumsecurity.ghost.io) | AppSec, Research, Sarcasm, NetSec | Varies |
+| **Tacos and Security** | [↗](https://danielxblack.ghost.io) | Just a simple blog. | Varies |
 | **The Real Python Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Real+Python+Newsletter%22+newsletter) | Weekly Programming and Career Tips for Python Devs | Varies |
 | **The Real Python Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+"The+Real+Python+Newsletter"+newsletter) | Weekly Programming and Career Tips for Python Devs | Varies |
 | **Trusted Value** | [↗](https://helitharupasinghe.hashnode.dev) | Always open to learning and working with any web technology. 🔥 | Varies |
 
 ## DevOps & Cloud
 
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
 | **Abid Moon** | [↗](https://abidmoon.hashnode.dev) | I’m a DevOps Engineer & digital marketer who grows brands and website traffic using content, search and social media marketing. 👍 | Varies |
 | **America Loses the Next War (Won't Be a Cyber War, It Will Be a DevOps War)** | [↗](https://ryanmcbeth.substack.com) | Intelligence Analysis and Author Updates | Varies |
 | **An Alternate History of “DevOps”** | [↗](https://michaeldehaan.substack.com) | Michael Dehaan | Varies |
@@ -174,11 +192,14 @@ This is a community-curated directory of some of the best newsletters by and for
 | **LeanerCloud News** | [↗](https://leanercloud.beehiiv.com) | No description available. | Varies |
 | **MLOps vs. DevOps** | [↗](https://laszlo.substack.com) | Deliberate Machine Learning: Machine Learning Product Management & How to write better code as a DS? | Varies |
 | **Sheep Code** | [↗](https://sheepcode.substack.com) | Hear our insights on software engineering, cloud, and tech. | Varies |
+| **The Infrastructure Mindset** | [↗](https://the-infrastructure-mindset.ghost.io) | Systems-level, long-horizon infrastructure thinking: lessons from decades of distributed systems work, built for durability and survivable change. | Varies |
 | **treebeardtech** | [↗](https://treebeardtech.beehiiv.com) | No description available. | Varies |
 | **Using Declarative Interfaces to Empower Devs to Do Ops** | [↗](https://galenmarchetti.substack.com) | synthesized braindumps | Varies |
 
 ## GTM
 
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
 | **Developer Led** | [↗](https://developerled.substack.com) | All things developer marketing, communities, devrel and GTM | Varies |
 | **Digital Native** | [↗](https://www.digitalnative.tech) | Digital Native is a tech newsletter from Rex Woodbury covering tech trends, culture, policy, news for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Weekly |
 | **Growth Curated** | [↗](https://foundcy.beehiiv.com) | Hand-picked posts on Go-to-Market Strategy, Product-Market Fit, Metrics, Pricing, and Product-Led Growth | Varies |
@@ -190,6 +211,8 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## Developer Marketing
 
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
 | **Big Podcast Insider** | [↗](https://duckduckgo.com/?q=!ducky+%22Big+Podcast+Insider%22+newsletter) | The Newsletter for Podcasters | Varies |
 | **Buttondown Blog** | [↗](https://buttondown.email/blog) | Buttondown's engineers, writers, and biggest fans write about the whole thing: engineering challenges, useful tips and tricks, new features, and more. | Varies |
 | **Community Inc.** | [↗](https://duckduckgo.com/?q=!ducky+%22Community+Inc.%22+newsletter) | Demystifying Community-Led Growth | Varies |
@@ -212,12 +235,16 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## Technical Content Marketing
 
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
 | **Abraham Dahunsi Blog** | [↗](https://abrahamd.hashnode.dev) | I enjoy solving problems by writing code and breakdown technical contents by writing. | Varies |
 
 <!-- FOOTER -->
 
 ## Frontend Development
 
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
 | **200% go: Vugu framework for go is 100% go on backend, 100% go on frontend** | [↗](https://andrewarrow.substack.com) | computer science major pitt.edu 1996 | Varies |
 | **Front End Web Development Feeds and Newsletters** | [↗](https://leftalign.substack.com) | The world of Web Development is exciting and moves fast - particularly front end development in the... | Varies |
 | **Hibiki HTML – The front-end framework for back-end engineers (Console interview)** | [↗](https://console.substack.com) | Join thousands of engineers, VCs, and early stage CTOs in subscribing to a weekly roundup of the latest in open-source software, curated by the CodeSee.io team. | Varies |
@@ -227,6 +254,8 @@ This is a community-curated directory of some of the best newsletters by and for
 
 ## Data Science & AI
 
+| Name | Link | Description | Frequency |
+|------|------|-------------|-----------|
 | **Adamtornhill** | [↗](https://adamtornhill.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Addyo** | [↗](https://addyo.substack.com) | Addy Osmani's newsletter on elevating your effectiveness. Join his community of 600,000 readers across social media. | Varies |
 | **AI & Marketing with Annika Helendi** | [↗](https://annikahelendi.substack.com) | Rooting for the underdog. I want small teams to do big things and win. Join me in replacing AI overwhelm with AI advantage - https://www.aimarketingmasters.com/ | Varies |
@@ -251,6 +280,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Dead Neurons** | [↗](https://deadneurons.substack.com) | Quick reads on Tech, Econ & AI. | Varies |
 | **Decodingbiology** | [↗](https://decodingbiology.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Developer GTM – by Calyx Consulting** | [↗](https://calyx.substack.com) | Insights & guidance from the best developer-first operators. A biweekly newsletter by Ceci Stallsmith and Paige Paquette ✨ | Varies |
+| **Engraved** | [↗](https://engraved.ghost.io) | Jonas Degrave's commentary on machine learning and the quest for artificial intelligence. | Varies |
 | **Erikexplores** | [↗](https://erikexplores.substack.com) | Software development, space exploration, green energy and microprocessors | Varies |
 | **Ezebunandu** | [↗](https://ezebunandu.substack.com) | Exploring technology through beginner's eyes. | Varies |
 | **Frontendengineering** | [↗](https://frontendengineering.substack.com) | Bringing Order To The Chaotic World Of Frontend Development | Varies |
@@ -285,6 +315,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Mldoom** | [↗](https://mldoom.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Neurometric** | [↗](https://neurometric.substack.com) | A substack for Neurometric - AI system orchestration and workflow SLMs | Varies |
 | **Nulldata** | [↗](https://nulldata.substack.com) | Thought Pieces, Updates, Links about Data Science, Machine Learning, | Varies |
+| **Physical AI** | [↗](https://physical-ai.ghost.io) | We’re documenting the rise of intelligence in the physical world - The Physical AI Newletter | Varies |
 | **Plenty of Room** | [↗](https://plentyofroom.beehiiv.com) | Stay ahead in AI protein design, DNA nanotech & synthetic biology. Under 10 minutes a week. Read by 577 people shaping biotech! | Varies |
 | **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+%22Product+Hunt+Daily%22+newsletter) | The best of Product Hunt, created by your friends. | Varies |
 | **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+"Product+Hunt+Daily"+newsletter) | The best of Product Hunt, created by your friends. | Varies |

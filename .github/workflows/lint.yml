@@ -40,6 +40,9 @@ jobs:
       - name: Validate URLs and Auto-Remove Dead Links
         run: python checks/url_check.py
         
+      - name: Format and Sort Tables
+        run: python checks/format_tables.py
+        
       - name: Commit and Push Changes (if any)
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
