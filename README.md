@@ -431,7 +431,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Mldoom** | [↗](https://mldoom.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Neurometric** | [↗](https://neurometric.substack.com) | A substack for Neurometric - AI system orchestration and workflow SLMs | Varies |
 | **Nulldata** | [↗](https://nulldata.substack.com) | Thought Pieces, Updates, Links about Data Science, Machine Learning, | Varies |
-| **Physical AI** | [↗](https://physical-ai.ghost.io) | We’re documenting the rise of intelligence in the physical world - The Physical AI Newletter | Varies |
+| **Physical AI** | [↗](https://physical-ai.ghost.io) | We’re documenting the rise of intelligence in the physical world - The Physical AI Newsletter | Varies |
 | **Plenty of Room** | [↗](https://plentyofroom.beehiiv.com) | Stay ahead in AI protein design, DNA nanotech & synthetic biology. Under 10 minutes a week. Read by 577 people shaping biotech! | Varies |
 | **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+%22Product+Hunt+Daily%22+newsletter) | The best of Product Hunt, created by your friends. | Varies |
 | **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+"Product+Hunt+Daily"+newsletter) | The best of Product Hunt, created by your friends. | Varies |
