@@ -5,7 +5,10 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 # Added for randomized headers
-from utils import get_random_user_agent
+try:
+    from fetchers.utils import get_random_user_agent
+except ModuleNotFoundError:
+    from utils import get_random_user_agent
 
 JSON_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f"newsletters_{os.path.basename(__file__)}.json")
 
