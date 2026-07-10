@@ -5,6 +5,9 @@ import requests
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 
+# Added for randomized headers
+from utils import get_random_user_agent
+
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def fetch_hashnode_data(url):
@@ -13,7 +16,7 @@ def fetch_hashnode_data(url):
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
         feed_url = f"{base_url}/rss.xml"
         
-        headers = {'User-Agent': 'Mozilla/5.0'}
+        headers = {'User-Agent': get_random_user_agent()}
         response = requests.get(feed_url, headers=headers, timeout=10)
         response.raise_for_status()
         
@@ -60,7 +63,8 @@ def discover_hashnode():
     for query, category in queries:
         url = f"https://hn.algolia.com/api/v1/search?query=hashnode.dev+{query}&hitsPerPage=10"
         try:
-            r = requests.get(url, timeout=10)
+            headers_algolia= {'User-Agent': get_random_user_agent()}
+            r = requests.get(url, headers=headers_algolia, timeout=10)
             if r.status_code == 200:
                 hits = r.json().get("hits", [])
                 for hit in hits:

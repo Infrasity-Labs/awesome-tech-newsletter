@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
+#imported time
+import time
 import json
 import os
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+#Same here 
+from utils import get_random_user_agent
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def discover_thebilig():
     print("Starting TheBilig discovery...")
     url = "https://www.thebilig.com/newsletters/editors-picks/best-tech-newsletters"
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'}
+    #Added Randomized user agent
+    headers = {'User-Agent': get_random_user_agent()}
     
     discovered = []
     
@@ -45,7 +50,8 @@ def discover_thebilig():
                         description = p.text.strip()
                 
                 print(f"Fetching details for {title}...")
-                
+                #Adding a delay of 2 seconds between requests
+                time.sleep(2)
                 # Fetch external URL from internal page
                 detail_url = f"https://www.thebilig.com{href}"
                 try:

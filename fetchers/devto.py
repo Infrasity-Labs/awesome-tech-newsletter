@@ -4,6 +4,8 @@ import os
 import re
 import requests
 from urllib.parse import urlparse
+# Added for randomized headers
+from utils import get_random_user_agent
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -18,7 +20,8 @@ def discover_devto():
     ]
     
     discovered = []
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    # Using Randomized header
+    headers = {'User-Agent': get_random_user_agent()}
     
     # Regex to find known newsletter platforms. Removed ghost.io due to CDN false positives, added buttondown
     newsletter_regex = r'https?://[a-zA-Z0-9.-]+\.(?:substack\.com|beehiiv\.com|hashnode\.dev|buttondown\.email)'
@@ -43,7 +46,9 @@ def discover_devto():
                         try:
                             import time
                             time.sleep(0.5)
-                            detail_r = requests.get(f"https://dev.to/api/articles/{article_id}", headers=headers, timeout=10)
+                            # Using randomized headers here also
+                            detail_headers={'User-Agent': get_random_user_agent()}
+                            detail_r = requests.get(f"https://dev.to/api/articles/{article_id}", headers=detail_headers, timeout=10)
                             if detail_r.status_code == 200:
                                 body = detail_r.json().get('body_markdown', '')
                                 matches = re.findall(newsletter_regex, body)

@@ -4,6 +4,8 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+# random user-agent import 
+from utils import get_random_user_agent
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -13,9 +15,9 @@ def fetch_buttondown_data(url):
         path_parts = [p for p in parsed_url.path.split('/') if p]
         first_path = f"/{path_parts[0]}" if path_parts else ""
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}{first_path}"
-        
+        # Removed Static and used random user agent
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+            'User-Agent': get_random_user_agent()
         }
         response = requests.get(base_url, headers=headers, timeout=10)
         response.raise_for_status()
@@ -84,7 +86,9 @@ def discover_buttondown():
             "hitsPerPage": 10
         }
         try:
-            r = requests.get(url, params=params, timeout=10)
+            #Also Added randomized headers
+            headers = {'User-Agent': get_random_user_agent()}
+            r = requests.get(url, params=params, timeout=10, headers=headers)
             if r.status_code == 200:
                 hits = r.json().get("hits", [])
                 for hit in hits:

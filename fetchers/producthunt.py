@@ -3,6 +3,8 @@ import json
 import os
 import requests
 from urllib.parse import urlparse
+#Same Here
+from utils import get_random_user_agent
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -18,7 +20,9 @@ def discover_producthunt():
     headers = {
         "Accept": "application/json",
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {token}"
+        "Authorization": f"Bearer {token}",
+        #Added for Randomized headers
+        "User-Agent": get_random_user_agent(),
     }
     
     # Query for recent posts, retrieving their topics to filter for newsletters
