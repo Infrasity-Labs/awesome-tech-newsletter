@@ -6,6 +6,12 @@ import requests
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 
+#Same Here Added random User Agent
+try:
+    from fetchers.utils import get_random_user_agent
+except ModuleNotFoundError:
+    from utils import get_random_user_agent
+
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def fetch_substack_data(url):
@@ -15,7 +21,8 @@ def fetch_substack_data(url):
         feed_url = f"{base_url}/feed"
         
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15',
+            #Same here added randomized user agent
+            'User-Agent': get_random_user_agent(),
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.5',
             'Accept-Encoding': 'gzip, deflate, br',
@@ -91,7 +98,9 @@ def discover_substack():
     for query, category in queries:
         url = f"https://hn.algolia.com/api/v1/search?query=substack.com+{query}&hitsPerPage=10"
         try:
-            r = requests.get(url, timeout=10)
+            #Added Randomized user agent
+            headers_algolia = {'User-Agent': get_random_user_agent()}
+            r = requests.get(url, headers=headers_algolia, timeout=10)
             if r.status_code == 200:
                 hits = r.json().get("hits", [])
                 for hit in hits:

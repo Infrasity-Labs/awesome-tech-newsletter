@@ -1,19 +1,24 @@
 #!/usr/bin/env python3
+
 import json
 import os
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
-
+# In utils.py i have made a function that Fetches Random Chrome User Agent
+try:
+    from fetchers.utils import get_random_user_agent
+except ModuleNotFoundError:
+    from utils import get_random_user_agent
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def fetch_beehiiv_data(url):
     try:
         parsed_url = urlparse(url)
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
-        
+        #I have Replaced the single user agent with the function that gets random user agent for avoiding Error
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+            'User-Agent': get_random_user_agent()
         }
         response = requests.get(base_url, headers=headers, timeout=10)
         response.raise_for_status()
@@ -77,7 +82,9 @@ def discover_beehiiv():
             "hitsPerPage": 10
         }
         try:
-            r = requests.get(url, params=params, timeout=10)
+            #I have also added here 
+            headers = {'User-Agent': get_random_user_agent()}
+            r = requests.get(url, params=params, timeout=10,headers=headers)
             if r.status_code == 200:
                 hits = r.json().get("hits", [])
                 for hit in hits:

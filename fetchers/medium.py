@@ -5,13 +5,18 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+#Same Here
+try:
+    from fetchers.utils import get_random_user_agent
+except ModuleNotFoundError:
+    from utils import get_random_user_agent
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def fetch_medium_data(url):
     try:
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+            'User-Agent': get_random_user_agent(),
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.5',
             'Connection': 'keep-alive',
@@ -111,7 +116,9 @@ def discover_medium():
             "hitsPerPage": 10
         }
         try:
-            r = requests.get(url, params=params, timeout=15)
+            #Same Here Added random User Agent
+            headers_algolia = {'User-Agent': get_random_user_agent()}
+            r = requests.get(url, params=params,headers=headers_algolia, timeout=15)
             if r.status_code == 200:
                 hits = r.json().get("hits", [])
                 for hit in hits:
