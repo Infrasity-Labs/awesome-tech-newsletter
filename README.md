@@ -58,6 +58,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Magma: An open source implementation of a mobile core network** | [↗](https://systemsapproach.substack.com) | Larry Peterson and Bruce Davie, authors of "Computer Networks: A Systems Approach" explain the Internet – its technology, architecture, and evolution | Varies |
 | **Matt Schellhas** | [↗](https://medium.com/@matt-schellhas) | Read writing from Matt Schellhas on Medium. Dour, opinionated leader of software engineers. | Varies |
 | **Matt Schellhas** | [↗](https://matt-schellhas.medium.com) | Read writing from Matt Schellhas on Medium. Dour, opinionated leader of software engineers. | Varies |
+| **Mnky9800N** | [↗](https://mnky9800n.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **No Kill Switch** | [↗](https://no-kill-switch.ghost.io) | There's no kill switch on awesome. The personal blog of Sebastian Gebski. | Varies |
 | **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
 | **On Coding** | [↗](https://medium.com/on-coding) | Thoughts about writing code | Varies |
@@ -106,6 +107,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The Startup** | [↗](https://medium.com/swlh) | Get smarter at building your thing. Follow to join The Startup’s +8 million monthly readers & +772K followers. | Varies |
 | **The Tech Enabler** | [↗](https://thetechenabler.substack.com) | My personal Substack for my role as a tech enabler inside a large media company. I write about work, culture, and programming in general. My current series is all about tech trends and what I think teams should adopt or drop. | Varies |
 | **The Technically Challenged Newsletter** | [↗](https://technicallychallenged.substack.com) | "Tech made easy", exploring topics around technology in general, programming, learning to code, career growth, learning new technologies, tips and tricks, personal growth | Varies |
+| **Thefridaydeploy** | [↗](https://thefridaydeploy.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **TheFutureParty** | [↗](https://duckduckgo.com/?q=!ducky+%22TheFutureParty%22+newsletter) | Modern take on business, culture, tech & more | Varies |
 | **TheFutureParty** | [↗](https://duckduckgo.com/?q=!ducky+"TheFutureParty"+newsletter) | Modern take on business, culture, tech & more | Varies |
 | **TLDR** | [↗](https://duckduckgo.com/?q=!ducky+%22TLDR%22+newsletter) | Byte sized news for techie folks | Varies |
@@ -359,6 +361,7 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **ActiveWizards — AI & ML for startups** | [↗](https://medium.com/activewizards-machine-learning-company) | Helping organizations to implement AI, engineering and data science initiatives | Varies |
 | **Adam Geitgey** | [↗](https://medium.com/@ageitgey) | Read writing from Adam Geitgey on Medium. Interested in computers and machine learning. Likes to write about it. | Varies |
 | **Adamtornhill** | [↗](https://adamtornhill.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Addyo** | [↗](https://addyo.substack.com) | Addy Osmani's newsletter on elevating your effectiveness. Join his community of 600,000 readers across social media. | Varies |
