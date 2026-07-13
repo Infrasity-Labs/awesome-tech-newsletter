@@ -42,6 +42,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Android+Authority+Weekly%22+newsletter) | Android news, reviews, articles, and more! | Varies |
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Android+Authority+Weekly"+newsletter) | Android news, reviews, articles, and more! | Varies |
 | **Better Engineers** | [↗](https://betterengineers.substack.com) | A Programmer's Journey of Perfections <br>Follow <br>LinkedIn: https://www.linkedin.com/in/devd04/<br>X : https://x.com/BetterEngineer1 | Varies |
+| **BroncoCTF : Spot the difference Writeup** | [↗](https://exploitnotes.hashnode.dev) | Challenge We're given two files, file1.txt and file2.txt, each containing what looks... | Varies |
 | **Caleb's Commentary** | [↗](https://calebfenton.substack.com) | Bitcoin, economics, freedom, self-improvement | Varies |
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22CB+Insights%22+newsletter) | The easy way to stay ahead of all things tech | Varies |
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+"CB+Insights"+newsletter) | The easy way to stay ahead of all things tech | Varies |
@@ -55,6 +56,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Filip K: Freedom Newsletter** | [↗](https://filipk.beehiiv.com) | Merging technology, economics and self-improvement in the pursuit of freedom | Varies |
 | **In multi-agent systems, the skill is the abstraction level — not the agent count** | [↗](https://hariph.hashnode.dev) | Everyone building multi-agent systems knows the starting pattern by now: a router reads the request,... | Varies |
 | **Kyle Poyar’s Growth Unhinged** | [↗](https://kylepoyar.substack.com) | Revealing the playbooks and hidden tactics behind today's best startups. Join 80,000+ weekly readers for real-life growth advice, playbooks and case studies. Click to read Kyle Poyar’s Growth Unhinged, a Substack publication with tens of thousands of subscribers. | Varies |
+| **Lars Janssen** | [↗](https://medium.com/@fazy) | Read writing from Lars Janssen on Medium. | Varies |
 | **Magma: An open source implementation of a mobile core network** | [↗](https://systemsapproach.substack.com) | Larry Peterson and Bruce Davie, authors of "Computer Networks: A Systems Approach" explain the Internet – its technology, architecture, and evolution | Varies |
 | **Matt Schellhas** | [↗](https://medium.com/@matt-schellhas) | Read writing from Matt Schellhas on Medium. Dour, opinionated leader of software engineers. | Varies |
 | **Matt Schellhas** | [↗](https://matt-schellhas.medium.com) | Read writing from Matt Schellhas on Medium. Dour, opinionated leader of software engineers. | Varies |
@@ -68,6 +70,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Recomendo** | [↗](https://duckduckgo.com/?q=!ducky+%22Recomendo%22+newsletter) | 6 brief recommendations of cool stuff | Varies |
 | **Recomendo** | [↗](https://duckduckgo.com/?q=!ducky+"Recomendo"+newsletter) | 6 brief recommendations of cool stuff | Varies |
 | **Reverse Engineering Netflix: What Actually Happens When We Click Play?** | [↗](https://sravanyadev.hashnode.dev) | Why I Started This A few days ago, while watching Netflix, I caught myself wondering about... | Varies |
+| **Richard Artoul** | [↗](https://medium.com/@richardartoul) | Read writing from Richard Artoul on Medium. Distributed Storage Engineer | Varies |
 | **sailor mercury** | [↗](https://medium.com/@sailorhg) | Read writing from sailor mercury on Medium. short haired computer scientist girl | Varies |
 | **SE Daily** | [↗](https://medium.com/@softwareengineeringdaily) | Read writing from SE Daily on Medium. Daily podcast about software: http://softwareengineeringdaily.com | Varies |
 | **Software 2.0 - Lessons learned building ML products** | [↗](https://karimfanous.substack.com) | A newsletter for heads of engineering at startups. I cover the joys and challenges of running software engineering organizations at fast-paced startups. | Varies |
@@ -119,6 +122,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Vasu’s Newsletter** | [↗](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
 | **Why HTTP/1.1 Eventually Became a Bottleneck** | [↗](https://aniksikder.hashnode.dev) | To understand HTTP/2 and HTTP/3, we first need to understand the problem they were designed to... | Varies |
 | **You're Writing Paper Commands Wrong** | [↗](https://eande171.hashnode.dev) | You've probably written a CommandExecutor before. Everyone who's touched Bukkit has. Declare the... | Varies |
+| **Your uptime SLA means nothing when the physical process can't wait for your rollback** | [↗](https://marius-newsletter-d94bcd.beehiiv.com) | There’s a conversation that happens when IT developers first encounter operational technology. It... | Varies |
 
 ## Backend Development
 
@@ -262,6 +266,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Developer-Led Landscape: 2021 Trends Foretell New Approaches to DevOps** | [↗](https://tylerjewell.substack.com) | Developer Software, Piloting, and Options Trading I am an enterprise technology investor and executive with an appreciation for companies building disruptive middleware, platforms, and infrastructure. I am also a private pilot, instrument-rated, ASEL. | Varies |
 | **DevOps Dudes** | [↗](https://medium.com/devops-dudes) | A collection of stories that have anything and everything to do with DevOps from horror stories to success stories. If it's about Gitlab, Jenkins, Chef, Ansible, AWS, Azure, Kubernetes, Software Engineer then it belongs here. | Varies |
 | **DevOpsish** | [↗](https://devopsish.com/) | A weekly newsletter covering cloud native, DevOps, and open source news. | Weekly |
+| **DRY Infrastructure: How to Architect Modular Ansible Playbooks for Next.js** | [↗](https://actocodes.hashnode.dev) | Infrastructure code suffers from the same antipatterns as application code, duplication, tight... | Varies |
 | **How to not get triggered by DevOps and other buzzwords** | [↗](https://five9s.substack.com) | Practical advice for designing your SRE team and functions | Varies |
 | **IaC Insights** | [↗](https://masterpoint.beehiiv.com) | IaC Insights is a newsletter by Matt Gowie and the Masterpoint team focused on delivering actionable advice and best practices in the Infrastructure as Code ecosystem. | Varies |
 | **In retrospect, DevOps was a bad idea** | [↗](https://rethinkingsoftware.substack.com) | Calling it a "Best Practice" does not make it so. | Varies |
