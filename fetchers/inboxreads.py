@@ -2,7 +2,11 @@
 import json
 import os
 import requests
-
+#Added for Randomized headers
+try:
+    from fetchers.utils import get_random_user_agent
+except ModuleNotFoundError:
+    from utils import get_random_user_agent
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def discover_inboxreads():
@@ -22,7 +26,8 @@ def discover_inboxreads():
     ]
     
     discovered = []
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    #Added for randomized headers
+    headers = {'User-Agent': get_random_user_agent()}
     
     for slug, category in queries:
         url = f"https://api.inboxreads.co/topics/{slug}"
