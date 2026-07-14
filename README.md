@@ -35,6 +35,7 @@ This is a community-curated directory of some of the best newsletters by and for
 |------|------|-------------|-----------|
 | **5 Essential Substack Newsletters for Every Developer to Subscribe To 💌** | [↗](https://careercutler.substack.com) | I love reading newsletters. But let's be honest, many are just a waste of time. If you want to... | Varies |
 | **A Case for Monolith** | [↗](https://charlesfonseca.substack.com) | I write because I can't stop. Systems, Programming, Database, Cloud. | Varies |
+| **A Reader's Guide to My Books: Which One to Pick Up, Depending on What You're Building** | [↗](https://amdatalakehouse.substack.com) | The question I get most often after talks, after podcast episodes, and in newsletter replies is a... | Varies |
 | **Adding Homemade TLS to a Homemade Web Server** | [↗](https://open.substack.com) | Original series: Building Your Own Web Server + Rebuilding TLS from Scratch This article connects... | Varies |
 | **Adrien Cadet** | [↗](https://medium.com/@CadetAdrien) | Read writing from Adrien Cadet on Medium. Junior Software Engineer | Varies |
 | **Agentic Coding with Discipline and Skill** | [↗](https://agenticcoding.substack.com) | Bring the practice of agentic coding to the next level so it's production-ready. | Varies |
@@ -60,6 +61,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Magma: An open source implementation of a mobile core network** | [↗](https://systemsapproach.substack.com) | Larry Peterson and Bruce Davie, authors of "Computer Networks: A Systems Approach" explain the Internet – its technology, architecture, and evolution | Varies |
 | **Matt Schellhas** | [↗](https://medium.com/@matt-schellhas) | Read writing from Matt Schellhas on Medium. Dour, opinionated leader of software engineers. | Varies |
 | **Matt Schellhas** | [↗](https://matt-schellhas.medium.com) | Read writing from Matt Schellhas on Medium. Dour, opinionated leader of software engineers. | Varies |
+| **MCP for Automation Engineers: The Complete Deep Dive for QA Professionals with 5–15 Years of Experience** | [↗](https://himanshuai.substack.com) | Introduction: Why Every Senior SDET Needs to Understand MCP in 2026 If you've spent the... | Varies |
 | **Mnky9800N** | [↗](https://mnky9800n.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **No Kill Switch** | [↗](https://no-kill-switch.ghost.io) | There's no kill switch on awesome. The personal blog of Sebastian Gebski. | Varies |
 | **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
@@ -352,6 +354,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
 | **200% go: Vugu framework for go is 100% go on backend, 100% go on frontend** | [↗](https://andrewarrow.substack.com) | computer science major pitt.edu 1996 | Varies |
+| **3 bugs que encontré auditando mi propio portafolio en React (y que Lighthouse no te explica bien)** | [↗](https://efrenmunoz.hashnode.dev) | Have poco me puse a auditar mi portafolio (efrenmunoz.cl) con Lighthouse en serio, no solo para sacar... | Varies |
 | **Esa-Matti Suuronen** | [↗](https://medium.com/@esamatti) | Read writing from Esa-Matti Suuronen on Medium. I write code and jump from airplanes | Varies |
 | **Front End Web Development Feeds and Newsletters** | [↗](https://leftalign.substack.com) | The world of Web Development is exciting and moves fast - particularly front end development in the... | Varies |
 | **Frontend and beyond** | [↗](https://medium.com/frontend-and-beyond) | web development done right | Varies |
