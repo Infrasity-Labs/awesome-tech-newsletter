@@ -6,9 +6,9 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 # Added for randomized headers
 try:
-    from fetchers.utils import get_random_user_agent
+    from fetchers.utils import get_random_user_agent, get_search_queries
 except ModuleNotFoundError:
-    from utils import get_random_user_agent
+    from utils import get_random_user_agent, get_search_queries
 
 JSON_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f"newsletters_{os.path.basename(__file__)}.json")
 
@@ -54,25 +54,7 @@ def fetch_ghost_data(url):
 
 def discover_ghost():
     print("Starting Ghost discovery via HackerNews Algolia...")
-    queries = [
-        ("software engineering", "General Software Engineering"),
-        ("backend developer", "Backend Development"),
-        ("devops", "DevOps & Cloud"),
-        ("system design", "System Design & Architecture"),
-        ("frontend", "Frontend Development"),
-        ("react", "Frontend Development"),
-        ("machine learning", "Data Science & AI"),
-        ("data science", "Data Science & AI"),
-        ("kubernetes", "DevOps & Cloud"),
-        ("python", "Language Specific"),
-        ("golang", "Language Specific"),
-        ("rust", "Language Specific"),
-        ("coding", "General Software Engineering"),
-        ("architecture", "System Design & Architecture"),
-        ("developer marketing", "Developer Marketing"),
-        ("devrel", "Developer Marketing"),
-        ("technical content marketing", "Technical Content Marketing")
-    ]
+    queries = get_search_queries(append_newsletter=True)
     
     discovered = []
     

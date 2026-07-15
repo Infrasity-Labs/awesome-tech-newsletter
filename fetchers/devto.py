@@ -6,28 +6,23 @@ import requests
 from urllib.parse import urlparse
 # Added for randomized headers
 try:
-    from fetchers.utils import get_random_user_agent
+    from fetchers.utils import get_random_user_agent, get_search_queries
 except ModuleNotFoundError:
-    from utils import get_random_user_agent
+    from utils import get_random_user_agent, get_search_queries
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def discover_devto():
     print("Starting Dev.to discovery via public API...")
     
-    tags = [
-        "newsletter", "newsletters", "programming", "software", 
-        "webdev", "python", "javascript", "devops", "ai", 
-        "machinelearning", "datascience", "backend", "frontend",
-        "react", "rust", "golang", "devrel"
-    ]
+    tags = [q[0].replace(" ", "") for q in get_search_queries(append_newsletter=False)]
     
     discovered = []
     # Using Randomized header
     headers = {'User-Agent': get_random_user_agent()}
     
     # Regex to find known newsletter platforms. Removed ghost.io due to CDN false positives, added buttondown
-    newsletter_regex = r'https?://[a-zA-Z0-9.-]+\.(?:substack\.com|beehiiv\.com|hashnode\.dev|buttondown\.email)'
+    newsletter_regex = r'https?://[a-zA-Z0-9.-]+\.(?:substack\.com|beehiiv\.com|hashnode\.dev|buttondown\.email|mailchi\.mp|campaign-archive\.com|ck\.page|curated\.co|mailerlite\.com|mailerpage\.io|flodesk\.com|ghost\.io)'
     
     for tag in tags:
         url = f"https://dev.to/api/articles?tag={tag}&per_page=30"
@@ -73,13 +68,13 @@ def discover_devto():
                             "/archive", "/support", "/admin", "/emails", "/design", "/p", "/share"
                         }
                         
-                        if netloc == "buttondown.email":
+                        if netloc in {"buttondown.email", "mailchi.mp", "campaign-archive.com"}:
                             path_parts = [p for p in parsed.path.split('/') if p]
                             if not path_parts or f"/{path_parts[0]}" in reserved_paths:
                                 is_valid = False
                             else:
                                 base_url = f"{parsed.scheme}://{parsed.netloc}/{path_parts[0]}"
-                        elif netloc in {"substack.com", "beehiiv.com", "hashnode.dev"}:
+                        elif netloc in {"substack.com", "beehiiv.com", "hashnode.dev", "ck.page", "curated.co", "mailerlite.com", "mailerpage.io", "flodesk.com", "ghost.io"}:
                             is_valid = False
                         else:
                             subdomain = netloc.split('.')[0]

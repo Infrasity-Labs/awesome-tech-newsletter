@@ -5,9 +5,9 @@ import requests
 from urllib.parse import urlparse
 #Same Here
 try:
-    from fetchers.utils import get_random_user_agent
+    from fetchers.utils import get_random_user_agent, get_search_queries
 except ModuleNotFoundError:
-    from utils import get_random_user_agent
+    from utils import get_random_user_agent, get_search_queries
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -69,12 +69,15 @@ def discover_producthunt():
                 
                 text_corpus = f"{name} {desc} {' '.join(topics)}".lower()
                 
-                is_tech = any(keyword in text_corpus for keyword in [
-                    'developer', 'software', 'api', 'tech', 'programming', 'code', 
-                    'devops', 'backend', 'frontend', 'ai', 'machine learning', 
-                    'data science', 'cloud', 'security', 'web3', 'crypto', 'saas', 
-                    'open source', 'engineering', 'marketing', 'devrel', 'content marketing'
-                ])
+                category = "General Software Engineering"
+                is_tech = False
+                
+                queries = get_search_queries(append_newsletter=False)
+                for query, cat in queries:
+                    if query in text_corpus:
+                        is_tech = True
+                        category = cat
+                        break
                 
                 target_url = website if website else ph_url
                 
@@ -89,7 +92,7 @@ def discover_producthunt():
                             'display_link': f"{domain} [↗]",
                             'description': desc,
                             'frequency': 'Varies',
-                            'category': 'General Software Engineering' # aggregate.py will intelligently re-categorize this!
+                            'category': category
                         })
         else:
             print(f"Product Hunt API Error: HTTP {r.status_code}")

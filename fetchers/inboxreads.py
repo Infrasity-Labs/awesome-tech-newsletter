@@ -4,9 +4,9 @@ import os
 import requests
 #Added for Randomized headers
 try:
-    from fetchers.utils import get_random_user_agent
+    from fetchers.utils import get_random_user_agent, get_search_queries
 except ModuleNotFoundError:
-    from utils import get_random_user_agent
+    from utils import get_random_user_agent, get_search_queries
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 def discover_inboxreads():
@@ -14,16 +14,7 @@ def discover_inboxreads():
     
     # We query InboxReads API directly instead of relying on HackerNews (since nobody posts directory links on HN).
     # These are valid slugs in the InboxReads database.
-    queries = [
-        ("tech", "General Software Engineering"),
-        ("programming", "Backend Development"),
-        ("software-engineering", "System Design & Architecture"),
-        ("web-development", "Frontend Development"),
-        ("data-science", "Data Science & AI"),
-        ("marketing", "Developer Marketing"),
-        ("devrel", "Developer Marketing"),
-        ("content-marketing", "Technical Content Marketing")
-    ]
+    queries = get_search_queries(append_newsletter=True)
     
     discovered = []
     #Added for randomized headers
