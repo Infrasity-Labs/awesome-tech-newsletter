@@ -34,7 +34,7 @@ def fetch_hn_metadata(url, fallback_title):
         desc_meta = soup.find('meta', attrs={'property': 'og:description'})
         if not desc_meta:
             desc_meta = soup.find('meta', attrs={'name': 'description'})
-        description = desc_meta.get('content', fallback_title) if desc_meta else fallback_title
+        description = (desc_meta.get('content') if desc_meta else None) or fallback_title
         
         return description.strip()
     except Exception:

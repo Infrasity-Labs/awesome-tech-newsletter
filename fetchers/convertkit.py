@@ -15,7 +15,7 @@ JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 def fetch_convertkit_data(url):
     try:
         parsed_url = urlparse(url)
-        base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
+        base_url = f"{parsed_url.scheme}://{parsed_url.netloc}{parsed_url.path}"
         
         headers = {
             'User-Agent': get_random_user_agent()
@@ -36,7 +36,7 @@ def fetch_convertkit_data(url):
         desc_meta = soup.find('meta', attrs={'property': 'og:description'})
         if not desc_meta:
             desc_meta = soup.find('meta', attrs={'name': 'description'})
-        description = desc_meta.get('content', 'No description available.') if desc_meta else 'No description available.'
+        description = (desc_meta.get('content') if desc_meta else None) or 'No description available.'
         
         domain = parsed_url.netloc
         display_link = f"{domain} [↗]"
@@ -72,7 +72,7 @@ def discover_convertkit():
                     article_url = hit.get("url")
                     if article_url and "ck.page" in article_url:
                         parsed = urlparse(article_url)
-                        base_url = f"https://{parsed.netloc}"
+                        base_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
                         
                         if not any(d['url'] == base_url for d in discovered):
                             print(f"Discovered ConvertKit: {base_url}")

@@ -1285,8 +1285,6 @@ This is a community-curated directory of some of the best newsletters by and for
 
 Maintained by **[Infrasity](https://infrasity.com)**<br>A developer marketing agency helping DevTool startups and B2B SaaS companies with technical content, DevRel strategy, and GTM.
 
-We curated this list as part of our ongoing research into the best developer channels. If your DevRel or developer marketing team needs help crafting a high-impact newsletter strategy, [let's talk](https://infrasity.com).
-
 [infrasity.com](https://infrasity.com) · [LinkedIn](https://linkedin.com/company/infrasity) 
 
 ---
