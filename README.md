@@ -405,6 +405,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Engraved** | [↗](https://engraved.ghost.io) | Jonas Degrave's commentary on machine learning and the quest for artificial intelligence. | Varies |
 | **Erikexplores** | [↗](https://erikexplores.substack.com) | Software development, space exploration, green energy and microprocessors | Varies |
 | **Ezebunandu** | [↗](https://ezebunandu.substack.com) | Exploring technology through beginner's eyes. | Varies |
+| **From Documents to Intelligent Answers: Building a RAG Agent from Scratch & Lessons Learned** | [↗](https://srirdeevi.hashnode.dev) | Artificial Intelligence applications are rapidly moving beyond simple question-answering systems.... | Varies |
 | **Frontendengineering** | [↗](https://frontendengineering.substack.com) | Bringing Order To The Chaotic World Of Frontend Development | Varies |
 | **Gazj** | [↗](https://gazj.substack.com) | Just a bloke, father of two. A bit tired | Varies |
 | **Geoffrey Angus** | [↗](https://geoffreyangus.beehiiv.com) | A blog about AI infrastructure, most likely. | Varies |
