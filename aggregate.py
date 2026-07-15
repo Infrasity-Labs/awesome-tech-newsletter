@@ -154,9 +154,14 @@ def aggregate():
                     f"\n",
                     f"## {category}\n",
                     f"\n",
+                    f"<details>\n",
+                    f"<summary>View Newsletters</summary>\n",
+                    f"\n",
                     f"| Name | Link | Description | Frequency |\n",
                     f"|------|------|-------------|-----------|\n",
                     f"{row}\n",
+                    f"\n",
+                    f"</details>\n",
                     f"\n"
                 ]
                 for offset, new_line in enumerate(new_lines):
