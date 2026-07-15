@@ -1,11 +1,106 @@
 {
-  "Data Science & AI": ["ai", "machine learning", "data science", "llm", "neural network", "deep learning", "artificial intelligence", "data engineer"],
-  "Frontend Development": ["frontend", "react", "vue", "angular", "css", "html", "web dev", "web development"],
-  "Backend Development": ["backend", "api", "database", "sql", "nosql", "node.js", "django", "spring boot", "ruby on rails", "graphql"],
-  "System Design & Architecture": ["system design", "architecture", "scalability", "distributed systems", "microservices", "high scalability"],
-  "DevOps & Cloud": ["devops", "cloud", "aws", "azure", "gcp", "kubernetes", "docker", "ci/cd", "infrastructure", "sre", "site reliability"],
-  "Language Specific": ["python", "golang", "rust", "javascript", "typescript", "java", "c++", "ruby", "php", "swift", "kotlin", "ios engineering"],
-  "GTM": ["gtm", "go-to-market", "startup growth", "founder", "vc", "venture capital", "marketing", "mql", "sql getting"],
-  "Developer Marketing": ["developer marketing", "devrel", "developer relations", "developer advocacy", "dev marketing"],
-  "Technical Content Marketing": ["technical content", "content marketing", "technical writing"]
+  "Data Science & AI": [
+    "deep learning",
+    "data science",
+    "artificial intelligence",
+    "llm",
+    "nlp",
+    "neural network",
+    "ai",
+    "machine learning",
+    "generative ai",
+    "data engineer"
+  ],
+  "Frontend Development": [
+    "react",
+    "angular",
+    "ui/ux",
+    "javascript",
+    "vue",
+    "web development",
+    "web design",
+    "web dev",
+    "html",
+    "css",
+    "frontend"
+  ],
+  "Backend Development": [
+    "node.js",
+    "django",
+    "nosql",
+    "api",
+    "api design",
+    "golang",
+    "spring boot",
+    "ruby on rails",
+    "microservices",
+    "database",
+    "graphql",
+    "sql",
+    "backend"
+  ],
+  "System Design & Architecture": [
+    "distributed systems",
+    "architecture",
+    "scalability",
+    "high scalability",
+    "microservices",
+    "system design",
+    "software architecture",
+    "high availability"
+  ],
+  "DevOps & Cloud": [
+    "azure",
+    "docker",
+    "cloud computing",
+    "aws",
+    "site reliability",
+    "infrastructure as code",
+    "infrastructure",
+    "ci/cd",
+    "gcp",
+    "cloud",
+    "devops",
+    "sre",
+    "kubernetes"
+  ],
+  "Language Specific": [
+    "java",
+    "swift",
+    "javascript",
+    "typescript",
+    "python",
+    "golang",
+    "c++",
+    "ruby",
+    "kotlin",
+    "ios engineering",
+    "php",
+    "rust"
+  ],
+  "GTM": [
+    "gtm",
+    "go-to-market",
+    "startup growth",
+    "founder",
+    "vc",
+    "venture capital",
+    "marketing",
+    "mql",
+    "sql getting"
+  ],
+  "Developer Marketing": [
+    "developer advocacy",
+    "developer community",
+    "b2b saas marketing",
+    "developer marketing",
+    "developer relations",
+    "devrel",
+    "dev marketing"
+  ],
+  "Technical Content Marketing": [
+    "technical content",
+    "content marketing",
+    "technical writing"
+  ]
 }
