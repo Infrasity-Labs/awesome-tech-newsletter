@@ -242,7 +242,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Microservices Weekly (Issue #22): This week's news/articles on microservices** | [↗](http://www.microservicesweekly.com/issue/22) | Microservices Weekly (Issue #22): This week's news/articles on microservices | Varies |
 | **Microservices Weekly (Issue #23): This week's news/articles on microservice** | [↗](http://www.microservicesweekly.com/issue/23) | Microservices Weekly (Issue #23): This week's news/articles on microservice | Varies |
 | **Microservices Weekly (Issue #24): Deep Dive on Microservices** | [↗](http://www.microservicesweekly.com/issue/24) | Microservices Weekly (Issue #24): Deep Dive on Microservices | Varies |
-| **Microservices Weekly (Issue #25): A jorney into the madness of microservices** | [↗](http://www.microservicesweekly.com/issue/25) | Microservices Weekly (Issue #25): A jorney into the madness of microservices | Varies |
+| **Microservices Weekly (Issue #25): A journey into the madness of microservices** | [↗](http://www.microservicesweekly.com/issue/25) | Microservices Weekly (Issue #25): A journey into the madness of microservices | Varies |
 | **Microservices Weekly (Issue #26): Vert.x Microservices Toolbox** | [↗](http://www.microservicesweekly.com/issue/26) | Microservices Weekly (Issue #26): Vert.x Microservices Toolbox | Varies |
 | **Microservices Weekly (Issue #27): Game On** | [↗](http://microservicesweekly.com/issue/27) | Microservices Weekly (Issue #27): Game On | Varies |
 | **Microservices Weekly (Issue #29): The Reactive Landscape** | [↗](http://www.microservicesweekly.com/issue/29) | Microservices Weekly (Issue #29): The Reactive Landscape | Varies |
@@ -754,7 +754,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Leonard Bogdonoff** | [↗](https://medium.com/@rememberlenny) | Read writing from Leonard Bogdonoff on Medium. | Varies |
 | **Let's Encrypt with NGINX and Docker** | [↗](https://getcarina.com/blog/weekly-news-docker-sock-letsencrypt/) | Explore all active 1xBet promo codes and welcome bonuses for 2026. Compare offers for India, Pakistan, and more. Claim free bets, casino spins, and VIP rewards here. | Varies |
 | **Masala Mysteries** | [↗](https://masalamysteries.substack.com) | Weekly mysteries to solve with reveal the following week! | Varies |
-| **Mathematicians use Lean to verify proofs, whats the equivalent for patent claims** | [↗](https://fearn.ai/newsletter/building-formalization-infrastructure-for-patents) | Mathematicians use Lean to verify proofs, whats the equivalent for patent claims | Varies |
 | **Microsoft Cloud Show, Weekly Podcast on the Microsoft Cloud, Azure and Office 365** | [↗](http://www.microsoftcloudshow.com/) | The weekly Microsoft Cloud Show, hosted by Andrew Connell & Chris Johnson, is THE podcast to stay up to date on the Microsoft cloud (Azure & Microsoft 365). | Varies |
 | **Microsoft's Quick Embrace of DeepSeek** | [↗](https://www.theverge.com/notepad-microsoft-newsletter/603170/microsoft-deepseek-ai-azure-notepad) | Microsoft was ready for the R1 model | Varies |
 | **MLOps vs. DevOps** | [↗](https://laszlo.substack.com) | Deliberate Machine Learning: Machine Learning Product Management & How to write better code as a DS? | Varies |
