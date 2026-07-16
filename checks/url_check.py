@@ -57,7 +57,7 @@ def check_url(item):
             r = requests.get(url, headers=headers, timeout=10)
         
         # 403, 401, 406, 429, and 50x are often returned by firewalls, rate limits, or temporary downtime. Allow them.
-        if r.status_code >= 400 and r.status_code not in [401, 403, 406, 429, 500, 502, 503, 504]: 
+        if r.status_code >= 400 and not (r.status_code in [401, 403, 406, 429] or 500 <= r.status_code < 600):
             return (line_num, url, False, f"HTTP {r.status_code}")
         return (line_num, url, True, "OK")
     except requests.exceptions.Timeout:

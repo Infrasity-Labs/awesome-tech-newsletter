@@ -1,17 +1,22 @@
 ## Description
-Please describe your pull request here. If you are adding a new newsletter, please provide a brief description of what the newsletter is about and why it belongs in this directory.
+Please include a summary of the change along with the files that were impacted and which issue is fixed (if applicable). If you are adding a new newsletter fetcher, please briefly describe the data source.
+
+Fixes # (issue number)
+
+## Type of Change
+Please check the options that apply to your PR:
+- [ ] **New Newsletter(s)** 
+- [ ] **New Fetcher** 
+- [ ] **Bug Fix** 
+- [ ] **New Feature** 
+- [ ] **Refactor/Cleanup** 
 
 ## Checklist
-Before submitting this PR, please check the following:
-- [ ] I have read the [CONTRIBUTING.md](../CONTRIBUTING.md) guide.
-- [ ] I have verified that the newsletter link is alive and functioning.
-- [ ] I have added the newsletter to the correct vertical/category in the `README.md`.
-- [ ] I have ensured the newsletter is relevant to software engineering, DevOps, AI, GTM, or related fields.
-- [ ] I have placed the newsletter alphabetically within its category table (if applicable).
-- [ ] I have included the name, link, a short description, and the publishing frequency.
+Before marking this PR as ready for review, please ensure the following:
+- [ ] I have read the [CONTRIBUTING.md](/CONTRIBUTING.md) guidelines.
+- [ ] If I added a new Python script/fetcher, I have tested it locally to ensure it fetches events without crashing.
+- [ ] I have not committed any API keys, client secrets, or `.env` files.
+- [ ] My code follows the existing style of the project.
 
-## Related Issues
-Fixes # (issue number if applicable)
-
-## Additional Notes
-Add any other context about the pull request here.
+## Additional Context
+Add any other context or screenshots about the pull request here.
