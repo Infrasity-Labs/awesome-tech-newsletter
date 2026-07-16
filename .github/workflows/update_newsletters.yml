@@ -20,7 +20,7 @@ jobs:
       - name: Set matrix for fetchers
         id: set-matrix
         run: |
-          FETCHERS=$(ls fetchers/*.py | jq -R -s -c 'split("\n")[:-1]')
+          FETCHERS=$(ls fetchers/*.py | grep -v utils.py | jq -R -s -c 'split("\n")[:-1]')
           echo "matrix=$FETCHERS" >> $GITHUB_OUTPUT
 
   fetch:
