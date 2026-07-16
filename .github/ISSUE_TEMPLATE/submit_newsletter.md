@@ -1,6 +1,6 @@
 ---
 name: "Submit a Newsletter / Request Addition"
-about: "Use this template to suggest a new developer newsletter to be added to the directory"
+about: "Use this template to suggest a new tech newsletter to be added to the directory"
 title: "[Newsletter Request] "
 labels: ["enhancement", "newsletter"]
 assignees: ""
@@ -8,13 +8,10 @@ assignees: ""
 
 ## Newsletter Details
 
-- **Name:** [e.g. The AI Digest]
-- **Link:** [e.g. https://aidigest.com]
-- **Frequency:** [e.g. Weekly, Daily, Monthly, Varies]
-- **Target Audience:** [e.g. Data Scientists, Frontend Devs, Backend Engineers, DevOps]
-
-## Description
-*Please provide a brief 1-2 sentence description of what the newsletter covers and why it would be a valuable addition to the directory.*
+- **Name:** 
+- **Link:** 
+- **Description:** 
+- **Frequency:** 
 
 
 ## Category
@@ -29,6 +26,9 @@ assignees: ""
 - [ ] Data Science & AI
 - [ ] Developer Marketing
 - [ ] Technical Content Marketing
+- [ ] Other / New Category (If the newsletter needs a new category, please specify the category and describe why it is needed below)
+
+**New Category Description (if applicable):**
 
 ## Verification
 - [ ] I have verified that this newsletter is currently active and publishing.
