@@ -65,6 +65,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Erik Engheim** | [↗](https://erik-engheim.medium.com) | Read writing from Erik Engheim on Medium. Geek dad, living in Oslo, Norway with passion for UX, Julia programming, science, teaching, reading and writing. | Varies |
 | **Figma-to-code: the real shift happening** | [↗](https://christinevallaure.substack.com) | If you're shipping static sites, or building on a standard design system, the Figma MCP server is... | Varies |
 | **Filip K: Freedom Newsletter** | [↗](https://filipk.beehiiv.com) | Merging technology, economics and self-improvement in the pursuit of freedom | Varies |
+| **GPT-5.6 Closed a 30-Year Math Gap. Nobody Noticed.** | [↗](https://sharedsapience.substack.com) | A prompt-guided GPT-5.6 attack proved an optimal lower bound in convex optimization while coverage of the same model decayed into pricing tips. | Varies |
 | **How Redis Caching Actually Works (Explained Like You're 5, But for Developers)** | [↗](https://code-by-vignesh.hashnode.dev) | When I started learning Redis, I had one big question: "If thousands of people are using the same app... | Varies |
 | **How to Build Resilient Industrial Data Pipelines** | [↗](https://iotforall.hashnode.dev) | Industrial data pipelines rarely operate under perfect conditions. Factories lose network... | Varies |
 | **In multi-agent systems, the skill is the abstraction level — not the agent count** | [↗](https://hariph.hashnode.dev) | Everyone building multi-agent systems knows the starting pattern by now: a router reads the request,... | Varies |
@@ -79,6 +80,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
 | **On Coding** | [↗](https://medium.com/on-coding) | Thoughts about writing code | Varies |
 | **Open Source Watch** | [↗](https://opensourcewatch.beehiiv.com) | What's what with open-source news. | Varies |
+| **Perceived Latency: The Invisible KPI Killing Voice Experiences** | [↗](https://scenaro.substack.com) | Perceived Latency: The Invisible KPI Killing Voice Experiences Your teams track... | Varies |
 | **Pointer** | [↗](https://www.pointer.io/) | A reading club for software developers focusing on engineering leadership and best practices. | Bi-weekly |
 | **Rasul's Newsletter** | [↗](https://buttondown.email/rasulkireev) | I'll do my best to provide valuable content, including weekly updates on new posts, notes, and projects, as well as interesting links and discoveries. | Varies |
 | **Recomendo** | [↗](https://duckduckgo.com/?q=!ducky+%22Recomendo%22+newsletter) | 6 brief recommendations of cool stuff | Varies |
@@ -734,6 +736,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Rockset's Open Beta Developer Tools– Announced** | [↗](https://www.devopsdigest.com/rockset-introduces-new-developer-tools) | Rockset released a new ecosystem of developer tools that integrate with industry-standard workflows to increase developer velocity for real-time analytics projects. | Varies |
 | **Samuel Cozannet** | [↗](https://medium.com/@samnco) | Read writing from Samuel Cozannet on Medium. | Varies |
 | **Scheduling HN Digest Slack Message Using AWS Lambda** | [↗](https://medium.freecodecamp.org/scheduling-slack-messages-using-aws-lambda-e56a8eb22818) | By Slobodan Stojanovic Migrating to serverless brings a lot of questions. How do you do some of the non-serverless tasks, such as a cronjob in a serverless application? Let’s say you have a small Slack app that sends the top five stories from Hacker ... | Varies |
+| **Self-Hosting LLMs on Kubernetes: When vLLM Beats Managed APIs on Cost** | [↗](https://thecybersidekick.beehiiv.com) | Self-host LLMs on Kubernetes with vLLM to cut inference costs 60-80%. Learn breakeven analysis, GPU scheduling, and production architecture for platform engineers. | Varies |
 | **September roundup of Azure and AWS releases** | [↗](https://n4stack.io/2018/10/02/cloudstackd-september-newsletter/) | September roundup of Azure and AWS releases | Varies |
 | **Sheep Code** | [↗](https://sheepcode.substack.com) | Hear our insights on software engineering, cloud, and tech. | Varies |
 | **Show HN: An easy to read overview of your AWS Reserved Instances** | [↗](https://www.cloudforecast.io/blog/AWS-Reserved-Instances-Weekly-Report/) | Track AWS reserved instances with weekly reports, proactive alerts, and historic views to spot underused or expiring investments fast. | Varies |
@@ -1507,6 +1510,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Thegradientpub** | [↗](https://thegradientpub.substack.com) | Articles, interviews, and news coverage about AI brought to you by a team of AI researchers and builders. | Varies |
 | **Thepythoncodingstack** | [↗](https://thepythoncodingstack.substack.com) | I write the articles I wish I had when I was learning Python programming  I learn through narratives, stories. And I communicate in the same way, with a friendly and relaxed tone, clear and accessible | Varies |
 | **Thezvi** | [↗](https://thezvi.substack.com) | A world made of gears. Doing both speed premium short term updates and long term world model building. Currently focused on weekly AI updates. Explorations include AI, policy, rationality, medicine and fertility, education and games. | Varies |
+| **Three Crashes and One Mystery: Deploying a Medical AI Model Offline for Four Nigerian Languages** | [↗](https://run-llmoffline.hashnode.dev) | I set out to deploy a fine-tuned LLM fully offline, on a mid-range Android phone, answering medical... | Varies |
 | **Transmission** | [↗](https://medium.com/transmission-newsletter) | Transmission is a newsletter about self-driving cars and deep learning | Varies |
 | **True Positive Weekly** | [↗](https://aiweekly.substack.com) | The most important artificial intelligence and machine learning links of the week. | Varies |
 | **tZero19e's Logs** | [↗](https://buttondown.email/tZero19e) | What I am thinking about — which I may also tweet — almost in real-time. Email is more permanent (literally permanent private archiving), and — like HTML — is contiguous and has decent indexing, unlike Twitter. Recommended Texts. | Varies |
