@@ -53,6 +53,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Android+Authority+Weekly"+newsletter) | Android news, reviews, articles, and more! | Varies |
 | **Better Engineers** | [↗](https://betterengineers.substack.com) | A Programmer's Journey of Perfections <br>Follow <br>LinkedIn: https://www.linkedin.com/in/devd04/<br>X : https://x.com/BetterEngineer1 | Varies |
 | **BroncoCTF : Spot the difference Writeup** | [↗](https://exploitnotes.hashnode.dev) | Challenge We're given two files, file1.txt and file2.txt, each containing what looks... | Varies |
+| **Building a Server-Driven Survey Engine in Flutter Without a WebView** | [↗](https://pankajbatra.hashnode.dev) | This article was originally published on my Hashnode blog and is shared here for the Dev.to... | Varies |
 | **Caleb's Commentary** | [↗](https://calebfenton.substack.com) | Bitcoin, economics, freedom, self-improvement | Varies |
 | **Can a Mac Mini Handle 100 Million Rows?** | [↗](https://ruhika.hashnode.dev) | I made ClickHouse and Postgres Fight to Find Out 🥊 One Mac Mini. Two databases. 100 million rows of... | Varies |
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22CB+Insights%22+newsletter) | The easy way to stay ahead of all things tech | Varies |
@@ -138,6 +139,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Vasu’s Newsletter** | [↗](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
 | **Why HTTP/1.1 Eventually Became a Bottleneck** | [↗](https://aniksikder.hashnode.dev) | To understand HTTP/2 and HTTP/3, we first need to understand the problem they were designed to... | Varies |
 | **You're Writing Paper Commands Wrong** | [↗](https://eande171.hashnode.dev) | You've probably written a CommandExecutor before. Everyone who's touched Bukkit has. Declare the... | Varies |
+| **Your DDD Context Map Is Already in Your Foreign Keys** | [↗](https://backendengineeringadventures.substack.com) | Schemity's Context Map derives a DDD context map from the schema itself: each context view becomes a node, and every dependency arrow is backed by the... | Varies |
 | **Your uptime SLA means nothing when the physical process can't wait for your rollback** | [↗](https://marius-newsletter-d94bcd.beehiiv.com) | There’s a conversation that happens when IT developers first encounter operational technology. It... | Varies |
 | **Your Webhook Returned 200 OK. Did the Event Actually Get Processed?** | [↗](https://fasthook.hashnode.dev) | A webhook provider sends an event. Your endpoint returns 200 OK. The provider stops... | Varies |
 </details>
@@ -861,6 +863,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Posts \| undefined** | [↗](https://marketing-for-indie-hackers.ck.page) | No description available. | Varies |
 | **Product market fit isn't a destination** | [↗](https://www.gtmdigest.com/post/product-market-fit-isnt-a-destination) | Product market fit isn't a destination | Varies |
 | **Quantifying Private Company Growth for Startup Investors** | [↗](https://mattermark.com/mattermark-weekly-11-graphs-exploring-vc-portfolio-composition-traction-metrics/) | This is an excerpt from Mattermark Weekly, our free weekly newsletter bringing news and insights from the startup community. If you like what you've read | Varies |
+| **Quick rewrite of a rather dull marketing newsletter email** | [↗](http://wynst.com/blog/2012/04/06/soul-ify-thumbalizer-newsletter-email/) | Quick rewrite of a rather dull marketing newsletter email | Varies |
 | **Rewiring: A Screenless Future** | [↗](https://www.konvoy.vc/newsletters/rewiring-a-screenless-future) | The future of personal computing could be fewer interactions with technology | Varies |
 | **Rules for effective email newsletter/marketing** | [↗](http://www.campaignmonitor.com/blog/post/3383/email-usability-keeping-your-email-newsletters-short-and-sweet/) | Bad news: Most people aren't reading your emails word for word. Great news: You can design your email marketing to capture their attention anyway. | Varies |
 | **Show HN: A Newsletter for founders, showcasing actionable tools and resources** | [↗](http://theslice.co) | We dive deep into the worlds of marketing, entrepreneurship, and growth to deliver bite-sized content gems straight to your inbox every week. | Varies |
