@@ -1,5 +1,9 @@
 import os
-import re
+import sys
+
+# import modules from the root directory
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+from readme_utils import table_sort_key
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 README_PATH = os.path.join(SCRIPT_DIR, "..", "README.md")
@@ -30,7 +34,7 @@ def format_readme():
     header_rows = []
     
     def flush_table():
-        table_rows.sort(key=lambda x: re.sub(r'[*_]', '', re.split(r'(?<!\\)\|', x)[1]).strip().lower() if len(re.split(r'(?<!\\)\|', x)) > 1 else '')
+        table_rows.sort(key=table_sort_key)
         final_lines.extend(header_rows)
         final_lines.extend(table_rows)
     

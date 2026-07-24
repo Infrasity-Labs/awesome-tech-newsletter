@@ -3,6 +3,7 @@ import os
 import re
 import glob
 from urllib.parse import urlparse, unquote_plus
+from readme_utils import table_sort_key
 
 README_PATH = "README.md"
 CONFIG_PATH = "config.json"
@@ -206,14 +207,14 @@ def aggregate():
                 if in_table:
                     # Sort and flush table
                     # Sort by the first column (Name), case-insensitive, stripping bold markdown
-                    table_rows.sort(key=lambda x: re.sub(r'[*_]', '', re.split(r'(?<!\\)\|', x)[1]).strip().lower() if len(re.split(r'(?<!\\)\|', x)) > 1 else '')
+                    table_rows.sort(key=table_sort_key)
                     final_lines.extend(header_rows)
                     final_lines.extend(table_rows)
                     in_table = False
                 final_lines.append(line)
                 
         if in_table:
-            table_rows.sort(key=lambda x: re.sub(r'[*_]', '', re.split(r'(?<!\\)\|', x)[1]).strip().lower() if len(re.split(r'(?<!\\)\|', x)) > 1 else '')
+            table_rows.sort(key=table_sort_key)
             final_lines.extend(header_rows)
             final_lines.extend(table_rows)
 
