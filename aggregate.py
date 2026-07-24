@@ -30,6 +30,18 @@ def get_existing_urls(lines):
                 existing_urls.add(unquote_plus(m.rstrip('/').lower()))
     return existing_urls
 
+def normalize_title(title):
+    return re.sub(r'\s+', ' ', (title or '').strip().lower())
+
+def get_existing_titles(lines):
+    existing_titles = set()
+    for line in lines:
+        if line.strip().startswith('|'):
+            m = re.match(r'\|\s*\*\*(.+?)\*\*\s*\|', line)
+            if m:
+                existing_titles.add(normalize_title(m.group(1)))
+    return existing_titles
+
 def classify_newsletter(title, description, default_category):
     text = f"{title} {description}".lower()
     title_lower = title.lower()
@@ -79,6 +91,7 @@ def aggregate():
         lines = f.readlines()
 
     existing_urls = get_existing_urls(lines)
+    existing_titles = get_existing_titles(lines)
     changes_made = 0
 
 
@@ -86,12 +99,15 @@ def aggregate():
 
         raw_url = nl.get("url") or ""
         url = unquote_plus(raw_url.rstrip('/').lower())
-        
-        # 1. Deduplication Check
-        if not url or url in existing_urls:
+        title = nl.get("title") or "Unknown Title"
+        norm_title = normalize_title(title)
+
+        # 1. Deduplication Check (by URL, and by normalized title so the
+        # same newsletter picked up from a different URL isn't re-added)
+        if not url or url in existing_urls or (norm_title and norm_title in existing_titles):
             print(f"Skipping {url}: Already exists in directory.")
             continue
-            
+
         # 2. Blacklist Check
         domain = urlparse(raw_url).netloc.lower()
         if not domain:
@@ -100,10 +116,9 @@ def aggregate():
         if any(domain == b or domain.endswith('.' + b) for b in RESTRICTED_DOMAINS):
             print(f"Skipping {url}: Domain is restricted.")
             continue
-        
+
         # 3. Format and Inject
         raw_category = nl.get("category") or "General Software Engineering"
-        title = nl.get("title") or "Unknown Title"
         description = nl.get("description") or "No description available."
         
         # Sanitize newlines and extra spaces to prevent breaking Markdown tables
@@ -136,6 +151,7 @@ def aggregate():
                 insert_idx = table_header_idx + 1
                 lines.insert(insert_idx, row + '\n')
                 existing_urls.add(url)
+                existing_titles.add(norm_title)
                 changes_made += 1
                 print(f"Aggregated: {nl['title']} -> {category}")
             else:
@@ -167,6 +183,7 @@ def aggregate():
                 for offset, new_line in enumerate(new_lines):
                     lines.insert(footer_idx + offset, new_line)
                 existing_urls.add(url)
+                existing_titles.add(norm_title)
                 changes_made += 1
                 print(f"Aggregated (New Category Created): {nl['title']} -> {category}")
             else:
