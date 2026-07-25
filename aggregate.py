@@ -2,17 +2,20 @@ import json
 import os
 import re
 import glob
+import logging
 from urllib.parse import urlparse, unquote_plus
 from readme_utils import table_sort_key
 
 README_PATH = "README.md"
 CONFIG_PATH = "config.json"
 
+logger = logging.getLogger(__name__)
+
 try:
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
         CATEGORIES = json.load(f)
 except Exception as e:
-    print(f"Warning: Could not load {CONFIG_PATH}, using empty categories. Error: {e}")
+    logger.warning("Could not load %s, using empty categories. Error: %s", CONFIG_PATH, e)
     CATEGORIES = {}
 
 RESTRICTED_DOMAINS = [
@@ -57,7 +60,7 @@ def classify_newsletter(title, description, default_category):
 def aggregate():
     json_files = glob.glob("newsletters*.json")
     if not json_files:
-        print("No newsletters*.json found. Nothing to aggregate.")
+        logger.info("No newsletters*.json found. Nothing to aggregate.")
         return
 
     newsletters = []
@@ -70,10 +73,10 @@ def aggregate():
                     newsletters.extend(data)
             successfully_parsed_files.append(jpath)
         except Exception as e:
-            print(f"Error parsing {jpath}: {e}")
+            logger.error("Error parsing %s: %s", jpath, e)
 
     if not newsletters:
-        print("No newsletters in JSON queues.")
+        logger.info("No newsletters in JSON queues.")
         return
 
     with open(README_PATH, "r", encoding="utf-8") as f:
@@ -90,16 +93,16 @@ def aggregate():
         
         # 1. Deduplication Check
         if not url or url in existing_urls:
-            print(f"Skipping {url}: Already exists in directory.")
+            logger.info("Skipping %s: Already exists in directory.", url)
             continue
             
         # 2. Blacklist Check
         domain = urlparse(raw_url).netloc.lower()
         if not domain:
-            print(f"Skipping {raw_url}: Invalid URL or missing domain.")
+            logger.info("Skipping %s: Invalid URL or missing domain.", raw_url)
             continue
         if any(domain == b or domain.endswith('.' + b) for b in RESTRICTED_DOMAINS):
-            print(f"Skipping {url}: Domain is restricted.")
+            logger.info("Skipping %s: Domain is restricted.", url)
             continue
         
         # 3. Format and Inject
@@ -138,9 +141,9 @@ def aggregate():
                 lines.insert(insert_idx, row + '\n')
                 existing_urls.add(url)
                 changes_made += 1
-                print(f"Aggregated: {nl['title']} -> {category}")
+                logger.info("Aggregated: %s -> %s", nl['title'], category)
             else:
-                print(f"Error: Table not found for category {category}")
+                logger.error("Error: Table not found for category %s", category)
         else:
             # Category not found! Let's dynamically create it right above the footer
             footer_idx = -1
@@ -169,9 +172,9 @@ def aggregate():
                     lines.insert(footer_idx + offset, new_line)
                 existing_urls.add(url)
                 changes_made += 1
-                print(f"Aggregated (New Category Created): {nl['title']} -> {category}")
+                logger.info("Aggregated (New Category Created): %s -> %s", nl['title'], category)
             else:
-                print(f"Error: Category {category} not found and no <!-- FOOTER --> tag found in README to append to.")
+                logger.error("Error: Category %s not found and no <!-- FOOTER --> tag found in README to append to.", category)
     if changes_made > 0:
         cleaned_lines = []
         for i in range(len(lines)):
@@ -220,14 +223,18 @@ def aggregate():
 
         with open(README_PATH, "w", encoding="utf-8") as f:
             f.writelines(final_lines)
-        print(f"\nSuccessfully aggregated {changes_made} new newsletters into README.")
+        logger.info("Successfully aggregated %d new newsletters into README.", changes_made)
     else:
-        print("\nNo new newsletters were aggregated.")
-        
+        logger.info("No new newsletters were aggregated.")
+
     # Only clear the queues that were successfully parsed to prevent data loss on corrupted files
     for jpath in successfully_parsed_files:
         if os.path.exists(jpath):
             os.remove(jpath)
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s"
+    )
     aggregate()

@@ -2,6 +2,7 @@
 import json
 import os
 import requests
+import logging
 from urllib.parse import urlparse
 #Same Here
 try:
@@ -11,13 +12,15 @@ except ModuleNotFoundError:
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
+logger = logging.getLogger(__name__)
+
 def discover_producthunt():
     token = os.environ.get('PRODUCTHUNT_TOKEN')
     if not token:
-        print("Warning: PRODUCTHUNT_TOKEN is not set. Skipping Product Hunt API crawler.")
+        logger.warning("Warning: PRODUCTHUNT_TOKEN is not set. Skipping Product Hunt API crawler.")
         return
 
-    print("Starting Product Hunt discovery via GraphQL API v2...")
+    logger.info("Starting Product Hunt discovery via GraphQL API v2...")
     
     url = "https://api.producthunt.com/v2/api/graphql"
     headers = {
@@ -85,7 +88,7 @@ def discover_producthunt():
                     domain = urlparse(target_url).netloc
                     
                     if not any(d['url'] == target_url for d in discovered):
-                        print(f"Discovered Product Hunt: {target_url}")
+                        logger.info("Discovered Product Hunt: %s", target_url)
                         discovered.append({
                             'title': name,
                             'url': target_url,
@@ -95,9 +98,9 @@ def discover_producthunt():
                             'category': category
                         })
         else:
-            print(f"Product Hunt API Error: HTTP {r.status_code}")
+            logger.error("Product Hunt API Error: HTTP %d", r.status_code)
     except Exception as e:
-        print(f"Error querying Product Hunt API: {e}")
+        logger.error("Error querying Product Hunt API: %s", e)
 
     if discovered:
         existing = []
@@ -112,9 +115,17 @@ def discover_producthunt():
         with open(JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(existing, f, indent=2)
             
-        print(f"Successfully dumped {len(discovered)} Product Hunt newsletters to {JSON_PATH}")
+        logger.info(
+            "Successfully dumped %d Product Hunt newsletters to %s",
+            len(discovered),
+            JSON_PATH,
+        )
     else:
-        print("No new Product Hunt newsletters discovered.")
+        logger.warning("No new Product Hunt newsletters discovered.")
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s"
+    )
     discover_producthunt()

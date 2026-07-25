@@ -3,6 +3,7 @@
 import json
 import os
 import requests
+import logging
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 # In utils.py i have made a function that Fetches Random Chrome User Agent
@@ -11,6 +12,8 @@ try:
 except ModuleNotFoundError:
     from utils import get_random_user_agent, get_search_queries
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
+
+logger = logging.getLogger(__name__)
 
 def fetch_beehiiv_data(url):
     try:
@@ -49,10 +52,11 @@ def fetch_beehiiv_data(url):
             'frequency': 'Varies'
         }
     except Exception as e:
+        logger.error("Failed to fetch Beehiiv metadata for %s", url)
         return None
 
 def discover_beehiiv():
-    print("Starting Beehiiv discovery via HackerNews Algolia...")
+    logger.info("Starting Beehiiv discovery via HackerNews Algolia...")
     queries = get_search_queries(append_newsletter=True)
     
     discovered = []
@@ -76,13 +80,13 @@ def discover_beehiiv():
                         base_url = f"{parsed.scheme}://{parsed.netloc}"
                         
                         if not any(d['url'] == base_url for d in discovered):
-                            print(f"Discovered Beehiiv: {base_url}")
+                            logger.info("Discovered Beehiiv: %s", base_url)
                             data = fetch_beehiiv_data(base_url)
                             if data:
                                 data['category'] = category
                                 discovered.append(data)
         except Exception as e:
-            print(f"Error querying HN for {query}: {e}")
+            logger.error("Error querying HN for %s", query)
 
     if discovered:
         existing = []
@@ -91,15 +95,24 @@ def discover_beehiiv():
                 with open(JSON_PATH, "r", encoding="utf-8") as f:
                     existing = json.load(f)
             except:
+                logger.error("Error reading existing JSON data from %s", JSON_PATH)
                 pass
         
         existing.extend(discovered)
         with open(JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(existing, f, indent=2)
             
-        print(f"Successfully dumped {len(discovered)} Beehiiv newsletters to {JSON_PATH}")
+        logger.info(
+            "Successfully dumped %d Beehiiv newsletters to %s",
+            len(discovered),
+            JSON_PATH,
+        )
     else:
-        print("No new Beehiiv newsletters discovered.")
+        logger.warning("No new Beehiiv newsletters discovered.")
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s"
+    )
     discover_beehiiv()

@@ -3,6 +3,7 @@ import json
 import os
 import re
 import requests
+import logging
 from urllib.parse import urlparse
 # Added for randomized headers
 try:
@@ -12,8 +13,10 @@ except ModuleNotFoundError:
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
+logger = logging.getLogger(__name__)
+
 def discover_devto():
-    print("Starting Dev.to discovery via public API...")
+    logger.info("Starting Dev.to discovery via public API...")
     
     tags = [q[0].replace(" ", "") for q in get_search_queries(append_newsletter=False)]
     
@@ -53,6 +56,7 @@ def discover_devto():
                                 if matches:
                                     target_url = matches[0]
                         except Exception:
+                            logger.error("Failed to fetch article details for ID %s", article_id)
                             pass
                     
                     if target_url:
@@ -85,7 +89,7 @@ def discover_devto():
                         if is_valid:
                             domain = parsed.netloc
                             if not any(d['url'] == base_url for d in discovered):
-                                print(f"Discovered via Dev.to (Tag: {tag}): {base_url}")
+                                logger.info("Discovered via Dev.to (Tag: %s): %s", tag, base_url)
                                 discovered.append({
                                     'title': article.get('title', 'Unknown Title'),
                                     'url': base_url,
@@ -95,9 +99,9 @@ def discover_devto():
                                     'category': 'General Software Engineering'
                                 })
             else:
-                print(f"Dev.to API Error for tag {tag}: HTTP {r.status_code}")
+                logger.error("Dev.to API Error for tag %s: HTTP %d", tag, r.status_code)
         except Exception as e:
-            print(f"Error querying Dev.to API for tag {tag}: {e}")
+            logger.error("Error querying Dev.to API for tag %s", tag)
 
     if discovered:
         existing = []
@@ -106,15 +110,24 @@ def discover_devto():
                 with open(JSON_PATH, "r", encoding="utf-8") as f:
                     existing = json.load(f)
             except:
+                logger.error("Error reading existing JSON data from %s", JSON_PATH)
                 pass
         
         existing.extend(discovered)
         with open(JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(existing, f, indent=2)
             
-        print(f"Successfully dumped {len(discovered)} Dev.to newsletters to {JSON_PATH}")
+        logger.info(
+            "Successfully dumped %d Dev.to newsletters to %s",
+            len(discovered),
+            JSON_PATH,
+        )
     else:
-        print("No new Dev.to newsletters discovered.")
+        logger.warning("No new Dev.to newsletters discovered.")
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s"
+    )
     discover_devto()

@@ -2,6 +2,7 @@
 import json
 import os
 import requests
+import logging
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 # random user-agent import 
@@ -11,6 +12,8 @@ except ModuleNotFoundError:
     from utils import get_random_user_agent, get_search_queries
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
+
+logger = logging.getLogger(__name__)
 
 def fetch_buttondown_data(url):
     try:
@@ -59,7 +62,7 @@ def fetch_buttondown_data(url):
         return None
 
 def discover_buttondown():
-    print("Starting Buttondown discovery via HackerNews Algolia...")
+    logger.info("Starting Buttondown discovery via HackerNews Algolia...")
     queries = get_search_queries(append_newsletter=True)
     
     discovered = []
@@ -85,13 +88,13 @@ def discover_buttondown():
                         base_url = f"{parsed.scheme}://{parsed.netloc}{first_path}"
                         
                         if not any(d['url'] == base_url for d in discovered):
-                            print(f"Discovered Buttondown: {base_url}")
+                            logger.info("Discovered Buttondown: %s", base_url)
                             data = fetch_buttondown_data(base_url)
                             if data:
                                 data['category'] = category
                                 discovered.append(data)
         except Exception as e:
-            print(f"Error querying HN for {query}: {e}")
+            logger.error("Error querying HN for %s", query)
 
     if discovered:
         existing = []
@@ -100,15 +103,24 @@ def discover_buttondown():
                 with open(JSON_PATH, "r", encoding="utf-8") as f:
                     existing = json.load(f)
             except:
+                logger.error("Error reading existing JSON data from %s", JSON_PATH)
                 pass
         
         existing.extend(discovered)
         with open(JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(existing, f, indent=2)
             
-        print(f"Successfully dumped {len(discovered)} Buttondown newsletters to {JSON_PATH}")
+        logger.info(
+            "Successfully dumped %d Buttondown newsletters to %s",
+            len(discovered),
+            JSON_PATH,
+        )
     else:
-        print("No new Buttondown newsletters discovered.")
+        logger.warning("No new Buttondown newsletters discovered.")
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s"
+    )
     discover_buttondown()

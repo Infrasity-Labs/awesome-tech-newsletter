@@ -2,6 +2,7 @@
 import json
 import os
 import requests
+import logging
 #Added for Randomized headers
 try:
     from fetchers.utils import get_random_user_agent, get_search_queries
@@ -9,8 +10,10 @@ except ModuleNotFoundError:
     from utils import get_random_user_agent, get_search_queries
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
+logger = logging.getLogger(__name__)
+
 def discover_inboxreads():
-    print("Starting InboxReads discovery via internal API...")
+    logger.info("Starting InboxReads discovery via internal API...")
     
     # We query InboxReads API directly instead of relying on HackerNews (since nobody posts directory links on HN).
     # These are valid slugs in the InboxReads database.
@@ -44,7 +47,7 @@ def discover_inboxreads():
                     article_url = f"https://duckduckgo.com/?q=!ducky+{query}"
                     
                     if not any(d['url'] == article_url for d in discovered):
-                        print(f"Discovered InboxReads: {title}")
+                        logger.info(f"Discovered InboxReads: {title}")
                         discovered.append({
                             'title': title,
                             'url': article_url,
@@ -58,7 +61,7 @@ def discover_inboxreads():
                         if len([d for d in discovered if d['category'] == category]) >= 10:
                             break
         except Exception as e:
-            print(f"Error querying InboxReads API for {slug}: {e}")
+            logger.error("Error querying InboxReads API for %s: %s", slug, e)
 
     if discovered:
         existing = []
@@ -69,15 +72,24 @@ def discover_inboxreads():
                     if isinstance(data, list):
                         existing = data
             except Exception:
+                logger.error("Error reading existing JSON data from %s", JSON_PATH)
                 pass
         
         existing.extend(discovered)
         with open(JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(existing, f, indent=2)
             
-        print(f"Successfully dumped {len(discovered)} InboxReads newsletters to {JSON_PATH}")
+        logger.info(
+            "Successfully dumped %d InboxReads newsletters to %s",
+            len(discovered),
+            JSON_PATH,
+        )
     else:
-        print("No new InboxReads newsletters discovered.")
+        logger.warning("No new InboxReads newsletters discovered.")
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s"
+    )
     discover_inboxreads()

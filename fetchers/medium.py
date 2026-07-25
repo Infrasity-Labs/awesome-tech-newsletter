@@ -3,6 +3,7 @@ import json
 import os
 import sys
 import requests
+import logging
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 #Same Here
@@ -12,6 +13,8 @@ except ModuleNotFoundError:
     from utils import get_random_user_agent, get_search_queries
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
+
+logger = logging.getLogger(__name__)
 
 def fetch_medium_data(url):
     try:
@@ -59,14 +62,14 @@ def fetch_medium_data(url):
             'frequency': 'Varies'
         }
     except requests.exceptions.RequestException as e:
-        print(f"Network error fetching Medium data for {url}: {e}", file=sys.stderr)
+        logger.error("Network error fetching Medium data for %s: %s", url, e)
         return None
     except Exception as e:
-        print(f"Error parsing Medium data for {url}: {e}", file=sys.stderr)
+        logger.error("Error parsing Medium data for %s: %s", url, e)
         return None
 
 def discover_medium():
-    print("Starting Medium discovery via HackerNews Algolia...")
+    logger.info("Starting Medium discovery via HackerNews Algolia...")
     queries = get_search_queries(append_newsletter=True)
     
     
@@ -78,7 +81,8 @@ def discover_medium():
                 for item in json.load(f):                    
                  if "url" in item:                       
                   existing_urls.add(item["url"].rstrip("/").lower())     
-        except Exception:            
+        except Exception:   
+            logger.error("Error reading existing JSON data from %s", JSON_PATH)         
             pass   
         if os.path.exists("README.md"):      
          try:          
@@ -124,15 +128,15 @@ def discover_medium():
                             continue
                         
                         if base_url.rstrip("/").lower() not in existing_urls and not any(d['url'] == base_url for d in discovered):
-                            print(f"Discovered Medium: {base_url}")
+                            logger.info(f"Discovered Medium: {base_url}")
                             data = fetch_medium_data(base_url)
                             if data:
                                 data['category'] = category
                                 discovered.append(data)
         except requests.exceptions.RequestException as e:
-            print(f"Network error querying HN for {query}: {e}", file=sys.stderr)
+            logger.error("Network error querying HN for %s: %s", query, e)
         except Exception as e:
-            print(f"Error querying HN for {query}: {e}", file=sys.stderr)
+            logger.error("Error querying HN for %s: %s", query, e)
 
     if discovered:
         existing = []
@@ -141,15 +145,24 @@ def discover_medium():
                 with open(JSON_PATH, "r", encoding="utf-8") as f:
                     existing = json.load(f)
             except (json.JSONDecodeError, OSError):
+                logger.error("Error reading existing JSON data from %s", JSON_PATH)
                 pass
         
         existing.extend(discovered)
         with open(JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(existing, f, indent=2)
             
-        print(f"Successfully dumped {len(discovered)} Medium newsletters to {JSON_PATH}")
+        logger.info(
+            "Successfully dumped %d Medium newsletters to %s",
+            len(discovered),
+            JSON_PATH,
+        )
     else:
-        print("No new Medium newsletters discovered.")
+        logger.warning("No new Medium newsletters discovered.")
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s"
+    )
     discover_medium()
