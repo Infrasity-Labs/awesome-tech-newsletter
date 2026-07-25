@@ -42,6 +42,7 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **'World Models' Will Be the Next Buzzword. The Man Saying That Just Raised $1B to Build One** | [↗](https://aiguide.substack.com) | In March, the CEO of a research lab with zero products closed a $1.03 billion seed round — the... | Varies |
 | **5 Essential Substack Newsletters for Every Developer to Subscribe To 💌** | [↗](https://careercutler.substack.com) | I love reading newsletters. But let's be honest, many are just a waste of time. If you want to... | Varies |
 | **A Case for Monolith** | [↗](https://charlesfonseca.substack.com) | I write because I can't stop. Systems, Programming, Database, Cloud. | Varies |
 | **A Reader's Guide to My Books: Which One to Pick Up, Depending on What You're Building** | [↗](https://amdatalakehouse.substack.com) | The question I get most often after talks, after podcast episodes, and in newsletter replies is a... | Varies |
@@ -139,6 +140,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Utsav Shah** | [↗](https://utsavpshah.medium.com) | Read writing from Utsav Shah on Medium. Curious \| Reader \| Maker | Varies |
 | **Vasu’s Newsletter** | [↗](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
 | **Why HTTP/1.1 Eventually Became a Bottleneck** | [↗](https://aniksikder.hashnode.dev) | To understand HTTP/2 and HTTP/3, we first need to understand the problem they were designed to... | Varies |
+| **You Might Not Need Kafka: Building a Job Queue with PostgreSQL** | [↗](https://littlegod.hashnode.dev) | It's easy to reach for the popular tool before asking what your system actually needs. For job... | Varies |
 | **You're Writing Paper Commands Wrong** | [↗](https://eande171.hashnode.dev) | You've probably written a CommandExecutor before. Everyone who's touched Bukkit has. Declare the... | Varies |
 | **Your DDD Context Map Is Already in Your Foreign Keys** | [↗](https://backendengineeringadventures.substack.com) | Schemity's Context Map derives a DDD context map from the schema itself: each context view becomes a node, and every dependency arrow is backed by the... | Varies |
 | **Your uptime SLA means nothing when the physical process can't wait for your rollback** | [↗](https://marius-newsletter-d94bcd.beehiiv.com) | There’s a conversation that happens when IT developers first encounter operational technology. It... | Varies |
@@ -286,6 +288,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Show HN: Crowdsourced tracker for what each Windows/M365 update breaks** | [↗](https://win-update-tracker.vercel.app/) | Track Windows, Microsoft 365, and Intune update regressions reported by sysadmins. Free weekly digest, public JSON API, sourced from r/sysadmin, r/msp, Microsoft release health, and Bleeping Computer. | Varies |
 | **Show HN: Data-minimal Mailchimp alternative built on top of your SQL DB** | [↗](https://www.getvero.com/newsletters/) | Connect sits on top of your data warehouse, so you can eliminate time spent syncing data and spend less on data duplication. | Varies |
 | **Show HN: Digestable Ingredient Database** | [↗](http://digestable.co) | Show HN: Digestable Ingredient Database | Varies |
+| **Show HN: Fix your site's SEO with personalized instructions** | [↗](https://www.seocheck.dev) | Show HN: Fix your site's SEO with personalized instructions | Varies |
 | **Show HN: Free Coffee via Octopus Energy's Internal GraphQL API** | [↗](https://frontbot.com/blog/how-i-automated-octopus-energy-coffee/) | A one-shot technical teardown of automating Octoplus coffee reward claims. | Varies |
 | **Show HN: Get real-time alerts when your keywords are mentioned on HN and Reddit** | [↗](https://pingnews.io/) | Show HN: Get real-time alerts when your keywords are mentioned on HN and Reddit | Varies |
 | **Show HN: GraphQL Tweetletter – Weekly digest of most interesting GraphQL Tweets** | [↗](https://tweets.dgraph.io/) | Show HN: GraphQL Tweetletter – Weekly digest of most interesting GraphQL Tweets | Varies |
