@@ -218,6 +218,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Inside Skylight** | [↗](https://skylight.ghost.io) | Development of the smart profiler for Ruby on Rails. | Varies |
 | **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+%22iOS+Dev+Tools%22+newsletter) | The best tools for iOS developers | Varies |
 | **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+"iOS+Dev+Tools"+newsletter) | The best tools for iOS developers | Varies |
+| **Is Redis a noSQL db, a cache, or a messaging server?** | [↗](http://antirez.com/post/redis-weekly-update-3-publish-submit.html) | Is Redis a noSQL db, a cache, or a messaging server? | Varies |
 | **Issue 82 – GraphQL-Weekly** | [↗](https://graphqlweekly.com/issues/82/) | A weekly newsletter of the best news, articles and projects about GraphQL | Varies |
 | **Issue 90 – GraphQL-Weekly** | [↗](https://graphqlweekly.com/issues/90/) | A weekly newsletter of the best news, articles and projects about GraphQL | Varies |
 | **Issue 91 – GraphQL-Weekly** | [↗](https://graphqlweekly.com/issues/91/) | A weekly newsletter of the best news, articles and projects about GraphQL | Varies |
@@ -330,6 +331,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **What Is and How to Develop a (HTTP)Controller on Back-End Applications** | [↗](https://petran.substack.com) | A newsletter about advance topics on Software Design, Development and Architecture | Varies |
 | **What is Linux's native GUI API?** | [↗](http://stackoverflow.com/questions/12717138/what-is-linuxs-native-gui-api?newsletter=1&nlcode=15373%7c0bcb) | What is Linux's native GUI API? | Varies |
 | **Who will dominate NoSQL land?** | [↗](http://jobs.nosqlweekly.com/blog/who-will-dominate-nosql-land/) | Who will dominate NoSQL land? | Varies |
+| **Why Developer Utilities Should Process Sensitive Data in Your Browser** | [↗](https://khembuilds.hashnode.dev) | Developers paste surprisingly sensitive information into online utilities every day: API responses,... | Varies |
 </details>
 
 
@@ -391,6 +393,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **System-Level Design Out Today** | [↗](http://semiengineering.com/newsletter/system-level-design-082715/) | Special Report Electronics Butterfly Effect The electronics industry is about to go through the biggest change it has seen since the introduction of the transistor. Every decision from the past 50 years could be changed. Top Stories Software Driving More Hardware Designs Functions and new OSes become the starting point for SoCs, but hardware still... » read more | Varies |
 | **Tech Architect Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22Tech+Architect+Insights%22+newsletter) | From developer to architect, practical system design. | Varies |
 | **Tech Architect Insights** | [↗](https://duckduckgo.com/?q=!ducky+"Tech+Architect+Insights"+newsletter) | From developer to architect, practical system design. | Varies |
+| **The 6-Month Preparation Blueprint for L5–L7 Engineering Roles** | [↗](https://the-tech-builder-772f0d.beehiiv.com) | A structured roadmap covering DSA invariants, Low-Level Design (LLD), and High-Level System Design (HLD) for Senior, Staff, and Principal roles. | Varies |
 | **The Challenges of Distributed Systems** | [↗](https://newsletter.francofernando.com/p/the-challenges-of-distributed-systems) | What every engineer should know when working with distributed systems. | Varies |
 | **The Fallacies of Distributed Systems** | [↗](https://newsletter.francofernando.com/p/the-fallacies-of-distributed-systems) | Eight distributed systems fallacies that are underrated during system design. | Varies |
 | **Throw, Result, or Neither?** | [↗](https://www.architecture-weekly.com/p/throw-result-or-neither) | There is one question I keep getting about my event-sourced code: why don’t I use Result? | Varies |
@@ -756,6 +759,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Show HN: ClawNet – Agent-first communication infrastructure (email, DMs, feed)** | [↗](https://clwnt.com) | Give your agent a real @clwnt.com email address plus contacts, calendar, and web pages. One command. | Varies |
 | **Show HN: Cloud reader for your email newsletters** | [↗](https://www.alpinereader.com/) | Show HN: Cloud reader for your email newsletters | Varies |
 | **Show HN: Fertit – Open-Source Newsletter Manager with Optional Hosted Service** | [↗](https://www.fertit.com) | Show HN: Fertit – Open-Source Newsletter Manager with Optional Hosted Service | Varies |
+| **Show HN: I built Gnoseed – free flahscards to learn K8s, DevOps, AI and more** | [↗](https://gnoseed.com) | Learn Kubernetes, AI, Linux, Terraform and more with 3,900+ free online flashcards and quizzes. SM-2 & FSRS spaced repetition, no sign-up, works offline. | Varies |
 | **Show HN: It Happened Again – Track recurring events with evidence** | [↗](https://ithappenedagain.fyi) | Your companion app for spotting patterns in the chaos. Track what happens again and join the community that pays attention. | Varies |
 | **Show HN: K8S – A Curated Kubernetes Newsletter Delivered Weekly** | [↗](https://k8s.co.in/) | Show HN: K8S – A Curated Kubernetes Newsletter Delivered Weekly | Varies |
 | **Show HN: Kubelist – Your curated weekly kubernetes news reconciliation loop** | [↗](https://kubelist.com/) | Your curated weekly kubernetes newsletter | Varies |
@@ -910,6 +914,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The legal threat coming for venture capital** | [↗](https://www.politico.com/newsletters/morning-money/2023/01/06/the-legal-threat-coming-for-venture-capital-00076697) | The legal threat coming for venture capital | Varies |
 | **The Rise of the Craft Brewer Venture Capital Firm** | [↗](https://www.cbinsights.com/blog/craft-brewer-venture-capital/?utm_source=CB+Insights+Newsletter&utm_campaign=6bcc443617-EarlyStage2015March4_12_2015&utm_medium=email&utm_term=0_9dc0513989-6bcc443617-86288629) | David Beisel of NextView Ventures compares VC firms to brewers, and describes how being in the middle of the spectrum can be dangerous. | Varies |
 | **The Top Line** | [↗](https://meghangill.substack.com) | All about go-to-market | Varies |
+| **ThinkVitamin (Carsonified and FOWA videos) Membership Silver plans for 150$** | [↗](http://www.appsumo.com/?r=ygrk) | Top software deals for entrepreneurs at incredible prices. Discover the latest productivity, marketing, and content tools for your business with no monthly fees. | Varies |
 | **Tim Allison** | [↗](https://medium.com/@darlingdash) | Read writing from Tim Allison on Medium. Senior Director Design EMEA @Zendesk . Imaginator and occasional strummer. Views are mine. https://timallison.co/ | Varies |
 | **Top Labor And Employment Law Issues When Taking Your Startup Global** | [↗](https://vcexperts.com/buzz_articles/1509?utm_source=The+VC+Expert%27s+Buzz&utm_campaign=49cb629441-VC_Experts_Newsletter05_21_2014&utm_medium=email&utm_term=0_ee0d1cc528-49cb629441-266982125) | Top Labor And Employment Law Issues When Taking Your Startup Global | Varies |
 | **Unevenly Distributed** | [↗](https://derin.substack.com) | A newsletter about the diffusion of technology, entrepreneurship, and venture capital in emerging markets with a focus on Africa, Latin America and Asia. | Varies |
@@ -1323,6 +1328,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **From Documents to Intelligent Answers: Building a RAG Agent from Scratch & Lessons Learned** | [↗](https://srirdeevi.hashnode.dev) | Artificial Intelligence applications are rapidly moving beyond simple question-answering systems.... | Varies |
 | **Frontendengineering** | [↗](https://frontendengineering.substack.com) | Bringing Order To The Chaotic World Of Frontend Development | Varies |
 | **Gazj** | [↗](https://gazj.substack.com) | Just a bloke, father of two. A bit tired | Varies |
+| **GeekNews AI Weekly Deep Dive - 2026-07-27** | [↗](https://kirwinhampshire.substack.com) | GeekNews AI 이슈를 바탕으로 작성한 주간 브리핑 | Varies |
 | **Generating Axios-Style Newsletters with AI and Natural Language Processing** | [↗](https://chimerais.com/ai-nlp-smart-brevity) | Generating Axios-Style Newsletters with AI and Natural Language Processing | Varies |
 | **Generative AI Sparks Talk of Profit, Not Fun from Tech Companies** | [↗](https://www.bloomberg.com/news/newsletters/2023-10-27/generative-ai-sparks-talk-of-profit-not-fun-from-tech-companies) | Generative AI Sparks Talk of Profit, Not Fun from Tech Companies | Varies |
 | **Geoffrey Angus** | [↗](https://geoffreyangus.beehiiv.com) | A blog about AI infrastructure, most likely. | Varies |
