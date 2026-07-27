@@ -2,6 +2,7 @@
 import json
 import os
 import requests
+import logging
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 # Added for randomized headers
@@ -11,6 +12,8 @@ except ModuleNotFoundError:
     from utils import get_random_user_agent, get_search_queries
 
 JSON_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f"newsletters_{os.path.basename(__file__)}.json")
+
+logger = logging.getLogger(__name__)
 
 def fetch_ghost_data(url):
     try:
@@ -50,10 +53,11 @@ def fetch_ghost_data(url):
             'frequency': 'Varies'
         }
     except Exception as e:
+        logger.error("Failed to fetch Ghost metadata for %s", url)
         return None
 
 def discover_ghost():
-    print("Starting Ghost discovery via HackerNews Algolia...")
+    logger.info("Starting Ghost discovery via HackerNews Algolia...")
     queries = get_search_queries(append_newsletter=True)
     
     discovered = []
@@ -77,13 +81,13 @@ def discover_ghost():
                         base_url = f"https://{parsed.netloc}"
                         
                         if not any(d['url'] == base_url for d in discovered):
-                            print(f"Discovered Ghost: {base_url}")
+                            logger.info("Discovered Ghost: %s", base_url)
                             data = fetch_ghost_data(base_url)
                             if data:
                                 data['category'] = category
                                 discovered.append(data)
         except Exception as e:
-            print(f"Error querying HN for {query}: {e}")
+            logger.error("Error querying HN for %s", query)
 
     if discovered:
         existing = []
@@ -92,15 +96,24 @@ def discover_ghost():
                 with open(JSON_PATH, "r", encoding="utf-8") as f:
                     existing = json.load(f)
             except:
+                logger.error("Error reading existing JSON data from %s", JSON_PATH)
                 pass
         
         existing.extend(discovered)
         with open(JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(existing, f, indent=2)
             
-        print(f"Successfully dumped {len(discovered)} Ghost newsletters to {JSON_PATH}")
+        logger.info(
+            "Successfully dumped %d Ghost newsletters to %s",
+            len(discovered),
+            JSON_PATH,
+        )
     else:
-        print("No new Ghost newsletters discovered.")
+        logger.warning("No new Ghost newsletters discovered.")
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s"
+    )
     discover_ghost()

@@ -2,6 +2,7 @@
 import json
 import os
 import requests
+import logging
 import concurrent.futures
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
@@ -12,6 +13,8 @@ except ModuleNotFoundError:
     from utils import get_random_user_agent, get_search_queries
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
+
+logger = logging.getLogger(__name__)
 
 EXCLUDED_DOMAINS = [
     "substack.com", "beehiiv.com", "hashnode.dev", "buttondown.email", 
@@ -38,6 +41,7 @@ def fetch_hn_metadata(url, fallback_title):
         
         return description.strip()
     except Exception:
+        logger.error("Failed to fetch metadata for %s", url)
         return fallback_title
 
 def process_query(query_data):
@@ -67,7 +71,7 @@ def process_query(query_data):
                 if any(domain == d or domain.endswith('.' + d) for d in EXCLUDED_DOMAINS):
                     continue
                     
-                print(f"Discovered HackerNews Custom Domain: {article_url}")
+                logger.info("Discovered HackerNews Custom Domain: %s", article_url)
                 description = fetch_hn_metadata(article_url, fallback_title=title)
                 
                 results.append({
@@ -79,11 +83,11 @@ def process_query(query_data):
                     'category': category
                 })
     except Exception as e:
-        print(f"Error querying HN for {query}: {e}")
+        logger.error("Error querying HN for %s", query)
     return results
 
 def discover_hackernews():
-    print("Starting HackerNews standalone newsletter discovery via Algolia...")
+    logger.info("Starting HackerNews standalone newsletter discovery via Algolia...")
     queries = get_search_queries(append_newsletter=True)
     
     discovered = []
@@ -106,15 +110,24 @@ def discover_hackernews():
                 with open(JSON_PATH, "r", encoding="utf-8") as f:
                     existing = json.load(f)
             except:
+                logger.error("Error reading existing JSON data from %s", JSON_PATH)
                 pass
         
         existing.extend(discovered)
         with open(JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(existing, f, indent=2)
             
-        print(f"Successfully dumped {len(discovered)} HackerNews newsletters to {JSON_PATH}")
+        logger.info(
+            "Successfully dumped %d HackerNews newsletters to %s",
+            len(discovered),
+            JSON_PATH,
+        )
     else:
-        print("No new HackerNews newsletters discovered.")
+        logger.warning("No new HackerNews newsletters discovered.")
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s"
+    )
     discover_hackernews()

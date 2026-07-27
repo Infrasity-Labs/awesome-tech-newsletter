@@ -4,6 +4,7 @@ import time
 import json
 import os
 import requests
+import logging
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 #Same here 
@@ -14,8 +15,10 @@ except ModuleNotFoundError:
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
+logger = logging.getLogger(__name__)
+
 def discover_thebilig():
-    print("Starting TheBilig discovery...")
+    logger.info("Starting TheBilig discovery...")
     url = "https://www.thebilig.com/newsletters/editors-picks/best-tech-newsletters"
     #Added Randomized user agent
     headers = {'User-Agent': get_random_user_agent()}
@@ -52,7 +55,7 @@ def discover_thebilig():
                     elif 'leading-7' in p.get('class', []):
                         description = p.text.strip()
                 
-                print(f"Fetching details for {title}...")
+                logger.info("Fetching details for %s...", title)
                 #Adding a delay of 2 seconds between requests
                 time.sleep(2)
                 # Fetch external URL from internal page
@@ -72,7 +75,7 @@ def discover_thebilig():
                                     
                                     # Only add if we haven't discovered it in this session
                                     if not any(d['url'] == base_url for d in discovered):
-                                        print(f"Discovered via TheBilig: {base_url}")
+                                        logger.info("Discovered via TheBilig: %s", base_url)
                                         discovered.append({
                                             'title': title,
                                             'url': base_url,
@@ -82,12 +85,12 @@ def discover_thebilig():
                                             'category': 'General Software Engineering' # Aggregate.py handles category mapping automatically
                                         })
                 except Exception as e:
-                    print(f"Error fetching details for {title}: {e}")
+                    logger.error("Error fetching details for %s: %s", title, e)
                     
         else:
-            print(f"TheBilig Error: HTTP {r.status_code}")
+            logger.error("TheBilig Error: HTTP %d", r.status_code)
     except Exception as e:
-        print(f"Error querying TheBilig: {e}")
+        logger.error("Error querying TheBilig: %s", e)
 
     if discovered:
         existing = []
@@ -98,15 +101,24 @@ def discover_thebilig():
                     if isinstance(data, list):
                         existing = data
             except Exception:
+                logger.error("Error reading existing JSON data from %s", JSON_PATH)
                 pass
         
         existing.extend(discovered)
         with open(JSON_PATH, "w", encoding="utf-8") as f:
             json.dump(existing, f, indent=2)
             
-        print(f"Successfully dumped {len(discovered)} TheBilig newsletters to {JSON_PATH}")
+        logger.info(
+            "Successfully dumped %d TheBilig newsletters to %s",
+            len(discovered),
+            JSON_PATH,
+        )
     else:
-        print("No new TheBilig newsletters discovered.")
+        logger.warning("No new TheBilig newsletters discovered.")
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(message)s"
+    )
     discover_thebilig()
