@@ -64,6 +64,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **creative coding space** | [↗](https://medium.com/creative-coding-space) | generating art from code // playgrd.com // instagram.com/playgrdstar/ | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+%22Creative+Mornings%22+newsletter) | Get inspired, no matter where you are. | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+"Creative+Mornings"+newsletter) | Get inspired, no matter where you are. | Varies |
+| **Day 2 of Demolishing my Stack of Unfinished Projects** | [↗](https://codenificient.hashnode.dev) | Published on Jul 13th, 2022 As they say, another day, another dollar Today was a good day... | Varies |
 | **Devshot** | [↗](https://devshot.co) | Coding news, tools, frameworks, and engineering reads for developers. | Varies |
 | **Erik Engheim** | [↗](https://medium.com/@erik-engheim) | Read writing from Erik Engheim on Medium. Geek dad, living in Oslo, Norway with passion for UX, Julia programming, science, teaching, reading and writing. | Varies |
 | **Erik Engheim** | [↗](https://erik-engheim.medium.com) | Read writing from Erik Engheim on Medium. Geek dad, living in Oslo, Norway with passion for UX, Julia programming, science, teaching, reading and writing. | Varies |
