@@ -73,6 +73,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **GPT-5.6 Closed a 30-Year Math Gap. Nobody Noticed.** | [↗](https://sharedsapience.substack.com) | A prompt-guided GPT-5.6 attack proved an optimal lower bound in convex optimization while coverage of the same model decayed into pricing tips. | Varies |
 | **How Redis Caching Actually Works (Explained Like You're 5, But for Developers)** | [↗](https://code-by-vignesh.hashnode.dev) | When I started learning Redis, I had one big question: "If thousands of people are using the same app... | Varies |
 | **How to Build Resilient Industrial Data Pipelines** | [↗](https://iotforall.hashnode.dev) | Industrial data pipelines rarely operate under perfect conditions. Factories lose network... | Varies |
+| **I built Devkeg: a desktop control center for your dev tools** | [↗](https://jaytank.hashnode.dev) | Setting up a fresh developer machine is death by a thousand commands. You hunt down... | Varies |
 | **In multi-agent systems, the skill is the abstraction level — not the agent count** | [↗](https://hariph.hashnode.dev) | Everyone building multi-agent systems knows the starting pattern by now: a router reads the request,... | Varies |
 | **Kyle Poyar’s Growth Unhinged** | [↗](https://kylepoyar.substack.com) | Revealing the playbooks and hidden tactics behind today's best startups. Join 80,000+ weekly readers for real-life growth advice, playbooks and case studies. Click to read Kyle Poyar’s Growth Unhinged, a Substack publication with tens of thousands of subscribers. | Varies |
 | **Lars Janssen** | [↗](https://medium.com/@fazy) | Read writing from Lars Janssen on Medium. | Varies |
@@ -141,6 +142,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Utsav Shah** | [↗](https://medium.com/@utsavpshah) | Read writing from Utsav Shah on Medium. Curious \| Reader \| Maker | Varies |
 | **Utsav Shah** | [↗](https://utsavpshah.medium.com) | Read writing from Utsav Shah on Medium. Curious \| Reader \| Maker | Varies |
 | **Vasu’s Newsletter** | [↗](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
+| **Where Does a Vision Model Keep Its Knowledge? A Developer's History of Computer Vision** | [↗](https://joshua-nwachinemere.hashnode.dev) | In 2001, Paul Viola and Michael Jones described a face detector that ran at 15 frames per second on... | Varies |
 | **Why HTTP/1.1 Eventually Became a Bottleneck** | [↗](https://aniksikder.hashnode.dev) | To understand HTTP/2 and HTTP/3, we first need to understand the problem they were designed to... | Varies |
 | **You Might Not Need Kafka: Building a Job Queue with PostgreSQL** | [↗](https://littlegod.hashnode.dev) | It's easy to reach for the popular tool before asking what your system actually needs. For job... | Varies |
 | **You're Writing Paper Commands Wrong** | [↗](https://eande171.hashnode.dev) | You've probably written a CommandExecutor before. Everyone who's touched Bukkit has. Declare the... | Varies |
@@ -360,6 +362,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Documenting Software Architectures** | [↗](https://newsletter.techworld-with-milan.com/p/documenting-software-architectures) | The Architects Choice | Varies |
 | **Evolve Your Software Architecture** | [↗](https://newsletter.fractionalarchitect.io/p/17-dont-stand-still-evolve-your-architecture) | One of the basic things you need to understand is that architecture is not given once and for all. A change in your business model will affect what your architecture looks like. | Varies |
 | **Facebook & Site Failures Caused By Complex, Weakly Interacting, Layered Systems** | [↗](http://highscalability.com/blog/2010/9/30/facebook-and-site-failures-caused-by-complex-weakly-interact.html) | Facebook has been so reliable that when a site outage does occur it's a definite learning oppor... | Varies |
+| **Fixing bugs in Event Sourcing is hard, for real?** | [↗](https://www.architecture-weekly.com/p/fixing-bugs-in-event-sourcing-is) | Every system ends up with bad data. | Varies |
 | **High Scalability** | [↗](https://highscalability.com/) | A newsletter focusing on the architectures of successful, highly scalable websites. | Weekly |
 | **How Bluesky Works** | [↗](https://newsletter.systemdesign.one/p/how-does-bluesky-work) | #65: Break Into Bluesky Architecture (17 Minutes) | Varies |
 | **How Distributed Systems Avoid Race Conditions Using Pessimistic Locking?** | [↗](https://newsletter.scalablethread.com/p/how-distributed-systems-avoid-race) | Understanding Pessimistic Locks, Leases, and Fence Tokens in Distributed Systems | Varies |
