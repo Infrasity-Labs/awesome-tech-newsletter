@@ -73,6 +73,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Figma-to-code: the real shift happening** | [↗](https://christinevallaure.substack.com) | If you're shipping static sites, or building on a standard design system, the Figma MCP server is... | Varies |
 | **Filip K: Freedom Newsletter** | [↗](https://filipk.beehiiv.com) | Merging technology, economics and self-improvement in the pursuit of freedom | Varies |
 | **GPT-5.6 Closed a 30-Year Math Gap. Nobody Noticed.** | [↗](https://sharedsapience.substack.com) | A prompt-guided GPT-5.6 attack proved an optimal lower bound in convex optimization while coverage of the same model decayed into pricing tips. | Varies |
+| **Hello World! 👋 A Computer Science Student & Technical Writer on a Journey** | [↗](https://hilda-biende.hashnode.dev) | Hi Dev.to community! 👋 As an aspiring technical writer and a Computer Science student, I've been... | Varies |
 | **How coding agents like Cursor quietly cut input costs by reusing KV states across turns — and what actually breaks the cache** | [↗](https://susheemk.substack.com) | Why my Cursor bill looked weird I was poking around my usage dashboard in Cursor and... | Varies |
 | **How Redis Caching Actually Works (Explained Like You're 5, But for Developers)** | [↗](https://code-by-vignesh.hashnode.dev) | When I started learning Redis, I had one big question: "If thousands of people are using the same app... | Varies |
 | **How to Build Resilient Industrial Data Pipelines** | [↗](https://iotforall.hashnode.dev) | Industrial data pipelines rarely operate under perfect conditions. Factories lose network... | Varies |
@@ -1115,6 +1116,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Humble Book Bundle: Web Design and Development by O'Reilly** | [↗](https://www.humblebundle.com/books/web-design-development-books?linkID=&mcID=102:5affc46c6caf4ecf2ff3f1ce:ot:56c3d3b0733462ca893dc786:1&utm_source=Humble+Bundle+Newsletter&utm_medium=email&utm_campaign=2018_05_21_webdesigndevelopment_bookbundle&linkID=&utm_content=cta_button) | Pay what you want for awesome ebooks and support charity! | Varies |
 | **In-browser message digest verification/generation tool** | [↗](https://s3.amazonaws.com/ozan/public/verify-digest.html) | In-browser message digest verification/generation tool | Varies |
 | **Inside Web Development** | [↗](https://medium.com/web-development-resources) | Stories from the makers of Usersnap | Varies |
+| **JavaScript ES2026 Just Shipped What Developers Have Been Asking for Years** | [↗](https://developersjourney.substack.com) | For 30 years, JavaScript developers have been quietly suffering. Date object had a lot of... | Varies |
 | **Javascript Newsletter** | [↗](http://www.js-monkey.com/) | Javascript Newsletter | Varies |
 | **JavaScript Scene** | [↗](https://medium.com/javascript-scene) | JavaScript, software leadership, software development, and related technologies. | Varies |
 | **JavaScript Weekly Challenge #1** | [↗](https://svbtle.com/javascript-weekly-challenge-1-2) | Svbtle, a publishing platform. | Varies |
