@@ -55,6 +55,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Android+Authority+Weekly"+newsletter) | Android news, reviews, articles, and more! | Varies |
 | **Better Engineers** | [↗](https://betterengineers.substack.com) | A Programmer's Journey of Perfections <br>Follow <br>LinkedIn: https://www.linkedin.com/in/devd04/<br>X : https://x.com/BetterEngineer1 | Varies |
 | **BroncoCTF : Spot the difference Writeup** | [↗](https://exploitnotes.hashnode.dev) | Challenge We're given two files, file1.txt and file2.txt, each containing what looks... | Varies |
+| **Browser Rendering Optimization [KR]** | [↗](https://astro-cat.hashnode.dev) | 요약 60fps 를 유지하려면 한 프레임을 16.6ms 안에 그려야 하는데, 브라우저 자체 오버헤드를 빼면 개발자가 확보해야 하는 실질적인 예산은 약 10ms... | Varies |
 | **Building a Physics-Accurate Live Wallpaper for Android** | [↗](https://theabbie.hashnode.dev) | A while back I built a double-pendulum simulation in the browser. The motion is hard to stop... | Varies |
 | **Building a Server-Driven Survey Engine in Flutter Without a WebView** | [↗](https://pankajbatra.hashnode.dev) | This article was originally published on my Hashnode blog and is shared here for the Dev.to... | Varies |
 | **Caleb's Commentary** | [↗](https://calebfenton.substack.com) | Bitcoin, economics, freedom, self-improvement | Varies |
@@ -77,6 +78,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **How coding agents like Cursor quietly cut input costs by reusing KV states across turns — and what actually breaks the cache** | [↗](https://susheemk.substack.com) | Why my Cursor bill looked weird I was poking around my usage dashboard in Cursor and... | Varies |
 | **How Redis Caching Actually Works (Explained Like You're 5, But for Developers)** | [↗](https://code-by-vignesh.hashnode.dev) | When I started learning Redis, I had one big question: "If thousands of people are using the same app... | Varies |
 | **How to Build Resilient Industrial Data Pipelines** | [↗](https://iotforall.hashnode.dev) | Industrial data pipelines rarely operate under perfect conditions. Factories lose network... | Varies |
+| **I Built an Agent Eval Harness. Real Agents Broke the Clean Version of the Story** | [↗](https://pragmatic-engineer.hashnode.dev) | Two weeks ago, I published "Why Agent Evaluation Is Harder Than Model Evaluation." The core argument:... | Varies |
 | **I built Devkeg: a desktop control center for your dev tools** | [↗](https://jaytank.hashnode.dev) | Setting up a fresh developer machine is death by a thousand commands. You hunt down... | Varies |
 | **In multi-agent systems, the skill is the abstraction level — not the agent count** | [↗](https://hariph.hashnode.dev) | Everyone building multi-agent systems knows the starting pattern by now: a router reads the request,... | Varies |
 | **Kyle Poyar’s Growth Unhinged** | [↗](https://kylepoyar.substack.com) | Revealing the playbooks and hidden tactics behind today's best startups. Join 80,000+ weekly readers for real-life growth advice, playbooks and case studies. Click to read Kyle Poyar’s Growth Unhinged, a Substack publication with tens of thousands of subscribers. | Varies |
@@ -1208,6 +1210,8 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Web Design Weekly – Issue #126** | [↗](http://www.followletter.com/publication/3254-web-design-weekly-issue-126#.Uv1LYvBYEKs.hackernews) | Web Design Weekly – Issue #126 | Varies |
 | **Web Design Weekly – Issue #129** | [↗](http://www.followletter.com/publication/3459-web-design-weekly-issue-129#.UxnhPLN1IqY.hackernews) | Web Design Weekly – Issue #129 | Varies |
 | **Web Design Weekly — Issue #123** | [↗](http://www.followletter.com/publication/1360-web-design-weekly-issue-123#.UubGGb_AiYQ.hackernews) | Web Design Weekly — Issue #123 | Varies |
+| **Web Dev Weekly #2** | [↗](http://blog.redradix.com/web-dev-weekly-2/) | Web Dev Weekly #2 | Varies |
+| **Web Dev Weekly #4** | [↗](http://blog.redradix.com/web-dev-weekly-4/) | Web Dev Weekly #4 | Varies |
 | **Web Development and Tech Email Newsletters I Subscribe to \| Impressive Webs** | [↗](http://www.impressivewebs.com/web-design-tech-newsletters/) | My favourite tech email newsletters to subscribe to for keeping up with tech news, web development, and more. | Varies |
 | **Web development books on Humble Bundle** | [↗](https://www.humblebundle.com/books/web-design-development-books?linkID=&mcID=102:5affc46c6caf4ecf2ff3f1ce:ot:5730e251bef2f4f641ac8603:1&utm_source=Humble+Bundle+Newsletter&utm_medium=email&utm_campaign=2018_05_21_webdesigndevelopment_bookbundle) | Pay what you want for awesome ebooks and support charity! | Varies |
 | **Web Game Dev Newsletter** | [↗](https://www.webgamedev.com/newsletter/018) | Web Game Dev Newsletter | Varies |
