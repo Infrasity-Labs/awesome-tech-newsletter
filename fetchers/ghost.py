@@ -3,13 +3,13 @@ import json
 import os
 import requests
 import logging
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup (shouldn't need it now)
 from urllib.parse import urlparse
 # Added for randomized headers
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, extract_metadata
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, extract_metadata
 
 JSON_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f"newsletters_{os.path.basename(__file__)}.json")
 
@@ -20,7 +20,8 @@ def fetch_ghost_data(url):
         parsed_url = urlparse(url)
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
         
-        headers = {
+        meta = extract_metadata(base_url)
+        ''' headers = {
             'User-Agent': get_random_user_agent()
         }
         response = requests.get(base_url, headers=headers, timeout=10)
@@ -33,14 +34,15 @@ def fetch_ghost_data(url):
         title = title_meta.get('content', '') if title_meta else ''
         if not title:
             title_tag = soup.find('title')
-            title = title_tag.text if title_tag else 'Unknown Title'
+            title = title_tag.text if title_tag else 'Unknown Title' '''
             
-        title = title.strip()
+        title = meta['title'].strip()
 
-        desc_meta = soup.find('meta', attrs={'property': 'og:description'})
+        ''' desc_meta = soup.find('meta', attrs={'property': 'og:description'})
         if not desc_meta:
             desc_meta = soup.find('meta', attrs={'name': 'description'})
-        description = desc_meta.get('content', 'No description available.') if desc_meta else 'No description available.'
+        description = desc_meta.get('content', 'No description available.') if desc_meta else 'No description available.' '''
+        description = meta['description']
         
         domain = parsed_url.netloc
         display_link = f"{domain} [↗]"
