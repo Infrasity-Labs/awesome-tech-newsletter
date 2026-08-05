@@ -67,6 +67,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **creative coding space** | [↗](https://medium.com/creative-coding-space) | generating art from code // playgrd.com // instagram.com/playgrdstar/ | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+%22Creative+Mornings%22+newsletter) | Get inspired, no matter where you are. | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+"Creative+Mornings"+newsletter) | Get inspired, no matter where you are. | Varies |
+| **Cron'd Claude Agents: A Maintenance Log** | [↗](https://labyrinthanalytics.substack.com) | Running a fleet of twenty Claude agents on a launchd schedule teaches you fast that scheduler... | Varies |
 | **Day 2 of Demolishing my Stack of Unfinished Projects** | [↗](https://codenificient.hashnode.dev) | Published on Jul 13th, 2022 As they say, another day, another dollar Today was a good day... | Varies |
 | **Devshot** | [↗](https://devshot.co) | Coding news, tools, frameworks, and engineering reads for developers. | Varies |
 | **Erik Engheim** | [↗](https://medium.com/@erik-engheim) | Read writing from Erik Engheim on Medium. Geek dad, living in Oslo, Norway with passion for UX, Julia programming, science, teaching, reading and writing. | Varies |
@@ -135,6 +136,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The Lindy Newsletter** | [↗](https://lindynewsletter.beehiiv.com) | No description available. | Varies |
 | **The Nerve Blog** | [↗](https://the-nerve-blog.ghost.io) | This is Nerve's Official Blog | Varies |
 | **The Personable Engineer** | [↗](https://fernandovillalba.substack.com) | This publication deals with all things that help developers and engineers to do a better job by designing systems, processes, culture and tools that are human friendly and increase flow state. | Varies |
+| **The Prompt Is Not a Spell — It's Structured Context Injection** | [↗](https://leo76868.substack.com) | "10 magic openings that boost GPT's IQ by 50." "Add this one sentence and your output quality jumps... | Varies |
 | **The Schematic** | [↗](https://ryanspears.substack.com) | All things engineering, software, science, and business. | Varies |
 | **The Startup** | [↗](https://medium.com/swlh) | Get smarter at building your thing. Follow to join The Startup’s +8 million monthly readers & +772K followers. | Varies |
 | **The Tech Enabler** | [↗](https://thetechenabler.substack.com) | My personal Substack for my role as a tech enabler inside a large media company. I write about work, culture, and programming in general. My current series is all about tech trends and what I think teams should adopt or drop. | Varies |
@@ -150,6 +152,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Utsav Shah** | [↗](https://medium.com/@utsavpshah) | Read writing from Utsav Shah on Medium. Curious \| Reader \| Maker | Varies |
 | **Utsav Shah** | [↗](https://utsavpshah.medium.com) | Read writing from Utsav Shah on Medium. Curious \| Reader \| Maker | Varies |
 | **Vasu’s Newsletter** | [↗](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
+| **What I learned building a real talent funnel from SRS and Figma to QA, handover, and closing without a perfect ending.** | [↗](https://shakiran.hashnode.dev) | Hey everyone, If you followed my weekly Hashnode series, you already know the short version: eight... | Varies |
 | **Where Does a Vision Model Keep Its Knowledge? A Developer's History of Computer Vision** | [↗](https://joshua-nwachinemere.hashnode.dev) | In 2001, Paul Viola and Michael Jones described a face detector that ran at 15 frames per second on... | Varies |
 | **Why HTTP/1.1 Eventually Became a Bottleneck** | [↗](https://aniksikder.hashnode.dev) | To understand HTTP/2 and HTTP/3, we first need to understand the problem they were designed to... | Varies |
 | **You Might Not Need Kafka: Building a Job Queue with PostgreSQL** | [↗](https://littlegod.hashnode.dev) | It's easy to reach for the popular tool before asking what your system actually needs. For job... | Varies |
@@ -496,6 +499,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **How do Tech startups indicate their value - recent research** | [↗](http://www.ssti.org/Digest/digest.php?page=2011/051811#research) | How do Tech startups indicate their value - recent research | Varies |
 | **How To Learn Swift – A free swift development newsletter** | [↗](http://www.howtolearnswift.com/) | How To Learn Swift – A free swift development newsletter | Varies |
 | **How Uber Is Measuring Engineering Productivity** | [↗](https://newsletter.pragmaticengineer.com/p/uber-eng-productivity) | Inside Uber’s launch of the Eng Dashboard. How do engineers and managers feel about this new tool, and which metrics does it track? | Varies |
+| **https://bhayanak.hashnode.dev/swiftload-downloader-fast-modern-download-manager-in-go-swift** | [↗](https://bhayanak.hashnode.dev) | bhayanak.hashnode.dev | Varies |
 | **Igor Mandrigin** | [↗](https://medium.com/@mandrigin) | Read writing from Igor Mandrigin on Medium. independent developer & security researcher with passion for blockchain: https://ffconsulting.org | Varies |
 | **Import Python Weekly Issue 83** | [↗](http://importpython.com/newsletter/no/83/) | Discover the Power of Python | Varies |
 | **Import Python Weekly Newsletter – Issue No 17** | [↗](http://importpython.com/newsletter/no/17/) | Discover the Power of Python | Varies |
