@@ -160,6 +160,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Your DDD Context Map Is Already in Your Foreign Keys** | [↗](https://backendengineeringadventures.substack.com) | Schemity's Context Map derives a DDD context map from the schema itself: each context view becomes a node, and every dependency arrow is backed by the... | Varies |
 | **Your uptime SLA means nothing when the physical process can't wait for your rollback** | [↗](https://marius-newsletter-d94bcd.beehiiv.com) | There’s a conversation that happens when IT developers first encounter operational technology. It... | Varies |
 | **Your Webhook Returned 200 OK. Did the Event Actually Get Processed?** | [↗](https://fasthook.hashnode.dev) | A webhook provider sends an event. Your endpoint returns 200 OK. The provider stops... | Varies |
+| **실시간 라이브 채팅, 그 아래 있었던 문제들** | [↗](https://blog-cattus.hashnode.dev) | 라이브 방송을 보며 실시간으로 채팅을 주고받는 모듈을 만들고 다듬으며 겪은 문제들을 정리했다. 가상 키보드 대응, iOS 웹뷰 전용 버그, 자동 스크롤 알고리즘의 경쟁 상태까지 — 어떤 요구사항 때문에 어떤 선택을 했는지와 그 문제를 어떻게 원인 분석해서 풀었는지를 기록했다. | Varies |
 </details>
 
 
@@ -362,6 +363,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **A curated weekly newsletter on web development and software architecture** | [↗](https://www.fullstackexpress.io/) | Become a better full stack developer. A newsletter dedicated to web development and software architecture. | Varies |
 | **Animesh Gaitonde** | [↗](https://medium.com/@animeshgaitonde) | Read writing from Animesh Gaitonde on Medium. SDE-3/Tech Lead @ Amazon\| ex-Airbnb \| ex-Microsoft. Writes about Distributed Systems, Programming Languages & Tech Interviews | Varies |
 | **Architecture Weekly** | [↗](https://www.architecture-weekly.com/) | Weekly Software Architecture resources to boost your knowledge and developer skills. Click to read Architecture Weekly, by Oskar Dudycz, a Substack publication with tens of thousands of subscribers. | Varies |
+| **Building a Polymarket Arbitrage Bot: Architecture, Challenges, and Execution Strategies** | [↗](https://guskarls.substack.com) | When people hear the phrase Polymarket arbitrage bot, they usually imagine finding pricing... | Varies |
 | **ByteByteGo System Design Alliance** | [↗](https://medium.com/bytebytego-system-design-alliance) | Explain complex systems with simple term. | Varies |
 | **Coffee☕ And Code💚** | [↗](https://medium.com/techtrends-digest) | Where coding meets caffeine. Fueling developers with code, creativity, and a dash of inspiration | Varies |
 | **Compilers Aren't Just for Programming Languages** | [↗](https://www.architecture-weekly.com/p/compilation-isnt-just-for-programming) | ...but also for building Adaptive Streaming Pipelines. I wrote today on how building event-driven pipeline lead me to writing my own compiler. Oh well, small one, simple one, but still. Learn on surprising places besides programming languages when compiling happens and helps your apps! | Varies |
@@ -731,6 +733,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **How OpenAI Scaled Kubernetes to 7,500 Nodes by Removing One Plugin** | [↗](https://newsletter.betterstack.com/p/how-openai-scaled-kubernetes-to-7500) | The one change that improved OpenAI's network. | Varies |
 | **How to Digest a Docker Image** | [↗](https://maori.geek.nz/how-to-digest-a-docker-image-ca9fc7630b71) | How to Digest a Docker Image | Varies |
 | **How to not get triggered by DevOps and other buzzwords** | [↗](https://five9s.substack.com) | Practical advice for designing your SRE team and functions | Varies |
+| **I Built a Private Software Registry, and Four Different Tools Now Publish to It** | [↗](https://vivianokose.hashnode.dev) | Standing up Sonatype Nexus on AWS and publishing Java, Node, Python, and Docker artifacts through one private registry. | Varies |
 | **I built my ideal daily Python newsletter with AWS and Python** | [↗](https://cloudconsultant.dev/building-an-automated-email-newsletter-with-aws-and-python/) | I built my ideal daily Python newsletter with AWS and Python | Varies |
 | **I've made an AWS Security Digest newsletter (weekly)** | [↗](https://share.mailbrew.com/zoph/aws-security-digest-HrkhwqNrwBBk) | I've made an AWS Security Digest newsletter (weekly) | Varies |
 | **IaC Insights** | [↗](https://masterpoint.beehiiv.com) | IaC Insights is a newsletter by Matt Gowie and the Masterpoint team focused on delivering actionable advice and best practices in the Infrastructure as Code ecosystem. | Varies |
@@ -834,6 +837,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **what3words** | [↗](https://medium.com/@what3words) | Read writing from what3words on Medium. what3words is the simplest way to talk about location. It has divided the world into 3m x 3m squares, each with a unique 3 word address. | Varies |
 | **Why AWS Is Tearing Down the "Tree"?** | [↗](https://forwardstack.hashnode.dev) | Amazon CEO Andy Jassy has been on a highly publicized crusade lately to crush corporate bureaucracy.... | Varies |
 | **Why Every DevOps Engineer Should Learn Linux Before Docker and Kubernetes** | [↗](https://shafaque.hashnode.dev) | If you've recently started learning DevOps, you've probably seen roadmaps filled with Docker,... | Varies |
+| **Your Cloud Has Attack Paths No Scanner Can Find. Because They Don't Exist in Any Single Resource** | [↗](https://systeminvariant.substack.com) | Six classes of cloud security violations are detectable from configuration structure alone — no tags, intent declarations or setup. Formal verification asks 'what is mathematically possible?' not 'does this text look bad?' | Varies |
 | **Your Terraform State Is Lying to You. I Built the Tool That Proves It.** | [↗](https://edwinjonathand-devops.hashnode.dev) | The Quiet Failure Mode Every AWS Team Pretends Doesn't Exist I Found the Gap Every DevOps... | Varies |
 | **Zenny’s Weekly Cloud Link Roundup – DevOps Culture, IaaS, OpenShift, SugarCRM** | [↗](http://blog.zenoss.com/2012/05/zennys-cloud-links-55-devops-culture-iaas-openshift-sugarcrm/?utm_source=News.Ycombinator.com&utm_medium=Social+Media&utm_content=cl55&utm_campaign=Hacker+News+Link ) | Zenny’s Weekly Cloud Link Roundup – DevOps Culture, IaaS, OpenShift, SugarCRM | Varies |
 </details>
@@ -1047,6 +1051,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **A Gutenburg-Powered Newsletter – CSS-Tricks** | [↗](https://css-tricks.com/a-gutenburg-powered-newsletter/) | I like Gutenberg, the new WordPress editor. I'm not oblivious to all the conversation around accessibility, UX, and readiness, but I know how hard it is to | Varies |
 | **A JavaScript Developer's Newsletter – Issue #8** | [↗](https://www.getrevue.co/profile/rwieruch/issues/robin-wieruch-a-developer-s-newsletter-issue-8-91425) | A JavaScript Developer's Newsletter – Issue #8 | Varies |
 | **A tiny JavaScript newsletter, dispatched weekly** | [↗](http://tinyjs.email) | A tiny JavaScript newsletter, dispatched weekly | Varies |
+| **Agile Web Development with Rails 4th ed. released** | [↗](http://media.pragprog.com/newsletters/2011-03-30.html) | Agile Web Development with Rails 4th ed. released | Varies |
 | **Alik Chebotar** | [↗](https://medium.com/@alik.chebotar) | Read writing from Alik Chebotar on Medium. Software Engineer, Hacker, Traveler. https://ochebotar.github.io/ | Varies |
 | **An awesome drag&drop HTML newsletter builder** | [↗](http://www.newslettercreator.com/why-choose-mailstyler/) | MailStyler is the most powerful email building software around: here's a few reasons why choose it to create your own newsletter template. | Varies |
 | **Angular Typescript Newsletter – Most Interesting and Updated News – Once a Week** | [↗](https://dormoshe.io/newsletters) | This page contains all our newsletters catalog | Varies |
@@ -1169,6 +1174,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Show HN: ArgueWiki, where arguments live forever** | [↗](https://www.argueWiki.com/) | Show HN: ArgueWiki, where arguments live forever | Varies |
 | **Show HN: Crow's Nest – a weekly planner and budget tracker for Harvest users** | [↗](https://mycrowsnest.app) | Crow's Nest connects to Harvest or Toggl Track and shows you in 10 seconds whether you can take on a new freelance project, based on your real tracked hours, not guesses. | Varies |
 | **Show HN: CSSStunts.com – Weekly CSS hacks** | [↗](https://www.cssstunts.com) | Show HN: CSSStunts.com – Weekly CSS hacks | Varies |
+| **Show HN: I built an app that subscribed to all development newsletters** | [↗](https://web.getcultivateapp.com) | Show HN: I built an app that subscribed to all development newsletters | Varies |
 | **Show HN: I made a free F1 app to predict race results and beat your friends** | [↗](https://www.beturrace.com) | BERACE is the free F1 and MotoGP prediction app for friends: race picks, private teams, leaderboards, live stats and challenges. | Varies |
 | **Show HN: I was tired of my mobile projects getting buried – so I built MobDrop** | [↗](https://mobdrop.club) | Showcase your mobile dev work, build in public, and get discovered by the dev community. | Varies |
 | **Show HN: KPI Crunch – instant insights into any competitive landscape** | [↗](https://kpicrunch.com) | Show HN: KPI Crunch – instant insights into any competitive landscape | Varies |
