@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 import json
 import os
-import requests
 import logging
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 
 # Added for randomized headers
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, request_with_retry
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, request_with_retry
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -23,7 +22,7 @@ def fetch_hashnode_data(url):
         feed_url = f"{base_url}/rss.xml"
         
         headers = {'User-Agent': get_random_user_agent()}
-        response = requests.get(feed_url, headers=headers, timeout=10)
+        response = request_with_retry("GET", feed_url, headers=headers, timeout=10)
         response.raise_for_status()
         
         root = ET.fromstring(response.content)
@@ -62,7 +61,7 @@ def discover_hashnode():
         url = f"https://hn.algolia.com/api/v1/search?query=hashnode.dev+{query}&hitsPerPage=10"
         try:
             headers_algolia= {'User-Agent': get_random_user_agent()}
-            r = requests.get(url, headers=headers_algolia, timeout=10)
+            r = request_with_retry("GET", url, headers=headers_algolia, timeout=10)
             if r.status_code == 200:
                 hits = r.json().get("hits", [])
                 for hit in hits:

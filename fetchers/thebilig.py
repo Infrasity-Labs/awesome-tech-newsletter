@@ -3,15 +3,14 @@
 import time
 import json
 import os
-import requests
 import logging
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 #Same here 
 try:
-    from fetchers.utils import get_random_user_agent
+    from fetchers.utils import get_random_user_agent, request_with_retry
 except ModuleNotFoundError:
-    from utils import get_random_user_agent
+    from utils import get_random_user_agent, request_with_retry
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -26,7 +25,7 @@ def discover_thebilig():
     discovered = []
     
     try:
-        r = requests.get(url, headers=headers, timeout=15)
+        r = request_with_retry("GET", url, headers=headers, timeout=15)
         if r.status_code == 200:
             soup = BeautifulSoup(r.text, 'html.parser')
             
@@ -61,7 +60,7 @@ def discover_thebilig():
                 # Fetch external URL from internal page
                 detail_url = f"https://www.thebilig.com{href}"
                 try:
-                    detail_r = requests.get(detail_url, headers=headers, timeout=10)
+                    detail_r = request_with_retry("GET", detail_url, headers=headers, timeout=10)
                     if detail_r.status_code == 200:
                         detail_soup = BeautifulSoup(detail_r.text, 'html.parser')
                         visit_link = detail_soup.find('a', string=lambda s: s and 'Visit official site' in s)

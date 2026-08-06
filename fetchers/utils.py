@@ -1,7 +1,53 @@
 #!/usr/bin/env python3
 import random
 import json
+import logging
 import os
+
+import requests
+from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
+
+logger = logging.getLogger(__name__)
+
+
+class RateLimitedError(requests.exceptions.HTTPError):
+    """Raised when a request gets a 429, so tenacity can retry it separately from other HTTP errors."""
+
+
+def _wait_for_rate_limit(retry_state):
+    exc = retry_state.outcome.exception()
+    retry_after = getattr(exc, "retry_after", None)
+    if retry_after is not None:
+        return retry_after
+    return wait_exponential(multiplier=1, min=2, max=30)(retry_state)
+
+
+@retry(
+    retry=retry_if_exception_type((RateLimitedError, requests.exceptions.ConnectionError, requests.exceptions.Timeout)),
+    wait=_wait_for_rate_limit,
+    stop=stop_after_attempt(4),
+    reraise=True,
+)
+def request_with_retry(method, url, **kwargs):
+    """
+    requests.request() wrapper that retries on 429s (honoring Retry-After when present)
+    and on connection/timeout errors, with exponential backoff otherwise.
+    """
+    response = requests.request(method, url, **kwargs)
+    if response.status_code == 429:
+        err = RateLimitedError(f"429 Too Many Requests for {url}", response=response)
+        retry_after = response.headers.get("Retry-After")
+        if retry_after is not None:
+            try:
+                err.retry_after = float(retry_after)
+            except ValueError:
+                err.retry_after = None
+        else:
+            err.retry_after = None
+        logger.warning("Rate limited on %s, retrying...", url)
+        raise err
+    return response
+
 
 def get_random_user_agent():
     """Returns a random popular user agent string to avoid scraping blocks."""
