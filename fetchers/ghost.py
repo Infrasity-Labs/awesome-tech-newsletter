@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 import json
 import os
-import requests
 import logging
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 # Added for randomized headers
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, request_with_retry
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, request_with_retry
 
 JSON_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", f"newsletters_{os.path.basename(__file__)}.json")
 
@@ -23,7 +22,7 @@ def fetch_ghost_data(url):
         headers = {
             'User-Agent': get_random_user_agent()
         }
-        response = requests.get(base_url, headers=headers, timeout=10)
+        response = request_with_retry("GET", base_url, headers=headers, timeout=10)
         response.raise_for_status()
         
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -71,7 +70,7 @@ def discover_ghost():
         try:
             #Added Here also for randomized headers
             headers_algolia = {'User-Agent': get_random_user_agent()}
-            r = requests.get(url, params=params, headers=headers_algolia, timeout=10)
+            r = request_with_retry("GET", url, params=params, headers=headers_algolia, timeout=10)
             if r.status_code == 200:
                 hits = r.json().get("hits", [])
                 for hit in hits:
