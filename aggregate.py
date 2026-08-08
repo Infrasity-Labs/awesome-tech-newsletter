@@ -4,7 +4,7 @@ import re
 import glob
 import logging
 from urllib.parse import urlparse, unquote_plus
-from readme_utils import table_sort_key
+from readme_utils import table_sort_key, normalize_title
 
 README_PATH = "README.md"
 CONFIG_PATH = "config.json"
@@ -33,6 +33,15 @@ def get_existing_urls(lines):
             for m in matches:
                 existing_urls.add(unquote_plus(m.rstrip('/').lower()))
     return existing_urls
+
+def get_existing_titles(lines):
+    existing_titles = set()
+    for line in lines:
+        if line.strip().startswith('|'):
+            key = table_sort_key(line)
+            if key:
+                existing_titles.add(key)
+    return existing_titles
 
 def classify_newsletter(title, description, default_category):
     text = f"{title} {description}".lower()
@@ -83,6 +92,7 @@ def aggregate():
         lines = f.readlines()
 
     existing_urls = get_existing_urls(lines)
+    existing_titles = get_existing_titles(lines)
     changes_made = 0
 
 
@@ -90,12 +100,13 @@ def aggregate():
 
         raw_url = nl.get("url") or ""
         url = unquote_plus(raw_url.rstrip('/').lower())
-        
+        title_key = normalize_title(nl.get("title") or "")
+
         # 1. Deduplication Check
-        if not url or url in existing_urls:
+        if not url or url in existing_urls or (title_key and title_key in existing_titles):
             logger.info("Skipping %s: Already exists in directory.", url)
             continue
-            
+
         # 2. Blacklist Check
         domain = urlparse(raw_url).netloc.lower()
         if not domain:
@@ -140,6 +151,8 @@ def aggregate():
                 insert_idx = table_header_idx + 1
                 lines.insert(insert_idx, row + '\n')
                 existing_urls.add(url)
+                if title_key:
+                    existing_titles.add(title_key)
                 changes_made += 1
                 logger.info("Aggregated: %s -> %s", nl['title'], category)
             else:
@@ -171,6 +184,8 @@ def aggregate():
                 for offset, new_line in enumerate(new_lines):
                     lines.insert(footer_idx + offset, new_line)
                 existing_urls.add(url)
+                if title_key:
+                    existing_titles.add(title_key)
                 changes_made += 1
                 logger.info("Aggregated (New Category Created): %s -> %s", nl['title'], category)
             else:
