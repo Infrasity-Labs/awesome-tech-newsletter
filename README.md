@@ -95,6 +95,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
 | **On Coding** | [↗](https://medium.com/on-coding) | Thoughts about writing code | Varies |
 | **Open Source Watch** | [↗](https://opensourcewatch.beehiiv.com) | What's what with open-source news. | Varies |
+| **Parallel connections made my speed test 2x slower** | [↗](https://buildingutilorax.hashnode.dev) | I built a speed test last week. It told me my download was 8.2 Mbps. Speedtest.net, on the same line,... | Varies |
 | **Perceived Latency: The Invisible KPI Killing Voice Experiences** | [↗](https://scenaro.substack.com) | Perceived Latency: The Invisible KPI Killing Voice Experiences Your teams track... | Varies |
 | **Pointer** | [↗](https://www.pointer.io/) | A reading club for software developers focusing on engineering leadership and best practices. | Bi-weekly |
 | **Rasul's Newsletter** | [↗](https://buttondown.email/rasulkireev) | I'll do my best to provide valuable content, including weekly updates on new posts, notes, and projects, as well as interesting links and discoveries. | Varies |
@@ -128,6 +129,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Software=Magic for Most People, and We Often Forget That** | [↗](https://zerotousers.substack.com) | Each week, I talk about acquisition channels that work & are likely to work in the future. | Varies |
 | **tech job drop 🌎 🚀** | [↗](https://farath.substack.com) | Discover fresh, cool tech jobs 🦄 | Varies |
 | **Telegram is becoming my control plane for vibe coding** | [↗](https://shreyshahh.substack.com) | The IDE is where code changes. Telegram is where the loops run. Telegram is becoming the control... | Varies |
+| **The Average Is Nobody's Result** | [↗](https://harryfloyd.substack.com) | Computer-aided detection changed nothing on average. Split the readers and it helped the weak and hurt the best. Averages are mixtures, not effects. | Varies |
 | **The Documentation System Every Startup Should Have** | [↗](https://virginiamwegahashnodedev.hashnode.dev) | Key Takeaways Most documentation advice is written by people whose job is only documentation. This... | Varies |
 | **The Engineer Who Waits and the Engineer Who Hunts** | [↗](https://danielholt.substack.com) | I manage two teams. They are structured almost identically — same size, same roles, same tools, same... | Varies |
 | **The Future of Software Depends on Synthetic Mathematics** | [↗](https://prapara.substack.com) | Practical Paracosms takes the reader on adventures in intuition through the unconventional in abstract mathematics and more, with practical advice for software and technology leaders | Varies |
