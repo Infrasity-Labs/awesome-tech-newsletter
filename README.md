@@ -52,7 +52,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Agentic Coding with Discipline and Skill** | [↗](https://agenticcoding.substack.com) | Bring the practice of agentic coding to the next level so it's production-ready. | Varies |
 | **Agents, harnessed** | [↗](https://codagent.beehiiv.com) | Newsletter about coding agent harnesses and harness engineering. | Varies |
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Android+Authority+Weekly%22+newsletter) | Android news, reviews, articles, and more! | Varies |
-| **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Android+Authority+Weekly"+newsletter) | Android news, reviews, articles, and more! | Varies |
 | **Better Engineers** | [↗](https://betterengineers.substack.com) | A Programmer's Journey of Perfections <br>Follow <br>LinkedIn: https://www.linkedin.com/in/devd04/<br>X : https://x.com/BetterEngineer1 | Varies |
 | **BroncoCTF : Spot the difference Writeup** | [↗](https://exploitnotes.hashnode.dev) | Challenge We're given two files, file1.txt and file2.txt, each containing what looks... | Varies |
 | **Browser Rendering Optimization [KR]** | [↗](https://astro-cat.hashnode.dev) | 요약 60fps 를 유지하려면 한 프레임을 16.6ms 안에 그려야 하는데, 브라우저 자체 오버헤드를 빼면 개발자가 확보해야 하는 실질적인 예산은 약 10ms... | Varies |
@@ -61,16 +60,13 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Caleb's Commentary** | [↗](https://calebfenton.substack.com) | Bitcoin, economics, freedom, self-improvement | Varies |
 | **Can a Mac Mini Handle 100 Million Rows?** | [↗](https://ruhika.hashnode.dev) | I made ClickHouse and Postgres Fight to Find Out 🥊 One Mac Mini. Two databases. 100 million rows of... | Varies |
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22CB+Insights%22+newsletter) | The easy way to stay ahead of all things tech | Varies |
-| **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+"CB+Insights"+newsletter) | The easy way to stay ahead of all things tech | Varies |
 | **CISA KEV catalog: a working sysadmin's guide to actually using it** | [↗](https://the-patch-window.beehiiv.com) | Most enterprise teams know the CISA Known Exploited Vulnerabilities catalog the same way they know... | Varies |
 | **Computer Things** | [↗](https://buttondown.email/hillelwayne) | Hi, I'm Hillel. This is the newsletter version of my website. I post all website updates here. I also post weekly content just for the newsletter, on topics like Formal MethodsSoftware History and CultureFringetech and exotic toolingThe philosophy and theory of software engineering You can see the archive of all public essays here. | Varies |
 | **creative coding space** | [↗](https://medium.com/creative-coding-space) | generating art from code // playgrd.com // instagram.com/playgrdstar/ | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+%22Creative+Mornings%22+newsletter) | Get inspired, no matter where you are. | Varies |
-| **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+"Creative+Mornings"+newsletter) | Get inspired, no matter where you are. | Varies |
 | **Cron'd Claude Agents: A Maintenance Log** | [↗](https://labyrinthanalytics.substack.com) | Running a fleet of twenty Claude agents on a launchd schedule teaches you fast that scheduler... | Varies |
 | **Day 2 of Demolishing my Stack of Unfinished Projects** | [↗](https://codenificient.hashnode.dev) | Published on Jul 13th, 2022 As they say, another day, another dollar Today was a good day... | Varies |
 | **Devshot** | [↗](https://devshot.co) | Coding news, tools, frameworks, and engineering reads for developers. | Varies |
-| **Erik Engheim** | [↗](https://medium.com/@erik-engheim) | Read writing from Erik Engheim on Medium. Geek dad, living in Oslo, Norway with passion for UX, Julia programming, science, teaching, reading and writing. | Varies |
 | **Erik Engheim** | [↗](https://erik-engheim.medium.com) | Read writing from Erik Engheim on Medium. Geek dad, living in Oslo, Norway with passion for UX, Julia programming, science, teaching, reading and writing. | Varies |
 | **Figma-to-code: the real shift happening** | [↗](https://christinevallaure.substack.com) | If you're shipping static sites, or building on a standard design system, the Figma MCP server is... | Varies |
 | **Filip K: Freedom Newsletter** | [↗](https://filipk.beehiiv.com) | Merging technology, economics and self-improvement in the pursuit of freedom | Varies |
@@ -87,7 +83,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Lars Janssen** | [↗](https://medium.com/@fazy) | Read writing from Lars Janssen on Medium. | Varies |
 | **Magma: An open source implementation of a mobile core network** | [↗](https://systemsapproach.substack.com) | Larry Peterson and Bruce Davie, authors of "Computer Networks: A Systems Approach" explain the Internet – its technology, architecture, and evolution | Varies |
 | **Mapping Strategies Without the Magic (Chapter 4)** | [↗](https://kamenivanov.substack.com) | At the end of the previous chapter, I teased that we were about to dive straight into the heavy... | Varies |
-| **Matt Schellhas** | [↗](https://medium.com/@matt-schellhas) | Read writing from Matt Schellhas on Medium. Dour, opinionated leader of software engineers. | Varies |
 | **Matt Schellhas** | [↗](https://matt-schellhas.medium.com) | Read writing from Matt Schellhas on Medium. Dour, opinionated leader of software engineers. | Varies |
 | **MCP for Automation Engineers: The Complete Deep Dive for QA Professionals with 5–15 Years of Experience** | [↗](https://himanshuai.substack.com) | Introduction: Why Every Senior SDET Needs to Understand MCP in 2026 If you've spent the... | Varies |
 | **Mnky9800N** | [↗](https://mnky9800n.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
@@ -100,7 +95,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Pointer** | [↗](https://www.pointer.io/) | A reading club for software developers focusing on engineering leadership and best practices. | Bi-weekly |
 | **Rasul's Newsletter** | [↗](https://buttondown.email/rasulkireev) | I'll do my best to provide valuable content, including weekly updates on new posts, notes, and projects, as well as interesting links and discoveries. | Varies |
 | **Recomendo** | [↗](https://duckduckgo.com/?q=!ducky+%22Recomendo%22+newsletter) | 6 brief recommendations of cool stuff | Varies |
-| **Recomendo** | [↗](https://duckduckgo.com/?q=!ducky+"Recomendo"+newsletter) | 6 brief recommendations of cool stuff | Varies |
 | **Reverse Engineering Netflix: What Actually Happens When We Click Play?** | [↗](https://sravanyadev.hashnode.dev) | Why I Started This A few days ago, while watching Netflix, I caught myself wondering about... | Varies |
 | **Richard Artoul** | [↗](https://medium.com/@richardartoul) | Read writing from Richard Artoul on Medium. Distributed Storage Engineer | Varies |
 | **sailor mercury** | [↗](https://medium.com/@sailorhg) | Read writing from sailor mercury on Medium. short haired computer scientist girl | Varies |
@@ -134,7 +128,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The Engineer Who Waits and the Engineer Who Hunts** | [↗](https://danielholt.substack.com) | I manage two teams. They are structured almost identically — same size, same roles, same tools, same... | Varies |
 | **The Future of Software Depends on Synthetic Mathematics** | [↗](https://prapara.substack.com) | Practical Paracosms takes the reader on adventures in intuition through the unconventional in abstract mathematics and more, with practical advice for software and technology leaders | Varies |
 | **The Hustle** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Hustle%22+newsletter) | Fresh tech and business news | Varies |
-| **The Hustle** | [↗](https://duckduckgo.com/?q=!ducky+"The+Hustle"+newsletter) | Fresh tech and business news | Varies |
 | **The Lifelong Learner** | [↗](https://avthar.substack.com) | Documenting my journey of lifelong learning. Practical wisdom about self-mastery, entrepreneurship, health and happiness. By South African entrepreneur and technologist Avthar Sewrathan. Click to read The Lifelong Learner, by Avthar Sewrathan, a Substack publication with hundreds of subscribers. | Varies |
 | **The Lindy Newsletter** | [↗](https://lindynewsletter.beehiiv.com) | No description available. | Varies |
 | **The Nerve Blog** | [↗](https://the-nerve-blog.ghost.io) | This is Nerve's Official Blog | Varies |
@@ -147,12 +140,8 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The Two-Line Bug That’s Probably Hiding in Your Event-Driven System** | [↗](https://vamsitokala.substack.com) | The Two-Line Bug That’s Probably Hiding in Your Event-Driven System A while back I was staring at a... | Varies |
 | **Thefridaydeploy** | [↗](https://thefridaydeploy.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **TheFutureParty** | [↗](https://duckduckgo.com/?q=!ducky+%22TheFutureParty%22+newsletter) | Modern take on business, culture, tech & more | Varies |
-| **TheFutureParty** | [↗](https://duckduckgo.com/?q=!ducky+"TheFutureParty"+newsletter) | Modern take on business, culture, tech & more | Varies |
-| **TLDR** | [↗](https://duckduckgo.com/?q=!ducky+%22TLDR%22+newsletter) | Byte sized news for techie folks | Varies |
-| **TLDR** | [↗](https://duckduckgo.com/?q=!ducky+"TLDR"+newsletter) | Byte sized news for techie folks | Varies |
 | **TLDR** | [↗](https://tldr.tech/) | Bite-sized news for busy techies covering software engineering, tech, and science. | Daily |
 | **Transfer Orbit Newsletter** | [↗](https://transfer-orbit.ghost.io) | A newsletter about science fiction, books, and the future | Varies |
-| **Utsav Shah** | [↗](https://medium.com/@utsavpshah) | Read writing from Utsav Shah on Medium. Curious \| Reader \| Maker | Varies |
 | **Utsav Shah** | [↗](https://utsavpshah.medium.com) | Read writing from Utsav Shah on Medium. Curious \| Reader \| Maker | Varies |
 | **Vasu’s Newsletter** | [↗](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
 | **What I learned building a real talent funnel from SRS and Figma to QA, handover, and closing without a perfect ending.** | [↗](https://shakiran.hashnode.dev) | Hey everyone, If you followed my weekly Hashnode series, you already know the short version: eight... | Varies |
@@ -178,7 +167,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **'How to do great work' by Paul Graham mapped out** | [↗](https://substack.com) | A tech newsletter focused on api and software engineering. | Varies |
 | **[meteor-weekly] SQL Support, Giteor, New Pull Request Guideline and More** | [↗](http://meteorhacks.com/meteor-weekly-sql-support-giteor-pull-request-guidline.html) | [meteor-weekly] SQL Support, Giteor, New Pull Request Guideline and More | Varies |
 | **A Recipe for Auth Cookies in the Decoupled Front End and Back End Architecture** | [↗](https://nowaycodes.substack.com) | Code and life musings | Varies |
-| **Albert Wong** | [↗](https://medium.com/@atwong) | Read writing from Albert Wong on Medium. #eCommerce #Java #Database #k8s #Automation. Hobbies: #BoardGames #Comics #Skeet #VideoGames #Pinball #Magic #YelpElite #Travel #Candy | Varies |
 | **Albert Wong** | [↗](https://atwong.medium.com) | Read writing from Albert Wong on Medium. #eCommerce #Java #Database #k8s #Automation. Hobbies: #BoardGames #Comics #Skeet #VideoGames #Pinball #Magic #YelpElite #Travel #Candy | Varies |
 | **API Complexity Is a Lie** | [↗](https://apichangelog.substack.com) | Curated API moves. Unfiltered expert takes. | Varies |
 | **API Developer Weekly** | [↗](https://apideveloperweekly.com/) | A newsletter dedicated to the business, design, development, and deployment of APIs. | Weekly |
@@ -223,9 +211,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Golang-weekly: Weekly curated list of Go news.** | [↗](http://golangweekly.com) | The week in Go, hand-picked. Language updates, libraries, performance, and the projects worth keeping up with. | Varies |
 | **Graphics Programming Weekly – Database** | [↗](https://www.jendrikillner.com/article_database/) | Get all the information from the my weekly Newsletter. Jendrik Illner is a 3D and Rendering programmer currectly working at Santa Monica Studio. His game experience includes God of Wars, Frostbite, Dead Space and Far Cry 6. | Varies |
 | **GraphQL Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22GraphQL+Weekly%22+newsletter) | The best content from the GraphQL community | Varies |
-| **GraphQL Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"GraphQL+Weekly"+newsletter) | The best content from the GraphQL community | Varies |
-| **Hacker Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+%22Hacker+Newsletter%22+newsletter) | The best articles on startups, technology, programming, and more. | Varies |
-| **Hacker Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+"Hacker+Newsletter"+newsletter) | The best articles on startups, technology, programming, and more. | Varies |
 | **Hadoop Fans: Enter to win some cool prizes** | [↗](http://www.nosqlweekly.com/giveaway/) | Hadoop Fans: Enter to win some cool prizes | Varies |
 | **HashBang Weekly. A weekly newsletter on all things GraphQL, ReactJS, and Meteor** | [↗](http://hashbangweekly.okgrow.com/) | HashBang Weekly. A weekly newsletter on all things GraphQL, ReactJS, and Meteor | Varies |
 | **How to Bootstrap Your State Back End for Your Next Terraform or OpenTofu Project** | [↗](https://newsletter.masterpoint.io/p/how-to-bootstrap-your-state-backend-for-your-next-terraform-or-opentofu-project) | Learn about a framework agnostic way to manage your TF backend in TF. | Varies |
@@ -236,7 +221,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Important database news from the last few months** | [↗](https://winand.at/newsletter/2018-07/sql-over-the-cloud-fsyncgate) | Google and Amazon acknowledge benefits of SQL, Elasticsearch introduces SQL interface, and MySQL finally becomes modern…after 20 years. These are exciting times in the world of databases. | Varies |
 | **Inside Skylight** | [↗](https://skylight.ghost.io) | Development of the smart profiler for Ruby on Rails. | Varies |
 | **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+%22iOS+Dev+Tools%22+newsletter) | The best tools for iOS developers | Varies |
-| **iOS Dev Tools** | [↗](https://duckduckgo.com/?q=!ducky+"iOS+Dev+Tools"+newsletter) | The best tools for iOS developers | Varies |
 | **Is Redis a noSQL db, a cache, or a messaging server?** | [↗](http://antirez.com/post/redis-weekly-update-3-publish-submit.html) | Is Redis a noSQL db, a cache, or a messaging server? | Varies |
 | **Issue 82 – GraphQL-Weekly** | [↗](https://graphqlweekly.com/issues/82/) | A weekly newsletter of the best news, articles and projects about GraphQL | Varies |
 | **Issue 90 – GraphQL-Weekly** | [↗](https://graphqlweekly.com/issues/90/) | A weekly newsletter of the best news, articles and projects about GraphQL | Varies |
@@ -286,13 +270,11 @@ This is a community-curated directory of some of the best newsletters by and for
 | **NoSQL Job Trends** | [↗](http://jobs.nosqlweekly.com/blog/nosql-job-trends/) | NoSQL Job Trends | Varies |
 | **NoSQL Salary Trends** | [↗](http://jobs.nosqlweekly.com/blog/nosql-salary-trends/) | NoSQL Salary Trends | Varies |
 | **NoSQL Search Conference Ticket Giveaway** | [↗](http://www.nosqlweekly.com/nosql-zurich-2013/) | NoSQL Search Conference Ticket Giveaway | Varies |
-| **not_afraid** | [↗](https://medium.com/@not-afraid) | Read writing from not_afraid on Medium. Software Engineer passionate about Backend, PostgreSQL, infra & web security. | Varies |
 | **not_afraid** | [↗](https://not-afraid.medium.com) | Read writing from not_afraid on Medium. Software Engineer passionate about Backend, PostgreSQL, infra & web security. | Varies |
 | **Ntennah's Weekly Node.js Newsletter** | [↗](https://www.ntennah.com/issue/node) | Ntennah's Weekly Node.js Newsletter | Varies |
 | **Optimising Django Database Performance** | [↗](http://blueprintforge.com/blog/2012/01/24/measuring-optimising-database-performance-in-django/?utm_source=Python+Weekly+Newsletter&utm_campaign=daf70a523d-Python_Weekly_Issue_19_January_26_2012&utm_medium=email) | Database performance is a crucial factor in web application performance, and can mean the difference between a responsive web application and a slow … | Varies |
 | **Programmer Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Programmer+Weekly%22+newsletter) | A free weekly newsletter featuring the best hand curated links for programmers | Varies |
 | **Programming Digest** | [↗](https://duckduckgo.com/?q=!ducky+%22Programming+Digest%22+newsletter) | Keeps up to date with the programming world. | Varies |
-| **Programming Digest** | [↗](https://duckduckgo.com/?q=!ducky+"Programming+Digest"+newsletter) | Keeps up to date with the programming world. | Varies |
 | **RailsNotes – The Newsletter for Ruby on Rails Lovers** | [↗](https://railsnotes.xyz/newsletter) | The RailsNotes newsletter is a collection of interesting Rails articles, AI-generated pictures, and a handy Rails tip 💡. I send it to you for free, once a week. | Varies |
 | **Reactive Microservices with Eclipse Vert.x** | [↗](http://www.eclipse.org/community/eclipse_newsletter/2016/october/article4.php) | Get the freedom to shape your system as you want, ensuring its responsiveness, resilience and elasticity with Eclipse Vert.x: a toolkit to build reactive microservices. | Varies |
 | **ReactJS, ReactNative and GraphQL Newsletter: Issue 28** | [↗](https://reactdom.com/issues/28) | ReactJS, ReactNative and GraphQL Newsletter: Issue 28 | Varies |
@@ -362,7 +344,6 @@ This is a community-curated directory of some of the best newsletters by and for
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **A curated weekly newsletter on web development and software architecture** | [↗](https://www.fullstackexpress.io/p/netflix-smooth-launch-of-basic-with-ads) | No description available. | Varies |
 | **A curated weekly newsletter on web development and software architecture** | [↗](https://www.fullstackexpress.io/) | Become a better full stack developer. A newsletter dedicated to web development and software architecture. | Varies |
 | **Animesh Gaitonde** | [↗](https://medium.com/@animeshgaitonde) | Read writing from Animesh Gaitonde on Medium. SDE-3/Tech Lead @ Amazon\| ex-Airbnb \| ex-Microsoft. Writes about Distributed Systems, Programming Languages & Tech Interviews | Varies |
 | **Architecture Weekly** | [↗](https://www.architecture-weekly.com/) | Weekly Software Architecture resources to boost your knowledge and developer skills. Click to read Architecture Weekly, by Oskar Dudycz, a Substack publication with tens of thousands of subscribers. | Varies |
@@ -389,17 +370,13 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Intel and the x86 Architecture: A Legal Perspective(2011)** | [↗](https://jolt.law.harvard.edu/digest/intel-and-the-x86-architecture-a-legal-perspective) | Intel, the world’s largest semiconductor manufacturer, owes its global leadership position to its x86 microprocessors. Intel and its main competitor, Advanced Micro Devices (AMD), command 80.4% and 11.5% of the... | Varies |
 | **Introduction to Event-Driven Architectures with Apache Kafka on Heroku** | [↗](https://www.salesforce.com/video/1773568/?c=7013A000001yK6PQAU&utm_campaign=Newsletter_December_2017&utm_medium=email&utm_source=newsletter&utm_content=blog&utm_term=dreamforce-kafka-talk) | Salesforce+ is a free platform offering live and on‑demand access to Salesforce’s biggest events—Dreamforce, TDX, Connections, Tableau Conference, and more. Enjoy unlimited access to our entire video library at no cost; just sign up with your Trailblazer account to become a member. Salesforce+ will illuminate the future of technology in the digital-first, work-anywhere world and inspire millions of Trailblazers to learn new skills, pursue new career opportunities, and drive change in the world. | Varies |
 | **Joey Loi** | [↗](https://medium.com/@joeyloi) | Read writing from Joey Loi on Medium. | Varies |
-| **Kamil Zima** | [↗](https://medium.com/@dziki104) | Read writing from Kamil Zima on Medium. | Varies |
 | **Kamil Zima** | [↗](https://dziki104.medium.com) | Read writing from Kamil Zima on Medium. | Varies |
 | **Kelvin Andrian** | [↗](https://medium.com/@kelvinandrian) | Read writing from Kelvin Andrian on Medium. | Varies |
-| **Kousik Nath** | [↗](https://medium.com/@kousiknath) | Read writing from Kousik Nath on Medium. Deep discussions on problem solving, distributed systems, computing concepts, real life systems designing. Developer @Uber. https://in.linkedin.com/in/kousikn | Varies |
 | **Kousik Nath** | [↗](https://kousiknath.medium.com) | Read writing from Kousik Nath on Medium. Deep discussions on problem solving, distributed systems, computing concepts, real life systems designing. Developer @Uber. https://in.linkedin.com/in/kousikn | Varies |
 | **Lambda vs. Kappa Architecture** | [↗](https://www.newsletter.swirlai.com/p/sai-13-lambda-vs-kappa-architecture) | Lambda vs. Kappa Architecture, MLOps Maturity Model: Level 1. | Varies |
-| **Medium** | [↗](https://medium.com/@securityshenaningans) | No description available. | Varies |
 | **Medium** | [↗](https://securityshenaningans.medium.com) | No description available. | Varies |
 | **Musings on computer systems** | [↗](https://buttondown.email/nelhage) | This is my occasional newsletter, for my thoughts and explanations on assorted topics in software engineering and computer systems. It also receives notifications about new blog posts from my blog. Content clusters around my areas of expertise and interest in computer systems engineering, including testing, performance, and engineering system architecture and organization design, but I also wander further afield from time to time. In addition to my blog, I aspire to use this newsletter as a place to work through thoughts in a rougher form, and flesh out work-in-progress ideas; in practice, much of the time it just gets the blog posts links. | Varies |
 | **My thoughts on Vertical Slices, CQRS, Semantic Diffusion and other fancy words** | [↗](https://www.architecture-weekly.com/p/my-thoughts-on-vertical-slices-cqrs) | Vertical Slices in software architecture are pictured right now as the best thing since sliced bread. I won’t try to hide that, like it. I've written about CQRS and Vertical Slices over the years - how to slice the codebase effectively, shown examples, and explained why generic doesn't mean simple, yet…I still get questions about Vertical Slices Architecture (VSA). After a recent Discord discussion, I want to share some additional thoughts on how I see Vertical Slices Architecture, how it relates to CQRS, what different slicing strategies are, and (of course) the tradeoffs. | Varies |
-| **Orkhan Huseynli** | [↗](https://medium.com/@orkhanscience) | Read writing from Orkhan Huseynli on Medium. Software Engineer, History enthusiast. LinkedIn: https://www.linkedin.com/in/huseynli Substack: https://orkhanscience.substack.com | Varies |
 | **Orkhan Huseynli** | [↗](https://orkhanscience.medium.com) | Read writing from Orkhan Huseynli on Medium. Software Engineer, History enthusiast. LinkedIn: https://www.linkedin.com/in/huseynli Substack: https://orkhanscience.substack.com | Varies |
 | **PostgreSQL Jsonb – Powerful Storage for Semi-Structured Data** | [↗](https://www.architecture-weekly.com/p/postgresql-jsonb-powerful-storage) | Object-oriented or relational? Why not both? Let's look on PostgreSQL JSONB column type and how it can help you to deliver your applications faster. We dived into how it's stored, when and why it can be as performant as regular approach, and cases when we need to do tradeoffs. | Varies |
 | **Posts \| undefined** | [↗](https://danielrusnok.ck.page) | No description available. | Varies |
@@ -414,7 +391,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Strong Engineers fail System Design Interviews due to 5 common mistakes** | [↗](https://newsletter.techleadmentor.com/p/stop-parroting-youtube-solutions) | 5 common mistakes in system design interviews and how to avoid them | Varies |
 | **System-Level Design Out Today** | [↗](http://semiengineering.com/newsletter/system-level-design-082715/) | Special Report Electronics Butterfly Effect The electronics industry is about to go through the biggest change it has seen since the introduction of the transistor. Every decision from the past 50 years could be changed. Top Stories Software Driving More Hardware Designs Functions and new OSes become the starting point for SoCs, but hardware still... » read more | Varies |
 | **Tech Architect Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22Tech+Architect+Insights%22+newsletter) | From developer to architect, practical system design. | Varies |
-| **Tech Architect Insights** | [↗](https://duckduckgo.com/?q=!ducky+"Tech+Architect+Insights"+newsletter) | From developer to architect, practical system design. | Varies |
 | **The 6-Month Preparation Blueprint for L5–L7 Engineering Roles** | [↗](https://the-tech-builder-772f0d.beehiiv.com) | A structured roadmap covering DSA invariants, Low-Level Design (LLD), and High-Level System Design (HLD) for Senior, Staff, and Principal roles. | Varies |
 | **The Challenges of Distributed Systems** | [↗](https://newsletter.francofernando.com/p/the-challenges-of-distributed-systems) | What every engineer should know when working with distributed systems. | Varies |
 | **The Fallacies of Distributed Systems** | [↗](https://newsletter.francofernando.com/p/the-fallacies-of-distributed-systems) | Eight distributed systems fallacies that are underrated during system design. | Varies |
@@ -448,19 +424,15 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Adam Jacob** | [↗](https://medium.com/@adamhjk) | Read writing from Adam Jacob on Medium. Former CTO at Chef, Open Source nerd, Sustainable Free and Open Source Communities advocate. | Varies |
 | **Ahmed Besbes** | [↗](https://medium.com/@ahmedbesbes) | Read writing from Ahmed Besbes on Medium. Medium Top Writer (+2M views) \| I write about python and productionizing ML code into scalable apps. Exclusive content here: https://thetechbuffet.substack.com/ | Varies |
 | **All Things TypeScript Newsletter – Issue #4** | [↗](https://allthingstypescript.dev/issues/all-things-typescript-newsletter-issue-4-1095551) | Good morning and welcome to another issue of All Things Typescript. | Varies |
-| **Andrew Vittiglio** | [↗](https://medium.com/@avittig) | Read writing from Andrew Vittiglio on Medium. | Varies |
 | **Andrew Vittiglio** | [↗](https://avittig.medium.com) | Read writing from Andrew Vittiglio on Medium. | Varies |
 | **Announcing TypeScript Weekly** | [↗](https://www.typescript-weekly.com/) | The best TypeScript links every week, right in your inbox. | Varies |
 | **Anthony Shaw** | [↗](https://medium.com/@anthonypjshaw) | Read writing from Anthony Shaw on Medium. Group Director of Talent at Dimension Data, father, Christian, Python Software Foundation Fellow, Apache Foundation Member. | Varies |
 | **Awesome C++ Newsletter – Issue 84** | [↗](https://cpp.libhunt.com/newsletter/84) | Awesome C++ Newsletter – Issue 84 | Varies |
 | **Awesome Python** | [↗](https://duckduckgo.com/?q=!ducky+%22Awesome+Python%22+newsletter) | The most popular Python news, articles and packages | Varies |
-| **Awesome Python** | [↗](https://duckduckgo.com/?q=!ducky+"Awesome+Python"+newsletter) | The most popular Python news, articles and packages | Varies |
 | **bardonadam** | [↗](https://medium.com/@bardonadam) | Read writing from bardonadam on Medium. | Varies |
-| **Benjamin Cane** | [↗](https://medium.com/@madflojo) | Read writing from Benjamin Cane on Medium. Builder of payments systems & open-source contributor. Writing mostly micro-posts on Medium. Follow on LinkedIn: https://www.linkedin.com/in/bencane | Varies |
 | **Benjamin Cane** | [↗](https://madflojo.medium.com) | Read writing from Benjamin Cane on Medium. Builder of payments systems & open-source contributor. Writing mostly micro-posts on Medium. Follow on LinkedIn: https://www.linkedin.com/in/bencane | Varies |
 | **Bite Python: Weekly Python Newsletter** | [↗](http://newsletter.pythontips.com/) | A weekly newsletter about everything Python | Varies |
 | **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+%22Bytes%22+newsletter) | The funniest JavaScript newsletter on the web | Varies |
-| **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+"Bytes"+newsletter) | The funniest JavaScript newsletter on the web | Varies |
 | **C++ - Why does this call the default constructor? - Stack Overflow** | [↗](http://stackoverflow.com/questions/11691021/why-does-this-call-the-default-constructor?newsletter=1&nlcode=91287|aea8) | C++ - Why does this call the default constructor? - Stack Overflow | Varies |
 | **C++ -\the purpose of specifying captured variable in lambda expression** | [↗](http://stackoverflow.com/questions/18496754/what-is-the-purpose-of-specifying-captured-variable-in-lambda-expression?newsletter=1&nlcode=91287%7caea8) | C++ -\the purpose of specifying captured variable in lambda expression | Varies |
 | **C++ creator Bjarne Stroustrup proposes unified call syntax** | [↗](http://sdtimes.com/sd-times-news-digest-october-13-2014-c-creator-proposes-unified-call-syntax-salesforce-wave-emotion-reading-keystroke-software/) | C++ creator Bjarne Stroustrup proposes unified call syntax; Salesforce announces Wave cloud analytics platform; Xamarin & Couchbase release Couchbase Lite | Varies |
@@ -482,11 +454,9 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Deepak Gupta** | [↗](https://medium.com/@ideepak.jsd) | Read writing from Deepak Gupta on Medium. COUP @Steer Protocol\| Write about Blockchain & Javascript \| Take it easy | Varies |
 | **Digest auth with GAE Java, Jersey HTTPDigestAuthFilter issues** | [↗](http://www.ghosthack.com/2011/07/jersey-httpdigestauthfilter-in-google.html) | Get a new domain name for your startup. Quick and professional service. Seamless domain transfers. | Varies |
 | **Digest::HMAC somehow got into the 1.9 series without being noticed** | [↗](http://ruby-doc.org/stdlib-1.9.3/libdoc/digest/rdoc/Digest/HMAC.html) | Class : Digest::HMAC - Ruby 1.9.3 | Varies |
-| **doc docs** | [↗](https://medium.com/@mojosd) | Read writing from doc docs on Medium. “If it’s not written down, it doesn’t exist.” — Philippe Krutchen | Varies |
 | **doc docs** | [↗](https://mojosd.medium.com) | Read writing from doc docs on Medium. “If it’s not written down, it doesn’t exist.” — Philippe Krutchen | Varies |
 | **Elton Minetto** | [↗](https://medium.com/@eminetto) | Read writing from Elton Minetto on Medium. Teacher, speaker, Principal Software Engineer @ PicPay. https://eltonminetto.dev. Google Developer Expert in Go | Varies |
 | **Engineering is more about people than tech** | [↗](https://newsletter.eng-leadership.com/p/engineering-is-more-about-people) | Spoiler: I assumed that I would just code all day and that's it. Well, I was very wrong! | Varies |
-| **Erik van de Ven** | [↗](https://medium.com/@erikvandeven) | Read writing from Erik van de Ven on Medium. Erik is a Senior SE with 15+ years of experience in programming and 8+ years in Python. He ranked the top 9% on Stack Overflow and is a Kaggle Expert. | Varies |
 | **Erik van de Ven** | [↗](https://erikvandeven.medium.com) | Read writing from Erik van de Ven on Medium. Erik is a Senior SE with 15+ years of experience in programming and 8+ years in Python. He ranked the top 9% on Stack Overflow and is a Kaggle Expert. | Varies |
 | **Excited about Pycast – Weekly Python Screencasts** | [↗](http://blog.amjith.com/pycast-python-screencasts) | Pycast - Weekly screencasts on Python and DataScience by Matt Harrison. Matt is bootstrapping pycast through kickstarter. I'm excited about it because I've attended Matt's tutorials and came away... | Varies |
 | **Extreme metabolism of snakes provides leads on how to regenerate human tissue** | [↗](https://www.nytimes.com/2020/05/12/science/pythons-metabolism-animals-digestion.html) | Extreme metabolism of snakes provides leads on how to regenerate human tissue | Varies |
@@ -497,8 +467,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **FuzzingWeekly** | [↗](https://medium.com/@fuzzingweekly) | Read writing from FuzzingWeekly on Medium. Weekly fuzzing news. | Varies |
 | **GCC code generation for C++ Weekly Ep 43 example** | [↗](https://kristerw.blogspot.com/2017/01/gcc-code-generation-for-c-weekly-ep-43.html) | Episode 43 of “C++ Weekly” talks about evaluating and eliminating code at compile time, and the example is fun as it triggers a few differ... | Varies |
 | **GoBridge** | [↗](https://medium.com/@GolangBridge) | Read writing from GoBridge on Medium. GoBridge is dedicated to building bridges that educate underrepresented communities to teach technical skills and foster diversity in Go. | Varies |
-| **Golang Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Golang+Weekly%22+newsletter) | Go lang news | Varies |
-| **Golang Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Golang+Weekly"+newsletter) | Go lang news | Varies |
 | **Golang Weekly** | [↗](https://golangweekly.com/) | A weekly newsletter about the Go programming language. | Weekly |
 | **GroupDocs Newsletter November2018 – Document Manipulation APIs for .NET and Java** | [↗](https://blog.groupdocs.com/2018/11/01/groupdocs-newsletter-november-2018-.net-and-java-documents-manipulation-apis/) | Share this issue: Monthly NewsletterNovember 2018 Merge and Compare Business Documents of Same Format Documents Difference Checker APIs for .NET and Java GroupDocs.Comparison Product Family includes .NET and Java APIs to efficiently merge and compare all popular business document formats (Microsoft Word, Excel, PowerPoint, OpenDocument ODT, PDF, Text and HTML) for difference checking. The APIs support comparing text contents, words, paragraphs, characters and style changes like font size, bold, italic etc. | Varies |
 | **How do Tech startups indicate their value - recent research** | [↗](http://www.ssti.org/Digest/digest.php?page=2011/051811#research) | How do Tech startups indicate their value - recent research | Varies |
@@ -512,7 +480,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Is Java still relevant today?** | [↗](https://kumarabhinav.hashnode.dev) | Being a Java Developer, I always thought about the programming language i'm working in, if it's the... | Varies |
 | **Jacob’s Tech Tavern** | [↗](https://jacobbartlett.substack.com) | Learn advanced concurrency, agentic iOS engineering, and Swift performance for 10 minutes a week. <br><br>New subscribers get a free eBook: The Complete Swift Concurrency Toolkit. | Varies |
 | **James O'Toole** | [↗](https://medium.com/@jamesotoole) | Read writing from James O'Toole on Medium. | Varies |
-| **Jarrod Overson** | [↗](https://medium.com/@jsoverson) | Read writing from Jarrod Overson on Medium. I write about JavaScript, Rust, WebAssembly, Security. Also a speaker, O'Reilly Author, creator of Plato, CTO @Candle | Varies |
 | **Jarrod Overson** | [↗](https://jsoverson.medium.com) | Read writing from Jarrod Overson on Medium. I write about JavaScript, Rust, WebAssembly, Security. Also a speaker, O'Reilly Author, creator of Plato, CTO @Candle | Varies |
 | **Java Newsletter Insights – Java to the Future** | [↗](https://curatedjava.com/java-newsletter-insights-issue-19/) | Java Newsletter Insights – Java to the Future | Varies |
 | **Java Newsletter – Issue 18** | [↗](https://curatedjava.com/java-newsletter-insights-issue-18/) | Java Newsletter – Issue 18 | Varies |
@@ -572,8 +539,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Ruby Newsletter – Issue 378, Aug 17, 2023** | [↗](https://ruby.libhunt.com/newsletter/378) | Ruby Newsletter – Issue 378, Aug 17, 2023 | Varies |
 | **Ruby Newsletter – Issue 383** | [↗](https://ruby.libhunt.com/newsletter/383) | Ruby Newsletter – Issue 383 | Varies |
 | **Ruby Newsletter – Issue 385, Oct 05, 2023** | [↗](https://ruby.libhunt.com/newsletter/385) | Ruby Newsletter – Issue 385, Oct 05, 2023 | Varies |
-| **Ruby Weekly** | [↗](https://rubyweekly.com/) | A free, once-weekly e-mail round-up of Ruby news and articles. | Varies |
-| **Ruby Weekly** | [↗](https://rubyweekly.com/issues/635) | Ruby Weekly — Issue #635 | Varies |
 | **Ruby Weekly** | [↗](http://rubyweekly.com/) | A free, once-weekly e-mail round-up of Ruby news and articles. | Varies |
 | **Ruby Weekly** | [↗](https://medium.com/ruby-weekly) | Ruby News | Varies |
 | **Ruby Weekly #780: What's New in Ruby 4.0** | [↗](https://rubyweekly.com/issues/780) | Ruby Weekly — Issue #780 | Varies |
@@ -622,7 +587,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Software Engineering Is Becoming Position-Less** | [↗](https://newsletter.eng-leadership.com/p/software-engineering-is-becoming) | Similar to the trend in basketball, where everyone can play any position, the same trend is becoming more common in software engineering | Varies |
 | **Stanford Tests Swapping Java for JavaScript** | [↗](http://www.stanforddaily.com/2017/02/28/cs-department-updates-introductory-courses/?utm_source=codecademy_newsletter) | This spring, a pilot version of CS106A, tentatively called CS106J, will be taught in Javascript instead of Java. Meanwhile, CS106S: “Programming Abstractions and Social Good” is being offered as a standalone class for the first time this winter. | Varies |
 | **Stephan D.** | [↗](https://medium.com/@Extrawurst) | Read writing from Stephan D. on Medium. Founder of gameroasters and @liveask1 , #indie #gamedev, #rust enthusiast, worked previously at @innogames , @ubisoft | Varies |
-| **Stratum Security Blog** | [↗](https://stratumsecurity.ghost.io) | AppSec, Research, Sarcasm, NetSec | Varies |
 | **Stratum Security Blog** | [↗](http://stratumsecurity.ghost.io) | AppSec, Research, Sarcasm, NetSec | Varies |
 | **Swift Dev Weekly – the best weekly Swift development links** | [↗](http://swiftdev.tips) | Swift Dev Weekly – the best weekly Swift development links | Varies |
 | **Swift Development Newsletter** | [↗](http://swiftdevblogs.com/) | Swift Development Newsletter | Varies |
@@ -641,9 +605,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The PHP Weekly News Roundup** | [↗](http://www.phpweekly.com/archive/2013-07-11.html) | Archive. July 11, 2013. PHP Weekly is a free mailer sent out each week with PHP News, events, articles, links and more. | Varies |
 | **The programming language after Kotlin – with the creator of Kotlin** | [↗](https://newsletter.pragmaticengineer.com/p/the-programming-language-after-kotlin) | Andrey Breslav, creator of Kotlin and founder of CodeSpeak, shares lessons from designing Kotlin and why he’s building a new language to keep humans in control in the age of AI. | Varies |
 | **The Real Python Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Real+Python+Newsletter%22+newsletter) | Weekly Programming and Career Tips for Python Devs | Varies |
-| **The Real Python Newsletter** | [↗](https://duckduckgo.com/?q=!ducky+"The+Real+Python+Newsletter"+newsletter) | Weekly Programming and Career Tips for Python Devs | Varies |
 | **This weeks PHP Weekly. Hope you enjoy** | [↗](http://phpweekly.com/archive/2013-08-15.html) | Archive. August 15, 2013. PHP Weekly is a free mailer sent out each week with PHP News, events, articles, links and more. | Varies |
-| **Tom Smykowski** | [↗](https://medium.com/@tomaszs2) | Read writing from Tom Smykowski on Medium. Founding Engineer \| Staff Engineer \| Engineering Partner for SaaS Founders & CTOs \| Product • UX • Full-Stack | Varies |
 | **Tom Smykowski** | [↗](https://tomaszs2.medium.com) | Read writing from Tom Smykowski on Medium. Founding Engineer \| Staff Engineer \| Engineering Partner for SaaS Founders & CTOs \| Product • UX • Full-Stack | Varies |
 | **Trusted Value** | [↗](https://helitharupasinghe.hashnode.dev) | Always open to learning and working with any web technology. 🔥 | Varies |
 | **TypeScript Migrates to Go: What's Behind That 10x Performance Claim?** | [↗](https://www.architecture-weekly.com/p/typescript-migrates-to-go-whats-really) | JavaScript is slow!!! You could get that from the announcement with a 10x performance increase after migrating the TypeScript compiler to Go. The real story? Node.js works well at I/O but struggles with CPU-intensive tasks like compilation. Read more to learn in detail why and what you can learn from it for your systems design! | Varies |
@@ -692,7 +654,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Build Newsletter: Containers, Mobile Apps, App Design, Data and Scale–December '14** | [↗](http://blog.pivotal.io/cloud-foundry-pivotal/features/build-newsletter-containers-mobile-apps-app-design-data-scale-december-2014) | Build Newsletter: Containers, Mobile Apps, App Design, Data and Scale–December '14 | Varies |
 | **Cloud Launcher – Google Cloud Platform** | [↗](https://cloud.google.com/launcher/explore?mkt_tok=3RkMMJWWfF9wsRoiuq7McO%2FhmjTEU5z16eklUKCwhJt41El3fuXBP2XqjvpVQcdgPL%2FMRw8FHZNpywVWM8TILtQYt8FtKAzgAG0%3D#%2Fexplore%3Futm_source=newsletter&utm_medium=email&utm_campaign=2015-q2-cloud-global-us-gcp-newsletter-aw-en&utm_content=april+newsletter) | Spend smart, procure faster and retire committed Google Cloud spend with Google Cloud Marketplace. Browse the catalog of over 2000 SaaS, VMs, development stacks, and Kubernetes apps optimized to run on Google Cloud. | Varies |
 | **Cloud Technology and Security Alert News Digest** | [↗](http://cloudacademy.com/blog/cloud-technology-and-security-alert-news-digest-issue-2/) | Insights on the evolving tech landscape of AI, Cyber and Data and more from our experts in training, upskilling & digital transformation. | Varies |
-| **Cloud Technology and Security Alert News Digest** | [↗](http://cloudacademy.com/blog/cloud-technology-and-security-alert-news-digest-issue-1/) | Insights on the evolving tech landscape of AI, Cyber and Data and more from our experts in training, upskilling & digital transformation. | Varies |
 | **Cloud Technology and Security Alert News Digest #3** | [↗](http://cloudacademy.com/blog/cloud-technology-and-security-alert-news-digest-issue-3/) | Insights on the evolving tech landscape of AI, Cyber and Data and more from our experts in training, upskilling & digital transformation. | Varies |
 | **Cloud Technology and Security Alert News Digest #5** | [↗](http://cloudacademy.com/blog/cloud-technology-and-security-alert-news-digest-issue-5/) | Insights on the evolving tech landscape of AI, Cyber and Data and more from our experts in training, upskilling & digital transformation. | Varies |
 | **Cloud Technology and Security Alert News Digest #9** | [↗](http://cloudacademy.com/blog/cloud-technology-and-security-alert-news-digest-issue-9/) | Insights on the evolving tech landscape of AI, Cyber and Data and more from our experts in training, upskilling & digital transformation. | Varies |
@@ -749,13 +710,11 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Inspired by Farbrasuch's release, Memon releases the sources to Demopaja** | [↗](http://digestingduck.blogspot.se/2012/04/demopaja-sources.html) | Inspired by Farbrasuch's release of their demo tools, I decided to dig up my old Demopaja backup, clean up some directories from random c... | Varies |
 | **Integrating Kubernetes and Vault in Elastic Infrastructure** | [↗](https://www.elastic.co/blog/kubernetes-vault-integration-devops-team?ultron=oct-2017&blade=newsletter&hulk=email&mkt_tok=eyJpIjoiWXpOaFpXSmpObUZsWlRNMCIsInQiOiIwVEI1ZEZ1eHdId1FKRWJlMGtKZXBjRHhtaGh0bUNWVFlhQ1B5QU14ZWVHSTdobDFuRjNGaVVFbW5ZNTdnT1E4TUJrT3g5a0diZDVjMHNYMTVMbDgzZ0N2Y2FCSHNhNTVQQm1ESkVicjdET3JqTnJJYktDSEtKMXNRYzBKTFQxZSJ9) | The Elastic Operations team shares strategies when integrating Kubernetes, Vault, and legacy applications to create secure, easily managed fleets of containers.... | Varies |
 | **Japanese Scientists Find Microplastics in the Clouds Above Mount Fuji** | [↗](https://e360.yale.edu/digest/clouds-microplastics-climate) | No description available. | Varies |
-| **Jeremy Cowan** | [↗](https://medium.com/@jicowan) | Read writing from Jeremy Cowan on Medium. Jeremy Cowan is a Principal Container Specialist at AWS | Varies |
 | **Jeremy Cowan** | [↗](https://jicowan.medium.com) | Read writing from Jeremy Cowan on Medium. Jeremy Cowan is a Principal Container Specialist at AWS | Varies |
 | **KubeBlocks for Stateful Kubernetes Apps** | [↗](https://www.devopsbulletin.com/p/digest-143-figmas-kubernetes-migration) | Discover Figma’s Kubernetes journey, tackle rising GitHub incidents, and learn from Uber's production testing strategies. Plus, explore PostgreSQL storage, Kubernetes security, and cool DevOps tools. | Varies |
 | **KubeWeekly** | [↗](https://www.cncf.io/kubeweekly/) | A weekly newsletter of all things Kubernetes, from the CNCF. | Weekly |
 | **Lars Fronius** | [↗](https://medium.com/@larsfronius) | Read writing from Lars Fronius on Medium. Freelance Cloud Consultant (AWS) and DevOps-/Go Software Engineer. Formerly @codeship, @jimdo. | Varies |
 | **Launch HN: Rise Reforming (YC S26) – Turning Waste Gases into Valuable Chemicals** | [↗](https://www.rise-reforming.com) | Launch HN: Rise Reforming (YC S26) – Turning Waste Gases into Valuable Chemicals | Varies |
-| **Lauri Nevala** | [↗](https://medium.com/@laurinevala) | Read writing from Lauri Nevala on Medium. Cloud-native full-stack developer. Core developer of https://k8slens.dev | Varies |
 | **Lauri Nevala** | [↗](https://laurinevala.medium.com) | Read writing from Lauri Nevala on Medium. Cloud-native full-stack developer. Core developer of https://k8slens.dev | Varies |
 | **LeanerCloud News** | [↗](https://leanercloud.beehiiv.com) | No description available. | Varies |
 | **Leonard Bogdonoff** | [↗](https://medium.com/@rememberlenny) | Read writing from Leonard Bogdonoff on Medium. | Varies |
@@ -804,7 +763,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Show HN: Trusty – Dependency Software Supply Chain Security** | [↗](https://www.trustypkg.dev) | Show HN: Trusty – Dependency Software Supply Chain Security | Varies |
 | **Stareable** | [↗](https://medium.com/@stareable) | Read writing from Stareable on Medium. The largest community of web series creators and fans, building the future of television through collaboration and discovery. http://www.stareable.com | Varies |
 | **Starting My Daily AWS & DevOps Blog(Day-0)** | [↗](https://sr-palatasingh.hashnode.dev) | Hi everyone! I'm an AWS Certified Solutions Architect Associate, and starting today, I'm committing... | Varies |
-| **Sébastien Portebois** | [↗](https://medium.com/@sportebois) | Read writing from Sébastien Portebois on Medium. Software engineering, data-analysis, and devops. | Varies |
 | **Sébastien Portebois** | [↗](https://sportebois.medium.com) | Read writing from Sébastien Portebois on Medium. Software engineering, data-analysis, and devops. | Varies |
 | **Sławomir Górawski** | [↗](https://medium.com/@sgorawski) | Read writing from Sławomir Górawski on Medium. Ex-Google software engineer writing about webdev and cloud. | Varies |
 | **The AP (Alex Pareene) Newsletter** | [↗](https://theap.substack.com) | A non-blog about politics, media, and treating personal grudges as ideological conflicts | Varies |
@@ -993,7 +951,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Illuminated Security News** | [↗](https://buttondown.email/illuminatedsecurity) | A low-volume newsletter covering application security, applied cryptography, and identity & access management (IAM) topics. Every newsletter covers one topic in depth with links to interesting articles and podcasts from the wider community. | Varies |
 | **Jonah Lawrence** | [↗](https://jonahlawrence.hashnode.dev) | Jonah Lawrence | Varies |
 | **Just Ship It** | [↗](https://marclou.beehiiv.com) | Your Saturday issue to find startup ideas, launch fast, and get profitable. Join 42,851 entrepreneurs. | Varies |
-| **L A** | [↗](https://medium.com/@lizzzzz-a) | Read writing from L A on Medium. Relentless optimist \| Artist turned software developer turned developer advocate | Varies |
 | **L A** | [↗](https://lizzzzz-a.medium.com) | Read writing from L A on Medium. Relentless optimist \| Artist turned software developer turned developer advocate | Varies |
 | **L. Meyers** | [↗](https://medium.com/@DevRelLewis) | Read writing from L. Meyers on Medium. Developer Advocate \| Software Engineer \| Career Coach linkedin.com/in/lewis-devrel and Twitter: @Lew_SE_ | Varies |
 | **Marketing Dive** | [↗](https://duckduckgo.com/?q=!ducky+%22Marketing+Dive%22+newsletter) | 60 seconds of marketing content | Varies |
@@ -1133,7 +1090,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **How to Code HTML Email Newsletters** | [↗](http://articles.sitepoint.com/print/code-html-email-newsletters) | The web's best resource for web developers and designers to keep up-to-date and learn JavaScript, CSS, UX, WordPress, PHP and more | Varies |
 | **How To Design The Perfect HTML Newsletter** | [↗](http://www.hongkiat.com/blog/design-perfect-newsletter/) | Businesses often have product updates, or information on upcoming events that they'd like to share with their clients and one of the best ways to do that | Varies |
 | **Humble Book Bundle: Web Design and Development by O'Reilly** | [↗](https://www.humblebundle.com/books/web-design-development-books?linkID=&mcID=102:5affc46c6caf4ecf2ff3f1ce:ot:56e872dd733462ca89ac2742:1&utm_source=Humble+Bundle+Newsletter&utm_medium=email&utm_campaign=2018_05_21_webdesigndevelopment_bookbundle&linkID=&utm_content=cta_button) | Pay what you want for awesome ebooks and support charity! | Varies |
-| **Humble Book Bundle: Web Design and Development by O'Reilly** | [↗](https://www.humblebundle.com/books/web-design-development-books?linkID=&mcID=102:5affc46c6caf4ecf2ff3f1ce:ot:56c3d3b0733462ca893dc786:1&utm_source=Humble+Bundle+Newsletter&utm_medium=email&utm_campaign=2018_05_21_webdesigndevelopment_bookbundle&linkID=&utm_content=cta_button) | Pay what you want for awesome ebooks and support charity! | Varies |
 | **In-browser message digest verification/generation tool** | [↗](https://s3.amazonaws.com/ozan/public/verify-digest.html) | In-browser message digest verification/generation tool | Varies |
 | **Inside Web Development** | [↗](https://medium.com/web-development-resources) | Stories from the makers of Usersnap | Varies |
 | **JavaScript ES2026 Just Shipped What Developers Have Been Asking for Years** | [↗](https://developersjourney.substack.com) | For 30 years, JavaScript developers have been quietly suffering. Date object had a lot of... | Varies |
@@ -1232,10 +1188,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Web Dev Weekly #4** | [↗](http://blog.redradix.com/web-dev-weekly-4/) | Web Dev Weekly #4 | Varies |
 | **Web Development and Tech Email Newsletters I Subscribe to \| Impressive Webs** | [↗](http://www.impressivewebs.com/web-design-tech-newsletters/) | My favourite tech email newsletters to subscribe to for keeping up with tech news, web development, and more. | Varies |
 | **Web development books on Humble Bundle** | [↗](https://www.humblebundle.com/books/web-design-development-books?linkID=&mcID=102:5affc46c6caf4ecf2ff3f1ce:ot:5730e251bef2f4f641ac8603:1&utm_source=Humble+Bundle+Newsletter&utm_medium=email&utm_campaign=2018_05_21_webdesigndevelopment_bookbundle) | Pay what you want for awesome ebooks and support charity! | Varies |
-| **Web Game Dev Newsletter** | [↗](https://www.webgamedev.com/newsletter/018) | Web Game Dev Newsletter | Varies |
 | **Web Game Dev Newsletter** | [↗](https://www.webgamedev.com/newsletter) | Web Game Dev Newsletter | Varies |
-| **Web Game Dev Newsletter** | [↗](https://www.webgamedev.com/newsletter/027) | Web Game Dev Newsletter | Varies |
-| **Web Game Dev Newsletter** | [↗](https://www.webgamedev.com/newsletter/022) | Web Game Dev Newsletter | Varies |
 | **Web Game Dev Newsletter – Issue 006** | [↗](https://www.webgamedev.com/newsletter/006) | Web Game Dev Newsletter – Issue 006 | Varies |
 | **Web Game Dev Newsletter – Issue 007** | [↗](https://www.webgamedev.com/newsletter/007) | Web Game Dev Newsletter – Issue 007 | Varies |
 | **Web Game Dev Newsletter – Issue 008** | [↗](https://www.webgamedev.com/newsletter/008) | Web Game Dev Newsletter – Issue 008 | Varies |
@@ -1304,7 +1257,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Apple's Big Plan to Bring Generative AI to All Its Devices** | [↗](https://www.bloomberg.com/news/newsletters/2023-10-22/what-is-apple-doing-in-ai-revamping-siri-search-apple-music-and-other-apps-lo1ffr7p) | Apple's Big Plan to Bring Generative AI to All Its Devices | Varies |
 | **Artificial Intelligence Imagines the Future Of** | [↗](https://newsletter.weeklyfilet.com/how-artificial-intelligence-imagines-the-future-of/) | Using ChatGPT and Midjourney to explore what versions of the future artificial intelligence gravitates towards. | Varies |
 | **Artificial Intelligence Weekly Newsletter** | [↗](http://quickchat.ai/newsletter) | Custom AI Agents that handle customer support, sales, and ecommerce conversations across web, WhatsApp, and Slack. Trusted by fast-growing businesses worldwide. | Varies |
-| **Artificial Intelligence Weekly Newsletter** | [↗](https://www.quickchat.ai/newsletter) | Custom AI Agents that handle customer support, sales, and ecommerce conversations across web, WhatsApp, and Slack. Trusted by fast-growing businesses worldwide. | Varies |
 | **Artificiallyintelligentspace** | [↗](https://artificiallyintelligentspace.substack.com) | all things ai | Varies |
 | **Bamieh Tech** | [↗](https://medium.com/bamieh-tech) | A collection of articles by software engineers & data experts | Varies |
 | **Bargava** | [↗](https://medium.com/@bargava) | Read writing from Bargava on Medium. Customer Journey Analytics guy \| Helping small brands will online commerce \| Machine Learning \| Micro-SaaS | Varies |
@@ -1355,7 +1307,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Digvijay's Substack** | [↗](https://diggest.substack.com) | My personal Substack | Varies |
 | **Does empty rhetoric over data sharing slow science? Curated data digest** | [↗](https://www.getrevue.co/profile/nickhalstead/issues/datascan-issue-36-60986) | Does empty rhetoric over data sharing slow science? Curated data digest | Varies |
 | **Eddie on AI** | [↗](https://eddieonai.substack.com) | Hello world! | Varies |
-| **Elye - A Dev By Grace** | [↗](https://medium.com/@elye-project) | Read writing from Elye - A Dev By Grace on Medium. Sharing AI, Software, Life Journey. Follow me on Twitter/X to access to my article free | Varies |
 | **Elye - A Dev By Grace** | [↗](https://elye-project.medium.com) | Read writing from Elye - A Dev By Grace on Medium. Sharing AI, Software, Life Journey. Follow me on Twitter/X to access to my article free | Varies |
 | **Engraved** | [↗](https://engraved.ghost.io) | Jonas Degrave's commentary on machine learning and the quest for artificial intelligence. | Varies |
 | **Erikexplores** | [↗](https://erikexplores.substack.com) | Software development, space exploration, green energy and microprocessors | Varies |
@@ -1434,7 +1385,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Manoj Gopanapalli** | [↗](https://manojgopanapalli.substack.com) | Content & Program Mgmt Leader. Drives engagement, reduces costs, boosts adoption with AI-driven content, SEO, and strategic program leadership. | Varies |
 | **Marksaroufim** | [↗](https://marksaroufim.substack.com) | Build cool stuff again | Varies |
 | **Mastering Multi-Provider Routing with OpenRouter** | [↗](https://kirponik.hashnode.dev) | 🧠 The Single-Provider Trap Let's be real: treating a Large Language Model (LLM) provider... | Varies |
-| **Matt Welsh** | [↗](https://medium.com/@mdwdotla) | Read writing from Matt Welsh on Medium. I’m an AI and systems builder, researcher, entrepreneur, educator, and dad based in Seattle. | Varies |
 | **Matt Welsh** | [↗](https://mdwdotla.medium.com) | Read writing from Matt Welsh on Medium. I’m an AI and systems builder, researcher, entrepreneur, educator, and dad based in Seattle. | Varies |
 | **Measuring OpenAI embedding API latency (and why you should always cache it)** | [↗](https://nixiesearch.substack.com) | A tech newsletter focused on api and software engineering. | Varies |
 | **Measuring the productivity impact of generative AI** | [↗](https://www.nber.org/digest/measuring-productivity-impact-generative-ai) | Measuring the productivity impact of generative AI | Varies |
@@ -1461,7 +1411,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Physical AI** | [↗](https://physical-ai.ghost.io) | We’re documenting the rise of intelligence in the physical world - The Physical AI Newsletter | Varies |
 | **Plenty of Room** | [↗](https://plentyofroom.beehiiv.com) | Stay ahead in AI protein design, DNA nanotech & synthetic biology. Under 10 minutes a week. Read by 577 people shaping biotech! | Varies |
 | **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+%22Product+Hunt+Daily%22+newsletter) | The best of Product Hunt, created by your friends. | Varies |
-| **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+"Product+Hunt+Daily"+newsletter) | The best of Product Hunt, created by your friends. | Varies |
 | **Ramansharma** | [↗](https://ramansharma.substack.com) | Technology for the sake of technology | Varies |
 | **Reactdevelopment** | [↗](https://reactdevelopment.substack.com) | Advanced React, TypeScript patterns, scalable UI architecture, performance deep dives, and real-world engineering insights — without fluff. | Varies |
 | **Really Good Emails** | [↗](https://duckduckgo.com/?q=!ducky+%22Really+Good+Emails%22+newsletter) | Create better emails. | Varies |
@@ -1474,7 +1423,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Samer Buna** | [↗](https://medium.com/@samerbuna) | Read writing from Samer Buna on Medium. Software Engineer & Author. Testing the limits of AI-augmented creativity. | Varies |
 | **Scale AI Machine Learning Digest – Q1 2020** | [↗](https://scale.com/blog/scale-ai-machine-learning-digest-q1-2020) | Company updates and technology articles from Scale AI. | Varies |
 | **Scaling Hit a Wall. Three Labs Found What's Next.** | [↗](https://saanyaojha.substack.com) | MIT, Tencent, and Huawei independently published continual learning papers in 2026. Their convergence reveals AI's real bottleneck. | Varies |
-| **Sean Falconer** | [↗](https://medium.com/@seanfalconer) | Read writing from Sean Falconer on Medium. AI @ Confluent \| 100% Canadian 🇨🇦 \| Snowflake Data Superhero ❄️ \| AWS Community Builder | Varies |
 | **Sean Falconer** | [↗](https://seanfalconer.medium.com) | Read writing from Sean Falconer on Medium. AI @ Confluent \| 100% Canadian 🇨🇦 \| Snowflake Data Superhero ❄️ \| AWS Community Builder | Varies |
 | **Sergical** | [↗](https://sergical.substack.com) | My personal Substack | Varies |
 | **ShareSEER’s Substack** | [↗](https://shareseer.substack.com) | Find Interesting AI powered Insider transactions | Varies |
@@ -1559,9 +1507,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The AI Revolution** | [↗](https://theairevolution.beehiiv.com) | Discover the cutting-edge advancements in AI before anyone else. Join 1,000+ avid readers from Apple, OpenAI, DeepMind, IBM, and more. | Varies |
 | **The best digests about VR, AI and AR** | [↗](https://thenextweb.com/artificial-intelligence/2017/06/15/best-digests-vr-ai-ar/) | AI, VR and AR are trending topics these days and there’s plenty happening in the tech world when it comes to either one. Daily updates can get overwhelming if you’ve set yourself on a regular hunt on different websites in hope of gathering | Varies |
 | **The Daily DONUT** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Daily+DONUT%22+newsletter) | News that doesn’t suck. 🙃 | Varies |
-| **The Daily DONUT** | [↗](https://duckduckgo.com/?q=!ducky+"The+Daily+DONUT"+newsletter) | News that doesn’t suck. 🙃 | Varies |
 | **The Daily Navigator** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Daily+Navigator%22+newsletter) | A five-minute trip through the news. | Varies |
-| **The Daily Navigator** | [↗](https://duckduckgo.com/?q=!ducky+"The+Daily+Navigator"+newsletter) | A five-minute trip through the news. | Varies |
 | **The EU AI Act Newsletter** | [↗](https://artificialintelligenceact.substack.com) | Up-to-date developments and analyses of the EU AI Act | Varies |
 | **The Exponential Digest** | [↗](https://medium.com/the-exponential-digest) | Azeem’s guide to the future | Varies |
 | **The Friction Is A Feature, Not A Bug: Teaching and Mentoring in the Age of AI** | [↗](https://madelinecaples.hashnode.dev) | Those who have been following me for a while will know that teaching and mentoring are a Big Deal™️... | Varies |
@@ -1589,7 +1535,6 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Vicki** | [↗](https://vicki.substack.com) | A newsletter about making tech less sexy, more boring, and anything adjacent to tech that the mainstream media isn't covering. | Varies |
 | **Voice AI Stack Weekly** | [↗](https://videosdkweekly.substack.com) | A weekly newsletter that covers everything that has happened in the Voice AI world | Varies |
 | **VSCode.​Email** | [↗](https://duckduckgo.com/?q=!ducky+%22VSCode.%E2%80%8BEmail%22+newsletter) | A weekly newsletter for VS Code users | Varies |
-| **VSCode.​Email** | [↗](https://duckduckgo.com/?q=!ducky+"VSCode.​Email"+newsletter) | A weekly newsletter for VS Code users | Varies |
 | **We let AI write the code. We just don't let it check its own work.** | [↗](https://lingchong.substack.com) | prompt → context → harness — the word keeps changing, the bar never moved. The actual rules four of us use to ship AI-written code we can stand behind. | Varies |
 | **We shipped faster. The debt did too.** | [↗](https://jeelvankhede.hashnode.dev) | AI sped up how fast I ship code. It never sped up how fast I understand it. Six months in, the debt caught up. | Varies |
 | **Weavr** | [↗](https://weavr.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
