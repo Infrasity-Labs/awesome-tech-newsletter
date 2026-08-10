@@ -91,6 +91,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Matt Schellhas** | [↗](https://matt-schellhas.medium.com) | Read writing from Matt Schellhas on Medium. Dour, opinionated leader of software engineers. | Varies |
 | **MCP for Automation Engineers: The Complete Deep Dive for QA Professionals with 5–15 Years of Experience** | [↗](https://himanshuai.substack.com) | Introduction: Why Every Senior SDET Needs to Understand MCP in 2026 If you've spent the... | Varies |
 | **Mnky9800N** | [↗](https://mnky9800n.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
+| **My Exact Cognizant GenC Interview Experience & Hiring Process (2025–2026)** | [↗](https://rajdivyanshu.hashnode.dev) | Well, if you are preparing for Cognizant On-Campus drive, chances are that you already know that it’s... | Varies |
 | **No Kill Switch** | [↗](https://no-kill-switch.ghost.io) | There's no kill switch on awesome. The personal blog of Sebastian Gebski. | Varies |
 | **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
 | **On Coding** | [↗](https://medium.com/on-coding) | Thoughts about writing code | Varies |
@@ -472,6 +473,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **C++ Weekly – Ep12 C++17's std::any** | [↗](http://articles.emptycrate.com/2016/05/23/c++17s_std_any.html) | C++ Weekly – Ep12 C++17's std::any | Varies |
 | **C++ Weekly – Ep9 Std::future Quick-Start** | [↗](http://articles.emptycrate.com/2016/05/02/future_quick_start.html) | C++ Weekly – Ep9 Std::future Quick-Start | Varies |
 | **Call for Contribution to Rust in Blockchain Newsletter** | [↗](https://www.reddit.com/r/RustInBlockchain/comments/eg6cdd/call_for_contribution_to_the_next_rib_newsletter/) | Call for Contribution to Rust in Blockchain Newsletter | Varies |
+| **CARGO: Rust's Package Manager (Think npm or pip)** | [↗](https://aditya-22.hashnode.dev) | Building a CARGO Project In the last article we learnt how we create a new CARGO project... | Varies |
 | **CheckiO Weekly Python Programming Challenge Review: “Brackets”** | [↗](http://www.checkio.org/blog/brackets-review/) | CheckiO Weekly Python Programming Challenge Review: “Brackets” | Varies |
 | **ChillFish8's Blog** | [↗](https://chillfish8.ghost.io) | 🦀 Building and designing some cool stuff in Rust. | Varies |
 | **CodeX** | [↗](https://medium.com/codex) | Everything connected with Tech & Code. Follow to join our 1M+ monthly readers | Varies |
@@ -1569,6 +1571,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The Manifest Was Valid. My AI Agent Was Still Running Yesterday's Plan.** | [↗](https://dispatch-blog.hashnode.dev) | A practical run-ID, hash, and atomic-write pattern that stops publishing agents from loading valid but stale manifests. | Varies |
 | **the outside edge** | [↗](https://robindhara.substack.com) | A founder-operator lens on the world of trust, transparency and craft in AI, Media, Finance and Business at the sharp edge of storytelling. | Varies |
 | **The Pragmatic Engineer** | [↗](https://newsletter.pragmaticengineer.com) | Big Tech and startups, from the inside. Highly relevant for software engineers, AI engineers and engineering leaders, useful for those working in tech. | Varies |
+| **The Systemic Collapse of the AI Industry: A Crisis of Ideology, Hardware, Finance, and Ethics** | [↗](https://olehpolishchuk.substack.com) | MANIFESTO AND THE CONCEPT OF REASONABLE SUFFICIENCY By Oleh Polishchuk (Senior Subject... | Varies |
 | **The Tech Blog** | [↗](https://www.diamandis.com) | The Tech Blog by Peter H. Diamandis covers exponential technologies, entrepreneurship, AI, longevity, robotics, abundance, and long-range technology trends shaping business and society. | Weekly |
 | **the US Military Is Taking Generative AI Out for a Spin** | [↗](https://www.bloomberg.com/news/newsletters/2023-07-05/the-us-military-is-taking-generative-ai-out-for-a-spin) | the US Military Is Taking Generative AI Out for a Spin | Varies |
 | **Theagentstack** | [↗](https://theagentstack.substack.com) | The Agent Stack is a technical deep dive into how modern AI agents actually work under the hood, from control loops and memory systems to orchestration, evaluation, and production deployment. | Varies |
