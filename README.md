@@ -79,6 +79,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **How coding agents like Cursor quietly cut input costs by reusing KV states across turns — and what actually breaks the cache** | [↗](https://susheemk.substack.com) | Why my Cursor bill looked weird I was poking around my usage dashboard in Cursor and... | Varies |
 | **How Redis Caching Actually Works (Explained Like You're 5, But for Developers)** | [↗](https://code-by-vignesh.hashnode.dev) | When I started learning Redis, I had one big question: "If thousands of people are using the same app... | Varies |
 | **How to Build Resilient Industrial Data Pipelines** | [↗](https://iotforall.hashnode.dev) | Industrial data pipelines rarely operate under perfect conditions. Factories lose network... | Varies |
+| **I Audited My Trading Bot Using a Brier Score. It Had No Skill.** | [↗](https://stfarm.substack.com) | I Audited My Trading Bot Using a Brier Score. It Had No Skill. I ran a weather trading bot... | Varies |
 | **I Built an Agent Eval Harness. Real Agents Broke the Clean Version of the Story** | [↗](https://pragmatic-engineer.hashnode.dev) | Two weeks ago, I published "Why Agent Evaluation Is Harder Than Model Evaluation." The core argument:... | Varies |
 | **I built Devkeg: a desktop control center for your dev tools** | [↗](https://jaytank.hashnode.dev) | Setting up a fresh developer machine is death by a thousand commands. You hunt down... | Varies |
 | **I put SSO in front of eleven self-hosted services — then locked myself out of all of them** | [↗](https://souveraenes-homelab.beehiiv.com) | Eleven self-hosted services. Eleven logins. And — being honest here — at least four of them had a... | Varies |
@@ -540,6 +541,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Mohamed Mohamed** | [↗](https://medium.com/@midoblgsm) | Read writing from Mohamed Mohamed on Medium. | Varies |
 | **Monthly Python Data Engineering** | [↗](https://alessandromolina.substack.com) | The Python newsletter for people that build data analytics platforms | Varies |
 | **Most-watched Kotlin conference talks of 2024** | [↗](https://www.techtalksweekly.io/p/tech-talks-weekly-extra-9-all-kotlin) | A huge compilation of all Kotlin talks published in 2024! | Varies |
+| **My Newsletter – Python and Data** | [↗](https://waylonwalker.com/newsletter) | Waylon Walker's personal blog | Varies |
 | **Newsletter for Swift developers** | [↗](http://swiftmonthly.com/issues/latest/?ref=aprhn) | Newsletter for Swift developers | Varies |
 | **Only 33 More Signups and I will have 10,000 for my swift Newsletter** | [↗](http://swiftmonthly.com/) | Only 33 More Signups and I will have 10,000 for my swift Newsletter | Varies |
 | **Oracle vs. Google - Problems in Discovery** | [↗](http://www.groklaw.net/article.php?story=20110206222954641) | Oracle vs. Google - Problems in Discovery | Varies |
