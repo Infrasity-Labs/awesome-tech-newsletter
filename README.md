@@ -63,6 +63,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22CB+Insights%22+newsletter) | The easy way to stay ahead of all things tech | Varies |
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+"CB+Insights"+newsletter) | The easy way to stay ahead of all things tech | Varies |
 | **CISA KEV catalog: a working sysadmin's guide to actually using it** | [↗](https://the-patch-window.beehiiv.com) | Most enterprise teams know the CISA Known Exploited Vulnerabilities catalog the same way they know... | Varies |
+| **Common Web Application Technologies** | [↗](https://zeroprotocolcyber.substack.com) | Introduction Modern web applications are rarely built with a single technology. A typical... | Varies |
 | **Computer Things** | [↗](https://buttondown.email/hillelwayne) | Hi, I'm Hillel. This is the newsletter version of my website. I post all website updates here. I also post weekly content just for the newsletter, on topics like Formal MethodsSoftware History and CultureFringetech and exotic toolingThe philosophy and theory of software engineering You can see the archive of all public essays here. | Varies |
 | **creative coding space** | [↗](https://medium.com/creative-coding-space) | generating art from code // playgrd.com // instagram.com/playgrdstar/ | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+%22Creative+Mornings%22+newsletter) | Get inspired, no matter where you are. | Varies |
@@ -89,6 +90,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Lars Janssen** | [↗](https://medium.com/@fazy) | Read writing from Lars Janssen on Medium. | Varies |
 | **Magma: An open source implementation of a mobile core network** | [↗](https://systemsapproach.substack.com) | Larry Peterson and Bruce Davie, authors of "Computer Networks: A Systems Approach" explain the Internet – its technology, architecture, and evolution | Varies |
 | **Mapping Strategies Without the Magic (Chapter 4)** | [↗](https://kamenivanov.substack.com) | At the end of the previous chapter, I teased that we were about to dive straight into the heavy... | Varies |
+| **Mastering Micro-Frontends with Module Federation in 2026: Patterns & Pitfalls** | [↗](https://lakshanmuruganandam.hashnode.dev) | Mastering Micro-Frontends with Module Federation in 2026: Patterns &amp; Pitfalls As... | Varies |
 | **Matt Schellhas** | [↗](https://medium.com/@matt-schellhas) | Read writing from Matt Schellhas on Medium. Dour, opinionated leader of software engineers. | Varies |
 | **Matt Schellhas** | [↗](https://matt-schellhas.medium.com) | Read writing from Matt Schellhas on Medium. Dour, opinionated leader of software engineers. | Varies |
 | **MCP for Automation Engineers: The Complete Deep Dive for QA Professionals with 5–15 Years of Experience** | [↗](https://himanshuai.substack.com) | Introduction: Why Every Senior SDET Needs to Understand MCP in 2026 If you've spent the... | Varies |
