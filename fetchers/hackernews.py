@@ -4,13 +4,13 @@ import os
 import requests
 import logging
 import concurrent.futures
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup (shouldn't need it now)
 from urllib.parse import urlparse
 
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, extract_metadata 
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, extract_metadata
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -25,7 +25,7 @@ EXCLUDED_DOMAINS = [
 
 def fetch_hn_metadata(url, fallback_title):
     try:
-        headers = {
+        '''headers = {
             'User-Agent': get_random_user_agent()
         }
         # Only timeout 5s to skip slow sites
@@ -37,7 +37,9 @@ def fetch_hn_metadata(url, fallback_title):
         desc_meta = soup.find('meta', attrs={'property': 'og:description'})
         if not desc_meta:
             desc_meta = soup.find('meta', attrs={'name': 'description'})
-        description = (desc_meta.get('content') if desc_meta else None) or fallback_title
+        description = (desc_meta.get('content') if desc_meta else None) or fallback_title '''
+        meta = extract_metadata(url)
+        description = meta['description']
         
         return description.strip()
     except Exception:
