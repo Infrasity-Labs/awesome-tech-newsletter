@@ -112,6 +112,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Richard Artoul** | [↗](https://medium.com/@richardartoul) | Read writing from Richard Artoul on Medium. Distributed Storage Engineer | Varies |
 | **sailor mercury** | [↗](https://medium.com/@sailorhg) | Read writing from sailor mercury on Medium. short haired computer scientist girl | Varies |
 | **SE Daily** | [↗](https://medium.com/@softwareengineeringdaily) | Read writing from SE Daily on Medium. Daily podcast about software: http://softwareengineeringdaily.com | Varies |
+| **SKILL.md is not a compiler** | [↗](https://apparatusappello861559.substack.com) | If you use Cursor long enough, you will watch it ignore a rule you wrote down. You add a SKILL.md.... | Varies |
 | **Software 2.0 - Lessons learned building ML products** | [↗](https://karimfanous.substack.com) | A newsletter for heads of engineering at startups. I cover the joys and challenges of running software engineering organizations at fast-paced startups. | Varies |
 | **Software 3.0 Is the Era of Architects: Building in the Era of Orchestration** | [↗](https://opuslabs.substack.com) | Read writing from OpusLABS. Designer, Researcher, Technologist, World Citizen | Varies |
 | **Software as a Theater** | [↗](https://aimode.substack.com) | Founding Mode is a newsletter for founders building serious and bold startups. This is a free flow of practical as well as theoretical ideas around company building, AI and future of money and commerce. | Varies |
@@ -336,6 +337,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Show HN: Narralize – Turn PDFs into Podcast-Style Summaries in 29 Languages** | [↗](https://www.narralize.com/) | Show HN: Narralize – Turn PDFs into Podcast-Style Summaries in 29 Languages | Varies |
 | **Show HN: Nerd Crawler – monitoring original comic art sites so you don't have to** | [↗](https://www.nerdcrawler.com/) | Show HN: Nerd Crawler – monitoring original comic art sites so you don't have to | Varies |
 | **Show HN: New search engine and free-FOIA-by-fax-via-web for US veteran records** | [↗](https://www.birls.org) | Search the BIRLS Database - over 19.5 million records about deceased US veterans, from the US Department of Veterans Affairs, now online and FREE from Reclaim The Records | Varies |
+| **Show HN: PingChange – monitor web pages and OpenAPI specs for meaningful changes** | [↗](https://pingchange.com) | Monitor any webpage or OpenAPI spec for real changes. PingChange sends Slack, email, and webhook alerts with a readable diff. Start free, no credit card. | Varies |
 | **Show HN: ReactDOM - The ReactJS, ReactNative and GraphQL Newsletter** | [↗](https://reactdom.com) | Show HN: ReactDOM - The ReactJS, ReactNative and GraphQL Newsletter | Varies |
 | **Show HN: RotaHog rotas for teams. No more spreadsheet hell** | [↗](https://rotahog.com) | Create and share recurring team responsibilities in under 30 seconds. FREE! | Varies |
 | **Show HN: Sidemail – Email platform for SaaS (email API, newsletters, automation)** | [↗](https://sidemail.io/) | Sidemail is an email platform for SaaS that makes sending emails simple. Deliver transactional emails via API, send marketing emails, set up automation, & more. | Varies |
@@ -1247,6 +1249,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Web Design Weekly – Issue #129** | [↗](http://www.followletter.com/publication/3459-web-design-weekly-issue-129#.UxnhPLN1IqY.hackernews) | Web Design Weekly – Issue #129 | Varies |
 | **Web Design Weekly — Issue #123** | [↗](http://www.followletter.com/publication/1360-web-design-weekly-issue-123#.UubGGb_AiYQ.hackernews) | Web Design Weekly — Issue #123 | Varies |
 | **Web Dev Weekly #2** | [↗](http://blog.redradix.com/web-dev-weekly-2/) | Web Dev Weekly #2 | Varies |
+| **Web Dev Weekly #3** | [↗](http://blog.redradix.com/web-dev-weekly-3/) | Web Dev Weekly #3 | Varies |
 | **Web Dev Weekly #4** | [↗](http://blog.redradix.com/web-dev-weekly-4/) | Web Dev Weekly #4 | Varies |
 | **Web Development and Tech Email Newsletters I Subscribe to \| Impressive Webs** | [↗](http://www.impressivewebs.com/web-design-tech-newsletters/) | My favourite tech email newsletters to subscribe to for keeping up with tech news, web development, and more. | Varies |
 | **Web development books on Humble Bundle** | [↗](https://www.humblebundle.com/books/web-design-development-books?linkID=&mcID=102:5affc46c6caf4ecf2ff3f1ce:ot:5730e251bef2f4f641ac8603:1&utm_source=Humble+Bundle+Newsletter&utm_medium=email&utm_campaign=2018_05_21_webdesigndevelopment_bookbundle) | Pay what you want for awesome ebooks and support charity! | Varies |
