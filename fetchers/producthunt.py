@@ -62,6 +62,13 @@ def discover_producthunt():
             data = r.json()
             posts = data.get('data', {}).get('posts', {}).get('edges', [])
             
+            # Load search queries once: get_search_queries() reads and parses
+            # config.json from disk on every call, and its result never changes
+            # within a fetch run, so calling it per-post did 100 redundant
+            # file reads + JSON parses.
+            queries = get_search_queries(append_newsletter=False)
+            seen_urls = set()
+            
             for post_edge in posts:
                 node = post_edge.get('node', {})
                 name = node.get('name', 'Unknown Title')
@@ -75,9 +82,8 @@ def discover_producthunt():
                 category = "General Software Engineering"
                 is_tech = False
                 
-                queries = get_search_queries(append_newsletter=False)
-                for query, cat in queries:
-                    if query in text_corpus:
+                for keyword, cat in queries:
+                    if keyword in text_corpus:
                         is_tech = True
                         category = cat
                         break
@@ -87,7 +93,8 @@ def discover_producthunt():
                 if is_tech and target_url:
                     domain = urlparse(target_url).netloc
                     
-                    if not any(d['url'] == target_url for d in discovered):
+                    if target_url not in seen_urls:
+                        seen_urls.add(target_url)
                         logger.info("Discovered Product Hunt: %s", target_url)
                         discovered.append({
                             'title': name,
