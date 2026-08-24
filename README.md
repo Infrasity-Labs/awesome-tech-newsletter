@@ -1486,6 +1486,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Paper Digest – AI summarizes academic articles for you** | [↗](https://www.paper-digest.com/) | Paper Digest – AI summarizes academic articles for you | Varies |
 | **Patterns.dev – AI Weekly** | [↗](https://www.patterns.dev/ai/weekly) | A weekly intelligence briefing on AI coding tools, developer experience, and the evolving landscape of software engineering. | Varies |
 | **Physical AI** | [↗](https://physical-ai.ghost.io) | We’re documenting the rise of intelligence in the physical world - The Physical AI Newsletter | Varies |
+| **Planning an AI Health Surveillance System** | [↗](https://ayushtech.hashnode.dev) | The Smart India Hackathon (SIH) problem statements is based on real life problems actually faced by... | Varies |
 | **Plenty of Room** | [↗](https://plentyofroom.beehiiv.com) | Stay ahead in AI protein design, DNA nanotech & synthetic biology. Under 10 minutes a week. Read by 577 people shaping biotech! | Varies |
 | **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+%22Product+Hunt+Daily%22+newsletter) | The best of Product Hunt, created by your friends. | Varies |
 | **Product Hunt Daily** | [↗](https://duckduckgo.com/?q=!ducky+"Product+Hunt+Daily"+newsletter) | The best of Product Hunt, created by your friends. | Varies |
