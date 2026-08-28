@@ -58,6 +58,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Browser Rendering Optimization [KR]** | [↗](https://astro-cat.hashnode.dev) | 요약 60fps 를 유지하려면 한 프레임을 16.6ms 안에 그려야 하는데, 브라우저 자체 오버헤드를 빼면 개발자가 확보해야 하는 실질적인 예산은 약 10ms... | Varies |
 | **Building a Physics-Accurate Live Wallpaper for Android** | [↗](https://theabbie.hashnode.dev) | A while back I built a double-pendulum simulation in the browser. The motion is hard to stop... | Varies |
 | **Building a Server-Driven Survey Engine in Flutter Without a WebView** | [↗](https://pankajbatra.hashnode.dev) | This article was originally published on my Hashnode blog and is shared here for the Dev.to... | Varies |
+| **Building Reliable Market Data for a Polymarket Trading Bot** | [↗](https://casatrick.substack.com) | A trading bot can start with a very simple flow: Market data → Strategy → Order That is enough to... | Varies |
 | **Caleb's Commentary** | [↗](https://calebfenton.substack.com) | Bitcoin, economics, freedom, self-improvement | Varies |
 | **Can a Mac Mini Handle 100 Million Rows?** | [↗](https://ruhika.hashnode.dev) | I made ClickHouse and Postgres Fight to Find Out 🥊 One Mac Mini. Two databases. 100 million rows of... | Varies |
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22CB+Insights%22+newsletter) | The easy way to stay ahead of all things tech | Varies |
@@ -163,6 +164,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Transfer Orbit Newsletter** | [↗](https://transfer-orbit.ghost.io) | A newsletter about science fiction, books, and the future | Varies |
 | **Utsav Shah** | [↗](https://medium.com/@utsavpshah) | Read writing from Utsav Shah on Medium. Curious \| Reader \| Maker | Varies |
 | **Utsav Shah** | [↗](https://utsavpshah.medium.com) | Read writing from Utsav Shah on Medium. Curious \| Reader \| Maker | Varies |
+| **validateHttp() Has No Async Machinery: A Trace From Signal Forms Down to fetch() 🔍🚀** | [↗](https://ggalassi.substack.com) | Let's be honest: async validation is the part of any forms library where you brace yourself.... | Varies |
 | **Vasu’s Newsletter** | [↗](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
 | **What Actually Happens When You UPDATE a Row in PostgreSQL?** | [↗](https://guidetodevelopment.hashnode.dev) | Most developers think of a PostgreSQL table like this: users id \| age 1 \|... | Varies |
 | **What I learned building a real talent funnel from SRS and Figma to QA, handover, and closing without a perfect ending.** | [↗](https://shakiran.hashnode.dev) | Hey everyone, If you followed my weekly Hashnode series, you already know the short version: eight... | Varies |
