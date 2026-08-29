@@ -1248,6 +1248,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Vue conference and meetup videos from 2018 (Q1 digest)** | [↗](https://blog.meetupfeed.com/vue-conference-and-meetup-videos-from-2018-q1-digest/) | Vue conference and meetup videos from 2018 (Q1 digest) | Varies |
 | **Vue.js Developers Newsletter- Helping devs up their skill and knowledge of Vue** | [↗](https://inboxstash.com/newsletter/vue-js-developers-newsletter/) | Vue.js Developers Newsletter- Helping devs up their skill and knowledge of Vue | Varies |
 | **Vue.js Newsletter: Weekly dose of handpicked Vue.js news** | [↗](http://vue-newsletter.com/) | Vue.js Newsletter: Weekly dose of handpicked Vue.js news | Varies |
+| **Web Design & Dev Community News #5** | [↗](http://www.splashnology.com/article/web-design-dev-community-news-5/1770/) | Web Design & Dev Community News #5 | Varies |
 | **Web Design Weekly – Issue #125** | [↗](http://www.followletter.com/publication/3188-web-design-weekly-issue-125#.UvZZjkT9e2s.hackernews) | Web Design Weekly – Issue #125 | Varies |
 | **Web Design Weekly – Issue #126** | [↗](http://www.followletter.com/publication/3254-web-design-weekly-issue-126#.Uv1LYvBYEKs.hackernews) | Web Design Weekly – Issue #126 | Varies |
 | **Web Design Weekly – Issue #129** | [↗](http://www.followletter.com/publication/3459-web-design-weekly-issue-129#.UxnhPLN1IqY.hackernews) | Web Design Weekly – Issue #129 | Varies |
