@@ -3,13 +3,12 @@ import json
 import os
 import requests
 import logging
-from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 # random user-agent import 
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, extract_metadata
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, extract_metadata
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -21,33 +20,11 @@ def fetch_buttondown_data(url):
         path_parts = [p for p in parsed_url.path.split('/') if p]
         first_path = f"/{path_parts[0]}" if path_parts else ""
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}{first_path}"
-        # Removed Static and used random user agent
-        headers = {
-            'User-Agent': get_random_user_agent()
-        }
-        response = requests.get(base_url, headers=headers, timeout=10)
-        response.raise_for_status()
-        
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        title_meta = soup.find('meta', property='og:title')
-        title = title_meta.get('content', '') if title_meta else ''
-        if not title:
-            title_tag = soup.find('title')
-            title = title_tag.text if title_tag else 'Unknown Title'
-            
-        title = title.replace(' | Buttondown', '').strip()
 
-        desc_meta = soup.find('meta', attrs={'property': 'og:description'})
-        if not desc_meta:
-            desc_meta = soup.find('meta', attrs={'name': 'description'})
-        
-        description = 'No description available.'
-        if desc_meta:
-            content = desc_meta.get('content')
-            if content:
-                description = content.strip()
-        
+        meta = extract_metadata(base_url)
+        title = meta['title'].replace(' | Buttondown', '').strip()
+        description = meta['description']
+
         domain = parsed_url.netloc
         display_link = f"{domain} [↗]"
         

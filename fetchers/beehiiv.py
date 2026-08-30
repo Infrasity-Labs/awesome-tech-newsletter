@@ -4,13 +4,12 @@ import json
 import os
 import requests
 import logging
-from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 # In utils.py i have made a function that Fetches Random Chrome User Agent
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, extract_metadata
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, extract_metadata
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 logger = logging.getLogger(__name__)
@@ -19,27 +18,10 @@ def fetch_beehiiv_data(url):
     try:
         parsed_url = urlparse(url)
         base_url = f"{parsed_url.scheme}://{parsed_url.netloc}"
-        #I have Replaced the single user agent with the function that gets random user agent for avoiding Error
-        headers = {
-            'User-Agent': get_random_user_agent()
-        }
-        response = requests.get(base_url, headers=headers, timeout=10)
-        response.raise_for_status()
         
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        title_meta = soup.find('meta', property='og:title')
-        title = title_meta.get('content', '') if title_meta else ''
-        if not title:
-            title_tag = soup.find('title')
-            title = title_tag.text if title_tag else 'Unknown Title'
-            
-        title = title.replace(' | Beehiiv', '').replace('Home | ', '').strip()
-
-        desc_meta = soup.find('meta', attrs={'property': 'og:description'})
-        if not desc_meta:
-            desc_meta = soup.find('meta', attrs={'name': 'description'})
-        description = desc_meta.get('content', 'No description available.') if desc_meta else 'No description available.'
+        meta = extract_metadata(base_url)    
+        title = meta['title'].replace(' | Beehiiv', '').replace('Home | ', '').strip()
+        description = meta['description']
         
         domain = parsed_url.netloc
         display_link = f"{domain} [↗]"
