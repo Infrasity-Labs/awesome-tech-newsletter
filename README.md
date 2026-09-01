@@ -518,6 +518,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Golang Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Golang+Weekly%22+newsletter) | Go lang news | Varies |
 | **Golang Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Golang+Weekly"+newsletter) | Go lang news | Varies |
 | **Golang Weekly** | [↗](https://golangweekly.com/) | A weekly newsletter about the Go programming language. | Weekly |
+| **GPUI Digest: Rust UI in the browser, crates distribution, release notes** | [↗](https://gpui-archipelago.github.io/news/august-digest/) | A milestone month for the GPUI ecosystem: spring animations and framerate control upstream, standalone crates.io distributions, Kael 0.4, and web/JS bridges. | Varies |
 | **GroupDocs Newsletter November2018 – Document Manipulation APIs for .NET and Java** | [↗](https://blog.groupdocs.com/2018/11/01/groupdocs-newsletter-november-2018-.net-and-java-documents-manipulation-apis/) | Share this issue: Monthly NewsletterNovember 2018 Merge and Compare Business Documents of Same Format Documents Difference Checker APIs for .NET and Java GroupDocs.Comparison Product Family includes .NET and Java APIs to efficiently merge and compare all popular business document formats (Microsoft Word, Excel, PowerPoint, OpenDocument ODT, PDF, Text and HTML) for difference checking. The APIs support comparing text contents, words, paragraphs, characters and style changes like font size, bold, italic etc. | Varies |
 | **How do Tech startups indicate their value - recent research** | [↗](http://www.ssti.org/Digest/digest.php?page=2011/051811#research) | How do Tech startups indicate their value - recent research | Varies |
 | **How To Learn Swift – A free swift development newsletter** | [↗](http://www.howtolearnswift.com/) | How To Learn Swift – A free swift development newsletter | Varies |
@@ -819,6 +820,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Show HN: My Relaunched DevOps Friday Newsletter** | [↗](http://devopsfriday.com) | Show HN: My Relaunched DevOps Friday Newsletter | Varies |
 | **Show HN: OriGen – A Deterministic Workflow Compiler (Maps → IR → CI/K8s)** | [↗](https://origen-hub.github.io/origen-core-public/) | Deterministic Workflow Planning and Portable Execution | Varies |
 | **Show HN: Relaunch of my weekly DevOps newsletter/magazine** | [↗](http://devopsfriday.com/devops120413.pdf) | Show HN: Relaunch of my weekly DevOps newsletter/magazine | Varies |
+| **Show HN: Texttile, a multiplayer blog engine for people who write together** | [↗](https://www.texttile.blog/) | One entry. Many authors. No conflicts. | Varies |
 | **Show HN: This Week in DevOps Newsletter** | [↗](https://thisweekindevops.com) | Show HN: This Week in DevOps Newsletter | Varies |
 | **Show HN: Trophy – Gamification Infrastructure for Developers** | [↗](https://trophy.so) | Gamification infrastructure that retains users. | Varies |
 | **Show HN: Trusty – Dependency Software Supply Chain Security** | [↗](https://www.trustypkg.dev) | Show HN: Trusty – Dependency Software Supply Chain Security | Varies |
@@ -884,6 +886,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **A Young VC** | [↗](https://ayoungvc.substack.com) | A junior VC sharing his perspective on a range of topics: life, psychology, politics, tech, music & investing | Varies |
 | **App Marketing Weekly – Subscribe for Free** | [↗](http://appmarketingweekly.com/) | App Marketing Weekly – Subscribe for Free | Varies |
 | **Around The SaaS** | [↗](https://aroundthesaas.beehiiv.com) | Newsletter for SaaS founders, enthusiast. | Varies |
+| **Ask HN: My 2nd ever Quant Finance and ML Newsletter. Help me improve** | [↗](https://static.philippdubach.com/newsletter/newsletter-2026-02.html) | Ask HN: My 2nd ever Quant Finance and ML Newsletter. Help me improve | Varies |
 | **Badazinnovazion** | [↗](https://badazinnovazion.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Copywriting for Websites, Marketing, and Newsletters** | [↗](http://businessofsoftware.org/2015/07/writing-non-sucky-copy-websites-marketing-collateral-newsletters-joanna-wiebe/) | How can you write non-sucky copy that establishes your authority and makes people want to hear from you again? | Varies |
 | **David E. Weekly** | [↗](https://medium.com/@dweekly) | Read writing from David E. Weekly on Medium. Founder+CEO: Medcorder, ex-GOOG, FB. Started: Drone.VC, Mexican.VC, Neuron.VC, PBwiki, DevHouse, and Hacker Dojo. Startup advisor. Chopper pilot. Dad. ❤� | Varies |
@@ -1363,6 +1366,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Data & AI for Devs** | [↗](https://ml4devs.substack.com) | A no-hype weekly take on AI and data: key news, practical tools, and lessons from production systems. | Varies |
 | **Data For Science** | [↗](https://graphs4sci.substack.com) | A newsletter about all things Data Science, Machine Learning and AI, by Bruno Gonçalves | Varies |
 | **Data Machina: A weekly digest of data science curiosities and big data folklore** | [↗](http://www.tinyletter.com/datamachina) | Create beautiful emails, automate campaigns, and track performance. Try it now and see how our tools can drive your business. | Varies |
+| **Data Prism: a weekly newsletter about data science, ML, AI and analytics** | [↗](http://dataprism.co/) | DataPrism turns the clouds you already use into sovereign, provable, unreadable storage. Client-side encryption, one TypeScript SDK, invisible to your users. | Varies |
 | **Data Science Digest** | [↗](https://www.getrevue.co/profile/DataScienceDigest/) | Data Science Digest | Varies |
 | **Data Science Digest** | [↗](http://datasciencedigest.flyelephant.net) | Data Science Digest | Varies |
 | **Data Science Digest** | [↗](https://data-science-digest.beehiiv.com) | The best way to keep up with the world of Data Science- daily news, tutorials, releases, courses, jobs and more. | Varies |
