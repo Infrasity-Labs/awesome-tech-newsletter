@@ -44,6 +44,7 @@ This is a community-curated directory of some of the best newsletters by and for
 |------|------|-------------|-----------|
 | **'World Models' Will Be the Next Buzzword. The Man Saying That Just Raised $1B to Build One** | [↗](https://aiguide.substack.com) | In March, the CEO of a research lab with zero products closed a $1.03 billion seed round — the... | Varies |
 | **5 Essential Substack Newsletters for Every Developer to Subscribe To 💌** | [↗](https://careercutler.substack.com) | I love reading newsletters. But let's be honest, many are just a waste of time. If you want to... | Varies |
+| **A 7M-Param Model Just Beat GPT on ARC. Now What?** | [↗](https://interestingengineering.substack.com) | Samsung's tiny recursive model outscored frontier LLMs on ARC-AGI while GitHub's minimind hit 57k stars. What this means for builders. | Varies |
 | **A Case for Monolith** | [↗](https://charlesfonseca.substack.com) | I write because I can't stop. Systems, Programming, Database, Cloud. | Varies |
 | **A Reader's Guide to My Books: Which One to Pick Up, Depending on What You're Building** | [↗](https://amdatalakehouse.substack.com) | The question I get most often after talks, after podcast episodes, and in newsletter replies is a... | Varies |
 | **Adding Homemade TLS to a Homemade Web Server** | [↗](https://open.substack.com) | Original series: Building Your Own Web Server + Rebuilding TLS from Scratch This article connects... | Varies |
