@@ -1209,6 +1209,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Official Redux style guide, Angular micro front ends and more -Angular Weekly 81** | [↗](https://www.getrevue.co/profile/AndreyKutsenko/issues/official-redux-style-guide-micro-front-ends-with-angular-partial-t-more-211586) | Official Redux style guide, Angular micro front ends and more -Angular Weekly 81 | Varies |
 | **Onoufrios Malikkides** | [↗](https://medium.com/@onoufriosm) | Read writing from Onoufrios Malikkides on Medium. Software developer, writer, speaker, photographer. | Varies |
 | **Optimize AngularJS Performances Using Web Workers** | [↗](http://bahmutov.calepin.co/run-angular-digest-cycle-in-web-worker.html) | Optimize AngularJS Performances Using Web Workers | Varies |
+| **Optimus UI, NG Switzerland, and NgRx 22** | [↗](https://quantum-quirks.hashnode.dev) | Optimus UI, NG Switzerland, and NgRx 22 headline this episode. Also in brief: new Angular Space... | Varies |
 | **Racket on FLOSS Weekly [video]** | [↗](http://blog.racket-lang.org/2011/05/racket-on-floss-weekly.html) | _posted by Robby Findler_ Our own Matthew Flatt was interviewed about Racket on FLOSS Weekly. Also available on YouTube.... | Varies |
 | **Rapid chrome app development with angular \| ng-newsletter** | [↗](http://www.ng-newsletter.com/posts/chrome-apps-on-angular.html) | Rapid chrome app development with angular \| ng-newsletter | Varies |
 | **React Explained: A Weekly Newsletter for React Learners** | [↗](https://www.getrevue.co/profile/react-explained/) | React Explained: A Weekly Newsletter for React Learners | Varies |
@@ -1685,6 +1686,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **When Fine-Tuning Stops Working: The Architecture Lesson That Took Our Healthcare AI From 60% to 92% Recall** | [↗](https://tech4biz-solutions.hashnode.dev) | We had a healthcare claims platform stuck at 45% recall on medical coding. Not 45% on a benchmark.... | Varies |
 | **When should software engineers start retraining for other jobs?** | [↗](https://ealpha.substack.com) | How I apply professional engineering methodologies to trading and investing. | Varies |
 | **Who Ate My Cookies? “Do Not Track” Legislation Will Hit Mid-Market Hardest** | [↗](http://www.adotas.com/2012/06/who-ate-my-cookies-do-not-track-legislation-will-hit-mid-market-hardest/) | Who Ate My Cookies? “Do Not Track” Legislation Will Hit Mid-Market Hardest | Varies |
+| **Why AI Agents Shouldn’t Calculate Bazi Charts From Memory** | [↗](https://openfate.hashnode.dev) | A calculation-first MCP server for Four Pillars, True Solar Time, and auditable chart data Large... | Varies |
 | **Www** | [↗](https://www.lennysnewsletter.com) | No description available. | Varies |
 | **XAI News – New Artificial Intelligence Newsletter** | [↗](https://xai.news) | XAI News – New Artificial Intelligence Newsletter | Varies |
 | **Your AI visibility number is lying to you** | [↗](https://dariadovzhikova.substack.com) | I ran 1,790 measurements across five AI engines — for my own company and for a devtools category with... | Varies |
