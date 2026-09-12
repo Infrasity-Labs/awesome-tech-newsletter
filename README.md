@@ -94,6 +94,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **I Rewrote One Exam Question Fifty Ways. First, the Answer Key Was Wrong.** | [↗](https://ramses203.substack.com) | Two readers said the same thing. Under the 3x-price comparison, Vinh said the next experiment should... | Varies |
 | **In multi-agent systems, the skill is the abstraction level — not the agent count** | [↗](https://hariph.hashnode.dev) | Everyone building multi-agent systems knows the starting pattern by now: a router reads the request,... | Varies |
 | **It Fit in Memory and Was Still Unusable — Do the Bandwidth Arithmetic First** | [↗](https://hexisteme.beehiiv.com) | A 15GB model loaded fully onto the GPU and generated at 5.6 tokens per second. The theoretical ceiling was 8. Capacity and throughput are set by different resources, and the obvious fix for a tight fit — shrink the model — barely moves the one that matters. One division tells you which lever works. | Varies |
+| **KV Cache on 16 GB GPUs: Making Long Context Actually Fit** | [↗](https://vizuara.substack.com) | A model can advertise a 128K context window and still fail at 40K tokens on a 16 GB GPU. The... | Varies |
 | **Kyle Poyar’s Growth Unhinged** | [↗](https://kylepoyar.substack.com) | Revealing the playbooks and hidden tactics behind today's best startups. Join 80,000+ weekly readers for real-life growth advice, playbooks and case studies. Click to read Kyle Poyar’s Growth Unhinged, a Substack publication with tens of thousands of subscribers. | Varies |
 | **Lars Janssen** | [↗](https://medium.com/@fazy) | Read writing from Lars Janssen on Medium. | Varies |
 | **Magma: An open source implementation of a mobile core network** | [↗](https://systemsapproach.substack.com) | Larry Peterson and Bruce Davie, authors of "Computer Networks: A Systems Approach" explain the Internet – its technology, architecture, and evolution | Varies |
@@ -335,8 +336,10 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Show HN: Continuing the work on the ADHD personal assistant – Part 4** | [↗](https://mkbsp.substack.com) | The Product Vikings Blog and Build in Public Honesty about Startups, Tech, Fundraising, living with ADHD, and more. | Varies |
 | **Show HN: Crowdsourced tracker for what each Windows/M365 update breaks** | [↗](https://win-update-tracker.vercel.app/) | Track Windows, Microsoft 365, and Intune update regressions reported by sysadmins. Free weekly digest, public JSON API, sourced from r/sysadmin, r/msp, Microsoft release health, and Bleeping Computer. | Varies |
 | **Show HN: Data-minimal Mailchimp alternative built on top of your SQL DB** | [↗](https://www.getvero.com/newsletters/) | Connect sits on top of your data warehouse, so you can eliminate time spent syncing data and spend less on data duplication. | Varies |
+| **Show HN: Dead Man's Switch – miss a check-in, alert your contacts** | [↗](https://deadmansswitch.cloud) | Automated check-in system that alerts your emergency contacts if you go silent. Built for people who live alone, travel solo, or work in remote areas. | Varies |
 | **Show HN: Digestable Ingredient Database** | [↗](http://digestable.co) | Show HN: Digestable Ingredient Database | Varies |
 | **Show HN: Fix your site's SEO with personalized instructions** | [↗](https://www.seocheck.dev) | Show HN: Fix your site's SEO with personalized instructions | Varies |
+| **Show HN: Forty.News – Daily news, but on a 40-year delay** | [↗](https://forty.news) | Real-time news. Delayed forty years. | Varies |
 | **Show HN: Free Coffee via Octopus Energy's Internal GraphQL API** | [↗](https://frontbot.com/blog/how-i-automated-octopus-energy-coffee/) | A one-shot technical teardown of automating Octoplus coffee reward claims. | Varies |
 | **Show HN: Get real-time alerts when your keywords are mentioned on HN and Reddit** | [↗](https://pingnews.io/) | Show HN: Get real-time alerts when your keywords are mentioned on HN and Reddit | Varies |
 | **Show HN: GraphQL Tweetletter – Weekly digest of most interesting GraphQL Tweets** | [↗](https://tweets.dgraph.io/) | Show HN: GraphQL Tweetletter – Weekly digest of most interesting GraphQL Tweets | Varies |
@@ -567,6 +570,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Medium** | [↗](https://medium.com/@JoeKreydt) | No description available. | Varies |
 | **Medium** | [↗](https://nf-x.medium.com) | No description available. | Varies |
 | **Medium** | [↗](https://medium.com/@asitdhal) | No description available. | Varies |
+| **Meeting C++ weekly Blogroll 545** | [↗](https://www.meetingcpp.com/blog/blogroll/items/Meeting-Cpp-weekly-Blogroll-545.html) | Meeting C++ weekly Blogroll 545 | Varies |
 | **Mohamed Mohamed** | [↗](https://medium.com/@midoblgsm) | Read writing from Mohamed Mohamed on Medium. | Varies |
 | **Monthly Python Data Engineering** | [↗](https://alessandromolina.substack.com) | The Python newsletter for people that build data analytics platforms | Varies |
 | **Most-watched Kotlin conference talks of 2024** | [↗](https://www.techtalksweekly.io/p/tech-talks-weekly-extra-9-all-kotlin) | A huge compilation of all Kotlin talks published in 2024! | Varies |
