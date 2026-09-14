@@ -1092,6 +1092,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
 | **#/issue 3 – New GraphQL Tutorial, Meteor Roadmap, Getting Started with React** | [↗](http://hashbangweekly.okgrow.com/2016/12/16/hashbang-weekly) | #/issue 3 – New GraphQL Tutorial, Meteor Roadmap, Getting Started with React | Varies |
+| **18 Best Weekly Web Design and Development Resources #20** | [↗](http://www.neodesigngeeks.com/18-best-weekly-web-design-development-resources-20/) | 18 Best Weekly Web Design and Development Resources #20 | Varies |
 | **20+ newsletters for web developers and designers** | [↗](https://usersnap.com/blog/web-development-newsletters/) | Receive awesome development content to your inbox with 20+ web development newsletters & emails. Check them out. | Varies |
 | **20+ web development newsletter to read** | [↗](http://usersnap.com/blog/web-development-newsletters/) | Receive awesome development content to your inbox with 20+ web development newsletters & emails. Check them out. | Varies |
 | **200% go: Vugu framework for go is 100% go on backend, 100% go on frontend** | [↗](https://andrewarrow.substack.com) | computer science major pitt.edu 1996 | Varies |
@@ -1379,6 +1380,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Buildwithgo** | [↗](https://buildwithgo.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Buttondown — Newsletter software for people like you** | [↗](https://buttondown.email) | Buttondown is the last email platform you'll migrate to. We're focused on your success, not on bleeding you dry. | Varies |
 | **ByteByteGo** | [↗](https://blog.bytebytego.com/) | Complex systems explained in simple terms, covering system design, architecture, and interviews. | Weekly |
+| **Claude Fable 5.1,…Distich 해독 · 에이전트형 AI를 위한 데이터 준비하기 외 5선 \| GeekNews AI** | [↗](https://kucharski.substack.com) | Claude Fable 5.1,…Distich 해독, 에이전트형 AI를 위한 데이터 준비하기 등 이번 주 주목할 AI 이슈 7개를 GeekNews 기반으로 정리했습니다. | Varies |
 | **Confessions of a Code Addict** | [↗](https://codeconfessions.substack.com) | I write about how computers work underneath the abstractions: compilers, operating systems, memory, performance, and low-level programming. | Varies |
 | **contentfolks** | [↗](https://contentfolks.substack.com) | Short lessons, practical examples, and colourful post-its about content marketing. Straight to your inbox, every month(ish). Click to read contentfolks, by fio, a Substack publication with thousands of subscribers. | Varies |
 | **Corporate involvement in AI dealings** | [↗](https://www.cbinsights.com/blog/corporate-involvement-ai-deals/?utm_campaign=Artificial%2BIntelligence%2BWeekly&utm_medium=email&utm_source=Artificial_Intelligence_Weekly_34) | Corporate activity in artificial intelligence slowed in 2015 after reaching a six-year high in 2014. Other major players include Google and Rakuten. | Varies |
