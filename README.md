@@ -147,6 +147,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Software=Magic for Most People, and We Often Forget That** | [↗](https://zerotousers.substack.com) | Each week, I talk about acquisition channels that work & are likely to work in the future. | Varies |
 | **tech job drop 🌎 🚀** | [↗](https://farath.substack.com) | Discover fresh, cool tech jobs 🦄 | Varies |
 | **Telegram is becoming my control plane for vibe coding** | [↗](https://shreyshahh.substack.com) | The IDE is where code changes. Telegram is where the loops run. Telegram is becoming the control... | Varies |
+| **The 5-Layer Stack Behind Agents That Ship** | [↗](https://practicalainotes.substack.com) | Originally published on my site:... | Varies |
 | **The Average Is Nobody's Result** | [↗](https://harryfloyd.substack.com) | Computer-aided detection changed nothing on average. Split the readers and it helped the weak and hurt the best. Averages are mixtures, not effects. | Varies |
 | **The Checker Cannot Be the Doer: Why Financial Operations Needs Independent Proof** | [↗](https://sherifkozman.substack.com) | For twenty five years, I have worked on the plumbing of technology. From dial up networks to... | Varies |
 | **The Documentation System Every Startup Should Have** | [↗](https://virginiamwegahashnodedev.hashnode.dev) | Key Takeaways Most documentation advice is written by people whose job is only documentation. This... | Varies |
@@ -178,6 +179,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Vasu’s Newsletter** | [↗](https://vasupasupuleti.substack.com) | I write about technology, leadership, and career growth. Deep dives into things I'm genuinely working through. | Varies |
 | **What Actually Happens When You UPDATE a Row in PostgreSQL?** | [↗](https://guidetodevelopment.hashnode.dev) | Most developers think of a PostgreSQL table like this: users id \| age 1 \|... | Varies |
 | **What I learned building a real talent funnel from SRS and Figma to QA, handover, and closing without a perfect ending.** | [↗](https://shakiran.hashnode.dev) | Hey everyone, If you followed my weekly Hashnode series, you already know the short version: eight... | Varies |
+| **When Falco Runs Out of Metadata** | [↗](https://whenitruns.substack.com) | user.uid, user.loginuid, and fd.name under absent metadata on Falco 0.44.1 — plus the reported 4294967295 and /<NA> forms (0.31.0–0.40.0) | Varies |
 | **When Kafka Hits 100% Disk and the Volume Won't Grow** | [↗](https://mriduliti.hashnode.dev) | The alert didn't come from consumer lag. It came from disk — two of three brokers on our production... | Varies |
 | **Where Does a Vision Model Keep Its Knowledge? A Developer's History of Computer Vision** | [↗](https://joshua-nwachinemere.hashnode.dev) | In 2001, Paul Viola and Michael Jones described a face detector that ran at 15 frames per second on... | Varies |
 | **Why exporting support tickets is a security risk and how to fix it local first** | [↗](https://anslem.hashnode.dev) | When a critical bug, billing dispute, or compliance issue happens, someone on the team inevitably... | Varies |
@@ -317,6 +319,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **not_afraid** | [↗](https://not-afraid.medium.com) | Read writing from not_afraid on Medium. Software Engineer passionate about Backend, PostgreSQL, infra & web security. | Varies |
 | **Ntennah's Weekly Node.js Newsletter** | [↗](https://www.ntennah.com/issue/node) | Ntennah's Weekly Node.js Newsletter | Varies |
 | **Optimising Django Database Performance** | [↗](http://blueprintforge.com/blog/2012/01/24/measuring-optimising-database-performance-in-django/?utm_source=Python+Weekly+Newsletter&utm_campaign=daf70a523d-Python_Weekly_Issue_19_January_26_2012&utm_medium=email) | Database performance is a crucial factor in web application performance, and can mean the difference between a responsive web application and a slow … | Varies |
+| **Picking the Right Version (So Your Database Doesn't Hate You)** | [↗](https://yasir323.hashnode.dev) | I used to type uuid.uuid4() for years without giving it a second thought. It works, it's unique, ship... | Varies |
 | **Programmer Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Programmer+Weekly%22+newsletter) | A free weekly newsletter featuring the best hand curated links for programmers | Varies |
 | **Programming Digest** | [↗](https://duckduckgo.com/?q=!ducky+%22Programming+Digest%22+newsletter) | Keeps up to date with the programming world. | Varies |
 | **Programming Digest** | [↗](https://duckduckgo.com/?q=!ducky+"Programming+Digest"+newsletter) | Keeps up to date with the programming world. | Varies |
@@ -719,6 +722,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Async Jobs with AWS SageMaker** | [↗](https://cloudweekly.io/p/advanced-sagemaker-architecture) | Async Jobs with AWS SageMaker | Varies |
 | **AWS CloudFormation Explained for Beginners \| Infrastructure as Code (IaC) Made Simple** | [↗](https://my-cloud-journey.hashnode.dev) | AWS CloudFormation Explained for Beginners \| Infrastructure as Code (IaC) Made Simple ... | Varies |
 | **AWS FM – weekly podcast with interviews from the AWS community** | [↗](https://aws.fm/) | AWS FM – weekly podcast with interviews from the AWS community | Varies |
+| **AWS Outage: A Digital Wake-Up Call** | [↗](https://devopstour.hashnode.dev) | Let's face it, when a webpage doesn't load or a streaming video lags forever, our first instinct is... | Varies |
 | **AWS Security Digest Newsletter** | [↗](https://awssecuritydigest.com/) | Every AWS security change, blog, CVE and IAM tweak, plated into one short read every Monday. Pull up a chair with 6,700+ AWS security people. | Varies |
 | **AWS Weekly – weekly newsletter about everything AWS** | [↗](http://awsweekly.net/) | AWS Weekly – weekly newsletter about everything AWS | Varies |
 | **AWS Weekly: ECS Available in 5 More Regions, DDoS Resiliency Whitepaper,** | [↗](https://cloudonaut.io/aws-weekly-2016-33/) | A quick summary of what happened in the AWS universe last week. Monday, August 15 Authorizing everything: Ben Ready (Author o... | Varies |
