@@ -1386,6 +1386,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Blend your data world** | [↗](https://medium.com/blend-your-data) | Blendo helps companies get their data from anywhere into their data warehouse and reduces the time of building full data pipelines in minutes instead of months. https://www.blendo.co | Varies |
 | **Braddelong** | [↗](https://braddelong.substack.com) | Working, making, apportioning, talking, taking, & more. What I know and can learn about it & related things. | Varies |
 | **Bruceeckel** | [↗](https://bruceeckel.substack.com) | Essays in search of a book. | Varies |
+| **Build a Runnable MCP Loop in Python (stdio streamable-http LLM tool choice)** | [↗](https://yongboyu.hashnode.dev) | Build a Runnable MCP Loop in Python (stdio → streamable-http → LLM tool... | Varies |
 | **Building a Personalized Cognitive Extender: Edge AI with Smart Glasses & On-Device LLMs** | [↗](https://kniffy.hashnode.dev) | Here is the current project I’m working on: a customizable “Cognitive Extender” tailored to my exact... | Varies |
 | **Building an AI skill marketplace for GTM teams** | [↗](https://newsletter.gtmengineering.ai/p/why-every-gtm-org-will-need-ai-skill) | Your team's AI fluency gap is widening and what to do about it. 3 unrecognized problems are quietly compounding and sabotaging the reasons you're using AI. | Varies |
 | **Building Kenya's Money Rail with .NET SQL Server and SMS in 2005** | [↗](https://jkitsao.substack.com) | Compiled from prod. Served from Nairobi. | Varies |
