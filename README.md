@@ -56,6 +56,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Android+Authority+Weekly%22+newsletter) | Android news, reviews, articles, and more! | Varies |
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Android+Authority+Weekly"+newsletter) | Android news, reviews, articles, and more! | Varies |
 | **Better Engineers** | [↗](https://betterengineers.substack.com) | A Programmer's Journey of Perfections <br>Follow <br>LinkedIn: https://www.linkedin.com/in/devd04/<br>X : https://x.com/BetterEngineer1 | Varies |
+| **Beyond Gradient Boosting: The Rise of LimiX-2 and Structured-Data Foundation Models** | [↗](https://mindfulmodeler.substack.com) | Beyond Gradient Boosting: The Rise of LimiX-2 and Structured-Data Foundation Models For... | Varies |
 | **BroncoCTF : Spot the difference Writeup** | [↗](https://exploitnotes.hashnode.dev) | Challenge We're given two files, file1.txt and file2.txt, each containing what looks... | Varies |
 | **Browser Rendering Optimization [KR]** | [↗](https://astro-cat.hashnode.dev) | 요약 60fps 를 유지하려면 한 프레임을 16.6ms 안에 그려야 하는데, 브라우저 자체 오버헤드를 빼면 개발자가 확보해야 하는 실질적인 예산은 약 10ms... | Varies |
 | **Building a Physics-Accurate Live Wallpaper for Android** | [↗](https://theabbie.hashnode.dev) | A while back I built a double-pendulum simulation in the browser. The motion is hard to stop... | Varies |
@@ -174,6 +175,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **TOCTOU in Payment Systems: When Validation Becomes Stale Before Commit** | [↗](https://emmanuelvalverderamos.substack.com) | The formal problem: CWE-367 Time-of-check to time-of-use (TOCTOU) is a formally catalogued class... | Varies |
 | **Transfer Orbit Newsletter** | [↗](https://transfer-orbit.ghost.io) | A newsletter about science fiction, books, and the future | Varies |
 | **Tres proyectos, tres formas distintas de romperme la cabeza** | [↗](https://gmarinelly.hashnode.dev) | Publicado originalmente en mi blog. Soy estudiante de Ingeniería en Computación y desarrollador.... | Varies |
+| **Técnicas de resiliência: o que realmente segura o sistema quando algo quebra** | [↗](https://alexpimenta.hashnode.dev) | Sistema distribuído falha. A pergunta útil não é se vai falhar. É o que acontece quando... | Varies |
 | **Utsav Shah** | [↗](https://medium.com/@utsavpshah) | Read writing from Utsav Shah on Medium. Curious \| Reader \| Maker | Varies |
 | **Utsav Shah** | [↗](https://utsavpshah.medium.com) | Read writing from Utsav Shah on Medium. Curious \| Reader \| Maker | Varies |
 | **validateHttp() Has No Async Machinery: A Trace From Signal Forms Down to fetch() 🔍🚀** | [↗](https://ggalassi.substack.com) | Let's be honest: async validation is the part of any forms library where you brace yourself.... | Varies |
@@ -1463,6 +1465,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Hardresetmedia** | [↗](https://hardresetmedia.substack.com) | A publication about tech, labor, and power by Ariella Steinhorn, JJ Lansing, and Alex Shultz, featuring exclusive reporting, interviews, and insights about holding corporate power accountable. | Varies |
 | **Has Artificial Intelligence Co-Opted the Sparkle Emoji?** | [↗](https://www.bloomberg.com/news/newsletters/2024-07-10/openai-google-adobe-and-more-have-embraced-the-sparkle-emoji-for-ai) | Has Artificial Intelligence Co-Opted the Sparkle Emoji? | Varies |
 | **Hasen** | [↗](https://hasen.substack.com) | Computer and Web Programming | Varies |
+| **He Says He Co-Invented ChatGPT. His New AI, Jev, Won't Write a Word** | [↗](https://anthonymaio.substack.com) | Jev answers with typed decisions and probabilities, never text. The TypeScript API, and the catch hiding inside 'zero hallucinations'. | Varies |
 | **HN AI Newsletter** | [↗](https://hn-ai-newsletter.beehiiv.com) | Stay informed with a weekly AI-curated digest of the most popular AI related stories from Hacker News | Varies |
 | **How I recovered my newsletter subscriptions** | [↗](https://support.substack.com) | How many Substack accounts do you have? Or rather, how many email addresses do you have? This is... | Varies |
 | **How super AI could end the age of humans** | [↗](http://www.theguardian.com/science/audio/2014/aug/04/science-weekly-podcast-nick-bostrom-ai-artificial-intelligence) | Nick Bostrom on why the creation of a superintelligent computer might be the last invention mankind ever makes | Varies |
