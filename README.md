@@ -162,6 +162,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The Lindy Newsletter** | [↗](https://lindynewsletter.beehiiv.com) | No description available. | Varies |
 | **The Nerve Blog** | [↗](https://the-nerve-blog.ghost.io) | This is Nerve's Official Blog | Varies |
 | **The Personable Engineer** | [↗](https://fernandovillalba.substack.com) | This publication deals with all things that help developers and engineers to do a better job by designing systems, processes, culture and tools that are human friendly and increase flow state. | Varies |
+| **The Postgres job-claim query that silently claims the same job twice** | [↗](https://vishwam.hashnode.dev) | The Postgres job-claim query that silently claims the same job twice A common way to claim... | Varies |
 | **The Prompt Is Not a Spell — It's Structured Context Injection** | [↗](https://leo76868.substack.com) | "10 magic openings that boost GPT's IQ by 50." "Add this one sentence and your output quality jumps... | Varies |
 | **The Schematic** | [↗](https://ryanspears.substack.com) | All things engineering, software, science, and business. | Varies |
 | **The Startup** | [↗](https://medium.com/swlh) | Get smarter at building your thing. Follow to join The Startup’s +8 million monthly readers & +772K followers. | Varies |
@@ -263,6 +264,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **How I Choose a Library Before Adding It to a Project** | [↗](https://aleksandradudkina.hashnode.dev) | Downloads, maintenance, framework support, API, styling and the one thing I really don't want to do -... | Varies |
 | **How to Bootstrap Your State Back End for Your Next Terraform or OpenTofu Project** | [↗](https://newsletter.masterpoint.io/p/how-to-bootstrap-your-state-backend-for-your-next-terraform-or-opentofu-project) | Learn about a framework agnostic way to manage your TF backend in TF. | Varies |
 | **How to build prototypes as a back-end engineer** | [↗](https://buildtechcareer.substack.com) | Build Tech Career is for experienced software engineers who want to move closer to real AI/ML systems work. | Varies |
+| **How to Detect and Fix Node.js Memory Leaks in Production (Step-by-Step Guide)** | [↗](https://mohamedbouhachimi.hashnode.dev) | Node.js is renowned for its high performance, event-driven architecture, and non-blocking I/O... | Varies |
 | **How to Test a Node.js and TypeScript API with Vitest and Supertest** | [↗](https://liciacodes.hashnode.dev) | Introduction When building an application, it's easy to verify that something works by... | Varies |
 | **I build a free database for newsletters and podcasts in different B2B niches** | [↗](https://www.influencerb2b.com/) | I build a free database for newsletters and podcasts in different B2B niches | Varies |
 | **I curate a daily newsletter about Golang. Here are latest 6 issues of newsletter** | [↗](https://kovalevsky.io/daily-golang-newsletter-report-2024-08-19/) | I curate a daily newsletter about Golang. Here are latest 6 issues of newsletter | Varies |
