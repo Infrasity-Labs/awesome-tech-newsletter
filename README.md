@@ -75,6 +75,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Cron'd Claude Agents: A Maintenance Log** | [↗](https://labyrinthanalytics.substack.com) | Running a fleet of twenty Claude agents on a launchd schedule teaches you fast that scheduler... | Varies |
 | **Day 2 of Demolishing my Stack of Unfinished Projects** | [↗](https://codenificient.hashnode.dev) | Published on Jul 13th, 2022 As they say, another day, another dollar Today was a good day... | Varies |
 | **Devshot** | [↗](https://devshot.co) | Coding news, tools, frameworks, and engineering reads for developers. | Varies |
+| **DynamoDB vector search without embeddings** | [↗](https://serverlessadvocate.substack.com) | Vector indexes are not only for embeddings. Project a latitude and longitude onto the unit sphere and Euclidean distance gives you the true great-circle ordering, which is more than a geohash manages anywhere near a cell boundary. | Varies |
 | **Erik Engheim** | [↗](https://medium.com/@erik-engheim) | Read writing from Erik Engheim on Medium. Geek dad, living in Oslo, Norway with passion for UX, Julia programming, science, teaching, reading and writing. | Varies |
 | **Erik Engheim** | [↗](https://erik-engheim.medium.com) | Read writing from Erik Engheim on Medium. Geek dad, living in Oslo, Norway with passion for UX, Julia programming, science, teaching, reading and writing. | Varies |
 | **Figma-to-code: the real shift happening** | [↗](https://christinevallaure.substack.com) | If you're shipping static sites, or building on a standard design system, the Figma MCP server is... | Varies |
@@ -675,6 +676,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Stratum Security Blog** | [↗](https://stratumsecurity.ghost.io) | AppSec, Research, Sarcasm, NetSec | Varies |
 | **Stratum Security Blog** | [↗](http://stratumsecurity.ghost.io) | AppSec, Research, Sarcasm, NetSec | Varies |
 | **Swift Dev Weekly – the best weekly Swift development links** | [↗](http://swiftdev.tips) | Swift Dev Weekly – the best weekly Swift development links | Varies |
+| **Swift Developer Newsletter – Issue #13** | [↗](http://swiftsandbox.io/issues/13/#start) | Swift Developer Newsletter – Issue #13 | Varies |
 | **Swift Development Newsletter** | [↗](http://swiftdevblogs.com/) | Swift Development Newsletter | Varies |
 | **Swift development newsletter** | [↗](http://swiftweekly.com/) | Alongside newsworthy content from the iOS & Swift world every week, every month you'll receive an in-depth exposition of a Swift development topic in your inbox. | Varies |
 | **Swift Monthly – Newsletter for Swift Devs** | [↗](http://swiftmonthly.com/issues/latest/?feb2016) | Swift Monthly – Newsletter for Swift Devs | Varies |
@@ -1223,6 +1225,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **May 2025 Baseline monthly digest** | [↗](https://web.dev/blog/baseline-digest-may-2025) | Read about various happenings with Baseline during May 2025. | Varies |
 | **May be a most informative digests about web development ever** | [↗](http://ipestov.com/) | This website is for sale! ipestov.com is your first and best source for information about ipestov. Here you will also find topics relating to issues of general interest. We hope you find what you are looking for! | Varies |
 | **Medium** | [↗](https://medium.com/@jowitaziobro) | No description available. | Varies |
+| **Mini "Shell" Gas Station with React: useState and JSON DB** | [↗](https://samirrhashimov.substack.com) | Small applications often seem insignificant. However, if these apps solve a real problem, are... | Varies |
 | **Mucahit Tutuncu** | [↗](https://medium.com/@mucahittutuncu) | Read writing from Mucahit Tutuncu on Medium. Frontend Engineer, Maker | Varies |
 | **Multiple environments with Angular and Docker** | [↗](https://vooban.com/en/send-english-newsletter-tips-articles-geek-stuff/multiple-environments-with-angular-and-docker/) | Multiple environments with Angular and Docker | Varies |
 | **N00B NEWS- a weekly newsletter with articles on learning web development** | [↗](https://www.getrevue.co/profile/n00b_news) | N00B NEWS- a weekly newsletter with articles on learning web development | Varies |
@@ -1372,6 +1375,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Alvin** | [↗](https://medium.com/alvin-ai) | Alvin provides a range of tools that help you cut cloud costs, reduce complexity, and produce the high quality data you need to power complex AI and analytics use cases. | Varies |
 | **Amanjain** | [↗](https://amanjain.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Andrey Kurenkov** | [↗](https://medium.com/@andreykurenkov) | Read writing from Andrey Kurenkov on Medium. An eclectic artistically inclined engineer who says things sometimes. www.andreykurenkov.com | Varies |
+| **Anthropic is cutting Claude Code's current weekly limits by 17%** | [↗](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/) | Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. | Varies |
 | **Anthropic’s Claude AI can digest an entire book like The Great Gatsby in seconds** | [↗](https://arstechnica.com/information-technology/2023/05/anthropics-claude-ai-can-now-digest-an-entire-book-like-the-great-gatsby-in-seconds/) | Anthropic’s Claude AI can digest an entire book like The Great Gatsby in seconds | Varies |
 | **API platform Violet.io got traction by focusing on user pain** | [↗](https://traction.substack.com) | Founders reveal secrets to their early traction | Varies |
 | **APIs with bounded contexts – design better APIs with domain-driven design** | [↗](https://microapis.substack.com) | An occasional newsletter with information, discussions, recommendations, and tips about writing software and building microservices, APIs, and distributed systems. | Varies |
@@ -1390,6 +1394,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Beyond text: AI model digests 80 hours of video to learn sign language** | [↗](https://newatlas.com/technology/sign-to-text-ai-improves-accessibility-deaf/) | For deaf and hard-of-hearing people, voice recognition technology like Alexa and Siri can be a barrier to effective communication. Researchers have used AI to develop a tool that converts sign language to text, potentially increasing inclusivity and accessibility for the deaf community. | Varies |
 | **Bill's Substack** | [↗](https://bill17.substack.com) | My personal Substack | Varies |
 | **Bitecode** | [↗](https://bitecode.substack.com) | Nobody has time for Python | Varies |
+| **Bitu79** | [↗](https://bitu79.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Blend your data world** | [↗](https://medium.com/blend-your-data) | Blendo helps companies get their data from anywhere into their data warehouse and reduces the time of building full data pipelines in minutes instead of months. https://www.blendo.co | Varies |
 | **Braddelong** | [↗](https://braddelong.substack.com) | Working, making, apportioning, talking, taking, & more. What I know and can learn about it & related things. | Varies |
 | **Bruceeckel** | [↗](https://bruceeckel.substack.com) | Essays in search of a book. | Varies |
@@ -1678,6 +1683,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Transmission** | [↗](https://medium.com/transmission-newsletter) | Transmission is a newsletter about self-driving cars and deep learning | Varies |
 | **True Positive Weekly** | [↗](https://aiweekly.substack.com) | The most important artificial intelligence and machine learning links of the week. | Varies |
 | **tZero19e's Logs** | [↗](https://buttondown.email/tZero19e) | What I am thinking about — which I may also tweet — almost in real-time. Email is more permanent (literally permanent private archiving), and — like HTML — is contiguous and has decent indexing, unlike Twitter. Recommended Texts. | Varies |
+| **Uber Burned Its Entire 2026 AI Budget by April. Is Your Turn Coming?** | [↗](https://tlcmentor.substack.com) | Uber Burned Its Entire 2026 AI Budget by April. Is Your Turn Coming? Tokens are the new... | Varies |
 | **Ukandu** | [↗](https://ukandu.substack.com) | All my coding activities in words. | Varies |
 | **Unwindai** | [↗](https://unwindai.substack.com) | Latest AI developments and AI tools, delivered to your inbox. | Varies |
 | **User Friendly** | [↗](https://www.vox.com) | User Friendly is a weekly dispatch meant to make tech work for you, instead of letting it overwhelm you. Adam Clark Estes takes questions and issues readers often face in their digital lives, from privacy to productivity, device annoyance to how-to tips, and turns them into clear, actionable explainers. Every edition tries to answer "how can this tech serve me" rather than "what is this tech." | Weekly |
