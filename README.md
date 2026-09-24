@@ -53,6 +53,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Advanced Prompt Engineering Techniques** | [↗](https://rahulvijayvergiya.hashnode.dev) | Why Do We Need Advanced Prompting? Imagine you hire a new assistant. If you simply... | Varies |
 | **Agentic Coding with Discipline and Skill** | [↗](https://agenticcoding.substack.com) | Bring the practice of agentic coding to the next level so it's production-ready. | Varies |
 | **Agents, harnessed** | [↗](https://codagent.beehiiv.com) | Newsletter about coding agent harnesses and harness engineering. | Varies |
+| **An iOS keyboard extension cannot learn the host app's bundle ID. The containing app can.** | [↗](https://allrebuilt.substack.com) | I spent six and a half hours last night looking for a value in the wrong process. Here is the map, so... | Varies |
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+%22Android+Authority+Weekly%22+newsletter) | Android news, reviews, articles, and more! | Varies |
 | **Android Authority Weekly** | [↗](https://duckduckgo.com/?q=!ducky+"Android+Authority+Weekly"+newsletter) | Android news, reviews, articles, and more! | Varies |
 | **Better Engineers** | [↗](https://betterengineers.substack.com) | A Programmer's Journey of Perfections <br>Follow <br>LinkedIn: https://www.linkedin.com/in/devd04/<br>X : https://x.com/BetterEngineer1 | Varies |
@@ -508,6 +509,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Benjamin Cane** | [↗](https://medium.com/@madflojo) | Read writing from Benjamin Cane on Medium. Builder of payments systems & open-source contributor. Writing mostly micro-posts on Medium. Follow on LinkedIn: https://www.linkedin.com/in/bencane | Varies |
 | **Benjamin Cane** | [↗](https://madflojo.medium.com) | Read writing from Benjamin Cane on Medium. Builder of payments systems & open-source contributor. Writing mostly micro-posts on Medium. Follow on LinkedIn: https://www.linkedin.com/in/bencane | Varies |
 | **Bite Python: Weekly Python Newsletter** | [↗](http://newsletter.pythontips.com/) | A weekly newsletter about everything Python | Varies |
+| **Building a Pons v2 Sniper Bot on Robinhood Chain with TypeScript** | [↗](https://hamssog.substack.com) | A Pons sniper bot should not be reduced to: new launch → buy Enter fullscreen mode ... | Varies |
 | **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+%22Bytes%22+newsletter) | The funniest JavaScript newsletter on the web | Varies |
 | **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+"Bytes"+newsletter) | The funniest JavaScript newsletter on the web | Varies |
 | **C++ - Why does this call the default constructor? - Stack Overflow** | [↗](http://stackoverflow.com/questions/11691021/why-does-this-call-the-default-constructor?newsletter=1&nlcode=91287|aea8) | C++ - Why does this call the default constructor? - Stack Overflow | Varies |
@@ -1553,6 +1555,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **NYU Data Science newsletter sign-up** | [↗](https://docs.google.com/forms/d/e/1FAIpQLSeSQZ6IjbQEWdBpglaXiKVVEGodsTrwjGmYBrHSNpGk-vJ_8A/viewform) | Newsletter archive: https://academicdatascience.org/resources/newsletter Please do not use yahoo.com domains. We've had a lot of fake sign-ups with yahoo accounts. | Varies |
 | **OpenAI says ChatGPT's weekly users have grown to 200M** | [↗](https://www.reuters.com/technology/artificial-intelligence/openai-says-chatgpts-weekly-users-have-grown-200-million-2024-08-29/) | OpenAI says ChatGPT's weekly users have grown to 200M | Varies |
 | **OpenAI's weekly active users surpass 400M** | [↗](https://www.reuters.com/technology/artificial-intelligence/openais-weekly-active-users-surpass-400-million-2025-02-20/) | OpenAI's weekly active users surpass 400M | Varies |
+| **Opus 5.5 ปะทะ GPT-6 Sol โมเดล AI วันเดียวกัน ใครชนะจากข้อมูลจริง** | [↗](https://handyai.substack.com) | Opus 5.5 ปะทะ GPT-6 Sol โมเดล AI วันเดียวกัน ใครชนะจากข้อมูลจริง โดย Nokka (นก-กา) \| 23... | Varies |
 | **Overnight** | [↗](https://overnightai.substack.com) | AI and China. | Varies |
 | **Paper Digest – AI summarizes academic articles for you** | [↗](https://www.paper-digest.com/) | Paper Digest – AI summarizes academic articles for you | Varies |
 | **Patterns.dev – AI Weekly** | [↗](https://www.patterns.dev/ai/weekly) | A weekly intelligence briefing on AI coding tools, developer experience, and the evolving landscape of software engineering. | Varies |
