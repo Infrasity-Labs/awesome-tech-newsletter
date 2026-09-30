@@ -89,6 +89,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **How coding agents like Cursor quietly cut input costs by reusing KV states across turns — and what actually breaks the cache** | [↗](https://susheemk.substack.com) | Why my Cursor bill looked weird I was poking around my usage dashboard in Cursor and... | Varies |
 | **How Redis Caching Actually Works (Explained Like You're 5, But for Developers)** | [↗](https://code-by-vignesh.hashnode.dev) | When I started learning Redis, I had one big question: "If thousands of people are using the same app... | Varies |
 | **How to Build Resilient Industrial Data Pipelines** | [↗](https://iotforall.hashnode.dev) | Industrial data pipelines rarely operate under perfect conditions. Factories lose network... | Varies |
+| **How to Draw a Circle in Minecraft Blocks: the Math Behind a Pixel Circle Generator** | [↗](https://pixelcircles.hashnode.dev) | A circle in Minecraft is a grid problem: every block is either placed or not. We build PixelCircles,... | Varies |
 | **How We Built the Real-Time Sync Layer for Team App Building** | [↗](https://fami-blog.hashnode.dev) | A Socket.IO server beside Next.js, a two-stage auth handshake, and the tabId envelope that stops a client applying its own echoes. | Varies |
 | **I Asked the Same Question to 7 Local LLMs — Speed and Intelligence Didn't Line Up: DGX Spark Benchmarks** | [↗](https://veritastracto194617.substack.com) | Originally published on my Substack. I'm a Microsoft MVP based in Japan, writing in English about the... | Varies |
 | **I Audited My Trading Bot Using a Brier Score. It Had No Skill.** | [↗](https://stfarm.substack.com) | I Audited My Trading Bot Using a Brier Score. It Had No Skill. I ran a weather trading bot... | Varies |
@@ -121,6 +122,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
 | **On Coding** | [↗](https://medium.com/on-coding) | Thoughts about writing code | Varies |
 | **Open Source Watch** | [↗](https://opensourcewatch.beehiiv.com) | What's what with open-source news. | Varies |
+| **Our reply matching ignored what the customer actually wrote. Jev fixed it for $0.00027.** | [↗](https://chatrail.hashnode.dev) | I haven't written about how ChatRail gets built before. This is the first one, and it starts with a... | Varies |
 | **Parallel connections made my speed test 2x slower** | [↗](https://buildingutilorax.hashnode.dev) | I built a speed test last week. It told me my download was 8.2 Mbps. Speedtest.net, on the same line,... | Varies |
 | **Perceived Latency: The Invisible KPI Killing Voice Experiences** | [↗](https://scenaro.substack.com) | Perceived Latency: The Invisible KPI Killing Voice Experiences Your teams track... | Varies |
 | **Pointer** | [↗](https://www.pointer.io/) | A reading club for software developers focusing on engineering leadership and best practices. | Bi-weekly |
@@ -243,6 +245,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **DB Weekly** | [↗](https://dbweekly.com/) | A weekly round-up of database technology news and articles covering new developments. | Weekly |
 | **Defensive Tool API Design: Building Interfaces AI Agents Can’t Abuse** | [↗](https://deeper-in-tech.hashnode.dev) | As a freelance technical consultant, I get brought into client codebases when things start blowing... | Varies |
 | **DevScoop-Ruby: a concise and refined Ruby and Ruby on Rails newsletter** | [↗](http://ruby.devscoop.fr/) | DevScoop-Ruby: a concise and refined Ruby and Ruby on Rails newsletter | Varies |
+| **Django ORM & PostgreSQL Indexing: Benchmarking B-Tree, Composite, and GIN Indexes** | [↗](https://elijahilnero.hashnode.dev) | A deep dive comparing execution plans and performance benchmarks on 100k rows using Django 6.1 and PostgreSQL 18. | Varies |
 | **Djangoweek.ly - a weekly Django newsletter** | [↗](http://djangoweek.ly) | Djangoweek.ly - a weekly Django newsletter | Varies |
 | **DN Tech** | [↗](https://medium.com/@wdn0612) | Read writing from DN Tech on Medium. Backend Software Engineer who shares about my daily work bits | Varies |
 | **Engineering At Scale** | [↗](https://engineeringatscale.substack.com) | Weekly column simplifying databases, system design, architecture, and engineering careers with easy explanations, valuable insights, and expert advice. | Varies |
@@ -499,6 +502,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **404trends** | [↗](https://404trends.beehiiv.com) | Weekly dose of the hottest trends backed by data and actionable insights. Join the 404trends community of impatient entrepreneurs, game changers, indie hackers and everyone who thinks of "Page Not Found" as a challenge | Varies |
 | **40th Issue of PHP Weekly** | [↗](http://phpweekly.com/archive/2014-01-23.html) | Archive. January 23, 2014. PHP Weekly is a free mailer sent out each week with PHP News, events, articles, links and more. | Varies |
 | **A curated list of iOS/swift newsletters** | [↗](https://meetnucleus.com/topics/ios-newsletters-a1eeb8858b805d8584b358beab34bc32) | Short term financing makes it possible to acquire highly sought-after domains without the strain of upfront costs. Find your domain name today. | Varies |
+| **A First Look at Reactive Cocoa 3.0** | [↗](http://blog.scottlogic.com/2015/04/24/first-look-reactive-cocoa-3.html?utm_campaign=iOS_Dev_Weekly_Issue_195&utm_medium=email&utm_source=iOS%2BDev%2BWeekly) | This blog post takes a look at the new ReactiveCocoa 3.0 swift interface, which introduces generics, a pipe-forward operator and an interesting use of curried functions. | Varies |
 | **Aaron 0928** | [↗](https://medium.com/@Aaron0928) | Read writing from Aaron 0928 on Medium. A software engineer who has been working for 8 years, worked for google, facebook, and likes to study all kinds of technology. | Varies |
 | **Abinash** | [↗](https://nocoffeecraft.substack.com) | Building for people. | Varies |
 | **Adam Jacob** | [↗](https://medium.com/@adamhjk) | Read writing from Adam Jacob on Medium. Former CTO at Chef, Open Source nerd, Sustainable Free and Open Source Communities advocate. | Varies |
@@ -685,6 +689,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Stephan D.** | [↗](https://medium.com/@Extrawurst) | Read writing from Stephan D. on Medium. Founder of gameroasters and @liveask1 , #indie #gamedev, #rust enthusiast, worked previously at @innogames , @ubisoft | Varies |
 | **Stratum Security Blog** | [↗](https://stratumsecurity.ghost.io) | AppSec, Research, Sarcasm, NetSec | Varies |
 | **Stratum Security Blog** | [↗](http://stratumsecurity.ghost.io) | AppSec, Research, Sarcasm, NetSec | Varies |
+| **Streaming Large File Uploads in Java Without Killing Your Server** | [↗](https://denis111.hashnode.dev) | Introduction You've seen the tutorial. A @PostMapping endpoint, a MultipartFile parameter,... | Varies |
 | **Swift Dev Weekly – the best weekly Swift development links** | [↗](http://swiftdev.tips) | Swift Dev Weekly – the best weekly Swift development links | Varies |
 | **Swift Developer Newsletter – Issue #13** | [↗](http://swiftsandbox.io/issues/13/#start) | Swift Developer Newsletter – Issue #13 | Varies |
 | **Swift Development Newsletter** | [↗](http://swiftdevblogs.com/) | Swift Development Newsletter | Varies |
