@@ -1799,6 +1799,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **When should software engineers start retraining for other jobs?** | [↗](https://ealpha.substack.com) | How I apply professional engineering methodologies to trading and investing. | Varies |
 | **Who Ate My Cookies? “Do Not Track” Legislation Will Hit Mid-Market Hardest** | [↗](http://www.adotas.com/2012/06/who-ate-my-cookies-do-not-track-legislation-will-hit-mid-market-hardest/) | Who Ate My Cookies? “Do Not Track” Legislation Will Hit Mid-Market Hardest | Varies |
 | **Why AI Agents Shouldn’t Calculate Bazi Charts From Memory** | [↗](https://openfate.hashnode.dev) | A calculation-first MCP server for Four Pillars, True Solar Time, and auditable chart data Large... | Varies |
+| **Why Continuous Batching Made My LLM Inference Engine Slower** | [↗](https://pujun-ml-sys-blogs.hashnode.dev) | I had been adding optimizations to mini-vllm-rs, my Rust LLM inference engine for macOS, including... | Varies |
 | **Www** | [↗](https://www.lennysnewsletter.com) | No description available. | Varies |
 | **XAI News – New Artificial Intelligence Newsletter** | [↗](https://xai.news) | XAI News – New Artificial Intelligence Newsletter | Varies |
 | **Your AI visibility number is lying to you** | [↗](https://dariadovzhikova.substack.com) | I ran 1,790 measurements across five AI engines — for my own company and for a devtools category with... | Varies |
