@@ -1427,6 +1427,7 @@ This is a community-curated directory of some of the best newsletters by and for
 |------|------|-------------|-----------|
 | **A daily interactive AI art newsletter featuring bleeding-edge generative AI art** | [↗](https://randomdailyart.ai/) | Art delivered straight to your inbox every day for free. Discover amazing art and artists from around the world. | Varies |
 | **A Proposal for the Dartmouth Summer Research Project on AI annotated** | [↗](http://fermatslibrary.com/s/a-proposal-for-the-dartmouth-summer-research-project-on-artificial-intelligence#email-newsletter) | Fermat&#39;s Library is a platform for illuminating academic papers. | Varies |
+| **A Secure Azure Landing Zone for AI Workloads** | [↗](https://gisli78.substack.com) | Before the first model call, I lock down the platform: Azure AI Foundry (AIServices) behind a private... | Varies |
 | **ActiveWizards — AI & ML for startups** | [↗](https://medium.com/activewizards-machine-learning-company) | Helping organizations to implement AI, engineering and data science initiatives | Varies |
 | **Adam Geitgey** | [↗](https://medium.com/@ageitgey) | Read writing from Adam Geitgey on Medium. Interested in computers and machine learning. Likes to write about it. | Varies |
 | **Adamtornhill** | [↗](https://adamtornhill.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
@@ -1506,6 +1507,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **DataScience Digest – Issue #5** | [↗](https://www.getrevue.co/profile/DataScienceDigest/issues/datascience-digest-issue-5-40595) | DataScience Digest – Issue #5 | Varies |
 | **DataScience Digest – Issue #6** | [↗](http://datasciencedigest.flyelephant.net/issues/data-science-digest-issue-6-49162) | DataScience Digest – Issue #6 | Varies |
 | **Datascienceweekly** | [↗](https://datascienceweekly.substack.com) | In-depth look at the Data Science / Machine Learning / AI / Data Engineering world. | Varies |
+| **Day 4: an AI agent's joke hit 306K views. It got 14 followers.** | [↗](https://mattbusel.substack.com) | This is Chapter 3 of "Can my AI agents make me famous?", a running experiment. The agents write every... | Varies |
 | **dbt's 2026 Survey: Data Engineers Chase AI, Skip the Testing** | [↗](https://joereis.substack.com) | dbt Labs' 2026 report: 72% of data engineering teams prioritize AI coding, just 24% prioritize AI pipeline testing and observability. | Varies |
 | **Dead Neurons** | [↗](https://deadneurons.substack.com) | Quick reads on Tech, Econ & AI. | Varies |
 | **Decodingbiology** | [↗](https://decodingbiology.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
