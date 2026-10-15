@@ -45,9 +45,11 @@ This is a community-curated directory of some of the best newsletters by and for
 | **'World Models' Will Be the Next Buzzword. The Man Saying That Just Raised $1B to Build One** | [↗](https://aiguide.substack.com) | In March, the CEO of a research lab with zero products closed a $1.03 billion seed round — the... | Varies |
 | **29 pack-size changes in a week: what a shrinkflation scan of 71,000 UK grocery products found** | [↗](https://yappman.substack.com) | Shrinkflation is easy to suspect and hard to prove: a pack gets smaller, the price stays put, and the... | Varies |
 | **5 Essential Substack Newsletters for Every Developer to Subscribe To 💌** | [↗](https://careercutler.substack.com) | I love reading newsletters. But let's be honest, many are just a waste of time. If you want to... | Varies |
+| **6 Routes for Adding a Video Editing SDK to an iOS App and Where Each Breaks** | [↗](https://helen-fedulova.hashnode.dev) | A video editing SDK for iOS is a packaged framework that hands your app a timeline, effects and... | Varies |
 | **98.7% better on seasonal, 9.8% worse on a random walk: the most useful benchmark I ran** | [↗](https://openred.hashnode.dev) | Before pointing Google's TimesFM 3.0 at anything real, I ran a calibration baseline. Two synthetic... | Varies |
 | **A 7M-Param Model Just Beat GPT on ARC. Now What?** | [↗](https://interestingengineering.substack.com) | Samsung's tiny recursive model outscored frontier LLMs on ARC-AGI while GitHub's minimind hit 57k stars. What this means for builders. | Varies |
 | **A Case for Monolith** | [↗](https://charlesfonseca.substack.com) | I write because I can't stop. Systems, Programming, Database, Cloud. | Varies |
+| **A Go test that passed 40,000 times, then lost a write under load** | [↗](https://hmdsefi.hashnode.dev) | Say a client writes a value and gets a success back. Later, the value is gone. It happens once in... | Varies |
 | **A Queue Is a Promise About the Future** | [↗](https://rodrigovidal.substack.com) | Accepting work is easy. Finishing it on time is the promise. An application does not have to finish... | Varies |
 | **A Reader's Guide to My Books: Which One to Pick Up, Depending on What You're Building** | [↗](https://amdatalakehouse.substack.com) | The question I get most often after talks, after podcast episodes, and in newsletter replies is a... | Varies |
 | **A user couldn't read my app. He was right.** | [↗](https://wafflehacker.substack.com) | A little while back somebody wrote in about AntiFreeze via the Signal support channel: Hi! Thanks... | Varies |
@@ -497,6 +499,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Tech Architect Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22Tech+Architect+Insights%22+newsletter) | From developer to architect, practical system design. | Varies |
 | **Tech Architect Insights** | [↗](https://duckduckgo.com/?q=!ducky+"Tech+Architect+Insights"+newsletter) | From developer to architect, practical system design. | Varies |
 | **The 6-Month Preparation Blueprint for L5–L7 Engineering Roles** | [↗](https://the-tech-builder-772f0d.beehiiv.com) | A structured roadmap covering DSA invariants, Low-Level Design (LLD), and High-Level System Design (HLD) for Senior, Staff, and Principal roles. | Varies |
+| **The Architecture Decision I'd Reverse Today** | [↗](https://thebackendtechlead.substack.com) | Boundaries Before Networks The slide was titled "Target Architecture." Five boxes. Five... | Varies |
 | **The Challenges of Distributed Systems** | [↗](https://newsletter.francofernando.com/p/the-challenges-of-distributed-systems) | What every engineer should know when working with distributed systems. | Varies |
 | **The Fallacies of Distributed Systems** | [↗](https://newsletter.francofernando.com/p/the-fallacies-of-distributed-systems) | Eight distributed systems fallacies that are underrated during system design. | Varies |
 | **Throw, Result, or Neither?** | [↗](https://www.architecture-weekly.com/p/throw-result-or-neither) | There is one question I keep getting about my event-sourced code: why don’t I use Result? | Varies |
@@ -1426,6 +1429,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
 | **A daily interactive AI art newsletter featuring bleeding-edge generative AI art** | [↗](https://randomdailyart.ai/) | Art delivered straight to your inbox every day for free. Discover amazing art and artists from around the world. | Varies |
+| **A one-page evidence log for AI agents (free template)** | [↗](https://shipai.hashnode.dev) | When an agent does something it shouldn't, somebody eventually asks one question: what safeguards did... | Varies |
 | **A Proposal for the Dartmouth Summer Research Project on AI annotated** | [↗](http://fermatslibrary.com/s/a-proposal-for-the-dartmouth-summer-research-project-on-artificial-intelligence#email-newsletter) | Fermat&#39;s Library is a platform for illuminating academic papers. | Varies |
 | **A Secure Azure Landing Zone for AI Workloads** | [↗](https://gisli78.substack.com) | Before the first model call, I lock down the platform: Azure AI Foundry (AIServices) behind a private... | Varies |
 | **ActiveWizards — AI & ML for startups** | [↗](https://medium.com/activewizards-machine-learning-company) | Helping organizations to implement AI, engineering and data science initiatives | Varies |
@@ -1558,6 +1562,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Hasen** | [↗](https://hasen.substack.com) | Computer and Web Programming | Varies |
 | **He Says He Co-Invented ChatGPT. His New AI, Jev, Won't Write a Word** | [↗](https://anthonymaio.substack.com) | Jev answers with typed decisions and probabilities, never text. The TypeScript API, and the catch hiding inside 'zero hallucinations'. | Varies |
 | **HN AI Newsletter** | [↗](https://hn-ai-newsletter.beehiiv.com) | Stay informed with a weekly AI-curated digest of the most popular AI related stories from Hacker News | Varies |
+| **How Cursor Got Thousands of AI Agents to Build One Browser** | [↗](https://ragmehta.substack.com) | Locks failed, one boss agent burned out, and a tree of planners won. Here's what Cursor's multi-agent... | Varies |
 | **How I recovered my newsletter subscriptions** | [↗](https://support.substack.com) | How many Substack accounts do you have? Or rather, how many email addresses do you have? This is... | Varies |
 | **How super AI could end the age of humans** | [↗](http://www.theguardian.com/science/audio/2014/aug/04/science-weekly-podcast-nick-bostrom-ai-artificial-intelligence) | Nick Bostrom on why the creation of a superintelligent computer might be the last invention mankind ever makes | Varies |
 | **How to AI** | [↗](https://ruben.substack.com) | How to AI is a tech newsletter from Ruben Hassid covering artificial intelligence, AI, product strategy, policy for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Ad-hoc |
@@ -1602,6 +1607,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Learn from Zero to AlphaGo with weekly AI-building contests** | [↗](https://delta-academy.xyz/courses/intermediate-rl) | Learn from Zero to AlphaGo with weekly AI-building contests | Varies |
 | **Learning Machine is now Hyland Credentials** | [↗](https://medium.com/learning-machine-blog) | Issue verifiable digital records. #blockchain | Varies |
 | **Leerob** | [↗](https://leerob.substack.com) | I write about things in tech and web development that make me optimistic for the future. | Varies |
+| **Let the model explain, let the code count: a local LLM helper for Swiss administrative letters** | [↗](https://damianobianda.hashnode.dev) | In Switzerland, a letter from a public office can start a clock. A Zahlungsbefehl (payment order)... | Varies |
 | **Life Designed** | [↗](https://duckduckgo.com/?q=!ducky+%22Life+Designed%22+newsletter) | Resources and notes on lifestyle design, future of work, and creative fulfillment. | Varies |
 | **Machine Learning for Humans** | [↗](https://medium.com/machine-learning-for-humans) | Demystifying artificial intelligence & machine learning. Discussions on safe and intentional application of AI for positive social impact. | Varies |
 | **Machine learning newsletters** | [↗](http://machinelearningmastery.com/machine-learning-newsletters/) | In this post you will learn how subscribing to machine learning newsletters can save you time and keep you up-to-date. | Varies |
