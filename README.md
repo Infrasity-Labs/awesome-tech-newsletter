@@ -140,9 +140,12 @@ This is a community-curated directory of some of the best newsletters by and for
 | **No Kill Switch** | [↗](https://no-kill-switch.ghost.io) | There's no kill switch on awesome. The personal blog of Sebastian Gebski. | Varies |
 | **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
 | **On Coding** | [↗](https://medium.com/on-coding) | Thoughts about writing code | Varies |
+| **One Dev, Four Specialists: My Agent Team for OpenCode 🧑‍💻** | [↗](https://domenicotenace.substack.com) | Overview Hey everyone 👋 For a long time my OpenCode workflow was one agent, one giant... | Varies |
+| **One MCP server, five auth shapes: per-seat door credentials when a client can't send a header** | [↗](https://liminaljermo.substack.com) | Here's a problem I didn't expect to be the blocker. I had three model seats — ChatGPT, Gemini,... | Varies |
 | **Open Source Watch** | [↗](https://opensourcewatch.beehiiv.com) | What's what with open-source news. | Varies |
 | **Our reply matching ignored what the customer actually wrote. Jev fixed it for $0.00027.** | [↗](https://chatrail.hashnode.dev) | I haven't written about how ChatRail gets built before. This is the first one, and it starts with a... | Varies |
 | **Parallel connections made my speed test 2x slower** | [↗](https://buildingutilorax.hashnode.dev) | I built a speed test last week. It told me my download was 8.2 Mbps. Speedtest.net, on the same line,... | Varies |
+| **Parsing Property Owner Names in pandas: Individuals, Joint Owners, Trusts and LLCs** | [↗](https://locatenext.hashnode.dev) | Classify and split messy county owner name fields in pandas: LAST FIRST order, joint owners, ETAL, trustees, trusts and LLCs, with assert tests. | Varies |
 | **Perceived Latency: The Invisible KPI Killing Voice Experiences** | [↗](https://scenaro.substack.com) | Perceived Latency: The Invisible KPI Killing Voice Experiences Your teams track... | Varies |
 | **Placeholders are not labels — Web HIG tip #4** | [↗](https://thewebhig.hashnode.dev) | A placeholder looks like a label right up until the user starts typing. Then the only hint about what... | Varies |
 | **Plain Japanese in, ComfyUI workflow out** | [↗](https://plainaiphone.substack.com) | This week the Japanese timeline was less about new models and more about wiring them into tools people already use. | Varies |
@@ -1189,6 +1192,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Digesting Technical Content** | [↗](https://abyteofcoding.com/blog/digesting-technical-content/) | An article on how to learn and retain technical knowledge. | Varies |
 | **Making Your Writing Work Harder For You** | [↗](https://training.kalzumeus.com/newsletters/archive/content-marketing-strategy) | Using teaching -- via writing, speaking, and the like -- to sell more software. | Varies |
 | **Should you write blog posts or email newsletters?** | [↗](http://customer.io/blog/Blog-post-or-newsletter-content-marketing.html) | Stay ahead with the latest tips, best practices, updates, and expert insights to optimize your messaging strategy. | Varies |
+| **Show HN: Engineering.fyi – Search across tech engineering blogs in one place** | [↗](https://engineering.fyi/) | Show HN: Engineering.fyi – Search across tech engineering blogs in one place | Varies |
 | **Show HN: Summarize your Git commit history with ChatGPT** | [↗](https://www.npmjs.com/package/git-ai-summary) | Show HN: Summarize your Git commit history with ChatGPT | Varies |
 </details>
 
