@@ -2,6 +2,9 @@
 import random
 import json
 import os
+import requests
+import logging
+from bs4 import BeautifulSoup
 
 def get_random_user_agent():
     """Returns a random popular user agent string to avoid scraping blocks."""
@@ -37,3 +40,40 @@ def get_search_queries(append_newsletter=True):
                 queries.append((query, category))
     
     return queries
+
+def extract_metadata(url):
+    """
+    Fetches a web page and extracts the title and description metadata using Beautiful Soup
+    """
+    headers = {'User-Agent': get_random_user_agent()}
+    timeout = 10
+    
+    try:
+        response = requests.get(url, headers=headers, timeout=timeout)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # 1. Extract title
+        title_meta = soup.find('meta', property='og:title')
+        title = title_meta.get('content', '') if title_meta else ''
+        if not title:
+            title_tag = soup.find('title')
+            title = title_tag.text if title_tag else 'Unknown Title'
+    
+        # 2. Extract description
+        desc_meta = soup.find('meta', attrs={'property': 'og:description'})
+        if not desc_meta:
+            desc_meta = soup.find('meta', attrs={'name': 'description'})
+        description = desc_meta.get('content', 'No description available.') if desc_meta else 'No description available.'
+    
+        return {
+            'title': title.strip(),
+            'description': description.strip()
+        }
+
+    except Exception:
+        return {
+            'title': 'Unknown Title',
+            'description': 'No description available.'
+        }

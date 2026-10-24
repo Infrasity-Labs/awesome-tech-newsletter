@@ -4,13 +4,13 @@ import os
 import sys
 import requests
 import logging
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup (shouldn't need it now)
 from urllib.parse import urlparse
 #Same Here
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, extract_metadata
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, extract_metadata
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -18,30 +18,9 @@ logger = logging.getLogger(__name__)
 
 def fetch_medium_data(url):
     try:
-        headers = {
-            'User-Agent': get_random_user_agent(),
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.5',
-            'Connection': 'keep-alive',
-            'Upgrade-Insecure-Requests': '1'
-        }
-        response = requests.get(url, headers=headers, timeout=15)
-        response.raise_for_status()
-        
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        title_meta = soup.find('meta', property='og:title')
-        title = title_meta.get('content', '') if title_meta else ''
-        if not title:
-            title_tag = soup.find('title')
-            title = title_tag.text if title_tag else 'Unknown Title'
-            
-        title = title.replace(" – Medium", "").replace(" - Medium", "").strip()
-
-        desc_meta = soup.find('meta', attrs={'property': 'og:description'})
-        if not desc_meta:
-            desc_meta = soup.find('meta', attrs={'name': 'description'})
-        description = desc_meta.get('content', 'No description available.') if desc_meta else 'No description available.'
+        meta = extract_metadata(url)
+        title = meta['title'].replace(" – Medium", "").replace(" - Medium", "").strip()
+        description = meta['description']
         
         parsed_url = urlparse(url)
         domain = parsed_url.netloc
