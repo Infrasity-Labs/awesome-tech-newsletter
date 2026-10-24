@@ -2,15 +2,14 @@
 
 import json
 import os
-import requests
 import logging
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 # In utils.py i have made a function that Fetches Random Chrome User Agent
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, request_with_retry
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, request_with_retry
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 logger = logging.getLogger(__name__)
@@ -23,7 +22,7 @@ def fetch_beehiiv_data(url):
         headers = {
             'User-Agent': get_random_user_agent()
         }
-        response = requests.get(base_url, headers=headers, timeout=10)
+        response = request_with_retry("GET", base_url, headers=headers, timeout=10)
         response.raise_for_status()
         
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -70,7 +69,7 @@ def discover_beehiiv():
         try:
             #I have also added here 
             headers = {'User-Agent': get_random_user_agent()}
-            r = requests.get(url, params=params, timeout=10,headers=headers)
+            r = request_with_retry("GET", url, params=params, timeout=10,headers=headers)
             if r.status_code == 200:
                 hits = r.json().get("hits", [])
                 for hit in hits:

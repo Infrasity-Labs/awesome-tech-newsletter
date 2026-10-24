@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 import json
 import os
-import requests
 import logging
 from urllib.parse import urlparse
 #Same Here
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, request_with_retry
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, request_with_retry
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -57,7 +56,7 @@ def discover_producthunt():
     discovered = []
     
     try:
-        r = requests.post(url, headers=headers, json={'query': query}, timeout=10)
+        r = request_with_retry("POST", url, headers=headers, json={'query': query}, timeout=10)
         if r.status_code == 200:
             data = r.json()
             posts = data.get('data', {}).get('posts', {}).get('edges', [])

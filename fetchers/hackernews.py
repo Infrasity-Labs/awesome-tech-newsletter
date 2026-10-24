@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 import json
 import os
-import requests
 import logging
 import concurrent.futures
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, request_with_retry
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, request_with_retry
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -29,7 +28,7 @@ def fetch_hn_metadata(url, fallback_title):
             'User-Agent': get_random_user_agent()
         }
         # Only timeout 5s to skip slow sites
-        response = requests.get(url, headers=headers, timeout=5)
+        response = request_with_retry("GET", url, headers=headers, timeout=5)
         response.raise_for_status()
         
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -54,7 +53,7 @@ def process_query(query_data):
     }
     try:
         headers_algolia = {'User-Agent': get_random_user_agent()}
-        r = requests.get(url, params=params, headers=headers_algolia, timeout=10)
+        r = request_with_retry("GET", url, params=params, headers=headers_algolia, timeout=10)
         if r.status_code == 200:
             hits = r.json().get("hits", [])
             for hit in hits:

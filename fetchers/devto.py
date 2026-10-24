@@ -2,14 +2,13 @@
 import json
 import os
 import re
-import requests
 import logging
 from urllib.parse import urlparse
 # Added for randomized headers
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, request_with_retry
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, request_with_retry
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -30,7 +29,7 @@ def discover_devto():
     for tag in tags:
         url = f"https://dev.to/api/articles?tag={tag}&per_page=30"
         try:
-            r = requests.get(url, headers=headers, timeout=10)
+            r = request_with_retry("GET", url, headers=headers, timeout=10)
             if r.status_code == 200:
                 articles = r.json()
                 
@@ -49,7 +48,7 @@ def discover_devto():
                             time.sleep(0.5)
                             # Using randomized headers here also
                             detail_headers={'User-Agent': get_random_user_agent()}
-                            detail_r = requests.get(f"https://dev.to/api/articles/{article_id}", headers=detail_headers, timeout=10)
+                            detail_r = request_with_retry("GET", f"https://dev.to/api/articles/{article_id}", headers=detail_headers, timeout=10)
                             if detail_r.status_code == 200:
                                 body = detail_r.json().get('body_markdown', '')
                                 matches = re.findall(newsletter_regex, body)

@@ -9,9 +9,9 @@ from urllib.parse import urlparse
 
 #Same Here Added random User Agent
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, request_with_retry
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, request_with_retry
 
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
@@ -32,7 +32,7 @@ def fetch_substack_data(url):
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1'
         }
-        response = requests.get(feed_url, headers=headers, timeout=10)
+        response = request_with_retry("GET", feed_url, headers=headers, timeout=10)
         response.raise_for_status()
         
         root = ET.fromstring(response.content)
@@ -85,7 +85,7 @@ def discover_substack():
         try:
             #Added Randomized user agent
             headers_algolia = {'User-Agent': get_random_user_agent()}
-            r = requests.get(url, headers=headers_algolia, timeout=10)
+            r = request_with_retry("GET", url, headers=headers_algolia, timeout=10)
             if r.status_code == 200:
                 hits = r.json().get("hits", [])
                 for hit in hits:

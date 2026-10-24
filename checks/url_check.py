@@ -6,6 +6,9 @@ import subprocess
 import requests
 import concurrent.futures
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from fetchers.utils import request_with_retry, RateLimitedError
+
 README_PATH = "README.md"
 
 def get_urls_to_check():
@@ -50,16 +53,19 @@ def check_url(item):
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
         # Use HEAD first for speed, fallback to GET if forbidden or method not allowed
         try:
-            r = requests.head(url, headers=headers, timeout=10, allow_redirects=True)
+            r = request_with_retry("HEAD", url, headers=headers, timeout=10, allow_redirects=True)
             if r.status_code >= 400:
-                r = requests.get(url, headers=headers, timeout=10)
+                r = request_with_retry("GET", url, headers=headers, timeout=10)
         except requests.RequestException:
-            r = requests.get(url, headers=headers, timeout=10)
-        
+            r = request_with_retry("GET", url, headers=headers, timeout=10)
+
         # 403, 401, 406, 429, and 50x are often returned by firewalls, rate limits, or temporary downtime. Allow them.
         if r.status_code >= 400 and not (r.status_code in [401, 403, 406, 429] or 500 <= r.status_code < 600):
             return (line_num, url, False, f"HTTP {r.status_code}")
         return (line_num, url, True, "OK")
+    except RateLimitedError:
+        # Retries exhausted but the server is still just rate-limiting us, not reporting the link as dead.
+        return (line_num, url, True, "Rate limited (Allowed)")
     except requests.exceptions.Timeout:
         # Don't delete on timeout, the site might just be slow
         return (line_num, url, True, "Timeout (Allowed)")

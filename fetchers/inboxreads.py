@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 import json
 import os
-import requests
 import logging
 #Added for Randomized headers
 try:
-    from fetchers.utils import get_random_user_agent, get_search_queries
+    from fetchers.utils import get_random_user_agent, get_search_queries, request_with_retry
 except ModuleNotFoundError:
-    from utils import get_random_user_agent, get_search_queries
+    from utils import get_random_user_agent, get_search_queries, request_with_retry
 JSON_PATH = f"newsletters_{os.path.basename(__file__)}.json"
 
 logger = logging.getLogger(__name__)
@@ -26,7 +25,7 @@ def discover_inboxreads():
     for slug, category in queries:
         url = f"https://api.inboxreads.co/topics/{slug}"
         try:
-            r = requests.get(url, headers=headers, timeout=15)
+            r = request_with_retry("GET", url, headers=headers, timeout=15)
             if r.status_code == 200:
                 data = r.json()
                 newsletters = data.get("newsletters", [])
