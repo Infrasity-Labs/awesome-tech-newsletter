@@ -84,6 +84,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Common Web Application Technologies** | [↗](https://zeroprotocolcyber.substack.com) | Introduction Modern web applications are rarely built with a single technology. A typical... | Varies |
 | **Computer Things** | [↗](https://buttondown.email/hillelwayne) | Hi, I'm Hillel. This is the newsletter version of my website. I post all website updates here. I also post weekly content just for the newsletter, on topics like Formal MethodsSoftware History and CultureFringetech and exotic toolingThe philosophy and theory of software engineering You can see the archive of all public essays here. | Varies |
 | **Convert STEP to GLB and enforce a 3D asset budget** | [↗](https://m1chlcz.hashnode.dev) | A CAD file is useful for manufacturing. A web page needs a mesh it can download and display. Between... | Varies |
+| **Copilot Fusion Is GA: 2 Points Behind Claude Code at Half the Cost, by GitHub's Count** | [↗](https://theaieconomy.substack.com) | HydraFusion left preview as Copilot Fusion on October 28, on every Copilot plan. You pick an effort level, it picks the models, and each model bills you. | Varies |
 | **creative coding space** | [↗](https://medium.com/creative-coding-space) | generating art from code // playgrd.com // instagram.com/playgrdstar/ | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+%22Creative+Mornings%22+newsletter) | Get inspired, no matter where you are. | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+"Creative+Mornings"+newsletter) | Get inspired, no matter where you are. | Varies |
@@ -150,6 +151,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Open Source Watch** | [↗](https://opensourcewatch.beehiiv.com) | What's what with open-source news. | Varies |
 | **Our reply matching ignored what the customer actually wrote. Jev fixed it for $0.00027.** | [↗](https://chatrail.hashnode.dev) | I haven't written about how ChatRail gets built before. This is the first one, and it starts with a... | Varies |
 | **Parallel connections made my speed test 2x slower** | [↗](https://buildingutilorax.hashnode.dev) | I built a speed test last week. It told me my download was 8.2 Mbps. Speedtest.net, on the same line,... | Varies |
+| **Parsing Indian bank-statement PDFs in the browser with PDF.js (no uploads)** | [↗](https://statementdock.hashnode.dev) | Bank statements are about the most sensitive documents a small business has: account numbers,... | Varies |
 | **Parsing Property Owner Names in pandas: Individuals, Joint Owners, Trusts and LLCs** | [↗](https://locatenext.hashnode.dev) | Classify and split messy county owner name fields in pandas: LAST FIRST order, joint owners, ETAL, trustees, trusts and LLCs, with assert tests. | Varies |
 | **Perceived Latency: The Invisible KPI Killing Voice Experiences** | [↗](https://scenaro.substack.com) | Perceived Latency: The Invisible KPI Killing Voice Experiences Your teams track... | Varies |
 | **Placeholders are not labels — Web HIG tip #4** | [↗](https://thewebhig.hashnode.dev) | A placeholder looks like a label right up until the user starts typing. Then the only hint about what... | Varies |
@@ -1330,6 +1332,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Learn JS, React, Angular, Vue – Weekly Newsletter** | [↗](http://www.weekendjs.com/) | Learn JS, React, Angular, Vue – Weekly Newsletter | Varies |
 | **Make Games, Drink Coffee – A weekly podcast about web development** | [↗](https://www.makegamesdrinkcoffee.com/) | Your weekly caffeine-spiked dose of game industry brew. Entertaining and insightful interviews with game developers about their jobs, hobbies, & inspirations. | Varies |
 | **Make Your Own AngularJS, Part 1: Scopes And Digest** | [↗](http://teropa.info/blog/2013/11/03/make-your-own-angular-part-1-scopes-and-digest.html) | Make Your Own AngularJS, Part 1: Scopes And Digest | Varies |
+| **Making a component library agent-ready: the ReUI MCP server** | [↗](https://faizalsukaimi.hashnode.dev) | Coding agents are good at writing React. They are bad at knowing your component library. Ask one to... | Varies |
 | **Manually selected, must-know news for web professional (weekly lists)** | [↗](http://www.webdesigndigest.com/) | Manually selected, must-know news for web professional (weekly lists) | Varies |
 | **Mark Smith’s Newsletter** | [↗](https://markjgsmith.substack.com) | Javascript, tech and web development links from around the web | Varies |
 | **May 2025 Baseline monthly digest** | [↗](https://web.dev/blog/baseline-digest-may-2025) | Read about various happenings with Baseline during May 2025. | Varies |
