@@ -211,6 +211,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The Personable Engineer** | [↗](https://fernandovillalba.substack.com) | This publication deals with all things that help developers and engineers to do a better job by designing systems, processes, culture and tools that are human friendly and increase flow state. | Varies |
 | **The Postgres job-claim query that silently claims the same job twice** | [↗](https://vishwam.hashnode.dev) | The Postgres job-claim query that silently claims the same job twice A common way to claim... | Varies |
 | **The Prompt Is Not a Spell — It's Structured Context Injection** | [↗](https://leo76868.substack.com) | "10 magic openings that boost GPT's IQ by 50." "Add this one sentence and your output quality jumps... | Varies |
+| **The Save Button That Did Nothing** | [↗](https://violetsoloveva.substack.com) | Have you ever clicked Save on a long form and watched absolutely nothing happen? No toast. No red... | Varies |
 | **The Schematic** | [↗](https://ryanspears.substack.com) | All things engineering, software, science, and business. | Varies |
 | **The Startup** | [↗](https://medium.com/swlh) | Get smarter at building your thing. Follow to join The Startup’s +8 million monthly readers & +772K followers. | Varies |
 | **The Tech Enabler** | [↗](https://thetechenabler.substack.com) | My personal Substack for my role as a tech enabler inside a large media company. I write about work, culture, and programming in general. My current series is all about tech trends and what I think teams should adopt or drop. | Varies |
@@ -1271,6 +1272,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Enterprise React Newsletter** | [↗](https://www.digitalprimates.net/enterprise-react/the-enterprise-react-newsletter/) | The Enterprise React newsletter collects the most important information and news in the React ecosystem and delivers it to you every 2 weeks. | Varies |
 | **Esa-Matti Suuronen** | [↗](https://medium.com/@esamatti) | Read writing from Esa-Matti Suuronen on Medium. I write code and jump from airplanes | Varies |
 | **Facebook, in Cross Hairs After Election, Is Said to Question Its Influence** | [↗](http://mobile.nytimes.com/2016/11/14/technology/facebook-is-said-to-question-its-influence-in-election.html?utm_campaign=digest&utm_medium=email&utm_source=app&referer=http://nuzzel.com/sharedstory/11122016/nytimes/facebook_is_said_to_question_its_influence_in_election) | Facebook, in Cross Hairs After Election, Is Said to Question Its Influence | Varies |
+| **Fighting Decision Fatigue: How ClimbStack was Born** | [↗](https://gizano.hashnode.dev) | TL;DR: What: A React Native Open Source productivity App. Tech: React Native, SQLite, Typescript,... | Varies |
 | **Front End Newsletter: Issue #1** | [↗](http://frontendnewsletter.com/issues/1#start) | The most entertaining (and informative) JavaScript newsletter. Delivered twice a week, for free. | Varies |
 | **Front End Newsletter: Issue #2** | [↗](http://frontendnewsletter.com/issues/2#start) | The most entertaining (and informative) JavaScript newsletter. Delivered twice a week, for free. | Varies |
 | **Front End Web Development Feeds and Newsletters** | [↗](https://leftalign.substack.com) | The world of Web Development is exciting and moves fast - particularly front end development in the... | Varies |
@@ -1370,9 +1372,11 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Show HN: CSSStunts.com – Weekly CSS hacks** | [↗](https://www.cssstunts.com) | Show HN: CSSStunts.com – Weekly CSS hacks | Varies |
 | **Show HN: I built an app that subscribed to all development newsletters** | [↗](https://web.getcultivateapp.com) | Show HN: I built an app that subscribed to all development newsletters | Varies |
 | **Show HN: I made a free F1 app to predict race results and beat your friends** | [↗](https://www.beturrace.com) | BERACE is the free F1 and MotoGP prediction app for friends: race picks, private teams, leaderboards, live stats and challenges. | Varies |
+| **Show HN: I replaced my morning GA4 tab explosion with one page** | [↗](https://plask.dev) | A private P&L for makers with several apps or sites: revenue from Stripe, RevenueCat or the app stores, GA4 traffic, ad spend and costs. Free for one product. | Varies |
 | **Show HN: I was tired of my mobile projects getting buried – so I built MobDrop** | [↗](https://mobdrop.club) | Showcase your mobile dev work, build in public, and get discovered by the dev community. | Varies |
 | **Show HN: KPI Crunch – instant insights into any competitive landscape** | [↗](https://kpicrunch.com) | Show HN: KPI Crunch – instant insights into any competitive landscape | Varies |
 | **Show HN: Mana Blade – 3D Mmorpg in React Three Fiber and WebGPU** | [↗](https://manablade.com) | Mana Blade is a free multiplayer role-playing game. Defend the world against demons that are stealing its mana! | Varies |
+| **Show HN: Web Digest – Collection of (daily) big stories on the web** | [↗](https://webdigest.pages.dev/) | Show HN: Web Digest – Collection of (daily) big stories on the web | Varies |
 | **Show HN: Web Tools Weekly – Newsletter for Front-End Devs, Focused on Tools** | [↗](http://webtoolsweekly.com/) | A weekly newsletter for front-end developers with a specific focus on tools. | Varies |
 | **Show HN: Weekly CSS Brain Teasers by email** | [↗](http://www.cssteasers.com/) | Show HN: Weekly CSS Brain Teasers by email | Varies |
 | **Show HN: Weekly Digest on JavaScript and Frontend Development** | [↗](http://esguy.com) | Show HN: Weekly Digest on JavaScript and Frontend Development | Varies |
@@ -1473,6 +1477,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
 | **A daily interactive AI art newsletter featuring bleeding-edge generative AI art** | [↗](https://randomdailyart.ai/) | Art delivered straight to your inbox every day for free. Discover amazing art and artists from around the world. | Varies |
+| **A memory limit shouldn't be an invitation** | [↗](https://nia1503032.substack.com) | A PHP flaw turns a sensible ceiling into an attacker's trigger. Any AI assistant offering to help with the settings needs to understand why. | Varies |
 | **A one-page evidence log for AI agents (free template)** | [↗](https://shipai.hashnode.dev) | When an agent does something it shouldn't, somebody eventually asks one question: what safeguards did... | Varies |
 | **A Proposal for the Dartmouth Summer Research Project on AI annotated** | [↗](http://fermatslibrary.com/s/a-proposal-for-the-dartmouth-summer-research-project-on-artificial-intelligence#email-newsletter) | Fermat&#39;s Library is a platform for illuminating academic papers. | Varies |
 | **A Secure Azure Landing Zone for AI Workloads** | [↗](https://gisli78.substack.com) | Before the first model call, I lock down the platform: Azure AI Foundry (AIServices) behind a private... | Varies |
@@ -1808,6 +1813,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **The Bill for Not Falling Behind: The Capital Half-Life of AI Hardware** | [↗](https://socialawy.substack.com) | Every quarter, Big Tech reports how much it spent on AI. It doesn't report how much of that bought back capacity it already had. What the filings show about server lifespans, financing and the replacement bill ahead. | Varies |
 | **The cheapest LLM call is the one you don't make: a caching layer that actually pays off** | [↗](https://majiafan.hashnode.dev) | The cheapest LLM call is the one you don't make: a caching layer that actually pays off In the last... | Varies |
 | **The code was the easy part** | [↗](https://maxriazantsev.substack.com) | I am a software engineer who has mostly worked on the web. With all of the AI boom and all of the... | Varies |
+| **The Coordination Backbone -Architecting Multi-Agent Orchestration** | [↗](https://sohit.substack.com) | By Sohit Kumar. Originally published at Prinevo.ai. Reliable multi-agent orchestration needs a... | Varies |
 | **The Daily DONUT** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Daily+DONUT%22+newsletter) | News that doesn’t suck. 🙃 | Varies |
 | **The Daily DONUT** | [↗](https://duckduckgo.com/?q=!ducky+"The+Daily+DONUT"+newsletter) | News that doesn’t suck. 🙃 | Varies |
 | **The Daily Navigator** | [↗](https://duckduckgo.com/?q=!ducky+%22The+Daily+Navigator%22+newsletter) | A five-minute trip through the news. | Varies |
