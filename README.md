@@ -79,6 +79,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Can a Mac Mini Handle 100 Million Rows?** | [↗](https://ruhika.hashnode.dev) | I made ClickHouse and Postgres Fight to Find Out 🥊 One Mac Mini. Two databases. 100 million rows of... | Varies |
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22CB+Insights%22+newsletter) | The easy way to stay ahead of all things tech | Varies |
 | **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+"CB+Insights"+newsletter) | The easy way to stay ahead of all things tech | Varies |
+| **Changing one number from 32 to 34 made a Postgres query 6,000 faster. Here's exactly why.** | [↗](https://depthfirst.hashnode.dev) | Who this is for: anyone who has seen a Postgres query that should be fast but isn't, and EXPLAIN... | Varies |
 | **ChatGPT serves 800 million users from one Postgres primary. Here's how 🐘** | [↗](https://mahmad.hashnode.dev) | The five fixes OpenAI used to scale PostgreSQL for ChatGPT, explained with an interactive diagram you can break. | Varies |
 | **CISA KEV catalog: a working sysadmin's guide to actually using it** | [↗](https://the-patch-window.beehiiv.com) | Most enterprise teams know the CISA Known Exploited Vulnerabilities catalog the same way they know... | Varies |
 | **Common Web Application Technologies** | [↗](https://zeroprotocolcyber.substack.com) | Introduction Modern web applications are rarely built with a single technology. A typical... | Varies |
@@ -223,6 +224,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **Thefridaydeploy** | [↗](https://thefridaydeploy.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **TheFutureParty** | [↗](https://duckduckgo.com/?q=!ducky+%22TheFutureParty%22+newsletter) | Modern take on business, culture, tech & more | Varies |
 | **TheFutureParty** | [↗](https://duckduckgo.com/?q=!ducky+"TheFutureParty"+newsletter) | Modern take on business, culture, tech & more | Varies |
+| **Three checks that look like they passed, but validated nothing** | [↗](https://mediaforge-studio.hashnode.dev) | A pg_dump killed mid-pipe leaves a file that exits 0, passes gzip -t, and passes pg_restore -l. Measured, with the one check that catches it. | Varies |
 | **TLDR** | [↗](https://duckduckgo.com/?q=!ducky+%22TLDR%22+newsletter) | Byte sized news for techie folks | Varies |
 | **TLDR** | [↗](https://duckduckgo.com/?q=!ducky+"TLDR"+newsletter) | Byte sized news for techie folks | Varies |
 | **TLDR** | [↗](https://tldr.tech/) | Bite-sized news for busy techies covering software engineering, tech, and science. | Daily |
@@ -267,6 +269,7 @@ This is a community-curated directory of some of the best newsletters by and for
 | **#weekly – Links about Dynamic Imports in Meteor 1.5 and GraphQL Subscriptions** | [↗](http://hashbangweekly.okgrow.com/2017/03/03/hashbang-weekly) | #weekly – Links about Dynamic Imports in Meteor 1.5 and GraphQL Subscriptions | Varies |
 | **'How to do great work' by Paul Graham mapped out** | [↗](https://substack.com) | A tech newsletter focused on api and software engineering. | Varies |
 | **5 SQL window-function traps that show up in data engineering interviews (with runnable DuckDB examples)** | [↗](https://itcraftsman.hashnode.dev) | Window functions are the most common SQL topic in data engineering interviews, and most candidates... | Varies |
+| **7 SQL checks I run before UAT sign-off (with queries you can copy)** | [↗](https://prachitparikh.substack.com) | The hour I trust least on any project is the one right before UAT sign-off. The testers have clicked... | Varies |
 | **[meteor-weekly] SQL Support, Giteor, New Pull Request Guideline and More** | [↗](http://meteorhacks.com/meteor-weekly-sql-support-giteor-pull-request-guidline.html) | [meteor-weekly] SQL Support, Giteor, New Pull Request Guideline and More | Varies |
 | **A Recipe for Auth Cookies in the Decoupled Front End and Back End Architecture** | [↗](https://nowaycodes.substack.com) | Code and life musings | Varies |
 | **Albert Wong** | [↗](https://medium.com/@atwong) | Read writing from Albert Wong on Medium. #eCommerce #Java #Database #k8s #Automation. Hobbies: #BoardGames #Comics #Skeet #VideoGames #Pinball #Magic #YelpElite #Travel #Candy | Varies |
