@@ -109,6 +109,12 @@ def aggregate():
         raw_category = nl.get("category") or "General Software Engineering"
         title = nl.get("title") or "Unknown Title"
         description = nl.get("description") or "No description available."
+
+        # Skip scraper junk: placeholder titles and blocked-page descriptions
+        if "undefined" in title.lower() or title.strip().lower() == "home" \
+                or "blocked by cloudflare" in description.lower():
+            logger.info("Skipping %s: Placeholder title or blocked page.", url)
+            continue
         
         # Sanitize newlines and extra spaces to prevent breaking Markdown tables
         clean_title = re.sub(r'\s+', ' ', title).strip().replace('|', '\\|')
