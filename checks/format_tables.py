@@ -3,64 +3,39 @@ import sys
 
 # import modules from the root directory
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-from readme_utils import table_sort_key
+from readme_utils import TABLE_HEADER, TABLE_RULE, category_files, is_row, table_sort_key
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-README_PATH = os.path.join(SCRIPT_DIR, "..", "README.md")
 
-def format_readme():
-    with open(README_PATH, "r", encoding="utf-8") as f:
+def format_file(path):
+    """Make sure a category file has the standard table header and sorted rows."""
+    with open(path, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
-    new_lines = []
-    in_category = False
-    
-    # 1. Enforce headers
+    before, rows, after = [], [], []
     for line in lines:
-        if line.startswith('## '):
-            in_category = True
-        if line.strip().startswith('|'):
-            if in_category:
-                if '| Name' not in line and '|------' not in line:
-                    new_lines.append('| Name | Link | Description | Frequency |\n')
-                    new_lines.append('|------|------|-------------|-----------|\n')
-                in_category = False
-        new_lines.append(line)
-        
-        # 2. Sort tables
-    final_lines = []
-    in_table = False
-    table_rows = []
-    header_rows = []
-    
-    def flush_table():
-        table_rows.sort(key=table_sort_key)
-        final_lines.extend(header_rows)
-        final_lines.extend(table_rows)
-    
-    for line in new_lines:
-        if line.strip().startswith('|'):
-            if not in_table:
-                in_table = True
-                table_rows = []
-                header_rows = [line]
-            elif len(header_rows) < 2:
-                header_rows.append(line)
-            else:
-                table_rows.append(line)
+        if is_row(line):
+            rows.append(line if line.endswith("\n") else line + "\n")
+        elif line.strip().startswith("| Name") or line.strip().startswith("|------"):
+            continue                                  # header and rule are re-added below
+        elif rows:
+            after.append(line)
         else:
-            if in_table:
-                flush_table()
-                in_table = False
-            final_lines.append(line)
-            
-    if in_table:
-        flush_table()
+            before.append(line)
 
-    with open(README_PATH, "w", encoding="utf-8") as f:
-        f.writelines(final_lines)
-    
-    print("Successfully formatted and sorted README tables.")
+    rows.sort(key=table_sort_key)
+    while before and not before[-1].strip():
+        before.pop()
+    out = before + ["\n", TABLE_HEADER, TABLE_RULE] + rows + after
+    with open(path, "w", encoding="utf-8") as f:
+        f.writelines(out)
+
+
+def format_readme():
+    files = category_files()
+    for path in files:
+        format_file(path)
+    print(f"Successfully formatted and sorted {len(files)} category tables in directory/.")
+
 
 if __name__ == "__main__":
     format_readme()

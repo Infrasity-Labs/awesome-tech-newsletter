@@ -35,21 +35,24 @@ jobs:
       - name: Auto-Fix Typos (Codespell)
         continue-on-error: true
         run: |
-          echo "Running codespell on README.md..."
-          codespell README.md --write-changes
+          echo "Running codespell on directory/..."
+          codespell directory --write-changes
 
       - name: Validate URLs and Auto-Remove Dead Links
         run: python checks/url_check.py
         
       - name: Format and Sort Tables
         run: python checks/format_tables.py
+
+      - name: Rebuild README and graphics
+        run: python build_readme.py
         
       - name: Commit and Push Changes (if any)
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          git add README.md
+          git add README.md directory .github/assets last_run.json
           
           if git diff --staged --quiet; then
             echo "No broken links or typos found. Nothing to commit."
