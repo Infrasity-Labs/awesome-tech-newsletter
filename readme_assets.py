@@ -107,8 +107,8 @@ def _write(name, text):
 def write_all(s):
     """Write every graphic. `s` comes from build_readme.collect_stats()."""
     scale = max((c["count"] for c in s["cats"]), default=1) or 1
-    _write("hero.svg", hero_banner.render("newsletters", "Awesome Tech Newsletters",
-           f"{s['total']:,} newsletters across {s['categories']} categories"))
+    _write("hero.svg", hero_banner.render("newsletters", ("Newsletters", "worth opening."),
+           f"{s['total']:,} newsletters across {s['categories']} categories", f"{s['total']:,} newsletters"))
     for theme, c in THEMES.items():
         _write(f"banner-{theme}.svg", banner(s, c))
         _write(f"platform-mix-{theme}.svg", platform_mix(s, c))
