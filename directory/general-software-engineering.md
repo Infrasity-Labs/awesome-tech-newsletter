@@ -6,6 +6,7 @@ Broad engineering newsletters: craft, careers, tools and industry news that cut 
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **devdigest** | [↗](https://devdigest.io/?ref=infrasity) | A daily tech news email from about 190 sources: each reader picks their own topics, and every story comes with a short "why it matters". | Daily |
 | **'World Models' Will Be the Next Buzzword. The Man Saying That Just Raised $1B to Build One** | [↗](https://aiguide.substack.com) | In March, the CEO of a research lab with zero products closed a $1.03 billion seed round — the... | Varies |
 | **29 pack-size changes in a week: what a shrinkflation scan of 71,000 UK grocery products found** | [↗](https://yappman.substack.com) | Shrinkflation is easy to suspect and hard to prove: a pack gets smaller, the price stays put, and the... | Varies |
 | **3AM Files: Merged Before Coffee** | [↗](https://honeykiran.substack.com) | Hypothetical Tuesday. None of this happened — which is exactly why it keeps happening. Nothing... | Varies |
