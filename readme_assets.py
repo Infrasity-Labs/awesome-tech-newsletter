@@ -7,6 +7,8 @@ fonts only, so the SVGs render identically inside GitHub's <img> sandbox.
 import os
 from xml.sax.saxutils import escape
 
+import hero_banner
+
 ASSET_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".github", "assets")
 REPO_SLUG = "infrasity-labs / awesome-tech-newsletter"
 
@@ -105,6 +107,8 @@ def _write(name, text):
 def write_all(s):
     """Write every graphic. `s` comes from build_readme.collect_stats()."""
     scale = max((c["count"] for c in s["cats"]), default=1) or 1
+    _write("hero.svg", hero_banner.render("newsletters", "Awesome Tech Newsletters",
+           f"{s['total']:,} newsletters across {s['categories']} categories"))
     for theme, c in THEMES.items():
         _write(f"banner-{theme}.svg", banner(s, c))
         _write(f"platform-mix-{theme}.svg", platform_mix(s, c))

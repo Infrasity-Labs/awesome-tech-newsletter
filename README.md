@@ -1,4 +1,8 @@
 <p align="center">
+  <img width="100%" alt="Infrasity: Awesome Tech Newsletters" src="./.github/assets/hero.svg">
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/banner-dark.svg">
     <img width="100%" alt="Tech Newsletters Directory: newsletters for software engineers, developer advocates and technology founders" src="./.github/assets/banner-light.svg">
