@@ -2,7 +2,7 @@
 
 Broad engineering newsletters: craft, careers, tools and industry news that cut across stacks.
 
-[← Back to the directory](../README.md) · **241 newsletters**
+[← Back to the directory](../README.md) · **245 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -22,6 +22,7 @@ Broad engineering newsletters: craft, careers, tools and industry news that cut 
 | **A nightly-build handoff checklist for Unreal teams split between India and Europe or the US** | [↗](https://juegostudiosofficial.substack.com) | When part of an Unreal Engine team sits in India and the rest sits in London, Austin or Toronto, the... | Varies |
 | **A Queue Is a Promise About the Future** | [↗](https://rodrigovidal.substack.com) | Accepting work is easy. Finishing it on time is the promise. An application does not have to finish... | Varies |
 | **A Reader's Guide to My Books: Which One to Pick Up, Depending on What You're Building** | [↗](https://amdatalakehouse.substack.com) | The question I get most often after talks, after podcast episodes, and in newsletter replies is a... | Varies |
+| **A Timer Is Not a Clock: What We Learned Building a Time Tracker for Windows, Mac and Linux** | [↗](https://timodesk.hashnode.dev) | Counting seconds sounds like the easiest program in the world. Start a timer, add one every second,... | Varies |
 | **A user couldn't read my app. He was right.** | [↗](https://wafflehacker.substack.com) | A little while back somebody wrote in about AntiFreeze via the Signal support channel: Hi! Thanks... | Varies |
 | **A/B testing: when the standard test is the wrong tool** | [↗](https://experimental.beehiiv.com) | The standard test answers one narrow question. When you're maximizing revenue instead of detecting a difference, or your users aren't independent, or there's only one of you to test on, that question is the wrong one. | Varies |
 | **Add long-term memory to a Mastra agent (input/output processors, per-user recall)** | [↗](https://memorysync.hashnode.dev) | Mastra's Memory keeps threads and message history. Here's how to add per-user facts that follow a user across threads, using Mastra's native processor pipeline, plus five memory tools. | Varies |
@@ -85,6 +86,7 @@ Broad engineering newsletters: craft, careers, tools and industry news that cut 
 | **How I'd check a fake shopper: the 5 levels in the UserArena paper** | [↗](https://kestrelfield.hashnode.dev) | A step by step way to test whether a simulated user acts like a real one, based on the UserArena benchmark of 64,729 real shopping sessions. | Varies |
 | **How Redis Caching Actually Works (Explained Like You're 5, But for Developers)** | [↗](https://code-by-vignesh.hashnode.dev) | When I started learning Redis, I had one big question: "If thousands of people are using the same app... | Varies |
 | **How to Build Resilient Industrial Data Pipelines** | [↗](https://iotforall.hashnode.dev) | Industrial data pipelines rarely operate under perfect conditions. Factories lose network... | Varies |
+| **How to Check Color Contrast for Accessibility (WCAG AA)** | [↗](https://mytoolstudio.hashnode.dev) | You pick a nice grey for body text, it looks fine on your monitor, and an audit later flags every... | Varies |
 | **How to Draw a Circle in Minecraft Blocks: the Math Behind a Pixel Circle Generator** | [↗](https://pixelcircles.hashnode.dev) | A circle in Minecraft is a grid problem: every block is either placed or not. We build PixelCircles,... | Varies |
 | **How to launch on Hacker News: a Show HN playbook for first-time founders** | [↗](https://startupwiki.substack.com) | Everyone talks about launching on Product Hunt. Almost nobody talks about Hacker News, and that's... | Varies |
 | **How We Built the Real-Time Sync Layer for Team App Building** | [↗](https://fami-blog.hashnode.dev) | A Socket.IO server beside Next.js, a two-stage auth handshake, and the tabId envelope that stops a client applying its own echoes. | Varies |
@@ -124,6 +126,7 @@ Broad engineering newsletters: craft, careers, tools and industry news that cut 
 | **Model Deletion Orders Require Training-Data Lineage** | [↗](https://krshah3.substack.com) | In May 2021, the FTC finalized its order against Everalbum, the company behind the Ever photo app.... | Varies |
 | **MVC in WordPress: The Pattern Everyone Learns, Few Truly Apply** | [↗](https://4wp.hashnode.dev) | Model · View · Controller mapped to real WordPress code: hooks, REST, CPTs, templates and Gutenberg blocks. | Varies |
 | **My Exact Cognizant GenC Interview Experience & Hiring Process (2025–2026)** | [↗](https://rajdivyanshu.hashnode.dev) | Well, if you are preparing for Cognizant On-Campus drive, chances are that you already know that it’s... | Varies |
+| **My model scored perfect and that was the problem** | [↗](https://davidmashiahletter.substack.com) | A perfect held-out score measured one thing: whether the model could repeat what it had seen. Of 30 cross-family tests, 20 fell below a crude baseline. | Varies |
 | **No "Home" link on Home pages** | [↗](https://devieffe.substack.com) | Ever since I read Jakob Nielsen’s Designing Web Usability, I’ve tried to mix usability with... | Varies |
 | **No Kill Switch** | [↗](https://no-kill-switch.ghost.io) | There's no kill switch on awesome. The personal blog of Sebastian Gebski. | Varies |
 | **Nobuteru’s Substack** | [↗](https://nobuteru.substack.com) | My personal Substack | Varies |
@@ -233,6 +236,7 @@ Broad engineering newsletters: craft, careers, tools and industry news that cut 
 | **When Falco Runs Out of Metadata** | [↗](https://whenitruns.substack.com) | user.uid, user.loginuid, and fd.name under absent metadata on Falco 0.44.1 — plus the reported 4294967295 and /<NA> forms (0.31.0–0.40.0) | Varies |
 | **When Kafka Hits 100% Disk and the Volume Won't Grow** | [↗](https://mriduliti.hashnode.dev) | The alert didn't come from consumer lag. It came from disk — two of three brokers on our production... | Varies |
 | **Where Does a Vision Model Keep Its Knowledge? A Developer's History of Computer Vision** | [↗](https://joshua-nwachinemere.hashnode.dev) | In 2001, Paul Viola and Michael Jones described a face detector that ran at 15 frames per second on... | Varies |
+| **Why browser PDF editors fake text editing (and why I kept PDFium read-only)** | [↗](https://oasispdf.hashnode.dev) | Most web PDF editors don't actually edit text. They just slap a white box over the page and put a new... | Varies |
 | **Why Does My Pod Take Exactly 30 Seconds to Die?** | [↗](https://controlplane-eng.hashnode.dev) | You run kubectl delete pod, and the pod sits in Terminating. You count. It disappears at almost... | Varies |
 | **Why exporting support tickets is a security risk and how to fix it local first** | [↗](https://anslem.hashnode.dev) | When a critical bug, billing dispute, or compliance issue happens, someone on the team inevitably... | Varies |
 | **Why HTTP/1.1 Eventually Became a Bottleneck** | [↗](https://aniksikder.hashnode.dev) | To understand HTTP/2 and HTTP/3, we first need to understand the problem they were designed to... | Varies |

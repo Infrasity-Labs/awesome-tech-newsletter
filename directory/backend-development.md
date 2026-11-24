@@ -2,7 +2,7 @@
 
 Servers, APIs and databases, and the languages and frameworks behind them.
 
-[← Back to the directory](../README.md) · **213 newsletters**
+[← Back to the directory](../README.md) · **214 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -208,6 +208,7 @@ Servers, APIs and databases, and the languages and frameworks behind them.
 | **Topicqueue** | [↗](https://topicqueue.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 | **Transaction Tracing for Node.js with Trace Sequences, Waterfalls, Flame Graph** | [↗](https://strongloop.com/strongblog/transaction-tracing-node-js-root-cause/?utm_source=StrongLoop+Newsletter&utm_campaign=4e53ae7437-June_2015_Newsletter4_6_2015&utm_medium=email&utm_term=0_5cdaff72d5-4e53ae7437-275228157) | Transaction Tracing for Node.js with Trace Sequences, Waterfalls, Flame Graph | Varies |
 | **Trying to start a new Golang Newsletter – check it out** | [↗](https://gocodecloud.com/GolangNewsFeed/) | Trying to start a new Golang Newsletter – check it out | Varies |
+| **Two Buyers, One Seat: Shipping a Reliable Python Ticketing Backend with FastAPI, PostgreSQL and Celery** | [↗](https://imsachinshah.hashnode.dev) | The problem: everyone clicks at the same moment Selling tickets looks like basic CRUD. A... | Varies |
 | **Use your filesystem as your database** | [↗](https://thekevinscott.substack.com) | If you’re like me, you generate a lot of markdown files with your agents. Maybe they’re things like... | Varies |
 | **Validando CPF dentro do PostgreSQL: função, CHECK constraint e domínio** | [↗](https://cpfhub.hashnode.dev) | Transparência: sou fundador da CPFHub, citada no final. O conteúdo é puramente SQL e não depende de... | Varies |
 | **Web server backend of known online portals (Updated weekly)** | [↗](http://blog.unixy.net/2010/09/web-server-backend-of-known-online-portals-updated-weekly/) | Web server backend of known online portals (Updated weekly) | Varies |

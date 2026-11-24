@@ -2,7 +2,7 @@
 
 Newsletters tied to a single programming language or ecosystem, such as Python, Rust, Go, Java or Swift.
 
-[← Back to the directory](../README.md) · **237 newsletters**
+[← Back to the directory](../README.md) · **238 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -219,6 +219,7 @@ Newsletters tied to a single programming language or ecosystem, such as Python, 
 | **Tacos and Security** | [↗](https://danielxblack.ghost.io) | Just a simple blog. | Varies |
 | **The busy Java developer's guide to Scala: Scala + Twitter = Scitter** | [↗](http://www.ibm.com/developerworks/java/library/j-scala05059.html?S_TACT=105AGX54&S_CMP=C0507&ca=dnw-1018&open&cm_mmc=5277-_-n-_-vrm_newsletter-_-10731_113818&cmibm_em=dm:0:6992641) | The busy Java developer's guide to Scala: Scala + Twitter = Scitter | Varies |
 | **The Computer Engineer Code Challenge** | [↗](https://medium.com/the-computer-engineer-weekly-code-challenge) | This is the weekly code challenge of a computer engineer. | Varies |
+| **The Engineering Manager's role is under attack (again)** | [↗](https://www.manager.dev/newsletter/the-engineering-manager-s-role-is-under-attack-again) | The erosion of the EM role | Varies |
 | **The first issue of Swift Web Weekly is out** | [↗](http://swiftwebweekly.com/issues/1) | The first issue of Swift Web Weekly is out | Varies |
 | **The freek.dev newsletter on Laravel, PHP and JavaScript** | [↗](https://freek.dev/) | Freek Van der Herten writes about Laravel, PHP and AI. Co-owner of Spatie, maintainer of 300+ open source packages with over 2 billion downloads. | Varies |
 | **The PHP Weekly News Roundup** | [↗](http://www.phpweekly.com/archive/2013-07-11.html) | Archive. July 11, 2013. PHP Weekly is a free mailer sent out each week with PHP News, events, articles, links and more. | Varies |

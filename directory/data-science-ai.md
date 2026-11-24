@@ -2,7 +2,7 @@
 
 Machine learning, LLMs, data engineering and applied AI, from research digests to practitioner notes.
 
-[← Back to the directory](../README.md) · **438 newsletters**
+[← Back to the directory](../README.md) · **439 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -210,6 +210,7 @@ Machine learning, LLMs, data engineering and applied AI, from research digests t
 | **Leerob** | [↗](https://leerob.substack.com) | I write about things in tech and web development that make me optimistic for the future. | Varies |
 | **Let the model explain, let the code count: a local LLM helper for Swiss administrative letters** | [↗](https://damianobianda.hashnode.dev) | In Switzerland, a letter from a public office can start a clock. A Zahlungsbefehl (payment order)... | Varies |
 | **Life Designed** | [↗](https://duckduckgo.com/?q=!ducky+%22Life+Designed%22+newsletter) | Resources and notes on lifestyle design, future of work, and creative fulfillment. | Varies |
+| **LLM Programming and Theory Building** | [↗](https://kevinlynagh.com/newsletter/2026_10_29_llm_programming_and_theory_building/) | LLM Programming and Theory Building | Varies |
 | **LLM Routing: Stop Paying Premium Prices for Simple Prompts** | [↗](https://nodeneuralai.hashnode.dev) | Someone asked: can we end the Globex contract early? Seven words. The question looked short and... | Varies |
 | **Machine Learning for Humans** | [↗](https://medium.com/machine-learning-for-humans) | Demystifying artificial intelligence & machine learning. Discussions on safe and intentional application of AI for positive social impact. | Varies |
 | **Machine learning newsletters** | [↗](http://machinelearningmastery.com/machine-learning-newsletters/) | In this post you will learn how subscribing to machine learning newsletters can save you time and keep you up-to-date. | Varies |
