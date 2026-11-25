@@ -2,7 +2,7 @@
 
 Machine learning, LLMs, data engineering and applied AI, from research digests to practitioner notes.
 
-[← Back to the directory](../README.md) · **439 newsletters**
+[← Back to the directory](../README.md) · **440 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -25,6 +25,7 @@ Machine learning, LLMs, data engineering and applied AI, from research digests t
 | **AI Coding Digest** | [↗](https://jellyfish.co/blog/ai-coding-digest-may-23-2025/) | This week in Jellyfish's AI Coding Digest, we're covering updates from Microsoft Build, Google I/O and much more. | Varies |
 | **AI Digests, Visualization or Chat with Any Repo in Seconds** | [↗](https://gitscape.ai/) | Convert GitHub repositories into code digests, interactive diagrams, and structured SKILL.md files â via web, one-command CLI (npx gitscape), or MCP server. Forge ready-to-load skills for your AI coding agents. | Varies |
 | **AI Is Redrawing the US Data Center Map** | [↗](https://jackbeanstalk2022.hashnode.dev) | Power access is shaping where new campuses rise, when they come online, and the networks connecting... | Varies |
+| **AI Monthly digest #2 – the fakeburger, BERT for NLP and machine morality** | [↗](http://deepsense.ai/ai-monthly-digest-2-the-fakeburger-bert-for-nlp-and-machine-morality) | Fake images of hamburgers, the autonomous trolley problem, BERT for NLP and more stories from October, curated by deepsense.ai’s team, right here in AI Monthly Digest. | Varies |
 | **AI News (MOVED TO news.smol.ai!)** | [↗](https://buttondown.email/ainews) | We summarize top AI discords + AI reddits + AI X/Twitters, and send you a roundup each day! See archive for examples. "Highest-leverage 45 mins I spend everyday" - Soumith "best AI newsletter atm" - Andrej "I'm not sure that enough people subscribe" - Andrej IMPORTANT: WE HAVE MOVED WE HAVE MOVED to https://news.smol.ai ! this newsletter provider is deprecated, but unfortunately thousands of people have direct-linked this URL so - if you signed up before Apr 23 you were automatically ported over, if you are new, please go to https://news.smol.ai and @smol_ai and toss in your email there! DO NOT FILL IN YOUR EMAIL BELOW, GO TO https://news.smol.ai and do it there thank you | Varies |
 | **AI Senpai** | [↗](https://medium.com/@devops_senpai) | Read writing from AI Senpai on Medium. | Varies |
 | **AI Weekly 12 Jan 2018** | [↗](https://www.facebook.com/aiweeklynews/photos/a.543424732667101.1073741828.537875713222003/585592695116971/?type=3) | Hi! Looks like we are back on track with AI News. This week you can read about turning design mockups directly into code and how Google implemented continuous low-power music recognition in Pixel 2.... | Varies |

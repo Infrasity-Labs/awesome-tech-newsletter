@@ -36,16 +36,16 @@
 
 | Category | Newsletters | New | |
 |:--|--:|--:|:--|
-| [General Software Engineering](#general-software-engineering) | **245** | +4 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/general-software-engineering-dark.svg">   <img alt="245 newsletters" src="./.github/assets/bars/general-software-engineering-light.svg"> </picture> |
-| [Backend Development](#backend-development) | **214** | +1 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/backend-development-dark.svg">   <img alt="214 newsletters" src="./.github/assets/bars/backend-development-light.svg"> </picture> |
+| [General Software Engineering](#general-software-engineering) | **246** | +1 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/general-software-engineering-dark.svg">   <img alt="246 newsletters" src="./.github/assets/bars/general-software-engineering-light.svg"> </picture> |
+| [Backend Development](#backend-development) | **214** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/backend-development-dark.svg">   <img alt="214 newsletters" src="./.github/assets/bars/backend-development-light.svg"> </picture> |
 | [System Design & Architecture](#system-design--architecture) | **75** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/system-design-architecture-dark.svg">   <img alt="75 newsletters" src="./.github/assets/bars/system-design-architecture-light.svg"> </picture> |
-| [Language Specific](#language-specific) | **238** | +1 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/language-specific-dark.svg">   <img alt="238 newsletters" src="./.github/assets/bars/language-specific-light.svg"> </picture> |
+| [Language Specific](#language-specific) | **239** | +1 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/language-specific-dark.svg">   <img alt="239 newsletters" src="./.github/assets/bars/language-specific-light.svg"> </picture> |
 | [DevOps & Cloud](#devops--cloud) | **207** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/devops-cloud-dark.svg">   <img alt="207 newsletters" src="./.github/assets/bars/devops-cloud-light.svg"> </picture> |
 | [GTM](#gtm) | **122** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/gtm-dark.svg">   <img alt="122 newsletters" src="./.github/assets/bars/gtm-light.svg"> </picture> |
 | [Developer Marketing](#developer-marketing) | **41** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/developer-marketing-dark.svg">   <img alt="41 newsletters" src="./.github/assets/bars/developer-marketing-light.svg"> </picture> |
 | [Technical Content Marketing](#technical-content-marketing) | **7** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/technical-content-marketing-dark.svg">   <img alt="7 newsletters" src="./.github/assets/bars/technical-content-marketing-light.svg"> </picture> |
 | [Frontend Development](#frontend-development) | **269** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/frontend-development-dark.svg">   <img alt="269 newsletters" src="./.github/assets/bars/frontend-development-light.svg"> </picture> |
-| [Data Science & AI](#data-science--ai) | **439** | +1 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/data-science-ai-dark.svg">   <img alt="439 newsletters" src="./.github/assets/bars/data-science-ai-light.svg"> </picture> |
+| [Data Science & AI](#data-science--ai) | **440** | +1 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/data-science-ai-dark.svg">   <img alt="440 newsletters" src="./.github/assets/bars/data-science-ai-light.svg"> </picture> |
 
 <sub>Bars share one scale. Each category links to its full list.</sub>
 
@@ -61,27 +61,24 @@
 ## General Software Engineering
 
 Broad engineering newsletters: craft, careers, tools and industry news that cut across stacks.<br>
-<sub><b>245</b> newsletters · <b>4</b> new since the last run · <a href="directory/general-software-engineering.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
+<sub><b>246</b> newsletters · <b>1</b> new since the last run · <a href="directory/general-software-engineering.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **My model scored perfect and that was the problem** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://davidmashiahletter.substack.com) | A perfect held-out score measured one thing: whether the model could repeat what it had seen. Of 30 cross-family tests, 20 fell below a crude baseline. | Varies |
-| **A Timer Is Not a Clock: What We Learned Building a Time Tracker for Windows, Mac and Linux** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://timodesk.hashnode.dev) | Counting seconds sounds like the easiest program in the world. Start a timer, add one every second,... | Varies |
-| **How to Check Color Contrast for Accessibility (WCAG AA)** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://mytoolstudio.hashnode.dev) | You pick a nice grey for body text, it looks fine on your monitor, and an audit later flags every... | Varies |
-| **Why browser PDF editors fake text editing (and why I kept PDFium read-only)** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://oasispdf.hashnode.dev) | Most web PDF editors don't actually edit text. They just slap a white box over the page and put a new... | Varies |
+| **Your Green Test Suite Proves Nothing Until You Break It** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://adammcclarin1.substack.com) | Open the file where your application limits a query to one customer. Find the line that does it.... | Varies |
 | **3AM Files: Merged Before Coffee** | [↗](https://honeykiran.substack.com) | Hypothetical Tuesday. None of this happened — which is exactly why it keeps happening. Nothing... | Varies |
 | **A 7M-Param Model Just Beat GPT on ARC. Now What?** | [↗](https://interestingengineering.substack.com) | Samsung's tiny recursive model outscored frontier LLMs on ARC-AGI while GitHub's minimind hit 57k stars. What this means for builders. | Varies |
 | **A Case for Monolith** | [↗](https://charlesfonseca.substack.com) | I write because I can't stop. Systems, Programming, Database, Cloud. | Varies |
 | **A Queue Is a Promise About the Future** | [↗](https://rodrigovidal.substack.com) | Accepting work is easy. Finishing it on time is the promise. An application does not have to finish... | Varies |
+| **A user couldn't read my app. He was right.** | [↗](https://wafflehacker.substack.com) | A little while back somebody wrote in about AntiFreeze via the Signal support channel: Hi! Thanks... | Varies |
+| **Adding Homemade TLS to a Homemade Web Server** | [↗](https://open.substack.com) | Original series: Building Your Own Web Server + Rebuilding TLS from Scratch This article connects... | Varies |
+| **Adrien Cadet** | [↗](https://medium.com/@CadetAdrien) | Read writing from Adrien Cadet on Medium. Junior Software Engineer | Varies |
 
 <details>
 <summary><b>Show 12 more</b></summary>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **A user couldn't read my app. He was right.** | [↗](https://wafflehacker.substack.com) | A little while back somebody wrote in about AntiFreeze via the Signal support channel: Hi! Thanks... | Varies |
-| **Adding Homemade TLS to a Homemade Web Server** | [↗](https://open.substack.com) | Original series: Building Your Own Web Server + Rebuilding TLS from Scratch This article connects... | Varies |
-| **Adrien Cadet** | [↗](https://medium.com/@CadetAdrien) | Read writing from Adrien Cadet on Medium. Junior Software Engineer | Varies |
 | **Advanced Prompt Engineering Techniques** | [↗](https://rahulvijayvergiya.hashnode.dev) | Why Do We Need Advanced Prompting? Imagine you hire a new assistant. If you simply... | Varies |
 | **Agentic Coding with Discipline and Skill** | [↗](https://agenticcoding.substack.com) | Bring the practice of agentic coding to the next level so it's production-ready. | Varies |
 | **Agents, harnessed** | [↗](https://codagent.beehiiv.com) | Newsletter about coding agent harnesses and harness engineering. | Varies |
@@ -91,19 +88,21 @@ Broad engineering newsletters: craft, careers, tools and industry news that cut 
 | **BroncoCTF : Spot the difference Writeup** | [↗](https://exploitnotes.hashnode.dev) | Challenge We're given two files, file1.txt and file2.txt, each containing what looks... | Varies |
 | **Caleb's Commentary** | [↗](https://calebfenton.substack.com) | Bitcoin, economics, freedom, self-improvement | Varies |
 | **Can a Mac Mini Handle 100 Million Rows?** | [↗](https://ruhika.hashnode.dev) | I made ClickHouse and Postgres Fight to Find Out 🥊 One Mac Mini. Two databases. 100 million rows of... | Varies |
+| **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+%22CB+Insights%22+newsletter) | The easy way to stay ahead of all things tech | Varies |
+| **CB Insights** | [↗](https://duckduckgo.com/?q=!ducky+"CB+Insights"+newsletter) | The easy way to stay ahead of all things tech | Varies |
+| **Common Web Application Technologies** | [↗](https://zeroprotocolcyber.substack.com) | Introduction Modern web applications are rarely built with a single technology. A typical... | Varies |
 
 </details>
 
-**[View all 245 newsletters in General Software Engineering →](directory/general-software-engineering.md)**
+**[View all 246 newsletters in General Software Engineering →](directory/general-software-engineering.md)**
 
 ## Backend Development
 
 Servers, APIs and databases, and the languages and frameworks behind them.<br>
-<sub><b>214</b> newsletters · <b>1</b> new since the last run · <a href="directory/backend-development.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
+<sub><b>214</b> newsletters · <a href="directory/backend-development.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **Two Buyers, One Seat: Shipping a Reliable Python Ticketing Backend with FastAPI, PostgreSQL and Celery** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://imsachinshah.hashnode.dev) | The problem: everyone clicks at the same moment Selling tickets looks like basic CRUD. A... | Varies |
 | **Albert Wong** | [↗](https://medium.com/@atwong) | Read writing from Albert Wong on Medium. #eCommerce #Java #Database #k8s #Automation. Hobbies: #BoardGames #Comics #Skeet #VideoGames #Pinball #Magic #YelpElite #Travel #Candy | Varies |
 | **Albert Wong** | [↗](https://atwong.medium.com) | Read writing from Albert Wong on Medium. #eCommerce #Java #Database #k8s #Automation. Hobbies: #BoardGames #Comics #Skeet #VideoGames #Pinball #Magic #YelpElite #Travel #Candy | Varies |
 | **API Complexity Is a Lie** | [↗](https://apichangelog.substack.com) | Curated API moves. Unfiltered expert takes. | Varies |
@@ -111,13 +110,13 @@ Servers, APIs and databases, and the languages and frameworks behind them.<br>
 | **APIs All the Way Down** | [↗](https://notboring.substack.com) | Tech strategy, analysis, and philosophy, but not boring. | Varies |
 | **Boris Savic** | [↗](https://medium.com/@zitko) | Read writing from Boris Savic on Medium. A software engineer, technology enthusiast but most of all just another human being | Varies |
 | **Chamath Palihapitiya Newsletter** | [↗](https://chamath.substack.com) | Chamath Palihapitiya Newsletter is a tech newsletter from Chamath Palihapitiya covering tech trends, investing, policy, news for technology professionals, founders, builders, product teams, developers, and tech-curious readers. | Ad-hoc |
+| **Cross Platform Media API Newsletter** | [↗](http://www.medianews.me/) | Audio, video and realtime communications for apps and web platforms. | Varies |
 
 <details>
 <summary><b>Show 12 more</b></summary>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **Cross Platform Media API Newsletter** | [↗](http://www.medianews.me/) | Audio, video and realtime communications for apps and web platforms. | Varies |
 | **Daily Golang #10** | [↗](https://kovalevsky.io/daily-golang-newsletter-issue-10/) | Daily Golang #10 | Varies |
 | **Daily Golang #8** | [↗](https://kovalevsky.io/daily-golang-newsletter-issue-8/) | Daily Golang #8 | Varies |
 | **Daily Golang #9** | [↗](https://kovalevsky.io/daily-golang-newsletter-issue-9/) | Daily Golang #9 | Varies |
@@ -129,6 +128,7 @@ Servers, APIs and databases, and the languages and frameworks behind them.<br>
 | **Djangoweek.ly - a weekly Django newsletter** | [↗](http://djangoweek.ly) | Djangoweek.ly - a weekly Django newsletter | Varies |
 | **DN Tech** | [↗](https://medium.com/@wdn0612) | Read writing from DN Tech on Medium. Backend Software Engineer who shares about my daily work bits | Varies |
 | **Engineering At Scale** | [↗](https://engineeringatscale.substack.com) | Weekly column simplifying databases, system design, architecture, and engineering careers with easy explanations, valuable insights, and expert advice. | Varies |
+| **Firebird SQL Project Newsletter, Issue 2** | [↗](http://www.firebirdnews.org/?p=6646) | Yesterday the second issue of Firebird SQL Project newsletter was delivered to all subscribers. This issue includes announcements of official Firebird channels at YouTube and SlideShare, the full list of materials from Firebird Conference 2011, and also digest of recent community news. You can read the second issue online. We strongly encourage you to subscribe to Firebird SQL project newsletter in order to receive new issues | Varies |
 
 </details>
 
@@ -175,11 +175,11 @@ Distributed systems, scalability and software architecture, from first principle
 ## Language Specific
 
 Newsletters tied to a single programming language or ecosystem, such as Python, Rust, Go, Java or Swift.<br>
-<sub><b>238</b> newsletters · <b>1</b> new since the last run · <a href="directory/language-specific.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
+<sub><b>239</b> newsletters · <b>1</b> new since the last run · <a href="directory/language-specific.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **The Engineering Manager's role is under attack (again)** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://www.manager.dev/newsletter/the-engineering-manager-s-role-is-under-attack-again) | The erosion of the EM role | Varies |
+| **How to analyse historical CS2 closing odds in Python** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://cs2odds.hashnode.dev) | CS2 closing odds are the last pre-match prices I recorded for a selection. Once a match is over, they... | Varies |
 | **1 Year of Fatbobman's Swift Weekly** | [↗](https://fatbobman.com/en/weekly/issue-052/) | Reflecting on one year of publishing Fatbobman's Swift Weekly with focus on learning and sharing. This issue also features Swift Package Index interview, SwiftLee blog growth journey, VoiceOver and Voice Control optimization, and SwiftUI Translation framework â curated by Fatbobman's Swift Weekly. | Varies |
 | **404trends** | [↗](https://404trends.beehiiv.com) | Weekly dose of the hottest trends backed by data and actionable insights. Join the 404trends community of impatient entrepreneurs, game changers, indie hackers and everyone who thinks of "Page Not Found" as a challenge | Varies |
 | **40th Issue of PHP Weekly** | [↗](http://phpweekly.com/archive/2014-01-23.html) | Archive. January 23, 2014. PHP Weekly is a free mailer sent out each week with PHP News, events, articles, links and more. | Varies |
@@ -208,7 +208,7 @@ Newsletters tied to a single programming language or ecosystem, such as Python, 
 
 </details>
 
-**[View all 238 newsletters in Language Specific →](directory/language-specific.md)**
+**[View all 239 newsletters in Language Specific →](directory/language-specific.md)**
 
 ## DevOps & Cloud
 
@@ -382,11 +382,11 @@ Web and UI engineering: JavaScript, frameworks, CSS, design systems and browser 
 ## Data Science & AI
 
 Machine learning, LLMs, data engineering and applied AI, from research digests to practitioner notes.<br>
-<sub><b>439</b> newsletters · <b>1</b> new since the last run · <a href="directory/data-science-ai.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
+<sub><b>440</b> newsletters · <b>1</b> new since the last run · <a href="directory/data-science-ai.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **LLM Programming and Theory Building** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://kevinlynagh.com/newsletter/2026_10_29_llm_programming_and_theory_building/) | LLM Programming and Theory Building | Varies |
+| **AI Monthly digest #2 – the fakeburger, BERT for NLP and machine morality** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](http://deepsense.ai/ai-monthly-digest-2-the-fakeburger-bert-for-nlp-and-machine-morality) | Fake images of hamburgers, the autonomous trolley problem, BERT for NLP and more stories from October, curated by deepsense.ai’s team, right here in AI Monthly Digest. | Varies |
 | **A memory limit shouldn't be an invitation** | [↗](https://nia1503032.substack.com) | A PHP flaw turns a sensible ceiling into an attacker's trigger. Any AI assistant offering to help with the settings needs to understand why. | Varies |
 | **A Secure Azure Landing Zone for AI Workloads** | [↗](https://gisli78.substack.com) | Before the first model call, I lock down the platform: Azure AI Foundry (AIServices) behind a private... | Varies |
 | **ActiveWizards — AI & ML for startups** | [↗](https://medium.com/activewizards-machine-learning-company) | Helping organizations to implement AI, engineering and data science initiatives | Varies |
@@ -415,7 +415,7 @@ Machine learning, LLMs, data engineering and applied AI, from research digests t
 
 </details>
 
-**[View all 439 newsletters in Data Science & AI →](directory/data-science-ai.md)**
+**[View all 440 newsletters in Data Science & AI →](directory/data-science-ai.md)**
 
 <!-- DIRECTORY:END -->
 

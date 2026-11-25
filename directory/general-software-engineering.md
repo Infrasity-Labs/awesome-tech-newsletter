@@ -2,7 +2,7 @@
 
 Broad engineering newsletters: craft, careers, tools and industry news that cut across stacks.
 
-[← Back to the directory](../README.md) · **245 newsletters**
+[← Back to the directory](../README.md) · **246 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -246,6 +246,7 @@ Broad engineering newsletters: craft, careers, tools and industry news that cut 
 | **You're Writing Paper Commands Wrong** | [↗](https://eande171.hashnode.dev) | You've probably written a CommandExecutor before. Everyone who's touched Bukkit has. Declare the... | Varies |
 | **Your Customer Paid Once. Why Did Your Laravel App Record It Twice?** | [↗](https://lioncoders.hashnode.dev) | A customer pays $49. Your Laravel app records the payment. The webhook response times out, so Stripe... | Varies |
 | **Your DDD Context Map Is Already in Your Foreign Keys** | [↗](https://backendengineeringadventures.substack.com) | Schemity's Context Map derives a DDD context map from the schema itself: each context view becomes a node, and every dependency arrow is backed by the... | Varies |
+| **Your Green Test Suite Proves Nothing Until You Break It** | [↗](https://adammcclarin1.substack.com) | Open the file where your application limits a query to one customer. Find the line that does it.... | Varies |
 | **Your health check returns 200 while users get errors: 7 health check mistakes** | [↗](https://upordownonline.hashnode.dev) | A green health check and a broken site at the same time is common. Seven mistakes that cause it, with code for a health endpoint that tells the truth. | Varies |
 | **Your uptime SLA means nothing when the physical process can't wait for your rollback** | [↗](https://marius-newsletter-d94bcd.beehiiv.com) | There’s a conversation that happens when IT developers first encounter operational technology. It... | Varies |
 | **Your Webhook Returned 200 OK. Did the Event Actually Get Processed?** | [↗](https://fasthook.hashnode.dev) | A webhook provider sends an event. Your endpoint returns 200 OK. The provider stops... | Varies |

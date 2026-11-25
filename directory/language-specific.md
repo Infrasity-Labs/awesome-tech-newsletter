@@ -2,7 +2,7 @@
 
 Newsletters tied to a single programming language or ecosystem, such as Python, Rust, Go, Java or Swift.
 
-[← Back to the directory](../README.md) · **238 newsletters**
+[← Back to the directory](../README.md) · **239 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -78,6 +78,7 @@ Newsletters tied to a single programming language or ecosystem, such as Python, 
 | **GroupDocs Newsletter November2018 – Document Manipulation APIs for .NET and Java** | [↗](https://blog.groupdocs.com/2018/11/01/groupdocs-newsletter-november-2018-.net-and-java-documents-manipulation-apis/) | Share this issue: Monthly NewsletterNovember 2018 Merge and Compare Business Documents of Same Format Documents Difference Checker APIs for .NET and Java GroupDocs.Comparison Product Family includes .NET and Java APIs to efficiently merge and compare all popular business document formats (Microsoft Word, Excel, PowerPoint, OpenDocument ODT, PDF, Text and HTML) for difference checking. The APIs support comparing text contents, words, paragraphs, characters and style changes like font size, bold, italic etc. | Varies |
 | **How do Tech startups indicate their value - recent research** | [↗](http://www.ssti.org/Digest/digest.php?page=2011/051811#research) | How do Tech startups indicate their value - recent research | Varies |
 | **How Software Engineering Is Changing** | [↗](https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing) | We invited readers to write about how building software changed, in an essay challenge. Many of you took part, and today we’re sharing the winning piece from a strong set of entries | Varies |
+| **How to analyse historical CS2 closing odds in Python** | [↗](https://cs2odds.hashnode.dev) | CS2 closing odds are the last pre-match prices I recorded for a selection. Once a match is over, they... | Varies |
 | **How To Learn Swift – A free swift development newsletter** | [↗](http://www.howtolearnswift.com/) | How To Learn Swift – A free swift development newsletter | Varies |
 | **How Uber Is Measuring Engineering Productivity** | [↗](https://newsletter.pragmaticengineer.com/p/uber-eng-productivity) | Inside Uber’s launch of the Eng Dashboard. How do engineers and managers feel about this new tool, and which metrics does it track? | Varies |
 | **How we built a Zero-Dependency, Air-Gapped SDK suite (Go, TypeScript, Python, Java) for Real-Time Financial Reconciliation** | [↗](https://omnesight.hashnode.dev) | In enterprise infrastructure—specifically across commercial banks, telecom operators, and payment... | Varies |
