@@ -2,7 +2,7 @@
 
 Servers, APIs and databases, and the languages and frameworks behind them.
 
-[← Back to the directory](../README.md) · **214 newsletters**
+[← Back to the directory](../README.md) · **215 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -152,6 +152,7 @@ Servers, APIs and databases, and the languages and frameworks behind them.
 | **ReactJS, ReactNative and GraphQL Newsletter: Issue 28** | [↗](https://reactdom.com/issues/28) | ReactJS, ReactNative and GraphQL Newsletter: Issue 28 | Varies |
 | **Release and sell your code without managing a website, servers, users, payments** | [↗](https://codarium.substack.com) | How to build products with code. Python, AWS, Elasticsearch | Varies |
 | **Runway ML Review: Pros, Cons & Real Limits** | [↗](https://iniyarajanhashnodedev.hashnode.dev) | A full Runway ML review covering pros, cons, API usage, and how it compares to Sora and competitors in 2026. Find out if it fits your workflow. | Varies |
+| **Scraping Workday Career Sites Without a Browser: Notes on the wday/cxs JSON API** | [↗](https://adpulselabs.hashnode.dev) | Every time a hiring-data pipeline hits a Fortune 500 careers page, the URL ends in myworkdayjobs.com... | Varies |
 | **Segment SQL, Powered by Amazon Redshift** | [↗](https://segment.com/blog/segment-sql-amazon-redshift/?utm_source=newsletter&utm_medium=email&utm_campaign=redshift) | Redshift Warehouse Destination | Varies |
 | **Serving Real-Time Forex Rates Without Hammering Your API: A FastAPI + MongoDB Caching Strategy** | [↗](https://float-forex.hashnode.dev) | Any app that serves live data — currency rates, crypto prices, stock tickers, weather — eventually... | Varies |
 | **Show HN: 3D map of which newsletters link to the same things** | [↗](https://reletter.com/graph) | Explore a 3D map of email newsletters. Two newsletters are joined when they linked to the same pages, and clusters show who reads and shares the same things. | Varies |

@@ -2,7 +2,7 @@
 
 Broad engineering newsletters: craft, careers, tools and industry news that cut across stacks.
 
-[← Back to the directory](../README.md) · **246 newsletters**
+[← Back to the directory](../README.md) · **247 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -61,6 +61,7 @@ Broad engineering newsletters: craft, careers, tools and industry news that cut 
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+%22Creative+Mornings%22+newsletter) | Get inspired, no matter where you are. | Varies |
 | **Creative Mornings** | [↗](https://duckduckgo.com/?q=!ducky+"Creative+Mornings"+newsletter) | Get inspired, no matter where you are. | Varies |
 | **Cron'd Claude Agents: A Maintenance Log** | [↗](https://labyrinthanalytics.substack.com) | Running a fleet of twenty Claude agents on a launchd schedule teaches you fast that scheduler... | Varies |
+| **Data contracts for agents: what they miss and how to test meaning** | [↗](https://andrewrjones.substack.com) | TL;DR. A data contract is a written, checked agreement between the people who produce or own a... | Varies |
 | **Day 2 of Demolishing my Stack of Unfinished Projects** | [↗](https://codenificient.hashnode.dev) | Published on Jul 13th, 2022 As they say, another day, another dollar Today was a good day... | Varies |
 | **Designing an Item Master for eTIMS: Item Codes, Product Types, Unit Conversions and Stock Movement Types** | [↗](https://isaacmuthui.substack.com) | How to model a food factory item master for Kenya's eTIMS: unique item codes, product types, unit conversions, tax types and stock movement types, plus a 12-point checklist. | Varies |
 | **Devshot** | [↗](https://devshot.co) | Coding news, tools, frameworks, and engineering reads for developers. | Varies |

@@ -2,7 +2,7 @@
 
 Go-to-market for technical products: positioning, sales, growth and revenue.
 
-[← Back to the directory](../README.md) · **122 newsletters**
+[← Back to the directory](../README.md) · **123 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -79,6 +79,7 @@ Go-to-market for technical products: positioning, sales, growth and revenue.
 | **Show HN: Email Extractor for Newsletter Marketing – Google Inbox** | [↗](https://www.emailextractor.online/) | Show HN: Email Extractor for Newsletter Marketing – Google Inbox | Varies |
 | **Show HN: Executo.rs – Meet other founders weekly to talk strategy and ideas** | [↗](https://executo.rs) | Show HN: Executo.rs – Meet other founders weekly to talk strategy and ideas | Varies |
 | **Show HN: Founder Weekly – Must Reads for Entrepreneurs** | [↗](http://www.founderweekly.com/) | A free weekly newsletter for entrepreneurs featuring the best hand curated content, must read articles, how to guides, tips and tricks, resources, events and more. | Varies |
+| **Show HN: I built a tracker for weekly focus hours on side projects** | [↗](https://focushours.app/app?utm_source=hn) | Track your weekly focus hours with per-day targets, streaks, and trends. Local-first: your data stays in your browser, and an account is optional. | Varies |
 | **Show HN: I Made a Community for Founders with Weekly Events** | [↗](https://discord.com/invite/KgqazycHJW) | An entrepreneurship ecosystem. Helpful advice for business, marketing, raising funding and more. \| 1047 members | Varies |
 | **Show HN: I'm launching a newsletter, which will save your hours of research** | [↗](https://www.descrumble.com/newsletter) | Show HN: I'm launching a newsletter, which will save your hours of research | Varies |
 | **Show HN: Marketing newsletter from me – raised $800k via crowdfunding** | [↗](http://www.karoumi.com) | Show HN: Marketing newsletter from me – raised $800k via crowdfunding | Varies |
