@@ -2,7 +2,7 @@
 
 Infrastructure, CI/CD, containers, observability and the major cloud platforms.
 
-[← Back to the directory](../README.md) · **207 newsletters**
+[← Back to the directory](../README.md) · **208 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -148,6 +148,7 @@ Infrastructure, CI/CD, containers, observability and the major cloud platforms.
 | **Show HN: Cloud reader for your email newsletters** | [↗](https://www.alpinereader.com/) | Show HN: Cloud reader for your email newsletters | Varies |
 | **Show HN: Fertit – Open-Source Newsletter Manager with Optional Hosted Service** | [↗](https://www.fertit.com) | Show HN: Fertit – Open-Source Newsletter Manager with Optional Hosted Service | Varies |
 | **Show HN: I built Gnoseed – free flahscards to learn K8s, DevOps, AI and more** | [↗](https://gnoseed.com) | Learn Kubernetes, AI, Linux, Terraform and more with 3,900+ free online flashcards and quizzes. SM-2 & FSRS spaced repetition, no sign-up, works offline. | Varies |
+| **Show HN: I posted a read-later-to-paper app here in 2020. Here's what happened** | [↗](https://www.myscreenbreak.com/) | The print button the internet deserves. Any article as a magazine page, without the menus, ads and pop-ups. Free. | Varies |
 | **Show HN: It Happened Again – Track recurring events with evidence** | [↗](https://ithappenedagain.fyi) | Your companion app for spotting patterns in the chaos. Track what happens again and join the community that pays attention. | Varies |
 | **Show HN: K8S – A Curated Kubernetes Newsletter Delivered Weekly** | [↗](https://k8s.co.in/) | Show HN: K8S – A Curated Kubernetes Newsletter Delivered Weekly | Varies |
 | **Show HN: Kubelist – Your curated weekly kubernetes news reconciliation loop** | [↗](https://kubelist.com/) | Your curated weekly kubernetes newsletter | Varies |

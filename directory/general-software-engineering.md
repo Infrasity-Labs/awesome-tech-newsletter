@@ -2,7 +2,7 @@
 
 Broad engineering newsletters: craft, careers, tools and industry news that cut across stacks.
 
-[← Back to the directory](../README.md) · **247 newsletters**
+[← Back to the directory](../README.md) · **248 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -17,6 +17,7 @@ Broad engineering newsletters: craft, careers, tools and industry news that cut 
 | **A 7M-Param Model Just Beat GPT on ARC. Now What?** | [↗](https://interestingengineering.substack.com) | Samsung's tiny recursive model outscored frontier LLMs on ARC-AGI while GitHub's minimind hit 57k stars. What this means for builders. | Varies |
 | **A Case for Monolith** | [↗](https://charlesfonseca.substack.com) | I write because I can't stop. Systems, Programming, Database, Cloud. | Varies |
 | **A Go test that passed 40,000 times, then lost a write under load** | [↗](https://hmdsefi.hashnode.dev) | Say a client writes a value and gets a success back. Later, the value is gone. It happens once in... | Varies |
+| **A hacker got inside 1Password through one employee's GitHub account** | [↗](https://vxsure.hashnode.dev) | 1Password's 25 Nov 2026 update, read closely: how the attacker got in, what was copied, why... | Varies |
 | **A Microsoft 365 Outage Poisoned 15 Hotel Guests With Chlorine. The Email Was Never the Problem.** | [↗](https://outputmode.hashnode.dev) | A Microsoft 365 outage poisoned 15 hotel guests with chlorine. It sounds like a joke. It isn't. Last... | Varies |
 | **A minus sign before an SCSS interpolation that Biome read as math** | [↗](https://ashokramsi.hashnode.dev) | Why Biome turned a list of negative SCSS interpolations into a subtraction, and the small parser check that fixed it. | Varies |
 | **A nightly-build handoff checklist for Unreal teams split between India and Europe or the US** | [↗](https://juegostudiosofficial.substack.com) | When part of an Unreal Engine team sits in India and the rest sits in London, Austin or Toronto, the... | Varies |

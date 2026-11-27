@@ -2,7 +2,7 @@
 
 Newsletters tied to a single programming language or ecosystem, such as Python, Rust, Go, Java or Swift.
 
-[← Back to the directory](../README.md) · **239 newsletters**
+[← Back to the directory](../README.md) · **240 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -234,6 +234,7 @@ Newsletters tied to a single programming language or ecosystem, such as Python, 
 | **TypeScript Migrates to Go: What's Behind That 10x Performance Claim?** | [↗](https://www.architecture-weekly.com/p/typescript-migrates-to-go-whats-really) | JavaScript is slow!!! You could get that from the announcement with a 10x performance increase after migrating the TypeScript compiler to Go. The real story? Node.js works well at I/O but struggles with CPU-intensive tasks like compilation. Read more to learn in detail why and what you can learn from it for your systems design! | Varies |
 | **TypeScript Newsletter Form with Effect and ConvertKit** | [↗](https://www.sandromaglione.com/articles/how-to-implement-a-custom-newsletter-form-with-convertkit-and-effect) | Learn how to use Effect and Typescript to perform a request to subscribe a user to your newsletter on ConvertKit | Varies |
 | **Vulnerability in sodiumoxide: generichash::Digest::eq always returns true** | [↗](https://www.reddit.com/r/rust/comments/dguqt3/vulnerability_in_sodiumoxide_generichashdigesteq/) | Vulnerability in sodiumoxide: generichash::Digest::eq always returns true | Varies |
+| **Wall-Safe Room Labels, Fixture-Tag Collision Avoidance, and Vector Door Geometry in pdf-lib (TypeScript)** | [↗](https://plancaliber.hashnode.dev) | Generating a CAD floor plan PDF with pdf-lib is easy on a single 24' × 18' open-concept studio. The... | Varies |
 | **We've hit 10,000 subscribers for PHP Weekly** | [↗](http://phpweekly.com/archive/2014-06-19.html) | Archive. June 19, 2014. PHP Weekly is a free mailer sent out each week with PHP News, events, articles, links and more. | Varies |
 | **Weekly PHP** | [↗](https://weeklyphp.substack.com) | Improve as a developer by effortlessly keeping up to date with everything around PHP, Laravel, Symfony and more. | Varies |
 | **Weekly Python News: 01/28/2011** | [↗](http://www.blog.pythonlibrary.org/2011/01/28/weekly-python-news-01282011/) | It’s almost the end of January already and PyCon USA 2011 is just around the corner. In this edition, we cover a wide variety of topics, from Python 2.7 – 3.x. We’ve got sprints, new books, web-related projects and good old recursion articles. Come one, come all! Read the news of the week! eWeek reports […] | Varies |
