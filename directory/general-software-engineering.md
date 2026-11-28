@@ -2,7 +2,7 @@
 
 Broad engineering newsletters: craft, careers, tools and industry news that cut across stacks.
 
-[← Back to the directory](../README.md) · **248 newsletters**
+[← Back to the directory](../README.md) · **249 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -79,6 +79,7 @@ Broad engineering newsletters: craft, careers, tools and industry news that cut 
 | **gpt-5 and o3 shut down December 11: a find-and-replace would rewrite 274 table rows** | [↗](https://sunnatulla.hashnode.dev) | OpenAI shuts down gpt-5, gpt-5-mini, gpt-5-nano, gpt-5-pro, o3 and o3-pro on December 11. The dated... | Varies |
 | **GPT-5.6 Closed a 30-Year Math Gap. Nobody Noticed.** | [↗](https://sharedsapience.substack.com) | A prompt-guided GPT-5.6 attack proved an optimal lower bound in convex optimization while coverage of the same model decayed into pricing tips. | Varies |
 | **Handling async interview deadlines across time zones** | [↗](https://thesuperlede.substack.com) | In a one-way interview there's no live interviewer. Candidates open a link, answer a few questions by... | Varies |
+| **Harnesses are booming. The gate is the missing layer** | [↗](https://flowskillharnes.substack.com) | The harness is having its moment. T3 Code gained about 16,000 stars in a single week in early... | Varies |
 | **Hello World! 👋 A Computer Science Student & Technical Writer on a Journey** | [↗](https://hilda-biende.hashnode.dev) | Hi Dev.to community! 👋 As an aspiring technical writer and a Computer Science student, I've been... | Varies |
 | **Hello, World: Why I'm Compiling My Thoughts Here** | [↗](https://harshithavajja.substack.com) | 👋 New here on DEV! This is my first post, a quick intro to who I am and what I'll be writing... | Varies |
 | **Hour-long voice notes don't fit in an email, so I stopped sending them** | [↗](https://manuelescrig.hashnode.dev) | How I moved Email Me's audio out of attachments: background uploads, streaming links and a two-step transcription pipeline. | Varies |

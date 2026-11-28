@@ -2,13 +2,15 @@
 
 Infrastructure, CI/CD, containers, observability and the major cloud platforms.
 
-[← Back to the directory](../README.md) · **208 newsletters**
+[← Back to the directory](../README.md) · **212 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
 | **"You Don't Need Kubernetes (Yet)"** | [↗](https://newsletter.bluecollar.engineer/p/blue-collar-engineering-dispatch-0-you-don-t-need-kubernetes-yet) | You Don’t Need Kubernetes (Yet) | Varies |
 | **16 blogs and newsletters to follow for DevOps practitioners** | [↗](https://opensource.com/article/18/6/devops-blogs-newsletters-follow) | It's important to keep up with trends in this fast-paced world of technology. | Varies |
 | **2019.19 Infrastructure Pumpkings – Weekly Changes in and Around Perl 6** | [↗](https://p6weekly.wordpress.com/2019/05/13/2019-19-infrastructure-pumpkings/) | Yours truly is happy to announce that Roman Baumer and Matthias Bloch have become responsible for infrastructure issues in the Perl 6 Problem Solving repository, the place where the Perl … | Varies |
+| **2020.24 Cloud Approaching – Rakudo Weekly News** | [↗](https://rakudoweekly.blog/2020/06/15/2020-24-cloud-approaching/) | In 10 days the Conference in the Cloud will start! If you want to experience that interactively, you can still sign up, tickets are only 10 US$! You can even join the Hallway Track! These are the p… | Varies |
+| **2020.26 Cloud Gone – Rakudo Weekly News** | [↗](https://rakudoweekly.blog/2020/06/29/2020-26-cloud-gone/) | The Conference in the Cloud is over. All that’s left is a number of videos (and some slides): Min-Maxing your Diet with Raku by J.E. Turcotte.Asynchronously Parallelish Testing in Raku by Vad… | Varies |
 | **A new weekly email newsletter about devops** | [↗](http://devopsweekly.com/) | Devops Weekly List Email Forms | Varies |
 | **A weekly email newsletter for back end, devops, web tool** | [↗](https://betterdev.link/) | A weekly news letter of resource around the web on becoming a better developer | Varies |
 | **Abid Moon** | [↗](https://abidmoon.hashnode.dev) | I’m a DevOps Engineer & digital marketer who grows brands and website traffic using content, search and social media marketing. 👍 | Varies |
@@ -195,6 +197,7 @@ Infrastructure, CI/CD, containers, observability and the major cloud platforms.
 | **Vitess – How YouTube Scaled the MySQL** | [↗](https://cloudweekly.io/p/mastering-the-chaos-1-vitess-how) | Vitess – How YouTube Scaled the MySQL | Varies |
 | **Weebly Engineering Blog** | [↗](https://medium.com/weebly-engineering) | Check out engineering.weebly.com for more engineering stuff. | Varies |
 | **Week 2: Learning Python, Cloud, DevOps, Terraform, SSH, and CLI Basics** | [↗](https://tunde-dev.hashnode.dev) | Note: These are my learning notes from my current phase. I am keeping them as I wrote them so I can... | Varies |
+| **Weekly #Cloud Recap 9/10: Big Data Cost, Netflix Cloud Shift, Open Cloud Leaders** | [↗](http://blog.zenoss.com/2012/09/cloud-link-roundup-70-true-big-data-cost-netflix-shift-to-cloud-open-cloud-leaders?utm_source=News.Ycombinator.com&utm_medium=Social+Media&utm_content=cl70&utm_campaign=Hacker+News+Link ) | Weekly #Cloud Recap 9/10: Big Data Cost, Netflix Cloud Shift, Open Cloud Leaders | Varies |
 | **Weekly Cloud Info W25 – 2025** | [↗](https://weeklycloud.info/p/weekly-cloud-info-w25-2025) | AWS open-sources API models, boosts security with Inspector and WAF. Azure adds OpenTelemetry and ASK LTS. GCP launches Gemini 2.5, C4D VMs, and improved backups for resilient cloud operations. | Varies |
 | **Weekly Cloud Post Recap: Chaos Monkey, Open Source Cloud Architecture, DevOps** | [↗](http://blog.zenoss.com/2012/08/zennys-cloud-links-65-chaos-monkey-open-source-cloud-architecture-devops/?utm_source=News.Ycombinator.com&utm_medium=Social+Media&utm_content=cl65&utm_campaign=Hacker+News+Link) | Weekly Cloud Post Recap: Chaos Monkey, Open Source Cloud Architecture, DevOps | Varies |
 | **Weekly Cloud Recap: Netflix Eureka, Nexus 1000V, Defining the Open Cloud** | [↗](http://blog.zenoss.com/2012/09/zennys-cloud-links-69-netflix-eureka-nexus-1000v-defining-the-open-cloud/?utm_source=News.Ycombinator.com&utm_medium=Social+Media&utm_content=cl69&utm_campaign=Hacker+News+Link) | Weekly Cloud Recap: Netflix Eureka, Nexus 1000V, Defining the Open Cloud | Varies |
@@ -203,6 +206,7 @@ Infrastructure, CI/CD, containers, observability and the major cloud platforms.
 | **Weekly DevOps RoundUp** | [↗](https://thisweekindevops.com/2020/05/29/weekly-devops-roundup-may-29th-2020/) | Weekly DevOps RoundUp | Varies |
 | **Weekly Google Cloud Platform Newsletter** | [↗](https://www.the-swamp.info/newsletter/) | Weekly newsletter about Google Cloud Platform and related technologies | Varies |
 | **What a monkey patching library tells you about Azure** | [↗](https://newsletter.masterpoint.io/p/what-a-monkey-patching-library-tells-you-about-azure) | Spoiler: it’s not good. | Varies |
+| **What cities should be chosen for the Alcatel-Lucent/Gluecon Hackathon Tour?** | [↗](http://www.readwriteweb.com/cloud/2010/11/weekly-poll-what-cities-should.php) | A federal judge in New Mexico has blocked Kalshi's sports-event contracts on the lands of four tribes and ruled that the Commodity Exchange Act does not ove | Varies |
 | **What if the safest Kubernetes fix is no fix at all?** | [↗](https://ai-k8s.hashnode.dev) | AI-assisted DevOps and SRE tools are becoming more common. Tools like K8sGPT can scan Kubernetes... | Varies |
 | **what3words** | [↗](https://medium.com/@what3words) | Read writing from what3words on Medium. what3words is the simplest way to talk about location. It has divided the world into 3m x 3m squares, each with a unique 3 word address. | Varies |
 | **When a node loses its lease anyway: a takeover, second by second** | [↗](https://snapcopier.hashnode.dev) | I am building a cloud trade copier for MetaTrader. Each follower account has one broker session on... | Varies |

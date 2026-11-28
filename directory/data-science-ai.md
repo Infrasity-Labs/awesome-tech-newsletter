@@ -2,7 +2,7 @@
 
 Machine learning, LLMs, data engineering and applied AI, from research digests to practitioner notes.
 
-[← Back to the directory](../README.md) · **440 newsletters**
+[← Back to the directory](../README.md) · **443 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -161,6 +161,7 @@ Machine learning, LLMs, data engineering and applied AI, from research digests t
 | **How AI is changing software engineering at Shopify with Farhan Thawar** | [↗](https://newsletter.pragmaticengineer.com/p/how-ai-is-changing-software-engineering) | Shopify's Head of Engineering, Farhan Thawar, shares how the company is using internal LLMs, unlimited AI tokens, and custom tooling to figure out how to use AI tools more efficiently - faster | Varies |
 | **How Artificial Intelligence is transforming technology and shaping our future** | [↗](https://tomorrowtoday175.substack.com) | Artificial intelligence is changing how people learn, work, communicate and solve problems. From... | Varies |
 | **How Cursor Got Thousands of AI Agents to Build One Browser** | [↗](https://ragmehta.substack.com) | Locks failed, one boss agent burned out, and a tree of planners won. Here's what Cursor's multi-agent... | Varies |
+| **How I cut AI agent skill context bloat under 4,000 tokens across my stack** | [↗](https://nareshh74.hashnode.dev) | If you keep adding skills and AGENTS.md rules to your AI coding setup, you eventually hit a quiet... | Varies |
 | **How I recovered my newsletter subscriptions** | [↗](https://support.substack.com) | How many Substack accounts do you have? Or rather, how many email addresses do you have? This is... | Varies |
 | **How Netflix and Spotify Know What You Want Next** | [↗](https://paragonaimag.substack.com) | Paragon AI MAG — Series 4, Episode 3 — "How the AI Tools You Use Actually Work" It is a familiar... | Varies |
 | **How super AI could end the age of humans** | [↗](http://www.theguardian.com/science/audio/2014/aug/04/science-weekly-podcast-nick-bostrom-ai-artificial-intelligence) | Nick Bostrom on why the creation of a superintelligent computer might be the last invention mankind ever makes | Varies |
@@ -184,6 +185,7 @@ Machine learning, LLMs, data engineering and applied AI, from research digests t
 | **I.am.ai Newsletter 9th Issue – Brain2Text, Wav2vec2 Speech2Text Code and More** | [↗](https://www.am.ai/en/blog/newsletter-009/) | Eight exciting discoveries about AI innovations, from image compression and brain interfaces to mathematical research and practical tutorials. | Varies |
 | **Ilias Flaounas** | [↗](https://medium.com/@iliasfl) | Read writing from Ilias Flaounas on Medium. Sr Data Scientist at Atlassian http://linkedin.com/in/flaounas | Varies |
 | **Implications of generative AI: answer engines, AI learning by surveilling, more** | [↗](https://www.theatlantic.com/newsletters/archive/2022/12/why-the-rise-of-ai-is-the-most-important-story-of-the-year/672308/) | Robots were once considered capable only of unimaginative, routine work. Today they write articles and create award-winning art. | Varies |
+| **In 75 LLM trading papers, half deduct no trading costs** | [↗](https://blog.aperiodic.io/p/quant-reads-weekly-1-llm-trading-costs) | Quant reads weekly #1: half of 75 LLM trading papers deduct no trading costs, agents find signal in noise, and a fairer auto-deleveraging rule for perps. | Varies |
 | **InboxReads** | [↗](https://medium.com/inboxreads) | We share interesting newsletters in every topic you might be interested in. From startups and cryptocurrency to travel deals and new music. There’s a newsletter for every need in your life. | Varies |
 | **Inside a network of AI-generated newsletters targeting "small town America"** | [↗](https://www.niemanlab.org/2025/01/inside-a-network-of-ai-generated-newsletters-targeting-small-town-america/) | Good Daily, which operates in 47 states and 355 towns and cities across the U.S., is run by one person. | Varies |
 | **Intrepidai** | [↗](https://intrepidai.substack.com) | Fueling robotics ambitions. Stories from intrepid developers. | Varies |
@@ -433,6 +435,7 @@ Machine learning, LLMs, data engineering and applied AI, from research digests t
 | **Weeklyrust** | [↗](https://weeklyrust.substack.com) | Bi-Weekly Digest for Rustaceans 📨 | Varies |
 | **What Is "Loop Engineering?"** | [↗](https://newsletter.pragmaticengineer.com/p/what-is-loop-engineering) | There’s talk about loop engineering, but what is it exactly? I looked into it, and found triggers, cron jobs, AI slop & more. Is it a “here today, gone tomorrow” trend? | Varies |
 | **What Is a Mixture of Experts Model and Why Does It Use Fewer Resources?** | [↗](https://cameronrwolfe.substack.com) | Learn how mixture of experts (MoE) models work, why they activate only a fraction of their parameters per token, and what that means for AI efficiency | Varies |
+| **What is observability for LLM applications, why does it matter and how do you do it with Langfuse** | [↗](https://zachwelshman.substack.com) | Originally published on Zach Welshman's Substack, where I share other work Subscribe free here to... | Varies |
 | **Whatever, Jamie** | [↗](https://buttondown.email/whatever_jamie) | Pulling himself away from opensource to do something creative for once, this is the newsletter in which Jamie talks about Whatever. From news, to ideas, to hopes, to memories, anything goes. He said he'll try to be entertaining, and if nothing else, every issue comes with a cartoon, so you can't lose. | Varies |
 | **When Fine-Tuning Stops Working: The Architecture Lesson That Took Our Healthcare AI From 60% to 92% Recall** | [↗](https://tech4biz-solutions.hashnode.dev) | We had a healthcare claims platform stuck at 45% recall on medical coding. Not 45% on a benchmark.... | Varies |
 | **When should software engineers start retraining for other jobs?** | [↗](https://ealpha.substack.com) | How I apply professional engineering methodologies to trading and investing. | Varies |

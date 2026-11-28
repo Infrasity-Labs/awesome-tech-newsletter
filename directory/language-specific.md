@@ -2,7 +2,7 @@
 
 Newsletters tied to a single programming language or ecosystem, such as Python, Rust, Go, Java or Swift.
 
-[← Back to the directory](../README.md) · **240 newsletters**
+[← Back to the directory](../README.md) · **241 newsletters**
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
@@ -30,6 +30,7 @@ Newsletters tied to a single programming language or ecosystem, such as Python, 
 | **Benjamin Cane** | [↗](https://medium.com/@madflojo) | Read writing from Benjamin Cane on Medium. Builder of payments systems & open-source contributor. Writing mostly micro-posts on Medium. Follow on LinkedIn: https://www.linkedin.com/in/bencane | Varies |
 | **Benjamin Cane** | [↗](https://madflojo.medium.com) | Read writing from Benjamin Cane on Medium. Builder of payments systems & open-source contributor. Writing mostly micro-posts on Medium. Follow on LinkedIn: https://www.linkedin.com/in/bencane | Varies |
 | **Bite Python: Weekly Python Newsletter** | [↗](http://newsletter.pythontips.com/) | A weekly newsletter about everything Python | Varies |
+| **Building a Firestore-Backed Gardening Storefront & Real-Time Community Feed in Android (Kotlin, Coroutines, Firestore)** | [↗](https://devdeepsy.hashnode.dev) | In Nidus Flora (v1.0.0-beta), I built a gardening companion for home and urban growers across six... | Varies |
 | **Building a Pons v2 Sniper Bot on Robinhood Chain with TypeScript** | [↗](https://hamssog.substack.com) | A Pons sniper bot should not be reduced to: new launch → buy Enter fullscreen mode ... | Varies |
 | **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+%22Bytes%22+newsletter) | The funniest JavaScript newsletter on the web | Varies |
 | **Bytes** | [↗](https://duckduckgo.com/?q=!ducky+"Bytes"+newsletter) | The funniest JavaScript newsletter on the web | Varies |

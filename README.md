@@ -36,16 +36,16 @@
 
 | Category | Newsletters | New | |
 |:--|--:|--:|:--|
-| [General Software Engineering](#general-software-engineering) | **248** | +1 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/general-software-engineering-dark.svg">   <img alt="248 newsletters" src="./.github/assets/bars/general-software-engineering-light.svg"> </picture> |
+| [General Software Engineering](#general-software-engineering) | **249** | +1 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/general-software-engineering-dark.svg">   <img alt="249 newsletters" src="./.github/assets/bars/general-software-engineering-light.svg"> </picture> |
 | [Backend Development](#backend-development) | **215** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/backend-development-dark.svg">   <img alt="215 newsletters" src="./.github/assets/bars/backend-development-light.svg"> </picture> |
 | [System Design & Architecture](#system-design--architecture) | **75** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/system-design-architecture-dark.svg">   <img alt="75 newsletters" src="./.github/assets/bars/system-design-architecture-light.svg"> </picture> |
-| [Language Specific](#language-specific) | **240** | +1 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/language-specific-dark.svg">   <img alt="240 newsletters" src="./.github/assets/bars/language-specific-light.svg"> </picture> |
-| [DevOps & Cloud](#devops--cloud) | **208** | +1 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/devops-cloud-dark.svg">   <img alt="208 newsletters" src="./.github/assets/bars/devops-cloud-light.svg"> </picture> |
+| [Language Specific](#language-specific) | **241** | +1 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/language-specific-dark.svg">   <img alt="241 newsletters" src="./.github/assets/bars/language-specific-light.svg"> </picture> |
+| [DevOps & Cloud](#devops--cloud) | **212** | +3 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/devops-cloud-dark.svg">   <img alt="212 newsletters" src="./.github/assets/bars/devops-cloud-light.svg"> </picture> |
 | [GTM](#gtm) | **123** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/gtm-dark.svg">   <img alt="123 newsletters" src="./.github/assets/bars/gtm-light.svg"> </picture> |
 | [Developer Marketing](#developer-marketing) | **41** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/developer-marketing-dark.svg">   <img alt="41 newsletters" src="./.github/assets/bars/developer-marketing-light.svg"> </picture> |
 | [Technical Content Marketing](#technical-content-marketing) | **7** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/technical-content-marketing-dark.svg">   <img alt="7 newsletters" src="./.github/assets/bars/technical-content-marketing-light.svg"> </picture> |
 | [Frontend Development](#frontend-development) | **269** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/frontend-development-dark.svg">   <img alt="269 newsletters" src="./.github/assets/bars/frontend-development-light.svg"> </picture> |
-| [Data Science & AI](#data-science--ai) | **440** | — | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/data-science-ai-dark.svg">   <img alt="440 newsletters" src="./.github/assets/bars/data-science-ai-light.svg"> </picture> |
+| [Data Science & AI](#data-science--ai) | **443** | +3 | <picture>   <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/bars/data-science-ai-dark.svg">   <img alt="443 newsletters" src="./.github/assets/bars/data-science-ai-light.svg"> </picture> |
 
 <sub>Bars share one scale. Each category links to its full list.</sub>
 
@@ -61,11 +61,11 @@
 ## General Software Engineering
 
 Broad engineering newsletters: craft, careers, tools and industry news that cut across stacks.<br>
-<sub><b>248</b> newsletters · <b>1</b> new since the last run · <a href="directory/general-software-engineering.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
+<sub><b>249</b> newsletters · <b>1</b> new since the last run · <a href="directory/general-software-engineering.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **A hacker got inside 1Password through one employee's GitHub account** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://vxsure.hashnode.dev) | 1Password's 25 Nov 2026 update, read closely: how the attacker got in, what was copied, why... | Varies |
+| **Harnesses are booming. The gate is the missing layer** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://flowskillharnes.substack.com) | The harness is having its moment. T3 Code gained about 16,000 stars in a single week in early... | Varies |
 | **3AM Files: Merged Before Coffee** | [↗](https://honeykiran.substack.com) | Hypothetical Tuesday. None of this happened — which is exactly why it keeps happening. Nothing... | Varies |
 | **A 7M-Param Model Just Beat GPT on ARC. Now What?** | [↗](https://interestingengineering.substack.com) | Samsung's tiny recursive model outscored frontier LLMs on ARC-AGI while GitHub's minimind hit 57k stars. What this means for builders. | Varies |
 | **A Case for Monolith** | [↗](https://charlesfonseca.substack.com) | I write because I can't stop. Systems, Programming, Database, Cloud. | Varies |
@@ -94,7 +94,7 @@ Broad engineering newsletters: craft, careers, tools and industry news that cut 
 
 </details>
 
-**[View all 248 newsletters in General Software Engineering →](directory/general-software-engineering.md)**
+**[View all 249 newsletters in General Software Engineering →](directory/general-software-engineering.md)**
 
 ## Backend Development
 
@@ -175,11 +175,11 @@ Distributed systems, scalability and software architecture, from first principle
 ## Language Specific
 
 Newsletters tied to a single programming language or ecosystem, such as Python, Rust, Go, Java or Swift.<br>
-<sub><b>240</b> newsletters · <b>1</b> new since the last run · <a href="directory/language-specific.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
+<sub><b>241</b> newsletters · <b>1</b> new since the last run · <a href="directory/language-specific.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **Wall-Safe Room Labels, Fixture-Tag Collision Avoidance, and Vector Door Geometry in pdf-lib (TypeScript)** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://plancaliber.hashnode.dev) | Generating a CAD floor plan PDF with pdf-lib is easy on a single 24' × 18' open-concept studio. The... | Varies |
+| **Building a Firestore-Backed Gardening Storefront & Real-Time Community Feed in Android (Kotlin, Coroutines, Firestore)** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://devdeepsy.hashnode.dev) | In Nidus Flora (v1.0.0-beta), I built a gardening companion for home and urban growers across six... | Varies |
 | **1 Year of Fatbobman's Swift Weekly** | [↗](https://fatbobman.com/en/weekly/issue-052/) | Reflecting on one year of publishing Fatbobman's Swift Weekly with focus on learning and sharing. This issue also features Swift Package Index interview, SwiftLee blog growth journey, VoiceOver and Voice Control optimization, and SwiftUI Translation framework â curated by Fatbobman's Swift Weekly. | Varies |
 | **404trends** | [↗](https://404trends.beehiiv.com) | Weekly dose of the hottest trends backed by data and actionable insights. Join the 404trends community of impatient entrepreneurs, game changers, indie hackers and everyone who thinks of "Page Not Found" as a challenge | Varies |
 | **40th Issue of PHP Weekly** | [↗](http://phpweekly.com/archive/2014-01-23.html) | Archive. January 23, 2014. PHP Weekly is a free mailer sent out each week with PHP News, events, articles, links and more. | Varies |
@@ -208,29 +208,31 @@ Newsletters tied to a single programming language or ecosystem, such as Python, 
 
 </details>
 
-**[View all 240 newsletters in Language Specific →](directory/language-specific.md)**
+**[View all 241 newsletters in Language Specific →](directory/language-specific.md)**
 
 ## DevOps & Cloud
 
 Infrastructure, CI/CD, containers, observability and the major cloud platforms.<br>
-<sub><b>208</b> newsletters · <b>1</b> new since the last run · <a href="directory/devops-cloud.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
+<sub><b>212</b> newsletters · <b>3</b> new since the last run · <a href="directory/devops-cloud.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
-| **Show HN: I posted a read-later-to-paper app here in 2020. Here's what happened** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://www.myscreenbreak.com/) | The print button the internet deserves. Any article as a magazine page, without the menus, ads and pop-ups. Free. | Varies |
+| **2020.24 Cloud Approaching – Rakudo Weekly News** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://rakudoweekly.blog/2020/06/15/2020-24-cloud-approaching/) | In 10 days the Conference in the Cloud will start! If you want to experience that interactively, you can still sign up, tickets are only 10 US$! You can even join the Hallway Track! These are the p… | Varies |
+| **2020.26 Cloud Gone – Rakudo Weekly News** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://rakudoweekly.blog/2020/06/29/2020-26-cloud-gone/) | The Conference in the Cloud is over. All that’s left is a number of videos (and some slides): Min-Maxing your Diet with Raku by J.E. Turcotte.Asynchronously Parallelish Testing in Raku by Vad… | Varies |
+| **What cities should be chosen for the Alcatel-Lucent/Gluecon Hackathon Tour?** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](http://www.readwriteweb.com/cloud/2010/11/weekly-poll-what-cities-should.php) | A federal judge in New Mexico has blocked Kalshi's sports-event contracts on the lands of four tribes and ruled that the Commodity Exchange Act does not ove | Varies |
 | **A new weekly email newsletter about devops** | [↗](http://devopsweekly.com/) | Devops Weekly List Email Forms | Varies |
 | **Abid Moon** | [↗](https://abidmoon.hashnode.dev) | I’m a DevOps Engineer & digital marketer who grows brands and website traffic using content, search and social media marketing. 👍 | Varies |
 | **An Alternate History of “DevOps”** | [↗](https://michaeldehaan.substack.com) | Michael Dehaan | Varies |
 | **Async Jobs with AWS SageMaker** | [↗](https://cloudweekly.io/p/advanced-sagemaker-architecture) | Async Jobs with AWS SageMaker | Varies |
 | **AWS Outage: A Digital Wake-Up Call** | [↗](https://devopstour.hashnode.dev) | Let's face it, when a webpage doesn't load or a streaming video lags forever, our first instinct is... | Varies |
-| **AWS Security Digest Newsletter** | [↗](https://awssecuritydigest.com/) | Every AWS security change, blog, CVE and IAM tweak, plated into one short read every Monday. Pull up a chair with 6,700+ AWS security people. | Varies |
-| **Aymen El Amri** | [↗](https://medium.com/@eon01) | Read writing from Aymen El Amri on Medium. Polymath, Author, Software Engineer, Entrepreneur, www.faun.dev | Varies |
 
 <details>
 <summary><b>Show 12 more</b></summary>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **AWS Security Digest Newsletter** | [↗](https://awssecuritydigest.com/) | Every AWS security change, blog, CVE and IAM tweak, plated into one short read every Monday. Pull up a chair with 6,700+ AWS security people. | Varies |
+| **Aymen El Amri** | [↗](https://medium.com/@eon01) | Read writing from Aymen El Amri on Medium. Polymath, Author, Software Engineer, Entrepreneur, www.faun.dev | Varies |
 | **Cloud Launcher – Google Cloud Platform** | [↗](https://cloud.google.com/launcher/explore?mkt_tok=3RkMMJWWfF9wsRoiuq7McO%2FhmjTEU5z16eklUKCwhJt41El3fuXBP2XqjvpVQcdgPL%2FMRw8FHZNpywVWM8TILtQYt8FtKAzgAG0%3D#%2Fexplore%3Futm_source=newsletter&utm_medium=email&utm_campaign=2015-q2-cloud-global-us-gcp-newsletter-aw-en&utm_content=april+newsletter) | Spend smart, procure faster and retire committed Google Cloud spend with Google Cloud Marketplace. Browse the catalog of over 2000 SaaS, VMs, development stacks, and Kubernetes apps optimized to run on Google Cloud. | Varies |
 | **Cloud Technology and Security Alert News Digest** | [↗](http://cloudacademy.com/blog/cloud-technology-and-security-alert-news-digest-issue-2/) | Insights on the evolving tech landscape of AI, Cyber and Data and more from our experts in training, upskilling & digital transformation. | Varies |
 | **Cloud Technology and Security Alert News Digest** | [↗](http://cloudacademy.com/blog/cloud-technology-and-security-alert-news-digest-issue-1/) | Insights on the evolving tech landscape of AI, Cyber and Data and more from our experts in training, upskilling & digital transformation. | Varies |
@@ -241,12 +243,10 @@ Infrastructure, CI/CD, containers, observability and the major cloud platforms.<
 | **Deepak/ದೀಪಕ್/दीपक/دیپک** | [↗](https://medium.com/@debugjois) | Read writing from Deepak/ದೀಪಕ್/दीपक/دیپک on Medium. https://deepakjois.name | Varies |
 | **Deploying LLMs to Private Servers** | [↗](https://cloudweekly.io/p/deploying-llms) | Deploying LLMs to Private Servers | Varies |
 | **Deploying NextJS on AWS Lambda Using SST** | [↗](https://cloudweekly.io/p/deploying-nextjs-aws-lambda-using-sst) | Deploying NextJS on AWS Lambda Using SST | Varies |
-| **DevOps and Kubernetes: We’ve Been Doing It Wrong** | [↗](https://www.devopsdigest.com/devops-and-kubernetes-weve-been-doing-it-wrong) | Platform engineering as a replacement for DevOps has become a hot topic, with provocative critics stoking the controversy by pronouncing DevOps dead. The underlying reason for these pronouncements is that the once-radical DevOps model is at odds with the new cloud-native container management model to which the now-obsolete DevOps model is being applied. Let's take a closer | Varies |
-| **DevOps Concepts #4: Networking Part 1** | [↗](https://cloudweekly.io/p/devops-concepts-4-networking-part) | DevOps Concepts #4: Networking Part 1 | Varies |
 
 </details>
 
-**[View all 208 newsletters in DevOps & Cloud →](directory/devops-cloud.md)**
+**[View all 212 newsletters in DevOps & Cloud →](directory/devops-cloud.md)**
 
 ## GTM
 
@@ -382,24 +382,27 @@ Web and UI engineering: JavaScript, frameworks, CSS, design systems and browser 
 ## Data Science & AI
 
 Machine learning, LLMs, data engineering and applied AI, from research digests to practitioner notes.<br>
-<sub><b>440</b> newsletters · <a href="directory/data-science-ai.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
+<sub><b>443</b> newsletters · <b>3</b> new since the last run · <a href="directory/data-science-ai.md">view all</a> · <a href="#browse-by-category">back to top ↑</a></sub>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **How I cut AI agent skill context bloat under 4,000 tokens across my stack** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://nareshh74.hashnode.dev) | If you keep adding skills and AGENTS.md rules to your AI coding setup, you eventually hit a quiet... | Varies |
+| **In 75 LLM trading papers, half deduct no trading costs** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://blog.aperiodic.io/p/quant-reads-weekly-1-llm-trading-costs) | Quant reads weekly #1: half of 75 LLM trading papers deduct no trading costs, agents find signal in noise, and a fairer auto-deleveraging rule for perps. | Varies |
+| **What is observability for LLM applications, why does it matter and how do you do it with Langfuse** <img src="./.github/assets/new.svg" height="16" alt="new"> | [↗](https://zachwelshman.substack.com) | Originally published on Zach Welshman's Substack, where I share other work Subscribe free here to... | Varies |
 | **A memory limit shouldn't be an invitation** | [↗](https://nia1503032.substack.com) | A PHP flaw turns a sensible ceiling into an attacker's trigger. Any AI assistant offering to help with the settings needs to understand why. | Varies |
 | **A Secure Azure Landing Zone for AI Workloads** | [↗](https://gisli78.substack.com) | Before the first model call, I lock down the platform: Azure AI Foundry (AIServices) behind a private... | Varies |
 | **ActiveWizards — AI & ML for startups** | [↗](https://medium.com/activewizards-machine-learning-company) | Helping organizations to implement AI, engineering and data science initiatives | Varies |
 | **Adam Geitgey** | [↗](https://medium.com/@ageitgey) | Read writing from Adam Geitgey on Medium. Interested in computers and machine learning. Likes to write about it. | Varies |
 | **Adamtornhill** | [↗](https://adamtornhill.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
-| **Addyo** | [↗](https://addyo.substack.com) | Addy Osmani's newsletter on elevating your effectiveness. Join his community of 600,000 readers across social media. | Varies |
-| **AgentWallex: Content Day (Articles going live)** | [↗](https://agentwallex.hashnode.dev) | The $65M Question: Why AI Agents Shouldn't Hold Private Keys Two weeks. $65M in funding.... | Varies |
-| **Ahmed Fessi** | [↗](https://medium.com/@AhmedF) | Read writing from Ahmed Fessi on Medium. Author \| FinTech Chief Information Officer \| Data & Digital Leader \| Enterprise Architect \| https://www.linkedin.com/in/ahmedfessi/ | Varies |
 
 <details>
 <summary><b>Show 12 more</b></summary>
 
 | Name | Link | Description | Frequency |
 |------|------|-------------|-----------|
+| **Addyo** | [↗](https://addyo.substack.com) | Addy Osmani's newsletter on elevating your effectiveness. Join his community of 600,000 readers across social media. | Varies |
+| **AgentWallex: Content Day (Articles going live)** | [↗](https://agentwallex.hashnode.dev) | The $65M Question: Why AI Agents Shouldn't Hold Private Keys Two weeks. $65M in funding.... | Varies |
+| **Ahmed Fessi** | [↗](https://medium.com/@AhmedF) | Read writing from Ahmed Fessi on Medium. Author \| FinTech Chief Information Officer \| Data & Digital Leader \| Enterprise Architect \| https://www.linkedin.com/in/ahmedfessi/ | Varies |
 | **AI & Marketing with Annika Helendi** | [↗](https://annikahelendi.substack.com) | Rooting for the underdog. I want small teams to do big things and win. Join me in replacing AI overwhelm with AI advantage - https://www.aimarketingmasters.com/ | Varies |
 | **AI Agent Circuit Breakers** | [↗](https://agenticmotion.hashnode.dev) | AI Agent Circuit Breakers You deploy your shiny new autonomous research agent on Friday... | Varies |
 | **AI Coding Digest** | [↗](https://jellyfish.co/blog/ai-coding-digest-may-23-2025/) | This week in Jellyfish's AI Coding Digest, we're covering updates from Microsoft Build, Google I/O and much more. | Varies |
@@ -409,13 +412,10 @@ Machine learning, LLMs, data engineering and applied AI, from research digests t
 | **AI Weekly 12 Jan 2018** | [↗](https://www.facebook.com/aiweeklynews/photos/a.543424732667101.1073741828.537875713222003/585592695116971/?type=3) | Hi! Looks like we are back on track with AI News. This week you can read about turning design mockups directly into code and how Google implemented continuous low-power music recognition in Pixel 2.... | Varies |
 | **AI Weekly 22 Dec 2017** | [↗](https://www.facebook.com/aiweeklynews/photos/a.543424732667101.1073741828.537875713222003/575946442748263/?type=3) | Hi, new week and new AI weekly goes straight to you. This week brought us couple summaries of ending 2017 and it turns out that... this was great year in AI! Enjoy your weekend reading summaries and... | Varies |
 | **AI-Aggregated Newsletter from 50 Sources** | [↗](https://www.neuraltimes.org/newsletter) | TONGKATWIN bekerja sama dengan Neural Times sebagai agen Slot777 terpercaya yang menawarkan kemudahan penarikan dana hari ini melalui system aman dan professional. | Varies |
-| **AIFeed (A GPT-3 augmented content generator)** | [↗](https://aifeed.substack.com) | Viral articles generated purely by AI | Varies |
-| **Alvin** | [↗](https://medium.com/alvin-ai) | Alvin provides a range of tools that help you cut cloud costs, reduce complexity, and produce the high quality data you need to power complex AI and analytics use cases. | Varies |
-| **Amanjain** | [↗](https://amanjain.substack.com) | Description unavailable (Blocked by Cloudflare). | Varies |
 
 </details>
 
-**[View all 440 newsletters in Data Science & AI →](directory/data-science-ai.md)**
+**[View all 443 newsletters in Data Science & AI →](directory/data-science-ai.md)**
 
 <!-- DIRECTORY:END -->
 
